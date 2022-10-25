@@ -1,0 +1,34 @@
+{	
+    "Type":             "DartMonkey",    
+    "TargetRange":      120.0,
+	"CooldownTime":     0.62,
+    "FireDelayTime":    0.186,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      2,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 705.0,
+				"CutOffDistance": 181
+			},
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
+			]
+		}
+	]
+}

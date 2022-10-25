@@ -1,0 +1,11 @@
+[
+    "Assets/JSON/TowerDefinitions/DartMonkey.tower",
+    "Assets/JSON/WeaponDefinitions/DartMonkey/DartMonkey.weapon",
+    "Assets/JSON/WeaponDefinitions/DartMonkey/SpikeOPult.weapon",
+    "Assets/JSON/UpgradeDefinitions/DartMonkey.upgrades",
+    "Assets/JSON/TowerSprites/DartMonkeySpikeopultNew.json",
+    "Assets/JSON/TowerSpriteUpgradeDefinitions/DartMonkey.json",
+    "Assets/JSON/WeaponDefinitions/DartMonkey/Juggernaut.weapon",
+    "Assets/JSON/WeaponDefinitions/DartMonkey/TripleDarts.weapon",
+    "Assets/JSON/WeaponDefinitions/DartMonkey/SuperMonkeyFanClub.weapon"
+]

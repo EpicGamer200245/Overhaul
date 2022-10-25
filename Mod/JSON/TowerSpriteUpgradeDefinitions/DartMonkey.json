@@ -1,0 +1,37 @@
+{
+	"Sprites":
+	{
+        "0" : "DartMonkey",
+        "1" : "DartMonkeyGreenBandana",
+        "2" : "DartMonkeyRedBandana",
+        "3" : "DartMonkeySpikeopultNew",
+        "4" : "DartMonkeyQuiver",
+        "5" : "DartMonkeySupermonkeyFanclub",
+		"6" : "DartMonkeyUpgradedSpikeoPult"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 1,
+		"02"		: 2,
+		"03"		: 4,
+		"04"		: 5,
+		"10"		: 1,
+		"11"		: 1,
+		"12"		: 2,
+		"13"		: 4,
+		"14"		: 5,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 2,
+		"23"		: 4,
+		"24"		: 5,
+		"30"		: 3,
+		"31"		: 3,
+		"32"		: 3,
+		"40"		: 6,
+		"41"		: 6,
+		"42"		: 6
+	}
+}

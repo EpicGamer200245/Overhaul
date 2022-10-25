@@ -1,0 +1,17 @@
+{
+    "Reflections": [
+        "SpriteInfo.rxml"
+    ],
+    "Compiles": [
+        {
+            "SourceDir": "dartmonkey_proj",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "dartmonkey_proj.png",
+                    "InfoXml": "dartmonkey_proj.xml"
+                }
+            ]
+        }
+    ]
+}

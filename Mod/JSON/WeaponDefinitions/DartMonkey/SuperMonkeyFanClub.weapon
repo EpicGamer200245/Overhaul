@@ -1,0 +1,50 @@
+{	
+    "Type":             	"SuperMonkeyFanClub",    
+    "TargetRange":      	100,
+	"CooldownTime":     	35,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "TowerModifier",
+			"Range": 100,
+			"PriorityLevel": 4,
+			"ReplacesPriorityLevel" : true,
+            "TerminateOnUserUpgrade": false,
+			"Duration": 17,
+
+			"TargetingFilter":
+			{
+				"Include" :
+				{
+					"TowerType": [ "DartMonkey" ]
+				} 
+			},
+
+			"Modifier":
+			{
+				"TargetRange": [ 1.3, 0 ],
+				"Cooldown": [ 0.2, 0 ],
+                "FireDelay": [ 0.2, 0 ]
+			},
+			
+			"Tasks":
+			[
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "SuperMonkeyFanclubSmallLightning.json",
+                    "DrawLayer": "FullScreen"
+                }
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "SuperMonkeyFanclubLargeLightning.json",
+			"Position": [240, 160],
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

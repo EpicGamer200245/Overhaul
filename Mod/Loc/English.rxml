@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reflect>
+    <Select node="LocData">
+        <Select node="Language">
+            <Insert node="T" id="LOC_UPGRADE_A3_DartMonkey" l="0">Plasmatic Spikes</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A4_DartMonkey" l="0">Upgrade</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B1_DartMonkey" l="0">Quick Shots</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B2_DartMonkey" l="0">Sharp Shots</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_DartMonkey" l="0">Quick Attack</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A3" l="0">Shoots a plasma spiked ball at bloons, and it explodes!</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A4" l="0">Upgrades the Plasmatic Spikes upgrade to be much more powerful!</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B1" l="0">Makes the Dart Monkey shoot quicker.</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B2" l="0">Pops 1 more bloon.</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B3" l="0">Shoots 2 more darts differed from normal. They are very close range but powerful!</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B4" l="0">Shoots faster. Ability: Every dart monkey in radius shoot 80% faster.</Insert>
+        </Select>
+    </Select>
+</Reflect>

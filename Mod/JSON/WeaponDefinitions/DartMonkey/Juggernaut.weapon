@@ -1,0 +1,54 @@
+{	
+    "Type":             "Juggernaut",    
+    "TargetRange":      200.0,
+	"CooldownTime":     0.95,
+    "FireDelayTime":    0.191,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile": "plasmaspikeball.json",
+			"NumPersists":      40,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"Radius": 7,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 1150.0,
+				"CutOffDistance": 260
+			},
+			
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage", 
+					"DamageType": "Plasma", 
+					"Amount": 2
+				},
+				{
+					"Type": "AreaOfEffect",
+					"Range": 98,
+					"MaxTargets": -1,
+					"Tasks" :
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 2
+						}
+					]
+                },
+                
+                {
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Scale": 0.84
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{	
+    "Type":             "SpikeOPult",    
+    "TargetRange":      160.0,
+	"CooldownTime":     1.29,
+    "FireDelayTime":    0.191,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile": "plasmaspikeball.json",
+			"NumPersists":      6,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"Radius": 7,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 1000.0,
+				"CutOffDistance": 210
+			},
+			
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage", 
+					"DamageType": "Plasma", 
+					"Amount": 1 
+				},
+				{
+					"Type": "AreaOfEffect",
+					"Range": 52,
+					"MaxTargets": 4,
+					"Tasks" :
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 1
+						}
+					]
+                },
+                
+                {
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Scale": 0.56
+				}
+			]
+		}
+	]
+}
