@@ -12,7 +12,7 @@
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B1" l="0">Makes the Dart Monkey shoot quicker.</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B2" l="0">Pops 1 more bloon.</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B3" l="0">Shoots 2 more darts differed from normal. They are very close range but powerful!</Insert>
-            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B4" l="0">Shoots faster. Ability: Every dart monkey in radius shoot 80% faster.</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B4" l="0">Shoots faster and further. Ability: Every dart monkey in radius shoot 75% faster.</Insert>
         </Select>
     </Select>
 </Reflect>

@@ -176,8 +176,29 @@
             {
                 "Adjust":
                 {
-                    "CooldownTime" : -0.22
-                }
+                    "CooldownTime" : -0.30
+                },
+
+                "SlotIndex" : 0,
+                "TaskUpgrade":
+                [
+                    {
+						"Operation" : "SelectByLocation",
+						"Location" : [ 1, 0 ]
+					},
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Movement" :
+                        {
+                            "Type": "Forward",
+                            "CutOffDistance" : 116
+                        }
+                    }
+                ]
             },
 			"TowerUpgrade" :
             {

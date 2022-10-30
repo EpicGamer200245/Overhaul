@@ -8,17 +8,17 @@
     [
 		{
 			"Type":             "Projectile",
-			"SpriteFile": "plasmaspikeball.json",
+			"SpriteFile": "plasmabigball.json",
 			"NumPersists":      40,
 			"TerminateOnZeroPersists": true,
 			
 			"CollisionType": "Once",
-			"Radius": 7,
+			"Radius": 18,
 			
 			"Movement":
 			{
 				"Type": "Forward",
-				"Speed": 1150.0,
+				"Speed": 1350.0,
 				"CutOffDistance": 260
 			},
 			

@@ -9,7 +9,7 @@
 		{
 			"Type":             "Projectile",
 			"SpriteFile": "plasmaspikeball.json",
-			"NumPersists":      6,
+			"NumPersists":      5,
 			"TerminateOnZeroPersists": true,
 			
 			"CollisionType": "Once",
@@ -18,7 +18,7 @@
 			"Movement":
 			{
 				"Type": "Forward",
-				"Speed": 1000.0,
+				"Speed": 1100.0,
 				"CutOffDistance": 210
 			},
 			
@@ -31,8 +31,8 @@
 				},
 				{
 					"Type": "AreaOfEffect",
-					"Range": 52,
-					"MaxTargets": 4,
+					"Range": 54,
+					"MaxTargets": 6,
 					"Tasks" :
 					[
 						{

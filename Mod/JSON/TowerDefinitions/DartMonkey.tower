@@ -45,14 +45,14 @@
     "UpgradePrices" : 
     [
         [ 75, 100, 1200, 7800 ],
-        [ 130, 130, 550, 10000 ]
+        [ 130, 130, 550, 14000 ]
     ],
     "UpgradeIcons" : [
         [
             "dart_monkey_longer_range_icon",
             "dart_monkey_enhanced_eyesight_icon",
-            "dart_monkey_spikeopult_icon",
-            "dart_monkey_juggernaut_icon"
+            "apprentice_intense_magic_icon",
+            "monkey_ace_ground_zero_icon"
         ],
         [
             "sniper_faster_firing_icon",
