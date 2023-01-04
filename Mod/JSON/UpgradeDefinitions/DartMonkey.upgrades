@@ -176,7 +176,7 @@
             {
                 "Adjust":
                 {
-                    "CooldownTime" : -0.30
+                    "CooldownTime" : -0.25
                 },
 
                 "SlotIndex" : 0,

@@ -2,6 +2,7 @@
 <Reflect>
     <Select node="LocData">
         <Select node="Language">
+            <!--Dart Monkey-->
             <Insert node="T" id="LOC_UPGRADE_A3_DartMonkey" l="0">Plasmatic Spikes</Insert>
             <Insert node="T" id="LOC_UPGRADE_A4_DartMonkey" l="0">Upgrade</Insert>
             <Insert node="T" id="LOC_UPGRADE_B1_DartMonkey" l="0">Quick Shots</Insert>

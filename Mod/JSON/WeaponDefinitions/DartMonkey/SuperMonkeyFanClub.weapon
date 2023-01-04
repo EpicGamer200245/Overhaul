@@ -1,7 +1,7 @@
 {	
     "Type":             	"SuperMonkeyFanClub",    
     "TargetRange":      	110,
-	"CooldownTime":     	32,
+	"CooldownTime":     	34,
     "FireDelayTime":    	0.0,
 	"ManuallyFired": 		true,
 	"RequiresTargetToFire":	false,
@@ -14,7 +14,7 @@
 			"PriorityLevel": 4,
 			"ReplacesPriorityLevel" : true,
             "TerminateOnUserUpgrade": false,
-			"Duration": 10,
+			"Duration": 10.5,
 
 			"TargetingFilter":
 			{

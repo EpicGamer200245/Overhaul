@@ -1,0 +1,20 @@
+{
+	"Type" : "Ceramic",
+	"SpriteFile" : "ceramic_bloon",
+	"GraphicsAtDamageLevels" : [
+		[ 0, 10],
+		[ 0.05, 8],
+		[ 0.1, 5],
+		[ 0.15, 3],
+		[ 0.2, 1]
+	],
+	"InitialHealth" : 13,
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 2.9,
+	"RBE" : 104,
+    "ChildBloons" : [ "Rainbow.bloon", "Rainbow.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB"],
+    "DamageImmunity" : [ "MOABMauler", "Foam" ],
+	"CanGoUnderground" : true,
+    "Radius" : 13
+}

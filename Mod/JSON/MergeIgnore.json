@@ -1,4 +1,10 @@
 [
+    //Bloons
+    "Assets/JSON/BloonDefinitions/Ceramic.bloon",
+    "Assets/JSON/BloonDefinitions/Pink.bloon",
+    "Assets/JSON/BloonDefinitions/Yellow.bloon",
+
+    //Dart Monkey
     "Assets/JSON/TowerDefinitions/DartMonkey.tower",
     "Assets/JSON/WeaponDefinitions/DartMonkey/DartMonkey.weapon",
     "Assets/JSON/WeaponDefinitions/DartMonkey/SpikeOPult.weapon",
@@ -8,4 +14,5 @@
     "Assets/JSON/WeaponDefinitions/DartMonkey/Juggernaut.weapon",
     "Assets/JSON/WeaponDefinitions/DartMonkey/TripleDarts.weapon",
     "Assets/JSON/WeaponDefinitions/DartMonkey/SuperMonkeyFanClub.weapon"
+
 ]

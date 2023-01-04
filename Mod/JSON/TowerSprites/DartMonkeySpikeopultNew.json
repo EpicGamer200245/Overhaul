@@ -11,8 +11,8 @@
          "Position" : [ 9.0, 6.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "dart_monkey_catapult_frame",
-         "type" : 1,
+         "sprite" : "_dart_catapult_frame.json",
+         "type" : 2,
          "uid" : 2
       },
       {
@@ -100,7 +100,7 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "dart_monkey_catapult_frame",
+            "SpriteInfo" : "_dart_catapult_frame.json",
             "Texture" : "InGame"
          },
          {

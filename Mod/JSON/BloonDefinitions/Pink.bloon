@@ -1,0 +1,12 @@
+{
+	"Type" : "Pink",
+	"InitialHealth" : 1,
+	"SpriteFile" : "pink_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 3.7,
+    "Radius" : 13,
+	"RBE" : 5,
+    "ChildBloons" : [ "Yellow.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB"],
+    "DamageImmunity" : ["Juggernaut", "MOABMauler", "Foam"]
+}
