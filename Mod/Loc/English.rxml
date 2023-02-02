@@ -62,6 +62,14 @@
             <Insert node="T" id="LOC_UPGRADE_B2_DartlingGun" l="0">Powerful Darts</Insert>
             <Insert node="T" id="LOC_UPGRADE_B3_DartlingGun" l="0">Hydra Rocket Pods</Insert>
             <Insert node="T" id="LOC_UPGRADE_B4_DartlingGun" l="0">Hydra Rocket Storm</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_A1" l="0">Shoots faster.</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_A2" l="0">Shoots even faster.</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_A3" l="0">Compared to the normal laser cannon, it shoots high pierce and high damage lasers, but shoots slower and dies out faster.</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_A4" l="0">Unlike normal bloontonium properties, it damages bloons extremely fast and is known to destroy continents!</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_B1" l="0">Gives the dartling gun a sight to aim better.</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_B2" l="0">Darts now can go further and will go through another bloon.</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_B3" l="0">Will now shoot rockets at the bloons.</Insert>
+            <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_B4" l="0">Shoots 3 rockets that have additional MOAB damage. Ability: Shoots many rocket pods out in quick succession.</Insert>
         </Select>
     </Select>
 </Reflect>
