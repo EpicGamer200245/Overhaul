@@ -1,0 +1,68 @@
+{	
+    "Type":             	"RocketStormRockets",    
+    "TargetRange":      	100000.0,
+	"CooldownTime":     	0.5,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		false,
+	"RequiresTargetToFire":	false,
+    "TotalAmmo":            6,
+    "RemainingAmmo":        6,
+    "DisableSlotWhenOutOfAmmo" : true,
+    "CanTargetUnderground" : true,
+
+    "Tasks" :
+    [
+        {
+            "Type": "MultiFire",
+            "InitialOffset": -25,
+            "AngleIncrement": 1,
+            "FireCount": 50,
+
+            "Tasks":
+            [
+                {
+                    "Type": "Projectile",
+                    "GraphicName": "dartling_gun_rocket",
+                    "NumPersists":      1,
+                    "TerminateOnZeroPersists": true,
+
+                    "CollisionType": "Once",
+                    
+                    "Movement":
+                    {
+                        "Type": "Forward",
+                        "Speed": 600.0,
+                        "CutOffDistance": 1000
+                    },
+                    
+                    "Tasks" :
+                    [ 
+                        {
+                            "Type": "AreaOfEffect",
+                            "Range": 50,
+                            "MaxTargets": 23,
+                            "Tasks" :
+                            [
+                                { 
+                                    "Type": "Damage",
+                                    "DamageType": "Plasma",
+                                    "Amount": 1
+                                },
+								{
+									"Type": "Damage",
+									"DamageType": "MOABMauler",
+									"Amount": 1
+								}
+                            ]
+                        },
+                        {
+                            "Type": "Effect",
+                            "SpriteFile": "Explosion.json",
+                            "Scale": 0.66
+                        }
+                    ]
+                }
+            ]
+        }
+	]
+}

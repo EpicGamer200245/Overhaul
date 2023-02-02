@@ -12,6 +12,16 @@
                     "InfoXml": "dartmonkey_proj.xml"
                 }
             ]
+        },
+        {
+            "SourceDir": "tackshooter",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "tackshooter.png",
+                    "InfoXml": "tackshooter.xml"
+                }
+            ]
         }
     ]
 }

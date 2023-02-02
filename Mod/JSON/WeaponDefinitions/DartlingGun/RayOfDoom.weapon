@@ -1,0 +1,25 @@
+{	
+    "Type":             "RayOfDoom",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     0.02,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    
+    "Tasks" :
+    [{
+        "Type": "RayIntersect",
+        
+        "Tasks" :
+        [ 
+            { 
+                "Type": "Damage", 
+                "DamageType": "Plasma", 
+                "Amount": 3
+            },
+            {
+                "Type": "StatusEffect",
+                "Status": "MultiLayerDamage"
+            }
+        ]
+    }]
+}

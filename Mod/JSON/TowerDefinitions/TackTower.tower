@@ -1,0 +1,79 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 420,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "TackTower.weapon"
+    ],
+    "Icon" : "tack_shooter_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 10.6,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "AnyInRange",
+    "TargetsManually" : false,
+    "TypeName" : "TackTower",
+    "Upgrades" : [
+        [
+            "Faster Shooting",
+            "Even Faster Shooting",
+            "Tack Sprayer",
+            "Ring Of Fire"
+        ],
+        [
+            "Extra Range Tacks",
+            "Super Range Tacks",
+            "Blade Shooter",
+            "Blade Maelstrom"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 85 }, { "Rank" : 0, "XP" : 770 }, { "Rank" : 0, "XP" : 2842 }, { "Rank" : 22, "XP" : 13545 } ],
+		[ { "Rank" : 0, "XP" : 305 }, { "Rank" : 0, "XP" : 1260 }, { "Rank" : 0, "XP" : 4785 }, { "Rank" : 22, "XP" : 21938 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 460, 610, 1140, 4300 ],
+        [ 230, 370, 835, 2600 ]
+    ],
+    "UpgradeAvatars" : 
+    [
+        [
+            "tack_shooter_avatar_faster_shooting_small",
+            "tack_shooter_avatar_even_faster_shooting_small",
+            "tack_shooter_avatar_sprayer_small",
+            "tack_shooter_avatar_rof_small"
+        ],
+        [
+            "tack_shooter_avatar_extra_range_small",
+            "tack_shooter_avatar_super_range_small",
+            "tack_shooter_avatar_blade_shooter_small",
+            "tack_shooter_avatar_blade_maelstrom_small"
+        ]
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "tack_shooter_faster_firing_icon",
+            "apprentice_fireball_icon",
+            "spike_factory_white_hot_icon",
+            "tack_shooter_rof_icon"
+        ],
+        [
+            "tack_shooter_super_range_icon",
+            "tack_shooter_extra_range_icon",
+            "tack_shooter_blade_icon",
+            "tack_shooter_maelstrom_icon"
+        ]
+    ],
+        
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "TackTower.json"
+}

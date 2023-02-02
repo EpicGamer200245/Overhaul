@@ -1,0 +1,75 @@
+{
+    "TypeName"				: "DartlingGun",
+    "Icon"					: "dartling_gun_avatar_small",
+    "BaseCost"				: 1200,
+    "RankToUnlock"			: 1,
+    "DefaultWeapons"	    : [ "DartlingGun.weapon" ],
+    "TargetingMode"			: "ManualPassive",
+    "TargetIsWeaponOrigin"	: false,
+
+    "ActiveWeaponSlots" : [ true, true, false ],
+
+    "Upgrades" :
+    [
+    	[ "Focused Firing", "Faster Barrel Spin", "Laser Cannon", "Ray Of Doom" ],
+    	[ "Powerful Darts", "Depleted Bloontonium", "Hydra Rocket Pods", "Bloon Area Denial System" ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 325 }, { "Rank" : 0, "XP" : 2605 }, { "Rank" : 0, "XP" : 9985 }, { "Rank" : 39, "XP" : 81698 } ],
+		[ { "Rank" : 0, "XP" : 1035 }, { "Rank" : 0, "XP" : 4325 }, { "Rank" : 0, "XP" : 23145 }, { "Rank" : 39, "XP" : 147428 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 685, 1050, 6500, 120000 ],
+        [ 595, 965, 3500, 32000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+            "dartling_gun_avatar_focused_firing_small", 
+            "dartling_gun_avatar_faster_barrel_spin_small", 
+            "dartling_gun_avatar_laser_cannon_small", 
+            "dartling_gun_avatar_ray_of_doom_small"
+        ],
+    	[ 
+            "dartling_gun_avatar_powerful_darts_small", 
+            "dartling_gun_avatar_bloontonium_small", 
+            "dartling_gun_avatar_hydra_rockets_small", 
+            "dartling_gun_avatar_bads_small"
+        ]
+    ],
+    
+    "UpgradeIcons" :
+    [
+    	[ 
+            "dartling_gun_faster_barrel_icon", 
+            "dartling_gun_faster_barrel_icon", 
+            "dartling_gun_laser_icon", 
+            "dartling_gun_ray_of_doom_icon" 
+        ],
+    	[ 
+            "dartling_gun_focused_icon", 
+            "dartling_gun_powerful_darts_icon", 
+            "dartling_gun_hydra_icon", 
+            "dartling_gun_bads_icon" 
+        ]
+    ],
+            
+    "AircraftList"			: [ ],
+    "CanTargetCamo"			: true,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 16.0,
+    "PlacementW"			: 26.0,
+    "PlacementH"			: 26.0,
+    "SpriteUpgradeDefinition" : "DartlingGun.json",
+    "UseDefaultRangeCircle" : true,
+    "SkipFirstFrameWhenFiring" : false,
+    "DontResetAnimation"    : true
+}

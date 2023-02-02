@@ -1,0 +1,274 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Faster Shooting",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.725
+                }
+            }
+        },
+        
+        {
+            "Name" : "Even Faster Shooting",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "burnytack.json"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+						"Type" : "StatusEffect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "Napalm"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [0, 3],
+						"SpriteFile" : "burnyblade.json"
+					},
+                    {
+                        "Operation" : "SelectByLocation",
+                        "RequiresMinUpgradeCounters" : [0, 3],
+                        "Location" : [ 0, 0, 3 ]
+                    },
+                    {
+                        "RequiresMinUpgradeCounters" : [0, 3],
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Tack Sprayer",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "fierytack.json"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "StatusEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "DamageRate" : -1.1,
+                        "Duration" : 1.6
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount" : 1
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Ring Of Fire",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "RingOfFire.weapon"
+                }
+            },
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"RequiresMinUpgradeCounters" : [0, 1],
+						"Range" : 20
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Effect"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [0, 1],
+						"Scale" : 1.95
+                    },
+					
+					{
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"RequiresMinUpgradeCounters" : [0, 2],
+						"Amount" : 1
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "AreaOfEffect"
+                    },
+
+                    {
+                        "Operation" : "Adjust",
+                        "MaxTargets" : 12
+                    }
+                ]
+            }
+        },
+
+        {
+            "Name" : "Extra Range Tacks",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "TargetRange" : 20
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "Speed": 70.0,
+    	                    "CutOffDistance" : 20
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Super Range Tacks",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"NumPersists" : 1
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Blade Shooter",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "DartMonkey.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [2, 0],
+						"SpriteFile" : "burnyblade.json"
+					}
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Blade Maelstrom",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "TargetRange": 15,
+                    "CooldownTime": -0.07
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Movement":
+                        {
+                            "Type": "Target",
+                            "Speed": 600,
+                            "TurnSpeed": 800,
+                            "TargetRange": 1000,
+                            "SeekAngle": 1000,
+                            "CutOffDistance": 325
+                        }
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    }
+                ]
+            }
+        }
+    ]
+}

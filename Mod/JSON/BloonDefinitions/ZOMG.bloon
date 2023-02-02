@@ -1,0 +1,21 @@
+{
+	"Type" : "ZOMG",
+	"DrawLayer": "Air",
+	"InitialHealth" : 4350,
+	"SpriteFilesAtDamageLevels": [
+		[ "Zomg01.json", 3000 ],
+		[ "Zomg02.json", 1900 ],
+		[ "Zomg03.json", 1100 ],
+		[ "Zomg04.json", 700 ]
+	],
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 0.19,
+	"RBE" : 16656,
+    "ChildBloons" : [ "BFB.bloon", "BFB.bloon", "BFB.bloon", "BFB.bloon"],
+    "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus" ],
+    "DamageImmunity" : [ "Juggernaut", "Foam" ],
+	"CanGoUnderground" : false,
+	"RotateToPathDirection" : true,
+    "Radius" : 45,
+    "HitAddon" : 65
+}

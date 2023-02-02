@@ -1,8 +1,14 @@
 [
     //Bloons
+    "Assets/JSON/BloonDefinitions/ZOMG.bloon",
+    "Assets/JSON/BloonDefinitions/BFB.bloon",
+    "Assets/JSON/BloonDefinitions/MOAB.bloon",
     "Assets/JSON/BloonDefinitions/Ceramic.bloon",
     "Assets/JSON/BloonDefinitions/Pink.bloon",
     "Assets/JSON/BloonDefinitions/Yellow.bloon",
+
+    //Tower Selection
+    "Assets/JSON/ScreenDefinitions/TowerSelectionScreen/TowerOrderBottom.json",
 
     //Dart Monkey
     "Assets/JSON/TowerDefinitions/DartMonkey.tower",
@@ -13,6 +19,29 @@
     "Assets/JSON/TowerSpriteUpgradeDefinitions/DartMonkey.json",
     "Assets/JSON/WeaponDefinitions/DartMonkey/Juggernaut.weapon",
     "Assets/JSON/WeaponDefinitions/DartMonkey/TripleDarts.weapon",
-    "Assets/JSON/WeaponDefinitions/DartMonkey/SuperMonkeyFanClub.weapon"
+    "Assets/JSON/WeaponDefinitions/DartMonkey/SuperMonkeyFanClub.weapon",
+
+    //Tack Shooter
+    "Assets/JSON/WeaponDefinitions/TackTower/TackTower.weapon",
+    "Assets/JSON/WeaponDefinitions/TackTower/RingOfFire.weapon",
+    "Assets/JSON/TowerSpriteUpgradeDefinitions/TackTower.json",
+    "Assets/JSON/UpgradeDefinitions/TackTower.upgrades",
+    "Assets/JSON/TowerDefinitions/TackTower.tower",
+
+    //Ice Monkey
+    "Assets/JSON/WeaponDefinitions/IceTower/IceTower.weapon",
+    "Assets/JSON/WeaponDefinitions/IceTower/AbsoluteZero.weapon",
+    "Assets/JSON/UpgradeDefinitions/IceTower.upgrades",
+
+    //Dartling Gunner
+    "Assets/JSON/WeaponDefinitions/DartlingGun/DartlingGun.weapon",
+    "Assets/JSON/UpgradeDefinitions/DartlingGun.upgrades",
+    "Assets/JSON/WeaponDefinitions/DartlingGun/RayOfDoom.weapon",
+    "Assets/JSON/TowerDefinitions/DartlingGun.tower",
+    "Assets/JSON/TowerSpriteUpgradeDefinitions/DartlingGun.json",
+    "Assets/JSON/WeaponDefinitions/DartlingGun/HydraRocketPods.weapon",
+    "Assets/JSON/WeaponDefinitions/DartlingGun/BloonAreaDenialSystem.weapon",
+    "Assets/JSON/WeaponDefinitions/DartlingGun/RocketStormRockets.weapon",
+    "Assets/JSON/WeaponDefinitions/DartlingGun/RocketStorm.weapon"
 
 ]

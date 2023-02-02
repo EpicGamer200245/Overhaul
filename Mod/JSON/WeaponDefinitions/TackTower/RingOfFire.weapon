@@ -1,0 +1,40 @@
+{	
+    "Type":             "RingOfFire",    
+    "TargetRange":      115.0,
+	"CooldownTime":     0.97,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 115,
+			"MaxTargets": 50,
+			"UseRangeModifier" : true,
+
+			"Tasks" :
+			[
+				{
+					"Type" : "StatusEffect",
+					"Status" : "",
+					"DamageRate" : 1.85,
+					"Duration" : 4.4
+				},
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 3
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "MultiLayerDamage"
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "ROFEffect.json",
+			"Scale": 1.74
+		}
+	]
+}

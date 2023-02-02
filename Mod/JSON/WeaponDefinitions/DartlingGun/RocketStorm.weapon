@@ -1,0 +1,21 @@
+{
+	"Type":             	"RocketStorm",
+	"TargetRange":      	100000.0,
+	"CooldownTime":     	40.0,
+	"FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+
+	"Tasks" :
+	[
+		{
+			"Type" : "EnableWeaponSlot",
+			"SlotIndex" : 2
+		},
+		{
+			"Type" : "RestoreAmmo",
+			"SlotIndex" : 2,
+			"Amount" : 6
+		}
+	]
+}

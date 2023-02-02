@@ -14,6 +14,54 @@
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B2" l="0">Pops 1 more bloon.</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B3" l="0">Shoots 2 more darts differed from normal. They are very close range but powerful!</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B4" l="0">Shoots faster and further. Ability: Every dart monkey in radius shoot 75% faster.</Insert>
+
+            <!--Tack Tower-->
+            <Insert node="T" id="LOC_UPGRADE_A1_TackTower" l="0">Faster Shooting</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A2_TackTower" l="0">Burny Tacks</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A3_TackTower" l="0">Fiery Tacks</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B1_TackTower" l="0">Longer Range</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B2_TackTower" l="0">Longer Tacks</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_TackTower" l="0">Seeking Blades</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A1" l="0">Makes the tack shooter shoot 50% faster.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A2" l="0">Tacks can now burn through lead bloons and apply a burn effect to the bloons.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A3" l="0">Tacks now do 2 damage and have a better burn effect to the bloons.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A4" l="0">Tacks have turned into fire, more damage and even better burn.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B1" l="0">Gives the tack shooter more range.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B2" l="0">Tacks and fire can now go through more bloons. Additional damage to Ring of Fire.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B3" l="0">Tacks have turned into blades, they can go through more bloons and have more ceramic and moab damage.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B4" l="0">The blades now seek bloons and fire faster, along with more pierce.</Insert>
+
+            <!--Ice Tower-->
+            <Insert node="T" id="LOC_IceTower_TOWER" l="0">Ice Monkey</Insert>
+            <Insert node="T" id="LOC_IceTower_TOWER_PLURAL" l="0">Ice Monkeys</Insert>
+            <Insert node="T" id="LOC_IceTower_TOWER_CAPS" l="0">ICE MONKEY</Insert>
+
+            <Insert node="T" id="LOC_UPGRADE_A1_IceTower" l="0">Permafrost</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A2_IceTower" l="0">Better Permafrost</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A3_IceTower" l="0">Snap Freeze</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A4_IceTower" l="0">Bigger Snap</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B1_IceTower" l="0">Bigger Range</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B2_IceTower" l="0">More Ice</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B3_IceTower" l="0">Giant Freeze</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_IceTower" l="0">Snowstorm</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_A1" l="0">Adds effect to hit bloons to slow them down.</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_A2" l="0">Permafrost now makes bloons even slower.</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_A3" l="0">Every freeze now does damage to each bloon.</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_A4" l="0">Freeze effects can now hit white and zebra bloons, with its permafrost effect being even slower and does more damage.</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_B1" l="0">Freeze effect lasts longer and has a bigger range.</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_B2" l="0">The ice monkey can now hit many more bloons and fires faster.</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_B3" l="0">Much bigger range and even longer freeze duration.</Insert>
+            <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_B4" l="0">Can now hit white and zebra bloons. Ability: Freezes the whole screen and makes bloons slower.</Insert>
+
+            <!--Dartling Gunner-->
+            <Insert node="T" id="LOC_UPGRADE_A1_DartlingGun" l="0">Faster Reload</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A2_DartlingGun" l="0">Even Faster Reload</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A3_DartlingGun" l="0">Hot Bloontonium Laser Cannon</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A4_DartlingGun" l="0">Hot Bloontonium Ray</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B1_DartlingGun" l="0">Focused Firing</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B2_DartlingGun" l="0">Powerful Darts</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B3_DartlingGun" l="0">Hydra Rocket Pods</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_DartlingGun" l="0">Hydra Rocket Storm</Insert>
         </Select>
     </Select>
 </Reflect>

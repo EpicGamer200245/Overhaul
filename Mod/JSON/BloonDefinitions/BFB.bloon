@@ -1,0 +1,21 @@
+{
+	"Type" : "BFB",
+	"DrawLayer": "Air",
+	"InitialHealth" : 740,
+	"SpriteFilesAtDamageLevels": [
+		[ "Bfb01.json", 490 ],
+		[ "Bfb02.json", 380 ],
+		[ "Bfb03.json", 210 ],
+		[ "Bfb04.json", 120 ]
+	],
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 0.26,
+	"RBE" : 3164,
+    "ChildBloons" : [ "MOAB.bloon", "MOAB.bloon", "MOAB.bloon", "MOAB.bloon"],
+    "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus" ],
+    "DamageImmunity" : [ "Juggernaut", "Foam" ],
+	"CanGoUnderground" : false,
+	"RotateToPathDirection" : true,
+    "Radius" : 40,
+    "HitAddon" : 65
+}

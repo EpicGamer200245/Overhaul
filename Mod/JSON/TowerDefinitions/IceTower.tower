@@ -1,0 +1,89 @@
+{
+    "TypeName"				: "IceTower",
+    "Icon"					: "ice_avatar_small",
+    "BaseCost"				: 260,
+    "RankToUnlock"			: 1,
+    "DefaultWeapons"	    :
+    [
+        "IceTower.weapon",
+        "",
+        "",
+        "IceShards.weapon",
+        "ViralFrost.weapon"
+    ],
+    "ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        true,
+        false,
+        false
+    ],
+    
+    "TargetingMode"			: "AnyInRange",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+ 
+    "Upgrades" :
+    [
+    	[ "Enhanced Freeze", "Snap Freeze", "Arctic Wind", "Viral Frost" ],
+    	[ "Permafrost", "Deep Freeze", "Ice Shards", "Absolute Zero" ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 90 }, { "Rank" : 0, "XP" : 820 }, { "Rank" : 0, "XP" : 3050 }, { "Rank" : 27, "XP" : 17445 } ],
+		[ { "Rank" : 0, "XP" : 325 }, { "Rank" : 0, "XP" : 1340 }, { "Rank" : 0, "XP" : 5160 }, { "Rank" : 27, "XP" : 31275 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 145, 155, 650, 1760 ],
+        [ 165, 270, 1600, 3400 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "ice_avatar_enhanced_freeze_small", 
+        "ice_avatar_snap_freeze_small", 
+        "ice_avatar_arctic_wind_small", 
+        "ice_avatar_viral_frost_small" 
+        ],
+    	[ 
+        "ice_avatar_permafrost_small", 
+        "ice_avatar_deep_freeze_small", 
+        "ice_avatar_ice_shards_small", 
+        "ice_avatar_absolute_zero_small" 
+        ]
+    ],
+ 
+    "UpgradeIcons" :
+    [
+    	[ 
+        "ice_permafrost_icon", 
+        "ice_deep_freeze_icon",
+        "ice_snap_freeze_icon", 
+        "ice_shards_icon" 
+        ],
+    	[ 
+        "ice_enhanced_freeze_icon", 
+        "ice_deep_freeze_icon", 
+        "ice_arctic_wind_icon", 
+        "ice_absolute_zero_icon" 
+        ]
+    ],
+    
+            
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,    
+    "PlacementRadius"		: 9.6,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    "SpriteUpgradeDefinition" : "IceTower.json"
+}

@@ -1,0 +1,41 @@
+{	
+    "Type":             "DartlingGun",
+    "TargetRange":      1000.0,
+	"CooldownTime":     0.111,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"SpreadAngle": 34,
+
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 310
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "MultiLayerDamage"
+				}
+			]
+		}
+	]
+}

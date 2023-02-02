@@ -1,0 +1,39 @@
+{
+	"Sprites":
+	{
+        "0" : "TackTower",
+        "1" : "TackTowerLargerCannons",
+        "2" : "TackTowerTripleTackLogo",
+        "3" : "TackTowerSprayer",
+        "4" : "TackTowerROF",
+        "5" : "TackTowerBladeShooter",
+        "6" : "TackTowerMaelstrom",
+		"7" : "TackTowerBurnyBladeShooter",
+		"8" : "TackTowerBurnyMaelstrom"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 1,
+		"02"		: 2,
+		"03"		: 5,
+		"04"		: 6,
+		"10"		: 1,
+		"11"		: 1,
+		"12"		: 2,
+		"13"		: 5,
+		"14"		: 6,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 2,
+		"23"		: 7,
+		"24"		: 8,
+		"30"		: 2,
+		"31"		: 2,
+		"32"		: 2,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 4
+	}
+}

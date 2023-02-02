@@ -1,0 +1,356 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Enhanced Freeze",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                        
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "Permafrost"
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Snap Freeze",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade":
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "SpeedScale": -0.18
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Arctic Wind",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.06
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount": 1
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Viral Frost",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.11
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "AbsoluteZero"
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "SpeedScale": -0.14,
+                        "NumPersists" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "AbsoluteZeroPermafrost"
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Permafrost",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.12,
+                    "TargetRange" : 25
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Range" : 28
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Duration" : 0.26,
+                        "NumPersists" : 1
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Effect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Scale" : 0.88
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Deep Freeze",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.78
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "MaxTargets" : 18
+                    }
+                ]
+            }
+        },
+    
+        {
+            "Name" : "Ice Shards",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.03,
+                    "TargetRange" : 31
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "MaxTargets" : 6
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Range" : 34
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Duration" : 0.29
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "NumPersists" : 3
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "NumPersists" : 3
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Effect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Scale" : 1.21
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Absolute Zero",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.06
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "AbsoluteZero"
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "AbsoluteZeroPermafrost"
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "MaxTargets" : -1
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "NumPersists" : 4
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "NumPersists" : 4
+                    }
+                ]
+            },
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "AbsoluteZero.weapon"
+                }
+            }
+        }
+    ]
+}

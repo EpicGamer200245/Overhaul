@@ -1,0 +1,38 @@
+{
+	"Sprites":
+	{
+        "0" : "DartlingGun",
+        "1" : "DartlingGunBADS",
+        "2" : "DartlingGunBlue",
+        "3" : "DartlingGunDoomRay",
+        "4" : "DartlingGunHydraRockets",
+        "5" : "DartlingGunLaserCannon",
+        "6" : "DartlingGunPurple",
+        "7" : "DartlingGunRedCircle"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 7,
+		"02"		: 2,
+		"03"		: 4,
+		"04"		: 1,
+		"10"		: 7,
+		"11"		: 7,
+		"12"		: 2,
+		"13"		: 4,
+		"14"		: 1,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 2,
+		"23"		: 4,
+		"24"		: 1,
+		"30"		: 5,
+		"31"		: 5,
+		"32"		: 5,
+		"40"		: 3,
+		"41"		: 3,
+		"42"		: 3
+	}
+}
