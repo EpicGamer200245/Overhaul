@@ -1,7 +1,7 @@
 {	
     "Type":             "BloonAreaDenialSystem",    
     "TargetRange":      100000.0,
-	"CooldownTime":     0.144,
+	"CooldownTime":     0.13,
     "FireDelayTime":    0.0,
     "CanFireWithNoTargetsAndRoundInProgress" : true,
 	
@@ -9,8 +9,8 @@
     [
     	{
     		"Type": "MultiFire",
-    		"InitialOffset": -22.5,
-    		"AngleIncrement": 22.5,
+    		"InitialOffset": -16,
+    		"AngleIncrement": 16,
     		"FireCount": 3,
     		"Tasks":
     		[
@@ -22,12 +22,12 @@
 					
 					"CollisionType": "Once",
 					
-					"SpreadAngle": 34,
+					"SpreadAngle": 36,
 
 					"Movement":
 					{
 						"Type": "Forward",
-						"Speed": 600.0,
+						"Speed": 670.0,
 						"CutOffDistance": 310
 					},
 					
@@ -36,7 +36,7 @@
 						{
 							"Type": "AreaOfEffect",
 							"Range": 60,
-							"MaxTargets": 40,
+							"MaxTargets": 45,
 							"Tasks" :
 							[
 								{ 
@@ -47,6 +47,11 @@
 								{
 									"Type": "Damage",
 									"DamageType": "MOABMauler",
+									"Amount": 1
+								},
+								{
+									"Type": "Damage",
+									"DamageType": "Juggernaut",
 									"Amount": 1
 								}
 							]

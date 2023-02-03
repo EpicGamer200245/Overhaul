@@ -82,7 +82,7 @@
             {
                 "Replace": 
                 {
-                    "CooldownTime": 0.02
+                    "CooldownTime": 0.016
                 },
                 "TaskUpgrade" :
                 [
@@ -93,7 +93,7 @@
                     {
                         "Operation" : "Replace",
                         "DamageType" : "Plasma",
-                        "Amount": 3
+                        "Amount": 4
                     }
                 ]
             }
@@ -163,7 +163,7 @@
                         "Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : -50
+							"CutOffDistance" : -70
 						}
                     },
                     {

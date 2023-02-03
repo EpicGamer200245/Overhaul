@@ -2,6 +2,47 @@
 
 ---
 
+## 0.02 Balance Testing
+
+### Testing Changes
+
+* ZOMG damage levels changed
+
+### Testing Balancing
+
+#### Dartling Gunner
+
+* Dartling Gunner price 1200 -> 1145
+* Hot Bloontonium Ray price 120,000 -> 124,000
+* Dartling Gunner placement radius 16 -> 21.2
+* Dartling Gunner placement width and height 26 -> 32
+* Hot Bloontonium Ray attack speed 0.02 -> 0.016
+* Hot Bloontonium Ray damage 3 -> 4
+* Hot Bloontonium Ray moab damage buff 0 -> 2
+* Hot Bloontonium Ray ceramic damage buff 0 -> 2
+* Hydra Rocket Pods distance decrease -50 -> -70
+* Hydra Rocket Pods attack speed 0.144 -> 0.139
+* Hydra Rocket Pods spread 34 -> 37
+* Hydra Rocket Pods speed 600 -> 670
+* Hydra Rocket Pods explosion pierce 40 -> 45
+* Hydra Rocket Pods explosion ceramic damage buff 0 -> 1
+* Hydra Rocket Storm attack speed 0.144 -> 0.13
+* Hydra Rocket Storm multifire spread 22.5 -> 16
+* Hydra Rocket Storm spread 34 -> 36
+* Hydra Rocket Storm speed 600 -> 670
+* Hydra Rocket Storm explosion pierce 40 -> 45
+* Hydra Rocket Storm explosion ceramic damage buff 0 -> 1
+
+#### Tack Shooter
+
+* Seeking Blades ceramic damage buff 0 -> 1
+
+#### Ice Monkey
+
+* Ice Monkey price 260 -> 240
+
+---
+
 ## 0.02 Hotfix Testing
 
 ### Testing Details

@@ -1,7 +1,7 @@
 {
     "TypeName"				: "IceTower",
     "Icon"					: "ice_avatar_small",
-    "BaseCost"				: 260,
+    "BaseCost"				: 240,
     "RankToUnlock"			: 1,
     "DefaultWeapons"	    :
     [

@@ -3,10 +3,10 @@
 	"DrawLayer": "Air",
 	"InitialHealth" : 4350,
 	"SpriteFilesAtDamageLevels": [
-		[ "Zomg01.json", 3000 ],
-		[ "Zomg02.json", 1900 ],
-		[ "Zomg03.json", 1100 ],
-		[ "Zomg04.json", 700 ]
+		[ "Zomg01.json", 3400 ],
+		[ "Zomg02.json", 2050 ],
+		[ "Zomg03.json", 1300 ],
+		[ "Zomg04.json", 500 ]
 	],
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 0.19,

@@ -1,7 +1,7 @@
 {	
     "Type":             "HydraRocketPods",    
     "TargetRange":      100000.0,
-	"CooldownTime":     0.144,
+	"CooldownTime":     0.139,
     "FireDelayTime":    0.0,
     "CanFireWithNoTargetsAndRoundInProgress" : true,
     
@@ -13,12 +13,12 @@
         "TerminateOnZeroPersists": true,
         "CollisionType": "Once",
 		
-		"SpreadAngle": 34,
+		"SpreadAngle": 37,
 	
 		"Movement":
 		{
 			"Type": "Forward",
-			"Speed": 600.0,
+			"Speed": 670.0,
 			"CutOffDistance": 310
 		},
         
@@ -27,12 +27,17 @@
 			{
 				"Type": "AreaOfEffect",
 				"Range": 60,
-				"MaxTargets": 40,
+				"MaxTargets": 45,
 				"Tasks" :
 				[
 					{ 
 						"Type": "Damage",
 						"DamageType": "Explosive",
+						"Amount": 1
+					},
+					{
+						"Type": "Damage",
+						"DamageType": "Juggernaut",
 						"Amount": 1
 					}
 				]

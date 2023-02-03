@@ -1,7 +1,7 @@
 {
     "TypeName"				: "DartlingGun",
     "Icon"					: "dartling_gun_avatar_small",
-    "BaseCost"				: 1200,
+    "BaseCost"				: 1145,
     "RankToUnlock"			: 1,
     "DefaultWeapons"	    : [ "DartlingGun.weapon" ],
     "TargetingMode"			: "ManualPassive",
@@ -21,7 +21,7 @@
 	],
     "UpgradePrices" : 
     [
-        [ 685, 1050, 6500, 120000 ],
+        [ 685, 1050, 6500, 124000 ],
         [ 595, 965, 3500, 32000 ]
     ],
     "UpgradeAvatars" :
@@ -65,9 +65,9 @@
     "CanBePlacedOnPath"		: false,
     
     "UseRadiusPlacement"	: true,
-    "PlacementRadius"		: 16.0,
-    "PlacementW"			: 26.0,
-    "PlacementH"			: 26.0,
+    "PlacementRadius"		: 21.2,
+    "PlacementW"			: 32.0,
+    "PlacementH"			: 32.0,
     "SpriteUpgradeDefinition" : "DartlingGun.json",
     "UseDefaultRangeCircle" : true,
     "SkipFirstFrameWhenFiring" : false,

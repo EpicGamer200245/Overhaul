@@ -62,8 +62,13 @@
 						},
 						{
 							"Type": "Damage",
-							"DamageType": "Piercing",
+							"DamageType": "MOABMauler",
 							"Amount": 1
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Juggernaut",
+							"Amount": 0
 						}
 					]
 				}

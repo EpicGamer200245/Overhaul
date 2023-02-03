@@ -266,6 +266,14 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 1
+                    },
+                    {
+                        "Operation":"SelectByLocation",
+                        "Location" : [ 0, 0, 4 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Amount": 1
                     }
                 ]
             }
