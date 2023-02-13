@@ -2,13 +2,13 @@
 
 ---
 
-## 0.02 Balance Testing
+## 0.02
 
-### Testing Changes
+### Key Details
 
 * ZOMG damage levels changed
 
-### Testing Balancing
+### Balancing
 
 #### Dartling Gunner
 
