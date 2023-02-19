@@ -2,6 +2,22 @@
 
 ---
 
+## 0.03 Tack Testing
+
+### Testing Changes
+
+* Added a sprite on the Tack Shooter for the burny tack shooters.
+* Changed bloon spawns for Cyan Splitter
+
+### Testing Balancing
+
+#### Cyan Splitter
+
+* Cyan Splitter base bloon speed 1.65x => 1.56x
+* Cyan Splitter secondary bloon child bloons Blue, Blue, Blue, Blue => Blue, Blue, Blue
+
+---
+
 ## 0.03 Testing
 
 ### Testing Details
