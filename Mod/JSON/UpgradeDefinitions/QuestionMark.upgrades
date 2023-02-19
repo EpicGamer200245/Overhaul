@@ -1,0 +1,212 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Long Range Darts",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 18
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+                        	"CutOffDistance" : 36
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Enhanced Eyesight",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            },
+            
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 20
+                },
+                
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "CutOffDistance" : 40
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Spike-O-Pult",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "SpikeOPult.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Juggernaut",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "Juggernaut.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Sharp Shots",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.29
+                }
+            }
+        },
+        
+        {
+            "Name" : "Razor Sharp Shots",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    }
+                ]
+            }
+            
+        },
+    
+        {
+            "Name" : "Triple Darts",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "TripleDarts.weapon"
+                }
+            },
+			
+			"WeaponUpgrade" : 
+			{
+				"SlotIndex" : 0,
+				
+				"TaskUpgrade" :
+				[
+					{
+						"Operation" : "SelectByLocation",
+						"Location" : [ 1, 0 ]
+					},
+					
+					{
+						"Operation" : "Replace",
+						"NumPersists" : 4
+					},
+											
+					{
+						"Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+							"CutOffDistance" : 25
+						},
+						"RequiresMinUpgradeCounters" : [ 1, 0 ]
+					},
+					
+					{
+						"Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+							"CutOffDistance" : 25
+						},
+						"RequiresMinUpgradeCounters" : [ 2, 0 ]
+					}
+				]
+			}
+        },
+        
+        {
+            "Name" : "Super Monkey Fan Club",
+            "WeaponUpgrade":
+            {
+                "Adjust":
+                {
+                    "CooldownTime" : -0.25
+                },
+
+                "SlotIndex" : 0,
+                "TaskUpgrade":
+                [
+                    {
+						"Operation" : "SelectByLocation",
+						"Location" : [ 1, 0 ]
+					},
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Movement" :
+                        {
+                            "Type": "Forward",
+                            "CutOffDistance" : 116
+                        }
+                    }
+                ]
+            },
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2" : "SuperMonkeyFanClub.weapon"
+                }
+            }
+        }
+    ]
+}

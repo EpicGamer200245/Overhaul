@@ -1,0 +1,76 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "white_base",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "white_base",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -10.9, 0.4 ],
+         "Scale" : [ 1.32, 1.32 ],
+         "Shown" : true,
+         "sprite" : "radioactive_symbol",
+         "type" : 1,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "white_base",
+            "Texture" : "monkeyradar"
+         },
+         {
+            "SpriteInfo" : "radioactive_symbol",
+            "Texture" : "monkeyradar"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      }
+   ]
+}

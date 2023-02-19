@@ -2,5 +2,8 @@
     <Select node="SpriteInformation">
         <Insert node="SpriteInfoXml" name="dartmonkey_proj" type="png"/>
         <Insert node="SpriteInfoXml" name="tackshooter" type="png"/>
+        <Insert node="SpriteInfoXml" name="monkeyradar" type="png"/>
+        <Insert node="SpriteInfoXml" name="radars" type="png"/>
+        <Insert node="SpriteInfoXml" name="tower_icons" type="png"/>
     </Select>
 </Reflect>

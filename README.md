@@ -23,3 +23,13 @@
 
 <b><h3 align="center">Ice Monkey</h3></b>
 <p align="center">The Ice Monkey is a cheap tower that can stall for a short period of time, it also will slow the bloons down until the ice melts.</p>
+
+<b><h3 align="center">Radar Monkey</h3></b>
+<p align="center">The Radar Monkey is a water tower that will hurt most bloon in its range.</p>
+
+---
+
+<h2 align="center">Bloons</h2>
+
+<b><h3 align="center">Cyan Splitter Bloon</h3></b>
+<p align="center">The Cyan Splitter is a early game bloon that needs 2 damage to pop, when popped will split into 2 of itself again, but more blue, and then when the 2 are popped each splits into 4 blue bloons.</p>

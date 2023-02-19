@@ -2,6 +2,42 @@
 <Reflect>
     <Select node="LocData">
         <Select node="Language">
+            <!--Map List-->
+            <Insert node="T" id="LOC_PACK_Beginner" l="0">Map Pack #1</Insert>
+            <Insert node="T" id="LOC_PACK_Intermediate" l="0">Map Pack #2</Insert>
+            <Insert node="T" id="LOC_PACK_Advanced" l="0">Map Pack #3</Insert>
+            <Insert node="T" id="LOC_PACK_Expert" l="0">Map Pack #4</Insert>
+
+            <Insert node="T" id="LOC_PACK_Beginner_CAPS" l="0">MAP PACK #1</Insert>
+            <Insert node="T" id="LOC_PACK_Intermediate_CAPS" l="0">MAP PACK #2</Insert>
+            <Insert node="T" id="LOC_PACK_Advanced_CAPS" l="0">MAP PACK #3</Insert>
+            <Insert node="T" id="LOC_PACK_Expert_CAPS" l="0">MAP PACK #4</Insert>
+
+            <Insert node="T" id="LOC_DIF_DESC_Beginner" l="0">You have unlocked a new map! Congrats!</Insert>
+            <Insert node="T" id="LOC_DIF_DESC_Intermediate" l="0">You have unlocked a new map! Congrats!</Insert>
+            <Insert node="T" id="LOC_DIF_DESC_Advanced" l="0">You have unlocked a new map! Congrats!</Insert>
+            <Insert node="T" id="LOC_DIF_DESC_Expert" l="0">You have unlocked a new map! Congrats!</Insert>
+            <Insert node="T" id="LOC_DIF_DESC_Extreme" l="0">You have unlocked a new map! Congrats!</Insert>
+
+            <Insert node="T" id="LOC_TRACK_UNLOCK_Intermediate" l="0">Get %d more medal from Map Pack #1 to unlock.</Insert>
+            <Insert node="T" id="LOC_TRACK_UNLOCK_Intermediate_Plural" l="0">Get %d more medals from Map Pack #1 to unlock.</Insert>
+            <Insert node="T" id="LOC_TRACK_UNLOCK_Advanced" l="0">Get %d more medal from Map Pack #2 to unlock.</Insert>
+            <Insert node="T" id="LOC_TRACK_UNLOCK_Advanced_Plural" l="0">Get %d more medals from Map Pack #2 to unlock.</Insert>
+            <Insert node="T" id="LOC_TRACK_UNLOCK_Expert" l="0">Get to rank %d to unlock.</Insert>
+            <Insert node="T" id="LOC_TRACK_UNLOCK_Extreme" l="0">Get to rank %d to unlock.</Insert>
+
+            <Insert node="T" id="LOC_TRACK_UBLOCKMASTERY_1" l="0">Locked.</Insert>
+            <Insert node="T" id="LOC_TRACK_UBLOCKMASTERY_2" l="0">Locked.</Insert>
+            <Insert node="T" id="LOC_TRACK_UBLOCKMASTERY_3" l="0">Locked.</Insert>
+            <Insert node="T" id="LOC_TRACK_UBLOCKMASTERY_4" l="0">Locked.</Insert>
+            <Insert node="T" id="LOC_TRACK_UBLOCKMASTERY_5" l="0">Locked.</Insert>
+
+            <!--Question Mark in Tower Select-->
+            <Insert node="T" id="LOC_Question_TOWER" l="0">Question Mark</Insert>
+            <Insert node="T" id="LOC_Question_TOWER_PLURAL" l="0">Question Marks</Insert>
+            <Insert node="T" id="LOC_Question_TOWER_CAPS" l="0">QUESTION MARK</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_Question" l="0">Upcoming tower.</Insert>
+
             <!--Dart Monkey-->
             <Insert node="T" id="LOC_UPGRADE_A3_DartMonkey" l="0">Plasmatic Spikes</Insert>
             <Insert node="T" id="LOC_UPGRADE_A4_DartMonkey" l="0">Upgrade</Insert>
@@ -16,6 +52,10 @@
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B4" l="0">Shoots faster and further. Ability: Every dart monkey in radius shoot 75% faster.</Insert>
 
             <!--Tack Tower-->
+            <Insert node="T" id="LOC_TackTower_TOWER" l="0">Tack Shooter</Insert>
+            <Insert node="T" id="LOC_TackTower_TOWER_PLURAL" l="0">Tack Shooters</Insert>
+            <Insert node="T" id="LOC_TackTower_TOWER_CAPS" l="0">TACK SHOOTER</Insert>
+
             <Insert node="T" id="LOC_UPGRADE_A1_TackTower" l="0">Faster Shooting</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_TackTower" l="0">Burny Tacks</Insert>
             <Insert node="T" id="LOC_UPGRADE_A3_TackTower" l="0">Fiery Tacks</Insert>
@@ -70,6 +110,30 @@
             <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_B2" l="0">Darts now can go further and will go through another bloon.</Insert>
             <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_B3" l="0">Will now shoot rockets at the bloons.</Insert>
             <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_B4" l="0">Shoots 3 rockets that have additional MOAB damage. Ability: Shoots many rocket pods out in quick succession.</Insert>
+        
+            <!--Monkey Radar-->
+            <Insert node="T" id="LOC_MonkeyRadar_TOWER" l="0">Monkey Radar</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_TOWER_PLURAL" l="0">Monkey Radars</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_TOWER_CAPS" l="0">MONKEY RADAR</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_MonkeyRadar" l="0">The Radar Monkey will pop many bloons in his radius by scanning that with radiation.</Insert>
+
+            <Insert node="T" id="LOC_UPGRADE_A1_MonkeyRadar" l="0">Faster Scanning</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A2_MonkeyRadar" l="0">Advanced Bloon Scanning</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A3_MonkeyRadar" l="0">Hard Shelled Scans</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A4_MonkeyRadar" l="0">Perma-scan</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B1_MonkeyRadar" l="0">Bigger Range</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B2_MonkeyRadar" l="0">Dual Layer Scanning</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B3_MonkeyRadar" l="0">Numerous Layer Scanning</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_MonkeyRadar" l="0">Screen Scan</Insert>
+
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A1" l="0">Scans the bloons 40% faster.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A2" l="0">Scans can now hit every bloon, including MOABs.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A3" l="0">Scans now have increased ceramic and MOAB damage.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A4" l="0">Scans the bloons now at light-speed.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_B1" l="0">Gives bigger range than before.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_B2" l="0">Now scans through 2 layers at once.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_B3" l="0">Improved scanning, scans through numerous layers are once.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_B4" l="0">More layers scanned. Ability: Scans the whole screen.</Insert>
         </Select>
     </Select>
 </Reflect>

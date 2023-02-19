@@ -1,6 +1,6 @@
 {
     "TypeName"				: "IceTower",
-    "Icon"					: "ice_avatar_small",
+    "Icon"					: "ice_tower_icon",
     "BaseCost"				: 240,
     "RankToUnlock"			: 1,
     "DefaultWeapons"	    :
@@ -39,20 +39,10 @@
         [ 145, 155, 650, 1760 ],
         [ 165, 270, 1600, 3400 ]
     ],
-    "UpgradeAvatars" :
+    "UpgradeAvatars" : 
     [
-    	[ 
-        "ice_avatar_enhanced_freeze_small", 
-        "ice_avatar_snap_freeze_small", 
-        "ice_avatar_arctic_wind_small", 
-        "ice_avatar_viral_frost_small" 
-        ],
-    	[ 
-        "ice_avatar_permafrost_small", 
-        "ice_avatar_deep_freeze_small", 
-        "ice_avatar_ice_shards_small", 
-        "ice_avatar_absolute_zero_small" 
-        ]
+        [],
+        []
     ],
  
     "UpgradeIcons" :

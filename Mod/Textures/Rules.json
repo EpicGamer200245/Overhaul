@@ -22,6 +22,36 @@
                     "InfoXml": "tackshooter.xml"
                 }
             ]
+        },
+        {
+            "SourceDir": "monkeyradar",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "monkeyradar.png",
+                    "InfoXml": "monkeyradar.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "radars",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "radars.png",
+                    "InfoXml": "radars.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "tower_icons",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "tower_icons.png",
+                    "InfoXml": "tower_icons.xml"
+                }
+            ]
         }
     ]
 }

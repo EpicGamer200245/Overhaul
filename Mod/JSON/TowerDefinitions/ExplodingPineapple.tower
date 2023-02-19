@@ -1,0 +1,37 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 35,
+    "CanBePlacedInWater" : true,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultWeapons" : [
+        "ExplodingPineapple.weapon"
+    ],
+    "FireWeaponAndDestroy" : true,
+    "Icon" : "",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 0.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 0,
+    "RotatesToTarget" : false,
+    "DefaultSprite" : "PineappleCountdown.json",
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "None",
+    "TargetsManually" : false,
+    "TypeName" : "ExplodingPineapple",
+    "Upgrades" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UpgradePrices" : 
+    [
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
+    ],
+    "UseRadiusPlacement" : true,
+    "CanBePlacedMultipleTimes" : true
+}

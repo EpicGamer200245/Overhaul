@@ -1,0 +1,38 @@
+{
+	"Sprites":
+	{
+        "0" : "MonkeyRadar_Base_Complete", // Base
+        "1" : "MonkeyRadar_BaseSymbol_Complete", // Base with Radioactive Symbol
+		"2" : "MonkeyRadar_Yellow_Complete", // Yellow
+		"3" : "MonkeyRadar_Green_Complete", // Green
+		"4" : "MonkeyRadar_Red_Complete", // Red
+		"5" : "MonkeyRadar_RedSymbol_Complete", // Red with Radioactive Symbol
+		"6" : "MonkeyRadar_White_Complete", // White
+		"7" : "MonkeyRadar_WhiteSymbol_Complete"  // White with Radioactive Symbol
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 0,
+		"02"		: 0,
+		"03"		: 4,
+		"04"		: 6,
+		"10"		: 0,
+		"11"		: 0,
+		"12"		: 0,
+		"13"		: 4,
+		"14"		: 6,
+		"20"		: 1,
+		"21"		: 1,
+		"22"		: 1,
+		"23"		: 5,
+		"24"		: 7,
+		"30"		: 2,
+		"31"		: 2,
+		"32"		: 2,
+		"40"		: 3,
+		"41"		: 3,
+		"42"		: 3
+	}
+}

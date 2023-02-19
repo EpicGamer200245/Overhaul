@@ -239,7 +239,7 @@
                 "Adjust" :
                 {
                     "TargetRange": 15,
-                    "CooldownTime": -0.07
+                    "CooldownTime": -0.06
                 },
                 "TaskUpgrade" :
                 [
@@ -253,10 +253,10 @@
                         {
                             "Type": "Target",
                             "Speed": 600,
-                            "TurnSpeed": 800,
-                            "TargetRange": 1000,
-                            "SeekAngle": 1000,
-                            "CutOffDistance": 325
+                            "TurnSpeed": 550,
+                            "TargetRange": 210,
+                            "SeekAngle": 320,
+                            "CutOffDistance": 280
                         }
                     },
                     {

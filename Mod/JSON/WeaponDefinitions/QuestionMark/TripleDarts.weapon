@@ -1,0 +1,67 @@
+{	
+    "Type":             "TripleDarts",    
+    "TargetRange":      120.0,
+	"CooldownTime":     0.56,
+    "FireDelayTime":    0.186,
+        
+    "Tasks"	:
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      2,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 705.0,
+				"CutOffDistance": 181
+			},
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
+			]
+		},
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -12.0,
+    		"AngleIncrement": 24.0,
+    		"FireCount": 2,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "dart_monkey_dart",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 1000.0,
+						"CutOffDistance": 65
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

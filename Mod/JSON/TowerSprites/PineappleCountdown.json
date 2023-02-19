@@ -1,0 +1,125 @@
+{
+    "actors" : [
+       {
+          "Alignment" : [ 0, 0 ],
+          "Alpha" : 1.0,
+          "Angle" : 0.0,
+          "Colour" : 4294967295,
+          "Flip" : 0,
+          "Position" : [ 0.0, 0.0 ],
+          "Scale" : [ 1.0, 1.0 ],
+          "Shown" : true,
+          "sprite" : "pineapple",
+          "type" : 1,
+          "uid" : 1
+       },
+       {
+          "Alignment" : [ 0, 0 ],
+          "Alpha" : 1.0,
+          "Angle" : 0.0,
+          "Colour" : 4294967295,
+          "Flip" : 0,
+          "Position" : [ -2.0, 6.0 ],
+          "Scale" : [ 1.0, 1.0 ],
+          "Shown" : false,
+          "sprite" : "pineapple_text_01",
+          "type" : 1,
+          "uid" : 2
+       },
+       {
+          "Alignment" : [ 0, 0 ],
+          "Alpha" : 1.0,
+          "Angle" : 0.0,
+          "Colour" : 4294967295,
+          "Flip" : 0,
+          "Position" : [ -1.0, 5.0 ],
+          "Scale" : [ 1.0, 1.0 ],
+          "Shown" : false,
+          "sprite" : "pineapple_text_02",
+          "type" : 1,
+          "uid" : 5
+       }
+    ],
+    "customvariables" : null,
+    "events" : null,
+    "labels" : null,
+    "stageOptions" : {
+       "SpriteInfo" : [
+          {
+             "SpriteInfo" : "pineapple",
+             "Texture" : "InGame"
+          },
+          {
+             "SpriteInfo" : "pineapple_text_01",
+             "Texture" : "InGame"
+          },
+          {
+             "SpriteInfo" : "pineapple_text_02",
+             "Texture" : "InGame"
+          }
+       ],
+       "StageLength" : 1.75,
+       "Version" : 1
+    },
+    "timelines" : [
+       {
+          "spriteuid" : 1,
+          "stage" : null
+       },
+       {
+          "spriteuid" : 2,
+          "stage" : [
+            {
+                "Alignment" : [ 0, 0 ],
+                "Alpha" : 1.0,
+                "Angle" : 0.0,
+                "Colour" : 4294967295,
+                "Flip" : 0,
+                "Position" : [ -1.0, 5.0 ],
+                "Scale" : [ 1.0, 1.0 ],
+                "Shown" : false,
+                "Time" : 0.0
+            },
+            {
+                "Alignment" : [ 0, 0 ],
+                "Alpha" : 1.0,
+                "Angle" : 0.0,
+                "Colour" : 4294967295,
+                "Flip" : 0,
+                "Position" : [ -2.0, 6.0 ],
+                "Scale" : [ 1.0, 1.0 ],
+                "Shown" : true,
+                "Time" : 0.75
+            }
+          ]
+       },
+       {
+          "spriteuid" : 5,
+          "stage" : [
+            {
+                "Alignment" : [ 0, 0 ],
+                "Alpha" : 1.0,
+                "Angle" : 0.0,
+                "Colour" : 4294967295,
+                "Flip" : 0,
+                "Position" : [ -1.0, 5.0 ],
+                "Scale" : [ 1.0, 1.0 ],
+                "Shown" : true,
+                "Time" : 0.0
+            },
+            {
+                "Alignment" : [ 0, 0 ],
+                "Alpha" : 1.0,
+                "Angle" : 0.0,
+                "Colour" : 4294967295,
+                "Flip" : 0,
+                "Position" : [ -1.0, 5.0 ],
+                "Scale" : [ 1.0, 1.0 ],
+                "Shown" : false,
+                "Time" : 0.75
+            }
+          ]
+       }
+    ]
+ }
+ 

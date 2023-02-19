@@ -1,0 +1,71 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 250,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "DartMonkey.weapon",
+		"FanClubDart.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		true,
+		false
+	],
+    "Icon" : "dart_monkey_tower_icon",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 7.2,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "QuestionMark",
+    "Upgrades" : [
+        [
+            "Long Range Darts",
+            "Enhanced Eyesight",
+            "Spike-O-Pult",
+            "Juggernaut"
+        ],
+        [
+            "Sharp Shots",
+            "Razor Sharp Shots",
+            "Triple Darts",
+            "Super Monkey Fan Club"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 30 }, { "Rank" : 0, "XP" : 460 }, { "Rank" : 0, "XP" : 1890 }, { "Rank" : 21, "XP" : 9330 } ],
+		[ { "Rank" : 0, "XP" : 75 }, { "Rank" : 0, "XP" : 580 }, { "Rank" : 0, "XP" : 3250 }, { "Rank" : 21, "XP" : 14535 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 75, 100, 1200, 7800 ],
+        [ 130, 130, 500, 15500 ]
+    ],
+    "UpgradeIcons" : [
+        [
+            "dart_monkey_longer_range_icon",
+            "dart_monkey_enhanced_eyesight_icon",
+            "apprentice_intense_magic_icon",
+            "monkey_ace_ground_zero_icon"
+        ],
+        [
+            "sniper_faster_firing_icon",
+            "dart_monkey_razor_icon",
+            "dart_monkey_triple_icon",
+            "dart_monkey_fanclub_icon"
+        ]
+    ],
+    "UpgradeAvatars" : 
+    [
+        [],
+        []
+    ],
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "QuestionMark.json"
+}

@@ -9,7 +9,7 @@
     "DefaultWeapons" : [
         "TackTower.weapon"
     ],
-    "Icon" : "tack_shooter_avatar_small",
+    "Icon" : "tack_shooter_tower_icon",
     "PlacementH" : 0.0,
     "PlacementRadius" : 10.6,
     "PlacementW" : 0.0,
@@ -40,23 +40,13 @@
 	],
     "UpgradePrices" : 
     [
-        [ 460, 610, 1140, 4300 ],
-        [ 230, 370, 835, 2600 ]
+        [ 460, 610, 1140, 3400 ],
+        [ 310, 420, 965, 3100 ]
     ],
     "UpgradeAvatars" : 
     [
-        [
-            "tack_shooter_avatar_faster_shooting_small",
-            "tack_shooter_avatar_even_faster_shooting_small",
-            "tack_shooter_avatar_sprayer_small",
-            "tack_shooter_avatar_rof_small"
-        ],
-        [
-            "tack_shooter_avatar_extra_range_small",
-            "tack_shooter_avatar_super_range_small",
-            "tack_shooter_avatar_blade_shooter_small",
-            "tack_shooter_avatar_blade_maelstrom_small"
-        ]
+        [],
+        []
     ],
     
     "UpgradeIcons" : [

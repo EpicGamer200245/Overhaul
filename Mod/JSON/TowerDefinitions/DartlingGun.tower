@@ -1,6 +1,6 @@
 {
     "TypeName"				: "DartlingGun",
-    "Icon"					: "dartling_gun_avatar_small",
+    "Icon"					: "dartling_gun_tower_icon",
     "BaseCost"				: 1145,
     "RankToUnlock"			: 1,
     "DefaultWeapons"	    : [ "DartlingGun.weapon" ],
@@ -24,20 +24,10 @@
         [ 685, 1050, 6500, 124000 ],
         [ 595, 965, 3500, 32000 ]
     ],
-    "UpgradeAvatars" :
+    "UpgradeAvatars" : 
     [
-    	[ 
-            "dartling_gun_avatar_focused_firing_small", 
-            "dartling_gun_avatar_faster_barrel_spin_small", 
-            "dartling_gun_avatar_laser_cannon_small", 
-            "dartling_gun_avatar_ray_of_doom_small"
-        ],
-    	[ 
-            "dartling_gun_avatar_powerful_darts_small", 
-            "dartling_gun_avatar_bloontonium_small", 
-            "dartling_gun_avatar_hydra_rockets_small", 
-            "dartling_gun_avatar_bads_small"
-        ]
+        [],
+        []
     ],
     
     "UpgradeIcons" :

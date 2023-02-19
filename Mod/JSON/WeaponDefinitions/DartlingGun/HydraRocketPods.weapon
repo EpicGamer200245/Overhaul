@@ -13,7 +13,7 @@
         "TerminateOnZeroPersists": true,
         "CollisionType": "Once",
 		
-		"SpreadAngle": 37,
+		"SpreadAngle": 44,
 	
 		"Movement":
 		{

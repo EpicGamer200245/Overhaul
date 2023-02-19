@@ -1,4 +1,54 @@
 [
+    //Profile
+    "Assets/JSON/ProfileDefinitions/RankGateway.json",
+
+    //Gamemodes
+    "Assets/JSON/GameModeDefinitions/Default/Default.mode",
+    "Assets/JSON/GameModeDefinitions/Default/Default.rounds",
+
+    //Map Selection
+    "Assets/JSON/tracklist.json",
+    "Assets/JSON/GameModeDefinitions/Maps/against_the_clock.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/ancient_tomb.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/autumn_leaves.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/benguela.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/bloom.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/campfire.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/canyon.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/daffodils.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/down_the_drain.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/dune_sea.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/flooded_lane.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/forestpath.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/forgotten_garden.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/go_with_the_flow.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/head_in_the_clouds.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/lightning_scar.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/main_street.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/monkey_lane.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/mount_magma.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/nazca_lines.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/oasis.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/promontory.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/pyramids.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/radioactive.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/river_rapids.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/runway.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/scorched_earth.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/skull_peak.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/snowman.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/snowy_backyard.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/sprint_track.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/the_great_divide.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/toxic_waste.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/treetops.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/tributaries.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/tunnels.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/villageshore.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/walk_in_the_park.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/water_hazard.mode",
+    "Assets/JSON/GameModeDefinitions/Maps/wattle_trees.mode",
+
     //Bloons
     "Assets/JSON/BloonDefinitions/ZOMG.bloon",
     "Assets/JSON/BloonDefinitions/BFB.bloon",
@@ -9,6 +59,8 @@
 
     //Tower Selection
     "Assets/JSON/ScreenDefinitions/TowerSelectionScreen/TowerOrderBottom.json",
+    "Assets/JSON/ScreenDefinitions/TowerSelectionScreen/TowerOrderTop.json",
+    "Assets/JSON/UILayout/side_bar.json",
 
     //Dart Monkey
     "Assets/JSON/TowerDefinitions/DartMonkey.tower",
@@ -32,6 +84,7 @@
     "Assets/JSON/WeaponDefinitions/IceTower/IceTower.weapon",
     "Assets/JSON/WeaponDefinitions/IceTower/AbsoluteZero.weapon",
     "Assets/JSON/UpgradeDefinitions/IceTower.upgrades",
+    "Assets/JSON/TowerDefinitions/IceTower.tower",
 
     //Dartling Gunner
     "Assets/JSON/WeaponDefinitions/DartlingGun/DartlingGun.weapon",
@@ -42,6 +95,10 @@
     "Assets/JSON/WeaponDefinitions/DartlingGun/HydraRocketPods.weapon",
     "Assets/JSON/WeaponDefinitions/DartlingGun/BloonAreaDenialSystem.weapon",
     "Assets/JSON/WeaponDefinitions/DartlingGun/RocketStormRockets.weapon",
-    "Assets/JSON/WeaponDefinitions/DartlingGun/RocketStorm.weapon"
-
+    "Assets/JSON/WeaponDefinitions/DartlingGun/RocketStorm.weapon",
+    
+    //Exploding Pineapple
+    "Assets/JSON/WeaponDefinitions/ExplodingPineapple/ExplodingPineapple.weapon",
+    "Assets/JSON/TowerSprites/PineappleCountdown.json",
+    "Assets/JSON/TowerDefinitions/ExplodingPineapple.tower"
 ]

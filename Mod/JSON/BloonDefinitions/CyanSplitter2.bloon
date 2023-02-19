@@ -1,0 +1,13 @@
+{
+	"Type" : "CyanSplitter2",
+	"InitialHealth" : 1,
+	"SpriteFile" : "cyan_splitter_2_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 1.45,
+	"RBE" : 9,
+    "ChildBloons" : [ "Blue.bloon", "Blue.bloon", "Blue.bloon", "Blue.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB"],
+    "DamageImmunity" : ["Juggernaut", "MOABMauler", "Foam"],
+    "Scale" : 0.95,
+    "Radius" : 12
+}

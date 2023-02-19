@@ -1,0 +1,294 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Faster Scanning",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.34
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 1
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Advanced Bloon Scanning",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "BloonchipperLead.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Effect"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "SpriteFile": "pink_radar.json"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "RequiresMinUpgradeCounters" : [0, 3],
+                        "SpriteFile": "red_radar.json"
+                    },
+
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 2
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Hard Shelled Scans",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Effect"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "SpriteFile": "yellow_radar.json"
+                    },
+
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 3
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount": 1
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount": 2
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Perma-scan",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.41
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 4
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount": 1
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount": 1
+                    }
+                ]
+            }
+        },
+
+        {
+            "Name" : "Bigger Range",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "TargetRange" : 20
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Effect"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+						"Scale" : 4.2
+                    },
+
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "Range": 20,
+                        "MaxTargets": 1
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Dual Layer Scanning",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Effect"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "SpriteFile": "pink_radar.json"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "RequiresMinUpgradeCounters" : [3, 0],
+                        "SpriteFile": "yellow_radar.json"
+                    },
+
+                    {
+                        "Operation": "SelectByLocation",
+                        "Location" : [ 0, 0 ]
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "Amount": 1
+                    },
+
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 2
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Numerous Layer Scanning",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Effect"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "SpriteFile": "red_radar.json"
+                    },
+
+                    {
+                        "Operation": "SelectByLocation",
+                        "Location" : [ 0, 0 ]
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "Amount": 1
+                    },
+
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 3
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Screen Scan",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "RoadSpikes.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByLocation",
+                        "Location" : [ 0, 0 ]
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "Amount": 1
+                    },
+
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 4
+                    }
+                ]
+            }
+        }
+    ]
+}

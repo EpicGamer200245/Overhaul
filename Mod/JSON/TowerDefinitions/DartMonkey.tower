@@ -1,6 +1,6 @@
 {
     "AircraftList" : [ ],
-    "BaseCost" : 250,
+    "BaseCost" : 270,
     "CanBePlacedInWater" : false,
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
@@ -13,7 +13,7 @@
 		true,
 		false
 	],
-    "Icon" : "dart_monkey_avatar_small",
+    "Icon" : "dart_monkey_tower_icon",
     "PlacementH" : 0.0,
     "PlacementRadius" : 7.2,
     "PlacementW" : 0.0,
@@ -44,8 +44,8 @@
 	],
     "UpgradePrices" : 
     [
-        [ 75, 100, 1200, 7800 ],
-        [ 130, 130, 500, 15500 ]
+        [ 115, 160, 1200, 9800 ],
+        [ 145, 180, 550, 18500 ]
     ],
     "UpgradeIcons" : [
         [
@@ -61,19 +61,10 @@
             "dart_monkey_fanclub_icon"
         ]
     ],
-    "UpgradeAvatars" : [
-        [
-            "dart_monkey_avatar_increased_range_small",
-            "dart_monkey_avatar_enhanced_eyesight_small",
-            "dart_monkey_avatar_spikeopult_small",
-            "dart_monkey_avatar_juggernaut_small"
-        ],
-        [
-            "dart_monkey_avatar_sharp_shots_small",
-            "dart_monkey_avatar_razor_sharp_small",
-            "dart_monkey_avatar_triple_shot_small",
-            "dart_monkey_avatar_supermonkey_fanclub_small"
-        ]
+    "UpgradeAvatars" : 
+    [
+        [],
+        []
     ],
     "UseRadiusPlacement" : true,
     "SpriteUpgradeDefinition" : "DartMonkey.json"

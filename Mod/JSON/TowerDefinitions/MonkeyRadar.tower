@@ -1,0 +1,69 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 890,
+    "CanBePlacedInWater" : true,
+    "CanBePlacedOnLand" : false,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultWeapons" : [
+        "MonkeySubPulse.weapon"
+    ],
+    "Icon" : "monkey_radar_tower_icon",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 9.3,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "AnyInRange",
+    "TargetsManually" : false,
+    "TypeName" : "MonkeyRadar",
+    "Upgrades" : [
+        [
+            "Faster Scanning",
+            "Advanced Bloon Scanning",
+            "Hard Shelled Scans",
+            "Perma-scan"
+        ],
+        [
+            "Bigger Range",
+            "Dual Layer Scanning",
+            "Numerous Layer Scanning",
+            "Screen Scan"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 670, 840, 1670, 11200 ],
+        [ 380, 780, 1965, 8900 ]
+    ],
+    "UpgradeAvatars" : 
+    [
+        [],
+        []
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "radar_faster_scanning",
+            "radar_advanced_bloon_scanning",
+            "radar_hard_shelled_scans",
+            "radar_perma_scan"
+        ],
+        [
+            "radar_bigger_range",
+            "radar_dual_layer_scanning",
+            "radar_numerous_layer_scanning",
+            "radar_screen_scan"
+        ]
+    ],
+        
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "MonkeyRadar.json"
+}

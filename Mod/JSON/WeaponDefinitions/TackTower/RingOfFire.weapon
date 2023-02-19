@@ -1,7 +1,7 @@
 {	
     "Type":             "RingOfFire",    
     "TargetRange":      115.0,
-	"CooldownTime":     0.97,
+	"CooldownTime":     1.2,
     "FireDelayTime":    0.0,
     
     "Tasks" :
@@ -17,13 +17,13 @@
 				{
 					"Type" : "StatusEffect",
 					"Status" : "",
-					"DamageRate" : 1.85,
-					"Duration" : 4.4
+					"DamageRate" : 2.3,
+					"Duration" : 2.0
 				},
 				{
 					"Type": "Damage",
 					"DamageType": "Plasma",
-					"Amount": 3
+					"Amount": 1
 				},
 				{
 					"Type": "StatusEffect",

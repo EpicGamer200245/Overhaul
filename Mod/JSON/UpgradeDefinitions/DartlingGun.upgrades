@@ -7,7 +7,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.04
+                    "CooldownTime" : -0.025
                 }
             }
         },
@@ -17,7 +17,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.03
+                    "CooldownTime" : -0.035
                 }
             }
         },
@@ -110,7 +110,7 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "SpreadAngle" : -10
+                        "SpreadAngle" : -15
                     }
                 ]
             }
@@ -129,7 +129,7 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 1,
-                        "SpreadAngle" : -3,
+                        "SpreadAngle" : -6,
                         "Movement":
 						{
 							"Type" : "Forward",

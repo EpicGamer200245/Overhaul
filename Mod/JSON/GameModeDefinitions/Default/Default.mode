@@ -1,0 +1,103 @@
+{
+	"Setup"	: {
+		"Health" : 150,
+		"Money" : 650.0,
+		"StartRound" : 0,
+		"RoundFiles" : [
+			"Default/Default.rounds"
+		],
+		"Inventory" : [
+		]
+	},
+	
+	"Rules" : {
+		"CanEarnMoney" : true,
+		"CanSave" : true,
+		"PauseBetweenRounds" : true,
+		"TargetRound" : 75,
+		"RoundStep": 1.0,
+		"Reward" : {
+			"XP" : 0,
+			"XPMultiplier" : 1.0,
+            "ModeXPMultiplier" : 1.0,
+			"MonkeyMoney" : 100,
+			"MonkeyMoneyMultiplier" : 1.0,
+            "ModeMonkeyMoneyMultiplier" : 1.0,
+            "ModeTokensMultiplier" : 1.0
+		},
+		"PriceModifier" : 1.0,
+        "SellPriceModifier" : 0.8,
+        "CashPerPopModifier" : 1.0,
+		"SpeedModifier" : 0.0,
+		"TowerLifespan" : -1,
+		"ConsumeMostExpensiveTowerRounds" : -1,
+		"MaxNumberOfEachTower" : -1,
+		"MaxNumberOfTotalTowers" : -1,
+		"LockedTowers" : [
+		],
+		"LockedUpgrades" : [
+		],
+		"BloonsForcedCamo" : [
+		],
+		"BlockedPremiumUpgrades" : [
+		],
+		"BlockedSpecialties" : [
+		],
+		"BlockedLabUpgrades" : [
+		],
+        "CashRoundModifiers" : [
+            {
+                "Round": 0,
+                "Mod": 1.0
+            },
+			{
+                "Round": 8,
+                "Mod": 0.9
+            },
+			{
+                "Round": 19,
+                "Mod": 0.85
+            },
+			{
+                "Round": 26,
+                "Mod": 0.75
+            },
+			{
+                "Round": 35,
+                "Mod": 0.65
+            },
+			{
+                "Round": 45,
+                "Mod": 0.55
+            },
+            {
+                "Round": 62,
+                "Mod": 0.4
+            },
+			{
+                "Round": 73,
+                "Mod": 0.25
+            },
+            {
+                "Round": 91,
+                "Mod": 0.15
+            },
+            {
+                "Round": 94,
+                "Mod": 0.09
+            },
+			{
+                "Round": 100,
+                "Mod": 0.04
+            },
+			{
+                "Round": 110,
+                "Mod": 0.02
+            },
+			{
+                "Round": 118,
+                "Mod": 0.01
+            }
+        ]
+	}
+}
