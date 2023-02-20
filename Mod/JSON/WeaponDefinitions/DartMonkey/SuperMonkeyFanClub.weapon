@@ -1,7 +1,7 @@
 {	
     "Type":             	"SuperMonkeyFanClub",    
-    "TargetRange":      	110,
-	"CooldownTime":     	34,
+    "TargetRange":      	90,
+	"CooldownTime":     	37,
     "FireDelayTime":    	0.0,
 	"ManuallyFired": 		true,
 	"RequiresTargetToFire":	false,
@@ -10,11 +10,11 @@
     [
 		{
 			"Type": "TowerModifier",
-			"Range": 110,
+			"Range": 90,
 			"PriorityLevel": 4,
 			"ReplacesPriorityLevel" : true,
             "TerminateOnUserUpgrade": false,
-			"Duration": 10.5,
+			"Duration": 11.5,
 
 			"TargetingFilter":
 			{
@@ -26,9 +26,9 @@
 
 			"Modifier":
 			{
-				"TargetRange": [ 1.5, 0 ],
-				"Cooldown": [ 0.25, 0 ],
-                "FireDelay": [ 0.25, 0 ]
+				"TargetRange": [ 1.27, 0 ],
+				"Cooldown": [ 0.35, 0 ],
+                "FireDelay": [ 0.35, 0 ]
 			}
 		},
 		{

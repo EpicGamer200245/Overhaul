@@ -2,6 +2,38 @@
 
 ---
 
+## 0.03
+
+### Key Changes
+
+* UI bug with the tower selection isn't possible to fix.
+* Dart Monkey's Quick Attack still felt a bit too good for it's price, so it got nerfed and it's price for the buff should make sense.
+
+### Balancing
+
+#### Dart Monkey
+
+* Quick Shots price 145 => 175
+* Quick Attack price 18500 => 23000
+* Quick Shots attack speed buff -0.29s => -0.33s
+* Quick Attack attack speed buff -0.25s => -0.26s
+* Quick Attack secondary darts' speed buff 0 => 100
+* Quick Attack primary dart speed buff 0 => 395
+* Quick Attack secondary darts' angle difference 12 => 17
+* Quick Attack ability range 110 => 90
+* Quick Attack ability cooldown 34 => 37
+* Quick Attack ability duration 10.5 => 11.5
+* Quick Attack ability range buff 1.5x => 1.27x
+* Quick Attack ability attack speed buff 0.25x => 0.35x
+
+#### Dartling Gunner
+
+* Faster Reload attack speed buff -0.025s => -0.03s
+* Even Faster Reload attack speed buff -0.035s => -0.037s
+* Focused Firing attack speed buff 0 => -0.003
+
+---
+
 ## 0.03 Tack Testing
 
 ### Testing Changes
@@ -109,7 +141,7 @@
 
 ## 0.02
 
-### Key Details
+### Key Changes
 
 * ZOMG damage levels changed
 
@@ -205,10 +237,10 @@
 #### Dart Monkey
 
 * Triple Darts cost 550 => 500
-* Super Monkey Fan Club cost 14000 => 15500
-* Super Monkey Fan Club attack speed buff -0.3 => -0.25
-* Super Monkey Fan Club ability cooldown 32s => 34s
-* Super Monkey Fan Club ability duration 10s => 10.5s
+* Quick Attack cost 14000 => 15500
+* Quick Attack attack speed buff -0.3 => -0.25
+* Quick Attack ability cooldown 32s => 34s
+* Quick Attack ability duration 10s => 10.5s
 
 ---
 
@@ -222,28 +254,28 @@
 
 * Added upgrade icons to Dart Monkey
 * Made the Dart Monkey's Plasmatic Spike Upgrade ball have a bigger sprite
-* Fixed Dart Monkey's Super Monkey Fan Club description for balancing.
+* Fixed Dart Monkey's Quick Attack description for balancing.
 
 ### Balancing
 
 #### Dart Monkey
 
-* Super Monkey Fan Club cost 10000 => 14000
-* Super Monkey Fan Club attack speed buff -0.22 => -0.3
-* Super Monkey Fan Club secondary darts' pierce buff 0 => 1
-* Super Monkey Fan Club secondary darts' distance buff 0 => 116
+* Quick Attack cost 10000 => 14000
+* Quick Attack attack speed buff -0.22 => -0.3
+* Quick Attack secondary darts' pierce buff 0 => 1
+* Quick Attack secondary darts' distance buff 0 => 116
 * Prismatic Spikes Upgrade ball radius 7 => 18
 * Prismatic Spikes Upgrade ball speed 1150 => 1350
 * Prismatic Spikes ball pierce 6 => 5
 * Prismatic Spikes ball speed 1000 => 1100
 * Prismatic Spikes ball explosion range 52 => 54
 * Prismatic Spikes ball explosion pierce 4 => 6
-* Super Monkey Fan Club ability range 100 => 110
-* Super Monkey Fan Club ability cooldown 35s => 32s
-* Super Monkey Fan Club ability duration 17s => 10s
-* Super Monkey Fan Club ability range modifier 1.3x => 1.5x
-* Super Monkey Fan Club ability attack speed modifier 0.2x => 0.25x
-* Super Monkey Fan Club ability fire delay modifier 0.2x => 0.25x
+* Quick Attack ability range 100 => 110
+* Quick Attack ability cooldown 35s => 32s
+* Quick Attack ability duration 17s => 10s
+* Quick Attack ability range modifier 1.3x => 1.5x
+* Quick Attack ability attack speed modifier 0.2x => 0.25x
+* Quick Attack ability fire delay modifier 0.2x => 0.25x
 
 ---
 

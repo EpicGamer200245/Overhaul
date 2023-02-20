@@ -7,7 +7,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.025
+                    "CooldownTime" : -0.03
                 }
             }
         },
@@ -17,7 +17,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.035
+                    "CooldownTime" : -0.037
                 }
             }
         },
@@ -102,6 +102,10 @@
             "Name" : "Powerful Darts",
             "WeaponUpgrade" :
             {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.003
+                },
                 "TaskUpgrade" :
                 [
                     {

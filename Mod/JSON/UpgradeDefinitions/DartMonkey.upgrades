@@ -94,7 +94,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.29
+                    "CooldownTime" : -0.33
                 }
             }
         },
@@ -176,7 +176,7 @@
             {
                 "Adjust":
                 {
-                    "CooldownTime" : -0.25
+                    "CooldownTime" : -0.26
                 },
 
                 "SlotIndex" : 0,
@@ -195,8 +195,30 @@
                         "Movement" :
                         {
                             "Type": "Forward",
+                            "Speed": 100.0,
                             "CutOffDistance" : 116
                         }
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Movement" :
+                        {
+                            "Type": "Forward",
+                            "Speed": 395.0
+                        }
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type": "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "InitialOffset": -17.0,
+    		            "AngleIncrement": 34.0
                     }
                 ]
             },

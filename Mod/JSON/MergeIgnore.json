@@ -60,7 +60,6 @@
     //Tower Selection
     "Assets/JSON/ScreenDefinitions/TowerSelectionScreen/TowerOrderBottom.json",
     "Assets/JSON/ScreenDefinitions/TowerSelectionScreen/TowerOrderTop.json",
-    "Assets/JSON/UILayout/side_bar.json",
 
     //Dart Monkey
     "Assets/JSON/TowerDefinitions/DartMonkey.tower",
