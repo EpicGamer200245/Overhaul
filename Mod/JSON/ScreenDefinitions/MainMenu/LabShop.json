@@ -1,0 +1,26 @@
+{
+	"LabItems" : [
+		{
+			"Type" : "AbilityCooldown",
+			"DisplayOffset" : [ 0, 15]
+		},
+		{
+			"Type" : "AttackSpeed"
+		},
+		{
+			"Type" : "BigBloonSabotage"
+		},
+		{
+			"Type" : "DoublePierce"
+		},
+		{
+			"Type" : "SellAmount"
+		},
+		{
+			"Type" : "StartingCash"
+		},
+		{
+			"Type" : "StartingLives"
+		}
+	]
+}

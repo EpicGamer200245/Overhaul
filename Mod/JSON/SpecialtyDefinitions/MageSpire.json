@@ -1,0 +1,65 @@
+{
+	"FileName" : "MageSpire.json",
+	"Name" : "LOC_SPEC_Mage",
+	"Icon" : "mage_spire_building",
+	"Building" : "mage_spire",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "MonkeyApprentice",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Mage_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :
+		{
+			"Text" : "LOC_SPEC_Mage_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice", "WizardLord" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Mage_III",
+            "InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "MonkeyApprentice",
+                "TowerCount" : 1
+            }]
+		},
+		
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Mage_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice", "WizardLord" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.2, 0 ],
+					"ProjectileCutOff" : [ 1.2, 0 ]
+                }
+            }]
+        },
+        
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Mage_X"
+		}
+	}
+}

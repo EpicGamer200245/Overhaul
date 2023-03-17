@@ -28,7 +28,8 @@
 			{
 				"TargetRange": [ 1.27, 0 ],
 				"Cooldown": [ 0.35, 0 ],
-                "FireDelay": [ 0.35, 0 ]
+                "FireDelay": [ 0.35, 0 ],
+				"ProjectileCutOff": [ 1.27, 0 ]
 			}
 		},
 		{

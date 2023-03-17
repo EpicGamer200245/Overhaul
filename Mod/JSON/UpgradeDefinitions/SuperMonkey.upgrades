@@ -1,0 +1,510 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Laser Blasts",
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "SkipFirstFrameWhenFiring" : false
+                }
+            },
+            
+            "WeaponUpgrades" :
+            [
+                {            
+                    "SlotIndices" : [ 0, 2, 3 ],
+                    "Adjust" :
+                    {
+                        "CooldownTime" : 0.035
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Damage"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "DamageType" : "Fire"
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists" : 1
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "GraphicName" : "supermonkey_laser_vision_projectile_single"
+                        },
+                        {
+                            "Operation": "SelectByType",
+                            "Type": "Projectile"
+                        },
+                        {
+                            "Operation": "Replace",
+                            "RequiresMinUpgradeCounters" : [0, 4],
+                            "SpriteFile": "super_tech_laser.json"
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" : "MultiFire"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "FireCount" : 2,
+                            "Offsets" : [ [ -4.5, 1.5 ], [ 4.5, 1.5 ] ]
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "RequiresMinUpgradeCounters" : [0, 3],
+                            "InitialOffset": -11.1,
+                            "AngleIncrement": 22.2,
+                            "Offsets" : [ [ 0, 1.5 ] ]
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "RequiresMinUpgradeCounters" : [0, 4],
+                            "InitialOffset": -11.1,
+                            "AngleIncrement": 22.2,
+                            "Offsets" : [ [ 0, 1.5 ] ]
+                        }
+                    ]
+                },
+                {
+                    "SlotIndices": [ 4 ],
+                    "TaskUpgrade" : 
+                    [
+                        {
+                            "Operation": "SelectByType",
+                            "Type": "MultiFire"
+                        },
+                        {
+                            "Operation": "Replace",
+                            "Offsets" : [ [ 0, 0 ] ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name" : "Plasma Blasts",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndices" : [ 0, 2, 3 ],
+                    "Adjust" :
+                    {
+                        "CooldownTime" : -0.021
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Damage"                        
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "DamageType" : "Plasma"
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "SpriteFile": "small_plasma.json",
+                            "Radius" : 4.3,
+                            "Movement":
+			    		    {
+			    			    "Type": "Forward",
+			    			    "Speed": 700.0,
+			    			    "CutOffDistance": 290
+			    		    }
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" : "MultiFire"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "FireCount" : 3,
+                            "InitialOffset": -11.1,
+    		                "AngleIncrement": 11.1,
+                            "Offsets" : [ [ -4.9, 1.5 ], [ 0, 1.5 ], [ 4.9, 1.5 ] ]
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" : "Projectile"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "RequiresMinUpgradeCounters" : [0, 4],
+                            "SpriteFile" : "small_tech_plasma.json"
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "MultiFire"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "RequiresMinUpgradeCounters" : [0, 4],
+                            "InitialOffset": -11.1,
+                            "AngleIncrement": 11.1,
+                            "Offsets" : [ [ 0, 1.5 ], [ 0, 1.5 ], [ 0, 1.5 ] ]
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "MultiFire"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "RequiresMinUpgradeCounters" : [0, 3],
+                            "InitialOffset": -11.1,
+                            "AngleIncrement": 11.1,
+                            "Offsets" : [ [ 0, 1.5 ], [ 0, 1.5 ], [ 0, 1.5 ] ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name" : "Sun God",
+            "WeaponUpgrade":
+            {
+                "SlotIndices" : [ 0 ],
+                "Adjust" :
+                {
+                    "CooldownTime" : 0.011
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "supermonkey_sun_god_projectile",
+                        "SpriteFile": "",
+                        "NumPersists": 4,
+                        "Radius" : 15,
+                        "Movement":
+					    {
+						    "Type": "Forward",
+						    "Speed": 795
+					    }
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Amount" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "StatusEffect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status": "MultiLayerDamage"
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 3,
+                        "InitialOffset": 7.7,
+    		            "AngleIncrement": -7.7,
+                        "Offsets" : [ [ -9.2, -21 ], [ 0, -25 ], [ 9.2, -21 ] ]
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Temple",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "Temple.weapon",
+                    "1": "",
+                    "2": "MonkeyVillage.weapon",
+                    "5": "TempleSacrifice.weapon",
+                    "4": "",
+                    "6": "CrowsNest.weapon"
+                }
+            },
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndices" : [ 0 ],
+                    "Replace" : 
+                    {
+                        "TargetRange": 128,
+                        "CooldownTime": 0.03
+                    },
+                    "TaskUpgrade" : 
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" : "MultiFire"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "FireCount" : 3,
+                            "InitialOffset": 6.8,
+    		                "AngleIncrement": -6.8,
+                            "Offsets" : [ [ -9.2, -21 ], [ 0, -25 ], [ 9.2, -21 ] ]
+                        },
+
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" : "Damage"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "Amount" : 2
+                        },
+
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "NumPersists": 7,
+                            "Movement":
+				    	    {
+				    		    "Type": "Forward",
+				    		    "Speed": 620.0,
+                                "CutOffDistance" : 375
+				    	    }
+                        }
+                    ]
+                },
+                {
+                    "SlotIndices": [ 4 ],
+                    "Replace":
+                    {
+                        "RequiresMinUpgradeCounters" : [0, 2],
+                        "TotalAmmo": 0,
+                        "ManuallyFired": false
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "Better Melee",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 1 ],
+                "Adjust" :
+                {
+                    "TargetRange" : 14,
+                    "CooldownTime" : -0.07
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation": "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType":  "Plasma",
+                        "Amount": 3
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+                            "Speed": 70,
+	                        "CutOffDistance" : 5
+						}
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 2, 0 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+                            "Speed": 70,
+	                        "CutOffDistance" : 2
+						}
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 2, 0, 0 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+                            "Speed": 70,
+	                        "CutOffDistance" : 2
+						}
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Ground Stomp",
+            "TowerUpgrade" :
+            {
+                "Replace":
+                {
+                    "DontResetAnimation" : true
+                },
+
+                "Weapons" :
+                {
+                    "4": "GrapeShot.weapon"
+                }
+            },
+            "WeaponUpgrade" : 
+            {
+                "SlotIndices" : [ 4 ],
+                "Replace":
+                {
+                    "RequiresMinUpgradeCounters" : [4, 0],
+                    "TotalAmmo": 0,
+                    "ManuallyFired": false
+                }
+            }
+
+        },
+        {
+            "Name" : "Robo Monkey",
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "SkipFirstFrameWhenFiring" : false
+                },
+                
+                "Weapons" :
+                {
+                    "0": "",
+                    "2": "RoboMonkeyLeft.weapon",
+                    "3": "RoboMonkeyRight.weapon",
+                    "4": "",
+                    "7": "MonkeyBuccaneer.weapon"
+                }
+            },
+            "WeaponUpgrade": 
+            {
+                "SlotIndices" : [ 2, 3 ],
+                "TaskUpgrade" : 
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [2, 0],
+                        "InitialOffset": -11.1,
+                        "AngleIncrement": 11.1,
+                        "Offsets" : [ [ 0, 1.5 ], [ 0, 1.5 ], [ 0, 1.5 ] ]
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [1, 0],
+                        "InitialOffset": -11.1,
+                        "AngleIncrement": 22.2,
+                        "Offsets" : [ [ 0, 1.5 ] ]
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Technological Terror",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "TechTerrorLeft.weapon",
+                    "3": "TechTerrorRight.weapon",
+                    "5": "BloonAnnihilation.weapon",
+                    "7": "",
+                    "8": "CannonShip.weapon"
+                }
+            },
+            "WeaponUpgrade":
+            {
+                "SlotIndices" : [ 2, 3 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "supermonkey_tech_terror_projectile"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [2, 0],
+                        "InitialOffset": -11.1,
+    		            "AngleIncrement": 11.1,
+                        "Offsets" : [ [ 0, 1.5 ], [ 0, 1.5 ], [ 0, 1.5 ] ]
+                    },
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "RequiresMinUpgradeCounters" : [1, 0],
+                        "SpriteFile": "super_tech_laser.json"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [2, 0],
+                        "SpriteFile": "small_tech_plasma.json"
+                    }
+                ] 
+            }
+        }
+    ]
+}

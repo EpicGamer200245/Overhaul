@@ -1,0 +1,65 @@
+{
+	"FileName" : "HeloHangar.json",
+	"Name" : "LOC_SPEC_Heli",
+	"Icon" : "helo_hangar_building",
+	"Building" : "helo_hangar",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "HeliPilot",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Heli_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "HeliPilot" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :
+		{
+			"Text" : "LOC_SPEC_Heli_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "HeliPilotAircraft" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Heli_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "HeliPilot",
+                "TowerCount" : 1
+            }]
+		},
+		
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Heli_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "HeliPilotAircraft" ] } },
+                "Modifier" :
+                {
+                    "AircraftSpeed" : [ 2.0, 0 ],
+					"PoppingPower" : [ 1, 1 ]
+                }
+            }]
+        },
+        
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Heli_X"
+		}
+	}
+}

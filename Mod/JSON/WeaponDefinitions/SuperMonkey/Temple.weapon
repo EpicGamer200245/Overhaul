@@ -1,0 +1,50 @@
+{	
+    "Type":             "Temple",    
+    "TargetRange":      128.0,
+	"CooldownTime":     0.03,
+    "FireDelayTime":    0.0,
+
+    "Tasks" :
+    [
+        {
+    		"Type": "MultiFire",
+            "InitialOffset": 6.8,
+    		"AngleIncrement": -6.8,
+    		"Offsets" : [ [ -9.2, -21 ], [ 0, -25 ], [ 9.2, -21 ] ],
+    		"FireCount": 3,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "supermonkey_sun_god_projectile",
+					"SpriteFile": "",
+					"NumPersists": 7,
+                    "Radius" : 15,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 620.0,
+						"CutOffDistance": 375
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 2
+						},
+                        {
+                            "Type": "StatusEffect",
+                            "Status": "MultiLayerDamage"
+                        }
+					]
+				}
+			]
+    	}
+	]
+}

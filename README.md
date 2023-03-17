@@ -24,6 +24,9 @@
 <b><h3 align="center">Ice Monkey</h3></b>
 <p align="center">The Ice Monkey is a cheap tower that can stall for a short period of time, it also will slow the bloons down until the ice melts.</p>
 
+<b><h3 align="center">Super Monkey</h3></b>
+<p align="center">The Super Monkey is a very fast attacking tower that does a lot of damage to the bloons.</p>
+
 <b><h3 align="center">Radar Monkey</h3></b>
 <p align="center">The Radar Monkey is a water tower that will hurt most bloon in its range.</p>
 

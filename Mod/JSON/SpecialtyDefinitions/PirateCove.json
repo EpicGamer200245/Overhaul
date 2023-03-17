@@ -1,0 +1,65 @@
+{
+	"FileName" : "PirateCove.json",
+	"Name" : "LOC_SPEC_Pirate",
+	"Icon" : "pirate_cove_building",
+	"Building" : "pirate_cove",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "MonkeyBuccaneer",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Pirate_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyBuccaneer" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Pirate_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyBuccaneer" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Pirate_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "MonkeyBuccaneer",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text": "LOC_SPEC_Pirate_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyBuccaneer" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.2, 0 ],
+					"ProjectileCutOff" : [ 1.2, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Pirate_X"
+		}
+	}
+}

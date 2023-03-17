@@ -1,0 +1,141 @@
+{
+	"Name" : "LOC_LAB_StartingLives",
+	"Description" : "LOC_LAB_DESC_StartingLives",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_StartingLives",
+    "Icon" : "starting_lives",
+	"LevelGateway" : [ 5, 9, 14, 21, 29, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "30",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 30
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "60",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 60
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "90",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 90
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "120",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 120
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "150",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 150
+				}
+			}
+		}
+	]
+}

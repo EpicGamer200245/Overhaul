@@ -1,0 +1,64 @@
+{
+	"FileName" : "AcePrivateHangar.json",
+	"Name" : "LOC_SPEC_Ace",
+	"Icon" : "ace_private_hangar_building",
+	"Building" : "ace_private_hangar",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "MonkeyAce",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Ace_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyAce" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Ace_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "AcePlane" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Ace_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "MonkeyAce",
+                "TowerCount" : 1
+            }]
+		},
+		
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Ace_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "AcePlane" ] } },
+                "Modifier" :
+                {
+                    "Damage" : [ 1.5, 0 ]
+                }
+            }]
+        },
+        
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Ace_X"
+		}
+	}
+}

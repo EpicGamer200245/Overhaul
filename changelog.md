@@ -2,6 +2,25 @@
 
 ---
 
+## 0.04 Testing
+
+### Testing Details
+
+* New tower: Super Monkey
+* Overhauled Monkey Lab
+* Overhauled Store
+* Overhauled Specialty Buildings
+
+### Testing Changes
+
+* Super Monkey is very fast attacking, but im not sure if you will like it, your thoughts about it may be mixed.
+* Monkey Lab now has a maximum upgrade level of 5, but is still good to use, most levels removed because Mastery is permanantly locked. Mastery is hard-coded to only allow you to get past with a specific number of Beginner maps won and we have map packs instead.
+* The store is much less premium, nothing costs real money anymore and instead just monkey money and is pretty cheap.
+* The specialist buildings should now have more of role in the game, if you have a strategy using 1 tower use their specialty, it will help quite a bit.
+* Fixed issue with Quick Attack not giving more projectile cut off distance.
+
+---
+
 ## 0.03
 
 ### Key Changes

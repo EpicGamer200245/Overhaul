@@ -1,0 +1,200 @@
+{
+	"Premiums" : [	  
+
+		{
+			"Type" : "ClassicDartMonkey",
+			"Icon" : "dart_monkey_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicDartMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicDartMonkey",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "ClassicTackTower",
+			"Icon" : "tack_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicTackTower",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicTackTower",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "ClassicBombTower",
+			"Icon" : "bomb_tower_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicBombTower",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicBombTower",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "ClassicIceTower",
+			"Icon" : "ice_monkey_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicIceTower",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicIceTower",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "ClassicSuperMonkey",
+			"Icon" : "super_monkey_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicSuperMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicSuperMonkey",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+    
+        {
+			"Type" : "FireworksMortarTower",
+			"Icon" : "mortar_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_FireworksMortarTower",
+			"BackupDescription" : "LOC_PREM_DESC_FireworksMortarTower",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "NavyMonkeyBuccaneer",
+			"Icon" : "buccaneer_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_NavyMonkeyBuccaneer",
+			"BackupDescription" : "LOC_PREM_DESC_NavyMonkeyBuccaneer",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "SteampunkMonkeySub",
+			"Icon" : "sub_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_SteampunkMonkeySub",
+			"BackupDescription" : "LOC_PREM_DESC_SteampunkMonkeySub",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "UFOHeliPilot",
+			"Icon" : "heli_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_UFOHeliPilot",
+			"BackupDescription" : "LOC_PREM_DESC_UFOHeliPilot",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+				  
+		{
+			"Type" : "HunterSniperMonkey",
+			"Icon" : "sniper_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_HunterSniperMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_HunterSniperMonkey",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "TribalBoomerangThrower",
+			"Icon" : "boomerang_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_TribalBoomerangThrower",
+			"BackupDescription" : "LOC_PREM_DESC_TribalBoomerangThrower",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "CandyBananaFarm",
+			"Icon" : "banana_farm_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_CandyBananaFarm",
+			"BackupDescription" : "LOC_PREM_DESC_CandyBananaFarm",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "TopgunMonkeyAce",
+			"Icon" : "monkey_ace_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_TopgunMonkeyAce",
+			"BackupDescription" : "LOC_PREM_DESC_TopgunMonkeyAce",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "MedievalDartMonkey",
+			"Icon" : "dart_monkey_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_MedievalDartMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_MedievalDartMonkey",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+        {
+			"Type" : "HalloweenDartMonkey",
+			"Icon" : "dart_monkey_halloween_store_skin_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_HalloweenDartMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_HalloweenDartMonkey",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "SamuraiNinjaMonkey",
+			"Icon" : "ninja_monkey_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_SamuraiNinjaMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_SamuraiNinjaMonkey",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "SorcererMonkeyApprentice",
+			"Icon" : "apprentice_monkey_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_SorcererMonkeyApprentice",
+			"BackupDescription" : "LOC_PREM_DESC_SorcererMonkeyApprentice",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+		{
+			"Type" : "MilitaryBombTower",
+			"Icon" : "bomb_tower_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_MilitaryBombTower",
+			"BackupDescription" : "LOC_PREM_DESC_MilitaryBombTower",
+			"BackupPrice" : "$1000",
+			"MMCost" : 1000
+		},
+
+		{
+			"Type" : "HandfulOTokens",
+			"ProductType" : "Token",
+			"Icon" : "premium_5_tokens",
+			"PopupIcon" : "premium_5_tokens_shared",
+			"BackupDisplayName" : "LOC_PREM_HandfulOTokens",
+			"BackupDescription" : "LOC_PREM_DESC_HandfulOTokens",
+			"TotalEnclosed" : 3,
+			"Enclosed" : "3",
+			"BackupPrice" : "$750",
+			"MMCost" : 750
+		}
+	]
+}

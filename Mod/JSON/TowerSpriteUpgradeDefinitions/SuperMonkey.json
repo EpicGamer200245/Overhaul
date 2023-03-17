@@ -1,0 +1,38 @@
+{
+	"Sprites":
+	{
+        "0" : "SuperMonkey",
+        "1" : "SuperMonkeyLaserVision",
+        "2" : "SupermonkeyPlasmaVision",
+        "3" : "SunGod",
+        "4" : "SuperMonkeyTempleHead",
+        "5" : "SuperMonkeyGreenCapeGoggles",
+        "6" : "SuperMonkeyRoboMonkey",
+        "7" : "SuperMonkeyTechTerror"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 0,
+		"02"		: 5,
+		"03"		: 6,
+		"04"		: 7,
+		"10"		: 1,
+		"11"		: 1,
+		"12"		: 1,
+		"13"		: 6,
+		"14"		: 7,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 2,
+		"23"		: 6,
+		"24"		: 7,
+		"30"		: 3,
+		"31"		: 3,
+		"32"		: 3,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 4
+	}
+}

@@ -1,0 +1,400 @@
+{
+	"Premiums" : [
+	  
+		{
+			"Type" : "ClassicDartMonkey",
+			"Icon" : "dart_monkey_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicDartMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicDartMonkey",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "ClassicTackTower",
+			"Icon" : "tack_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicTackTower",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicTackTower",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "ClassicBombTower",
+			"Icon" : "bomb_tower_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicBombTower",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicBombTower",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "ClassicIceTower",
+			"Icon" : "ice_monkey_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicIceTower",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicIceTower",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "ClassicSuperMonkey",
+			"Icon" : "super_monkey_btd1_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_ClassicSuperMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_ClassicSuperMonkey",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+
+		{
+			"Type" : "FireworksMortarTower",
+			"Icon" : "mortar_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_FireworksMortarTower",
+			"BackupDescription" : "LOC_PREM_DESC_FireworksMortarTower",
+			"BackupPrice" : "1.99",
+			"ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "NavyMonkeyBuccaneer",
+			"Icon" : "buccaneer_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_NavyMonkeyBuccaneer",
+			"BackupDescription" : "LOC_PREM_DESC_NavyMonkeyBuccaneer",
+			"BackupPrice" : "1.99",
+			"ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "SteampunkMonkeySub",
+			"Icon" : "sub_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_SteampunkMonkeySub",
+			"BackupDescription" : "LOC_PREM_DESC_SteampunkMonkeySub",
+			"BackupPrice" : "1.99",
+			"ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "UFOHeliPilot",
+			"Icon" : "heli_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_UFOHeliPilot",
+			"BackupDescription" : "LOC_PREM_DESC_UFOHeliPilot",
+			"BackupPrice" : "1.99",
+			"ActiveIfNoSKU" : false
+		},
+				  
+		{
+			"Type" : "HunterSniperMonkey",
+			"Icon" : "sniper_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_HunterSniperMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_HunterSniperMonkey",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "TribalBoomerangThrower",
+			"Icon" : "boomerang_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_TribalBoomerangThrower",
+			"BackupDescription" : "LOC_PREM_DESC_TribalBoomerangThrower",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "CandyBananaFarm",
+			"Icon" : "banana_farm_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_CandyBananaFarm",
+			"BackupDescription" : "LOC_PREM_DESC_CandyBananaFarm",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "TopgunMonkeyAce",
+			"Icon" : "monkey_ace_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_TopgunMonkeyAce",
+			"BackupDescription" : "LOC_PREM_DESC_TopgunMonkeyAce",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+
+		{
+			"Type" : "MedievalDartMonkey",
+			"Icon" : "dart_monkey_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_MedievalDartMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_MedievalDartMonkey",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+        {
+			"Type" : "HalloweenDartMonkey",
+			"Icon" : "dart_monkey_halloween_store_skin_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_HalloweenDartMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_HalloweenDartMonkey",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},	
+		{
+			"Type" : "SamuraiNinjaMonkey",
+			"Icon" : "ninja_monkey_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_SamuraiNinjaMonkey",
+			"BackupDescription" : "LOC_PREM_DESC_SamuraiNinjaMonkey",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "SorcererMonkeyApprentice",
+			"Icon" : "apprentice_monkey_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_SorcererMonkeyApprentice",
+			"BackupDescription" : "LOC_PREM_DESC_SorcererMonkeyApprentice",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "MilitaryBombTower",
+			"Icon" : "bomb_tower_skin_store_icon.json",
+			"ProductType" : "Skin",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_TITLE_MilitaryBombTower",
+			"BackupDescription" : "LOC_PREM_DESC_MilitaryBombTower",
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+
+		{
+			"Type" : "MonkeyMoneySaver",
+			"Icon" : "monkey_money_saver",
+			"ProductType" : "",
+			"BackupDisplayName" : "LOC_PREM_SUB_TITLE_MonkeyMoneySaver",
+			"BackupDescription" : "LOC_PREM_SUB_DESC_MonkeyMoneySaver",
+		  	"BackupPrice" : "4.99",
+            "ActiveIfNoSKU" : false
+
+		},
+		{
+			"Type" : "MonkeyMoneyBoosterSub",
+			"Icon" : "monkey_money_booster",
+			"ProductType" : "MonkeyMoneyBoost",
+			"BackupDisplayName" : "LOC_PREM_SUB_TITLE_MonkeyMoneyBooster",
+			"BackupDescription" : "LOC_PREM_SUB_DESC_MonkeyMoneyBooster",
+		  	"BackupPrice" : "9.99",
+            "ActiveIfNoSKU" : false
+
+		},
+
+		{
+			"Type" : "PlayerNextRank",
+			"Icon" : "premium_100k_xp",
+			"ProductType" : "PlayerRank",
+			"BackupDisplayName" : "LOC_PREM_PlayerNextRank",
+			"BackupDescription" : "LOC_PREM_DESC_PlayerNextRank",
+		  	"BackupPrice" : "0.99",
+			
+			"nook" : {
+			  "BackupPrice" : "1.99"
+			}
+		},
+		{
+			"Type" : "MonkeyMoney",
+		 	"ProductType" : "MonkeyMoney",
+			"Icon" : "premium_1k_monkey_money",
+		  	"PopupIcon" : "monkey_reward_shared",
+			"BackupDisplayName" : "LOC_PREM_MonkeyMoney",
+			"BackupDescription" : "LOC_PREM_DESC_MonkeyMoney",
+			"TotalEnclosed" : 500,
+		  	"BackupPrice" : "0.99",
+			
+			"nook" : {
+			  "BackupPrice" : "1.99"
+			}
+		},
+		{
+			"Type" : "HandfulOTokens",
+		 	"ProductType" : "Token",
+			"Icon" : "premium_5_tokens",
+		  	"PopupIcon" : "premium_5_tokens_shared",
+			"BackupDisplayName" : "LOC_PREM_HandfulOTokens",
+			"BackupDescription" : "TokenValue",
+			"TotalEnclosed" : 3,
+			"Enclosed" : "3",
+		  	"BackupPrice" : "0.99",
+			
+			"nook" : {
+			  "BackupPrice" : "1.99"
+			}
+
+		},
+		{
+			"Type" : "StashOMonkeyMoney",
+		 	"ProductType" : "MonkeyMoney",
+			"Icon" : "premium_stash_monkey_money",
+		  	"PopupIcon" : "premium_stash_monkey_money_shared",
+			"BackupDisplayName" : "LOC_PREM_StashOMonkeyMoney",
+			"BackupDescription" : "MonkeyMoneyValue",
+			"TotalEnclosed" : 1500,
+            "BonusEnclosed" : 0,
+            "BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+        },
+		{
+			"Type" : "StashOTokens",
+		 	"ProductType" : "Token",
+			"Icon" : "premium_stash_tokens",
+		  	"PopupIcon" : "premium_stash_tokens_shared",
+			"BackupDisplayName" : "LOC_PREM_StashOTokens",
+			"BackupDescription" : "TokenValue",
+			"TotalEnclosed" : 12,
+			"BonusEnclosed" : 0,
+		  	"BackupPrice" : "1.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+            "Type" : "BundleOMonkeyMoney",
+            "ProductType" : "MonkeyMoney",
+            "Icon" : "premium_bundle_monkey_money",
+            "PopupIcon" : "premium_bundle_monkey_money_shared",
+            "BackupDisplayName" : "LOC_PREM_BundleOMonkeyMoney",
+            "BackupDescription" : "MonkeyMoneyValue",
+            "TotalEnclosed" : 2500,
+            "BonusEnclosed" : 0,
+            "BackupPrice" : "2.99",
+            "ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "BundleOTokens",
+			"ProductType" : "Token",
+			"Icon" : "premium_bundle_tokens",
+			"PopupIcon" : "premium_bundle_tokens_shared",
+			"BackupDisplayName" : "LOC_PREM_BundleOTokens",
+			"BackupDescription" : "TokenValue",
+			"TotalEnclosed" : 18,
+			"BonusEnclosed" : 0,
+			"BackupPrice" : "2.99",
+			"ActiveIfNoSKU" : false
+		},
+		{
+			"Type" : "StackOMonkeyMoney",
+		 	"ProductType" : "MonkeyMoney",
+			"Icon" : "premium_medium_monkey_money",
+		  	"PopupIcon" : "premium_medium_monkey_money_shared",
+			"BackupDisplayName" : "LOC_PREM_StackOMonkeyMoney",
+			"BackupDescription" : "MonkeyMoneyValue",
+			"TotalEnclosed" : 4250,
+            "BonusEnclosed" : 0,
+            "BackupPrice" : "4.99"
+		},
+		{
+			"Type" : "PocketfulOTokens",
+		 	"ProductType" : "Token",
+			"Icon" : "premium_medium_tokens",
+		  	"PopupIcon" : "premium_medium_tokens_shared",
+			"BackupDisplayName" : "LOC_PREM_PocketfulOTokens",
+			"BackupDescription" : "TokenValue",
+			"TotalEnclosed" : 30,
+			"BonusEnclosed" : 0,
+		  	"BackupPrice" : "4.99"
+
+		},
+		{
+			"Type" : "PileOMonkeyMoney",
+		 	"ProductType" : "MonkeyMoney",
+			"Icon" : "premium_monkey_money_safe",
+		  	"PopupIcon" : "premium_monkey_money_safe_shared",
+			"BackupDisplayName" : "LOC_PREM_PileOMonkeyMoney",
+			"BackupDescription" : "MonkeyMoneyValue",
+			"TotalEnclosed" : 18000,
+            "BonusEnclosed" : 0,
+		  	"BackupPrice" : "19.99"
+		},
+		{
+			"Type" : "SackfulOTokens",
+		 	"ProductType" : "Token",
+			"Icon" : "premium_token_safe",
+		  	"PopupIcon" : "premium_token_safe_shared",
+			"BackupDisplayName" : "LOC_PREM_SackfulOTokens",
+			"BackupDescription" : "TokenValue",
+			"TotalEnclosed" : 65,
+			"BonusEnclosed" : 0,
+		  	"BackupPrice" : "9.99"
+
+		},
+		{
+			"Type" : "MountainOMonkeyMoney",
+		 	"ProductType" : "MonkeyMoney",
+			"Icon" : "premium_100k_monkey_money",
+		  	"PopupIcon" : "premium_100k_monkey_money_shared",
+			"BackupDisplayName" : "LOC_PREM_MountainOMonkeyMoney",
+			"BackupDescription" : "MonkeyMoneyValue",
+			"TotalEnclosed" : 50000,
+			"BonusEnclosed" : 0,
+		  	"BackupPrice" : "49.99"
+
+		},
+		{
+			"Type" : "DoubleCash",
+			"Icon" : "premium_double_cash",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_DoubleCash",
+			"BackupDescription" : "LOC_PREM_DESC_DoubleCash",
+		  	"BackupPrice" : "9.99"
+
+		},
+		{
+			"Type" : "HealthyBananas",
+			"Icon" : "premium_healthy_bananas",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_HealthyBananas",
+			"BackupDescription" : "LOC_PREM_DESC_HealthyBananas",
+		  	"BackupPrice" : "0.99",
+			
+			"nook" : {
+			  "BackupPrice" : "1.99"
+			}
+
+		},
+		{
+			"Type" : "BiggerBeacons",
+			"Icon" : "premium_bigger_beacons",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_BiggerBeacons",
+			"BackupDescription" : "LOC_PREM_DESC_BiggerBeacons",
+		  	"BackupPrice" : "0.99",
+			
+			"nook" : {
+			  "BackupPrice" : "1.99"
+			}
+
+		},
+		{
+			"Type" : "SuperComboPack",
+			"Icon" : "premium_everything_pack",
+			"BackupDisplayName" : "LOC_PREM_SuperComboPack",
+			"BackupDescription" : "LOC_PREM_DESC_SuperComboPack",
+		  	"BackupPrice" : "14.99"
+		}
+	]
+}

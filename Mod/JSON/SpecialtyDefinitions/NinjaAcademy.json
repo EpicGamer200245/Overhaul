@@ -1,0 +1,65 @@
+{
+	"FileName" : "NinjaAcademy.json",
+	"Name" : "LOC_SPEC_Ninja",
+	"Icon" : "ninja_academy_building",
+	"Building" : "ninja_academy",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "NinjaMonkey",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Ninja_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Ninja_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+        "III" :
+        {
+            "Text" : "LOC_SPEC_Ninja_III",
+            "InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "NinjaMonkey",
+                "TowerCount" : 1
+            }]
+        },
+        
+		"IV" :
+		{
+			"Text" : "LOC_SPEC_Ninja_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.2, 0 ],
+					"ProjectileCutOff" : [ 1.2, 0 ]
+                }
+            }]
+		},
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Ninja_X"
+		}
+	}
+}

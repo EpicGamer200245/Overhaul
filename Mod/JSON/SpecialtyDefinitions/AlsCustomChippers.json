@@ -1,0 +1,65 @@
+{
+	"FileName" : "AlsCustomChippers.json",
+	"Name" : "LOC_SPEC_Chipper",
+	"Icon" : "chipping_barn_building",
+	"Building" : "chipping_barn",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "Bloonchipper",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Chipper_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "Bloonchipper" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Chipper_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "Bloonchipper" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Chipper_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "Bloonchipper",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Chipper_IV",
+			"TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "Bloonchipper" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.2, 0 ],
+					"ProjectileCutOff" : [ 1.2, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Chipper_X"
+		}
+	}
+}

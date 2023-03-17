@@ -1,0 +1,61 @@
+{
+	"FileName" : "SuperMonkeyLair.json",
+	"Name" : "LOC_SPEC_Super",
+	"Icon" : "supermonkey_lair_building",
+	"Building" : "supermonkey_lair",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "SuperMonkey",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Super_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+				"Modifier" : { "Cost": [ 0.94, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Super_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.93, 0 ],
+					"Cooldown"  : [ 0.93, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Super_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 17,
+                "TowerType" : "SuperMonkey",
+                "TowerCount" : 1
+            }]
+		},
+		
+		"IV" :
+		{
+			"Text" : "LOC_SPEC_Super_IV",
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+                "Modifier" : { "PoppingPower" : [ 1, 1 ] }
+            }]
+		},
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Super_X"
+		}
+	}
+}

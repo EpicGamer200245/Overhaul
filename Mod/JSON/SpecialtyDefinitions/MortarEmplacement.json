@@ -1,0 +1,64 @@
+{
+	"FileName" : "MortarEmplacement.json",
+	"Name" : "LOC_SPEC_Mortar",
+	"Icon" : "mortar_emplacement_building",
+	"Building" : "mortar_emplacement",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "MortarTower",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Mortar_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MortarTower" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Mortar_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MortarTower" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Mortar_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "MortarTower",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Mortar_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "MortarTower" ] } },
+                "Modifier" :
+                {
+                    "Damage" : [ 1.5, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Mortar_X"
+		}
+	}
+}

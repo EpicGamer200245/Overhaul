@@ -1,0 +1,27 @@
+{	
+    "Type":             "TempleSacrifice",    
+    "TargetRange":      163.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire":	false,
+    "MaxShots" : 1,
+    
+    "Tasks" :
+    [
+		{
+            "Type": "Effect",
+            "SpriteFile": "GeneralShockwave.json",
+            "Scale": 0.5,
+            "DrawLayer": "FullScreen"
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "SuperMonkeyFanclubSmallLightning.json",
+            "DrawLayer": "FullScreen"
+        },
+        {
+            "Type" : "AddChildSprite",
+            "SpriteName": "SuperMonkeyTemple.json"
+        }
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"FileName" : "SubConstructionYard.json",
+	"Name" : "LOC_SPEC_MonkeySub",
+	"Icon" : "sub_construction_yard",
+	"RelatedTower" : "MonkeySub",
+	"Building" : "sub_construction_yard",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_MonkeySub_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeySub" ] } },
+				"Modifier" : { "Cost": [ 0.89, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_MonkeySub_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeySub" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.86, 0 ],
+					"Cooldown"  : [ 0.86, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_MonkeySub_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 9,
+                "TowerType" : "MonkeySub",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_MonkeySub_IV",
+			"TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "MonkeySub" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.25, 0 ],
+					"ProjectileCutOff" : [ 1.25, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_MonkeySub_X"
+		}
+	}
+}

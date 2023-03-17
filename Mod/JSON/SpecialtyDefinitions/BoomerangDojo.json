@@ -1,0 +1,61 @@
+{
+	"FileName" : "BoomerangDojo.json",
+	"Name" : "LOC_SPEC_Boomerang",
+	"Icon" : "boomerang_dojo_building",
+	"Building" : "boomerang_dojo",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "BoomerangThrower",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Boomerang_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Boomerang_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Boomerang_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "BoomerangThrower",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Boomerang_IV",
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+                "Modifier" : { "PoppingPower" : [ 1, 3 ] }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Boomerang_X"
+		}
+	}
+}

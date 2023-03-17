@@ -1,0 +1,65 @@
+{
+	"FileName" : "BombingRange.json",
+	"Name" : "LOC_SPEC_Bomb",
+	"Icon" : "bombing_range_building",
+	"Building" : "bombing_range",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "BombTower",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Bomb_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "BombTower" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :
+		{
+			"Text" : "LOC_SPEC_Bomb_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "BombTower" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Bomb_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "BombTower",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Bomb_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "BombTower" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.2, 0 ],
+					"ProjectileCutOff" : [ 1.2, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Bomb_X"
+		}
+	}
+}

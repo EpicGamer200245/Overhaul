@@ -1,0 +1,64 @@
+{
+	"FileName" : "DartlingAmmoDump.json",
+	"Name" : "LOC_SPEC_Dartling",
+	"Icon" : "dartling_ammo_dump_building",
+	"Building" : "dartling_ammo_dump",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "DartlingGun",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Dartling_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "DartlingGun" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Dartling_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "DartlingGun" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Dartling_III",
+            "InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "DartlingGun",
+                "TowerCount" : 1
+            }]
+		},
+        
+		"IV" :
+		{
+			"Text" : "LOC_SPEC_Dartling_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "DartlingGun" ] } },
+                "Modifier" :
+                {
+                    "Damage" : [ 1.5, 0 ]
+                }
+            }]
+		},
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Dartling_X"
+		}
+	}
+}

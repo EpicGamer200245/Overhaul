@@ -1,0 +1,1795 @@
+{
+    "Achievements": [
+        {
+            "Type": "AchievementReverse",
+            "Icon": "",
+            "CompletedIcon": "reverse",
+            "BackupTitle": "LOC_ACHIEVE_AchievementReverse",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementReverse_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementReverse_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "MoabAssassin",
+            "Icon": "",
+            "CompletedIcon": "moab_assassin",
+            "BackupTitle": "LOC_ACHIEVE_MoabAssassin",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_MoabAssassin_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_MoabAssassin_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "BFBBrawler",
+            "Icon": "",
+            "CompletedIcon": "bfb_brawler",
+            "BackupTitle": "LOC_ACHIEVE_BFBBrawler",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_BFBBrawler_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_BFBBrawler_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "ZOMGinator",
+            "Icon": "",
+            "CompletedIcon": "zomginator",
+            "BackupTitle": "LOC_ACHIEVE_ZOMGinator",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_ZOMGinator_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_ZOMGinator_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "Steeley",
+            "Icon": "",
+            "CompletedIcon": "steeley",
+            "BackupTitle": "LOC_ACHIEVE_Steeley",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_Steeley_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_Steeley_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "HardBaked",
+            "Icon": "",
+            "CompletedIcon": "hard_baked",
+            "BackupTitle": "LOC_ACHIEVE_HardBaked",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_HardBaked_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_HardBaked_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "Infrared",
+            "Icon": "",
+            "CompletedIcon": "infrared",
+            "BackupTitle": "LOC_ACHIEVE_Infrared",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_Infrared_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_Infrared_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "Impoppable",
+            "Icon": "",
+            "CompletedIcon": "impoppable",
+            "BackupTitle": "LOC_ACHIEVE_Impoppable",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_Impoppable_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_Impoppable_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "Poppable",
+            "Icon": "",
+            "CompletedIcon": "poppable",
+            "BackupTitle": "LOC_ACHIEVE_Poppable",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_Poppable_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_Poppable_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "NighImpoppable",
+            "Icon": "",
+            "CompletedIcon": "nigh_impoppable",
+            "BackupTitle": "LOC_ACHIEVE_NighImpoppable",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_NighImpoppable_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_NighImpoppable_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "50Tokens",
+            "Icon": "",
+            "CompletedIcon": "a_token_of_my_affection",
+            "BackupTitle": "LOC_ACHIEVE_50Tokens",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_50Tokens_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_50Tokens_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "Moneybags",
+            "Icon": "",
+            "CompletedIcon": "money_bags",
+            "BackupTitle": "LOC_ACHIEVE_Moneybags",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_Moneybags_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_Moneybags_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "PointyBits",
+            "Icon": "",
+            "CompletedIcon": "pointy_bits",
+            "BackupTitle": "LOC_ACHIEVE_PointyBits",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_PointyBits_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_PointyBits_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "FastAndFurious",
+            "Icon": "",
+            "CompletedIcon": "fast_and_furious",
+            "BackupTitle": "LOC_ACHIEVE_FastAndFurious",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_FastAndFurious_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_FastAndFurious_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "MonkeyTycoon",
+            "Icon": "",
+            "CompletedIcon": "monkey_tycoon",
+            "BackupTitle": "LOC_ACHIEVE_MonkeyTycoon",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_MonkeyTycoon_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_MonkeyTycoon_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "LongLived",
+            "Icon": "",
+            "CompletedIcon": "long_lived",
+            "BackupTitle": "LOC_ACHIEVE_LongLived",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_LongLived_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_LongLived_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "MOABMauler",
+            "Icon": "",
+            "CompletedIcon": "moab_mauler",
+            "BackupTitle": "LOC_ACHIEVE_MOABMauler",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_MOABMauler_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_MOABMauler_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AlwaysOn",
+            "Icon": "",
+            "CompletedIcon": "always_on",
+            "BackupTitle": "LOC_ACHIEVE_AlwaysOn",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AlwaysOn_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AlwaysOn_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "TrackStar",
+            "Icon": "",
+            "CompletedIcon": "track_star",
+            "BackupTitle": "LOC_ACHIEVE_TrackStar",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_TrackStar_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_TrackStar_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "MissionAccomplished",
+            "Icon": "",
+            "CompletedIcon": "mission_accomplished",
+            "BackupTitle": "LOC_ACHIEVE_MissionAccomplished",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_MissionAccomplished_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_MissionAccomplished_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "UltimateAgent",
+            "Icon": "",
+            "CompletedIcon": "ultimate_agent",
+            "BackupTitle": "LOC_ACHIEVE_UltimateAgent",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_UltimateAgent_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_UltimateAgent_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "UltimateSpecialist",
+            "Icon": "",
+            "CompletedIcon": "ultimate_specialist",
+            "BackupTitle": "LOC_ACHIEVE_UltimateSpecialist",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_UltimateSpecialist_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_UltimateSpecialist_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "FullHouse",
+            "Icon": "",
+            "CompletedIcon": "full_house",
+            "BackupTitle": "LOC_ACHIEVE_FullHouse",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_FullHouse_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_FullHouse_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "MOABMadness",
+            "Icon": "",
+            "CompletedIcon": "moab_madness",
+            "BackupTitle": "LOC_ACHIEVE_MOABMadness",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_MOABMadness_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_MOABMadness_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "OnlyOne",
+            "Icon": "",
+            "CompletedIcon": "highlander",
+            "BackupTitle": "LOC_ACHIEVE_OnlyOne",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_OnlyOne_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_OnlyOne_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "SpecialAgentsOnly",
+            "Icon": "",
+            "CompletedIcon": "isnt_that_special",
+            "BackupTitle": "LOC_ACHIEVE_SpecialAgentsOnly",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_SpecialAgentsOnly_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_SpecialAgentsOnly_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "FastTrack",
+            "Icon": "",
+            "CompletedIcon": "fast_track",
+            "BackupTitle": "LOC_ACHIEVE_FastTrack",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_FastTrack_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_FastTrack_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "ShortLived",
+            "Icon": "",
+            "CompletedIcon": "short_lived",
+            "BackupTitle": "LOC_ACHIEVE_ShortLived",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_ShortLived_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_ShortLived_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "MonkeyTown",
+            "Icon": "",
+            "CompletedIcon": "monkey_town",
+            "BackupTitle": "LOC_ACHIEVE_MonkeyTown",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_MonkeyTown_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_MonkeyTown_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "CovertPops",
+            "Icon": "",
+            "CompletedIcon": "covert_pops",
+            "BackupTitle": "LOC_ACHIEVE_CovertPops",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_CovertPops_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_CovertPops_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "WizardLord",
+            "Icon": "",
+            "CompletedIcon": "wizard_lord",
+            "BackupTitle": "LOC_ACHIEVE_WizardLord",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_WizardLord_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_WizardLord_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "NoEscape",
+            "Icon": "",
+            "CompletedIcon": "new_special_mission",
+            "BackupTitle": "LOC_ACHIEVE_NoEscape",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_NoEscape_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_NoEscape_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "10Random",
+            "Icon": "",
+            "CompletedIcon": "somewhat_random",
+            "BackupTitle": "LOC_ACHIEVE_10Random",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_10Random_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_10Random_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "50Random",
+            "Icon": "",
+            "CompletedIcon": "increasingly_random",
+            "BackupTitle": "LOC_ACHIEVE_50Random",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_50Random_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_50Random_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "100Random",
+            "Icon": "",
+            "CompletedIcon": "persistently_random",
+            "BackupTitle": "LOC_ACHIEVE_100Random",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_100Random_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_100Random_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "200Random",
+            "Icon": "",
+            "CompletedIcon": "amazingly_random",
+            "BackupTitle": "LOC_ACHIEVE_200Random",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_200Random_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_200Random_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "250Random",
+            "Icon": "",
+            "CompletedIcon": "entirely_random",
+            "BackupTitle": "LOC_ACHIEVE_250Random",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_250Random_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_250Random_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "4OfAKind",
+            "Icon": "",
+            "CompletedIcon": "four_of_a_kind",
+            "BackupTitle": "LOC_ACHIEVE_4OfAKind",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_4OfAKind_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_4OfAKind_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "PerfectWeek",
+            "Icon": "",
+            "CompletedIcon": "perfect_week",
+            "BackupTitle": "LOC_ACHIEVE_PerfectWeek",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_PerfectWeek_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_PerfectWeek_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "Centurion",
+            "Icon": "",
+            "CompletedIcon": "centurion",
+            "BackupTitle": "LOC_ACHIEVE_Centurion",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_Centurion_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_Centurion_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementMonkeyLane",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementMonkeyLane",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementMonkeyLane_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementMonkeyLane_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDanceFloor",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDanceFloor",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDanceFloor_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDanceFloor_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDanceFloorCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDanceFloorCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDanceFloorCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDanceFloorCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementNazcaLines",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementNazcaLines",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementNazcaLines_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementNazcaLines_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementNazcaLinesCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementNazcaLinesCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementNazcaLinesCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementNazcaLinesCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementToyland",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementToyland",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementToyland_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementToyland_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementToylandCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementToylandCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementToylandCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementToylandCoop_YES",
+            "Replayable": false
+        },
+		{
+            "Type": "AchievementDaffodils",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDaffodils",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDaffodils_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDaffodils_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDaffodilsCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDaffodilsCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDaffodilsCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDaffodilsCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCarpark",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCarpark",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCarpark_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCarpark_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCarparkCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCarparkCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCarparkCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCarparkCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementOasis",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementOasis",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementOasis_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementOasis_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementOasisCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementOasisCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementOasisCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementOasisCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSnowman",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSnowman",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSnowman_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSnowman_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSnowmanCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSnowmanCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSnowmanCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSnowmanCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBloom",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBloom",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBloom_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBloom_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBloomCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBloomCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBloomCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBloomCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementPresentDelivery",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementPresentDelivery",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementPresentDelivery_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementPresentDelivery_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementPresentDeliveryCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementPresentDeliveryCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementPresentDeliveryCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementPresentDeliveryCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementRabbitHoles",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementRabbitHoles",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementRabbitHoles_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementRabbitHoles_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSnowyBackyard",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSnowyBackyard",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSnowyBackyard_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSnowyBackyard_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSnowyBackyardCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSnowyBackyardCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSnowyBackyardCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSnowyBackyardCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSprintTrack",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSprintTrack",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSprintTrack_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSprintTrack_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSprintTrackCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSprintTrackCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSprintTrackCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSprintTrackCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementExpressShipping",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementExpressShipping",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementExpressShipping_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementExpressShipping_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCheckers",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCheckers",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCheckers_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCheckers_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCheckersCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCheckersCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCheckersCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCheckersCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSkullPeak",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSkullPeak",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSkullPeak_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSkullPeak_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLobby",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLobby",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLobby_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLobby_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "Achievement3TimesAround",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_Achievement3TimesAround",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_Achievement3TimesAround_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_Achievement3TimesAround_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementGrotto",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementGrotto",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementGrotto_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementGrotto_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementGrottoCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementGrottoCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementGrottoCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementGrottoCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementPatch",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementPatch",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementPatch_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementPatch_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementPatchCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementPatchCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementPatchCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementPatchCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementMaze",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementMaze",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementMaze_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementMaze_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementFireworks",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementFireworks",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementFireworks_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementFireworks_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBrickWall",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBrickWall",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBrickWall_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBrickWall_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementZFactor",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementZFactor",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementZFactor_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementZFactor_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementZFactorCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementZFactorCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementZFactorCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementZFactorCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementParkPath",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementParkPath",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementParkPath_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementParkPath_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTheRink",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTheRink",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTheRink_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTheRink_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementArtfulDodgers",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementArtfulDodgers",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementArtfulDodgers_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementArtfulDodgers_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSpaceTruckin",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSpaceTruckin",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSpaceTruckin_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSpaceTruckin_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLonelyHeart",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLonelyHeart",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLonelyHeart_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLonelyHeart_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLonelyHeartCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLonelyHeartCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLonelyHeartCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLonelyHeartCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementAutumnLeaves",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementAutumnLeaves",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementAutumnLeaves_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementAutumnLeaves_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementAutumnLeavesCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementAutumnLeavesCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementAutumnLeavesCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementAutumnLeavesCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementForgottenGarden",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementForgottenGarden",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementForgottenGarden_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementForgottenGarden_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementForgottenGardenCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementForgottenGardenCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementForgottenGardenCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementForgottenGardenCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementHeadInTheClouds",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementHeadInTheClouds",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementHeadInTheClouds_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementHeadInTheClouds_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementHeadInTheCloudsCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementHeadInTheCloudsCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementHeadInTheCloudsCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementHeadInTheCloudsCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementFloodedLane",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementFloodedLane",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementFloodedLane_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementFloodedLane_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementFloodedLaneCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementFloodedLaneCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementFloodedLaneCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementFloodedLaneCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWalkInThePark",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWalkInThePark",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWalkInThePark_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWalkInThePark_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWalkInTheParkCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWalkInTheParkCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWalkInTheParkCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWalkInTheParkCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementAncientTomb",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementAncientTomb",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementAncientTomb_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementAncientTomb_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementAncientTombCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementAncientTombCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementAncientTombCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementAncientTombCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementHearthside",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementHearthside",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementHearthside_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementHearthside_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementHearthsideCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementHearthsideCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementHearthsideCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementHearthsideCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSixFeet",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSixFeet",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSixFeet_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSixFeet_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSixFeetCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSixFeetCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSixFeetCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSixFeetCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementRiverRapids",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementRiverRapids",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementRiverRapids_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementRiverRapids_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWattleTrees",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWattleTrees",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWattleTrees_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWattleTrees_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWattleTreesCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWattleTreesCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWattleTreesCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWattleTreesCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementPyramids",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementPyramids",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementPyramids_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementPyramids_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDuneSea",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDuneSea",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDuneSea_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDuneSea_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDuneSeaCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDuneSeaCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDuneSeaCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDuneSeaCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLavaFields",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLavaFields",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLavaFields_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLavaFields_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLavaFieldsCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLavaFieldsCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLavaFieldsCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLavaFieldsCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementIceFlow",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_SecretTitle",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_SecretNo",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementIceFlow_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementIceFlowCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_SecretTitle",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_SecretNo",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementIceFlowCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCountryRoad",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCountryRoad",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCountryRoad_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCountryRoad_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCountryRoadCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCountryRoadCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCountryRoadCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCountryRoadCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementJungle",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementJungle",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementJungle_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementJungle_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementJungleCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementJungleCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementJungleCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementJungleCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWorkshop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWorkshop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWorkshop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWorkshop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBloonsOfClubs",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBloonsOfClubs",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBloonsOfClubs_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBloonsOfClubs_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementArchipelago",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementArchipelago",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementArchipelago_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementArchipelago_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBloonCircles",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBloonCircles",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBloonCircles_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBloonCircles_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSlalom",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSlalom",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSlalom_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSlalom_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSnakeRiver",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSnakeRiver",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSnakeRiver_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSnakeRiver_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSnakeRiverCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSnakeRiverCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSnakeRiverCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSnakeRiverCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDockside",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDockside",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDockside_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDockside_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementVillageShore",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementVillageShore",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementVillageShore_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementVillageShore_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementVillageShoreCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementVillageShoreCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementVillageShoreCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementVillageShoreCoop_YES",
+            "Replayable": false
+        },
+                {
+            "Type": "AchievementTrickOrTreat",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTrickOrTreat",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTrickOrTreat_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTrickOrTreat_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTrickOrTreatCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTrickOrTreatCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTrickOrTreatCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTrickOrTreatCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementEggHunt",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementEggHunt",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementEggHunt_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementEggHunt_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementEggHuntCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementEggHuntCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementEggHuntCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementEggHuntCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDayOfTheUndead",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDayOfTheUndead",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDayOfTheUndead_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDayOfTheUndead_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDayOfTheUndeadCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDayOfTheUndeadCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDayOfTheUndeadCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDayOfTheUndeadCoop_YES",
+            "Replayable": false
+        },
+		{
+            "Type": "AchievementLandsEnd",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLandsEnd",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLandsEnd_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLandsEnd_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLandsEndCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLandsEndCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLandsEndCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLandsEndCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTidalPools",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTidalPools",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTidalPools_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTidalPools_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTidalPoolsCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTidalPoolsCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTidalPoolsCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTidalPoolsCoop_YES",
+            "Replayable": false
+        },
+		{
+            "Type": "AchievementBigfoot",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBigfoot",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBigfoot_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBigfoot_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBigfootCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBigfootCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBigfootCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBigfootCoop_YES",
+            "Replayable": false
+        },
+		{
+            "Type": "AchievementIgloos",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementIgloos",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementIgloos_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementIgloos_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementIgloosCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementIgloosCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementIgloosCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementIgloosCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBattleKnot",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBattleKnot",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBattleKnot_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBattleKnot_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBattleKnotCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBattleKnotCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBattleKnotCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBattleKnotCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCandyland",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCandyland",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCandyland_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCandyland_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCandylandCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCandylandCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCandylandCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCandylandCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCryptKeeper",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCryptKeeper",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCryptKeeper_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCryptKeeper_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCryptKeeperCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCryptKeeperCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCryptKeeperCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCryptKeeperCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLongRange",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLongRange",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLongRange_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLongRange_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLongRangeCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLongRangeCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLongRangeCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLongRangeCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWaterHazard",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWaterHazard",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWaterHazard_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWaterHazard_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWaterHazardCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWaterHazardCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWaterHazardCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWaterHazardCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementRinkRevenge",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementRinkRevenge",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementRinkRevenge_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementRinkRevenge_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementRinkRevengeCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementRinkRevengeCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementRinkRevengeCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementRinkRevengeCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementChallengerDeep",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_SecretTitle",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_SecretNo",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementChallengerDeep_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementChallengerDeepCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_SecretTitle",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_SecretNo",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementChallengerDeepCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementScorchedEarth",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementScorchedEarth",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementScorchedEarth_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementScorchedEarth_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementScorchedEarthCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementScorchedEarthCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementScorchedEarthCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementScorchedEarthCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementUTurn",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementUTurn",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementUTurn_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementUTurn_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementUTurnCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementUTurnCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementUTurnCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementUTurnCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTheGreatDivide",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTheGreatDivide",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTheGreatDivide_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTheGreatDivide_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTheGreatDivideCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTheGreatDivideCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTheGreatDivideCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTheGreatDivideCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTheEye",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTheEye",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTheEye_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTheEye_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTheEyeCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTheEyeCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTheEyeCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTheEyeCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementOneDirection",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementOneDirection",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementOneDirection_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementOneDirection_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementLightningScar",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementLightningScar",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementLightningScar_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementLightningScar_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSwitch",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSwitch",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSwitch_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSwitch_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementMountMagma",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementMountMagma",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementMountMagma_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementMountMagma_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSiege",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSiege",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSiege_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSiege_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSiegeCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSiegeCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSiegeCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSiegeCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTributaries",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTributaries",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTributaries_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTributaries_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTributariesCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTributariesCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTributariesCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTributariesCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDoubleDoubleCross",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDoubleDoubleCross",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDoubleDoubleCross_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDoubleDoubleCross_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTunnels",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTunnels",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTunnels_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTunnels_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCastle",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCastle",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCastle_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCastle_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCastleCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCastleCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCastleCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCastleCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementClock",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementClock",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementClock_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementClock_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDragStrip",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDragStrip",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDragStrip_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDragStrip_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDeathValley",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDeathValley",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDeathValley_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDeathValley_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTreetops",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTreetops",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTreetops_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTreetops_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTreetopsCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTreetopsCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTreetopsCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTreetopsCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementRunway",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementRunway",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementRunway_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementRunway_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementRunwayCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementRunwayCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementRunwayCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementRunwayCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDownTheDrain",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDownTheDrain",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDownTheDrain_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDownTheDrain_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementDownTheDrainCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementDownTheDrainCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementDownTheDrainCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementDownTheDrainCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBenguela",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBenguela",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBenguela_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBneguela_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBenguelaCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBenguelaCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBenguelaCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBenguelaCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWeb",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWeb",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWeb_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWeb_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementWebCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementWebCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementWebCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementWebCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementForestPath",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementForestPath",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementForestPath_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementForestPath_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementForestPathCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementForestPathCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementForestPathCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementForestPathCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCampfire",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCampfire",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCampfire_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCampfire_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementToxicWaste",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementToxicWaste",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementToxicWaste_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementToxicWaste_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementTarPit",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementTarPit",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementTarPit_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementTarPit_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementMainStreet",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementMainStreet",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementMainStreet_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementMainStreet_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementBloontoniumLab",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementBloontoniumLab",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementBloontoniumLab_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementBloontoniumLab_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementAlpineLakeCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementAlpineLakeCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementAlpineLakeCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementAlpineLakeCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementHauntedSwampCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementHauntedSwampCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementHauntedSwampCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementHauntedSwampCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSouthCoastCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSouthCoastCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSouthCoastCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSouthCoastCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementUnfairShareCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementUnfairShareCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementUnfairShareCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementUnfairShareCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementSpiderMapCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementSpiderMapCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementSpiderMapCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementSpiderMapCoop_YES",
+            "Replayable": false
+        },
+        {
+            "Type": "AchievementCashMoneyCoop",
+            "Icon": "",
+            "CompletedIcon": "trophy_map",
+            "BackupTitle": "LOC_ACHIEVE_AchievementCashMoneyCoop",
+            "BackupDescriptionUnAchieved": "LOC_ACHIEVE_AchievementCashMoneyCoop_NO",
+            "BackupDescriptionAchieved": "LOC_ACHIEVE_AchievementCashMoneyCoop_YES",
+            "Replayable": false
+        }
+    ]
+}

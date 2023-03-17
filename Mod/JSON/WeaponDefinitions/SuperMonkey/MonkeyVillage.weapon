@@ -1,0 +1,29 @@
+{	
+    "Type":             "MonkeyVillage",    
+    "TargetRange":      125.0,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+ 	"TargetsIndependently": true,
+    "RequiresTargetToFire":	false,
+	"SelfTargetMode": "None",
+
+    "Tasks" :
+    [
+        {
+			"Type": "TowerModifier",
+			"Range": 125,
+			"PriorityLevel": 0,
+			"RequiresEmptyPriorityLevel" : true,
+            "TerminateOnUserUpgrade": true,
+
+			"Modifier":
+			{
+				"TargetRange": [ 1.18, 10 ],
+				"ProjectileCutOff": [ 1.18, 10 ],
+				"Cooldown": [ 0.74, 0 ],
+                "FireDelay": [ 0.74, 0 ],
+                "Cost": [ 0.8, -75 ]
+			}
+		}
+    ]
+}

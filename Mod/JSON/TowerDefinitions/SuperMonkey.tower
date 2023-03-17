@@ -1,0 +1,86 @@
+{
+    "TypeName"				: "SuperMonkey",
+    "Icon"					: "supermonkey_tower_icon",
+    "BaseCost"				: 4200,
+    "RankToUnlock"			: 1,
+    "DefaultWeapons"	    : [
+		"SuperMonkey.weapon",
+        "DartMonkey.weapon",
+		"",
+		"",
+        "",
+        "",
+        "",
+        "",
+        ""
+	],
+	"ActiveWeaponSlots": [
+		true,
+        true,
+		true,
+		true,
+        true,
+        true,
+        true,
+        true,
+        true
+	],
+
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[ "Laser Blasts", "Plasma Blasts", "Sun God", "Temple" ],
+    	[ "Better Melee", "Ground Stomp", "Robo Monkey", "Technological Terror" ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 600 }, { "Rank" : 0, "XP" : 7560 }, { "Rank" : 0, "XP" : 28620 }, { "Rank" : 33, "XP" : 700000 } ],
+		[ { "Rank" : 0, "XP" : 2820 }, { "Rank" : 0, "XP" : 12600 }, { "Rank" : 0, "XP" : 53640 }, { "Rank" : 33, "XP" : 248400 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 2700, 4200, 14600, 70000 ],
+        [ 900, 1250, 7300, 20000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+        [],
+        []
+    ],
+    
+    "UpgradeIcons" :
+    [
+    	[ 
+            "supermonkey_laser_vision_icon", 
+            "supermonkey_plasma_vision_icon", 
+            "supermonkey_sun_god_icon", 
+            "supermonkey_temple_icon" 
+        ],
+    	[ 
+            "ninja_discipline_icon", 
+            "ground_stomp_upgrade_icon", 
+            "supermonkey_robomonkey_icon", 
+            "supermonkey_tech_terror_icon" 
+        ]
+    ],
+        
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 12.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    
+    "SpriteUpgradeDefinition" : "SuperMonkey.json",
+    "SkipFirstFrameWhenFiring" : true
+}

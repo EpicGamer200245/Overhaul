@@ -1,0 +1,65 @@
+{
+	"FileName" : "DartTrainingFacility.json",
+	"Name" : "LOC_SPEC_Dart",
+	"Icon" : "dart_training_facility_building",
+	"Building" : "dart_training_facility",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "DartMonkey",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Dart_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "DartMonkey" ] } },
+				"Modifier" : { "Cost": [ 0.89, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Dart_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "DartMonkey" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.86, 0 ],
+					"Cooldown"  : [ 0.86, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Dart_III",
+			"InventoryBonuses" :
+			[{
+				"ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 9,
+				"TowerType" : "DartMonkey",
+                "TowerCount" : 1
+			}]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Dart_IV",
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "DartMonkey" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.25, 0 ],
+					"ProjectileCutOff" : [ 1.25, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Dart_X"
+		}
+	}
+}

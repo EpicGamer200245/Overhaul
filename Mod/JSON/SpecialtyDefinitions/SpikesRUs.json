@@ -1,0 +1,61 @@
+{
+	"FileName" : "SpikesRUs.json",
+	"Name" : "LOC_SPEC_Spikes",
+	"Icon" : "spikes_r_us_building",
+	"Building" : "spikes_r_us",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "SpikeFactory",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Spikes_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "SpikeFactory" ] } },
+				"Modifier" : { "Cost": [ 0.89, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Spikes_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "SpikeFactory" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.86, 0 ],
+					"Cooldown"  : [ 0.86, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Spikes_III",
+            "InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 9,
+                "TowerType" : "SpikeFactory",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Spikes_IV",
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "SpikeFactory", "RoadSpikes" ] } },
+                "Modifier" : { "PoppingPower": [ 1.6, 0 ] }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Spikes_X"
+		}
+	}
+}

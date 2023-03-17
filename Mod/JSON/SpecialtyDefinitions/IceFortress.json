@@ -1,0 +1,65 @@
+{
+	"FileName" : "IceFortress.json",
+	"Name" : "LOC_SPEC_Ice",
+	"Icon" : "ice_fortress_building",
+	"Building" : "ice_fortress",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "IceTower",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Ice_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "IceTower" ] } },
+				"Modifier" : { "Cost": [ 0.89, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Ice_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "IceTower" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.86, 0 ],
+					"Cooldown"  : [ 0.86, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Ice_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 9,
+                "TowerType" : "IceTower",
+                "TowerCount" : 1
+            }]
+		},
+		
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Ice_IV",
+			"TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "IceTower" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.25, 0 ],
+					"ProjectileCutOff" : [ 1.25, 0 ]
+                }
+            }]
+        },
+        
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Ice_X"
+		}
+	}
+}

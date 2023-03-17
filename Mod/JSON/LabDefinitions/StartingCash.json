@@ -1,0 +1,141 @@
+{
+	"Name" : "LOC_LAB_StartingCash",
+	"Description" : "LOC_LAB_DESC_StartingCash",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_StartingCash",
+    "Icon" : "starting_cash",
+	"LevelGateway" : [ 5, 9, 14, 21, 29, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "40",
+            "FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 40
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "80",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 80
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "120",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 120
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "160",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 160
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "200",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Money": 200
+				}
+			}
+		}
+	]
+}

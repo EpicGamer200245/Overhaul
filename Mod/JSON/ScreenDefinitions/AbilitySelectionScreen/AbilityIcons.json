@@ -29,6 +29,10 @@
         { "Type" : "Overclock", "Icon" : "overclock_icon" },
         { "Type" : "BloonchipperSupaVac", "Icon" : "super_vac_icon" },
         { "Type" : "MonkeySubFirstStrike", "Icon" : "first_strike_icon" },
-		{ "Type" : "RoadSpikes", "Icon" : "monkey_radar_ability" }
+		{ "Type" : "RoadSpikes", "Icon" : "monkey_radar_ability" },
+		{ "Type" : "GrapeShot", "Icon" : "radar_screen_scan" },
+		{ "Type" : "CrowsNest", "Icon" : "radar_screen_scan" },
+		{ "Type" : "MonkeyBuccaneer", "Icon" : "radar_screen_scan" },
+		{ "Type" : "CannonShip", "Icon" : "radar_screen_scan" }
 	]
 }

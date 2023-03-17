@@ -52,6 +52,26 @@
                     "InfoXml": "tower_icons.xml"
                 }
             ]
+        },
+        {
+            "SourceDir": "effects",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "effects.png",
+                    "InfoXml": "effects.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "supermonkey",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "supermonkey.png",
+                    "InfoXml": "supermonkey.xml"
+                }
+            ]
         }
     ]
 }

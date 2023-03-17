@@ -1,0 +1,65 @@
+{
+	"FileName" : "EngineersWorkshop.json",
+	"Name" : "LOC_SPEC_Engineer",
+	"Icon" : "engineers_workshop_building",
+	"Building" : "engineers_workshop",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "MonkeyEngineer",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Engineer_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyEngineer", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4" ] } },
+				"Modifier" : { "Cost": [ 0.91, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Engineer_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyEngineer", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.89, 0 ],
+					"Cooldown"  : [ 0.89, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Engineer_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 12,
+                "TowerType" : "MonkeyEngineer",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Engineer_IV",
+			"TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyEngineer", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.2, 0 ],
+					"ProjectileCutOff" : [ 1.2, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Engineer_X"
+		}
+	}
+}

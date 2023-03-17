@@ -1,0 +1,65 @@
+{
+	"FileName" : "TackResearchCenter.json",
+	"Name" : "LOC_SPEC_Tack",
+	"Icon" : "tack_research_centre_building",
+	"Building" : "tack_research_centre",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"RelatedTower": "TackTower",
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Tack_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "TackTower" ] } },
+				"Modifier" : { "Cost": [ 0.89, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Tack_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "TackTower" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.86, 0 ],
+					"Cooldown"  : [ 0.86, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Tack_III",
+            "InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "EveryNthRound" ],
+                "RoundPeriod" : 9,
+                "TowerType" : "TackTower",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text": "LOC_SPEC_Tack_IV",
+			"TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "TackTower" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.15, 0 ],
+					"ProjectileCutOff" : [ 1.15, 0 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Tack_X"
+		}
+	}
+}
