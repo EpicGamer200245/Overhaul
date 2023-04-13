@@ -2,7 +2,7 @@
     "Upgrades":
     [
         {
-            "Name" : "Focused Firing",
+            "Name" : "Faster Reload",
             "WeaponUpgrade" :
             {
                 "Adjust" :
@@ -12,7 +12,7 @@
             }
         },
         {
-            "Name" : "Faster Barrel Spin",
+            "Name" : "Even Faster Reload",
             "WeaponUpgrade" :
             {
                 "Adjust" :
@@ -22,7 +22,7 @@
             }
         },
         {
-            "Name" : "Laser Cannon",
+            "Name" : "Hot Bloontonium Laser Cannon",
             "WeaponUpgrade" :
             {
                 "Replace" :
@@ -65,7 +65,7 @@
             }
         },
         {
-            "Name" : "Ray Of Doom",
+            "Name" : "Hot Bloontonium Ray",
             
             "TowerUpgrade" :
             {
@@ -99,7 +99,7 @@
             }
         },
         {
-            "Name" : "Powerful Darts",
+            "Name" : "Focused Firing",
             "WeaponUpgrade" :
             {
                 "Adjust" :
@@ -121,7 +121,7 @@
 
         },
         {
-            "Name" : "Depleted Bloontonium",
+            "Name" : "Powerful Darts",
             "WeaponUpgrade" :
             {
                 "TaskUpgrade" :
@@ -178,7 +178,7 @@
             }
         },
         {
-            "Name" : "Bloon Area Denial System",
+            "Name" : "Hydra Rocket Storm",
             
             "TowerUpgrade" :
             {

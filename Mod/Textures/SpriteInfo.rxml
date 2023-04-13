@@ -7,5 +7,6 @@
         <Insert node="SpriteInfoXml" name="tower_icons" type="png"/>
         <Insert node="SpriteInfoXml" name="effects" type="png"/>
         <Insert node="SpriteInfoXml" name="supermonkey" type="png"/>
+        <Insert node="SpriteInfoXml" name="buildings_custom" type="png"/>
     </Select>
 </Reflect>

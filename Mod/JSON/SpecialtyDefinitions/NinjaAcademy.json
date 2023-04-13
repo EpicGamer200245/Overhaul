@@ -13,7 +13,7 @@
 			"TowerModifiers" :
 			[{
 				"TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
-				"Modifier" : { "Cost": [ 0.91, 0 ] }
+				"Modifier" : { "Cost": [ 0.93, 0 ] }
 			}]
 		},
 		
@@ -25,8 +25,8 @@
 				"TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
 				"Modifier" :
 				{
-					"FireDelay" : [ 0.89, 0 ],
-					"Cooldown"  : [ 0.89, 0 ]
+					"FireDelay" : [ 0.8, 0 ],
+					"Cooldown"  : [ 0.8, 0 ]
 				}
 			}]
 		},
@@ -36,8 +36,8 @@
             "Text" : "LOC_SPEC_Ninja_III",
             "InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 12,
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 8,
                 "TowerType" : "NinjaMonkey",
                 "TowerCount" : 1
             }]
@@ -51,8 +51,8 @@
                 "TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
                 "Modifier" :
                 {
-                    "TargetRange": [ 1.2, 0 ],
-					"ProjectileCutOff" : [ 1.2, 0 ]
+                    "TargetRange": [ 1.18, 0 ],
+					"ProjectileCutOff" : [ 1.18, 0 ]
                 }
             }]
 		},

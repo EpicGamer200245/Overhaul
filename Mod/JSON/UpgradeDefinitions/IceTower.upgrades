@@ -2,7 +2,7 @@
     "Upgrades":
     [
         {
-            "Name" : "Enhanced Freeze",
+            "Name" : "Permafrost",
             "WeaponUpgrade" : 
             {
                 "TaskUpgrade" :
@@ -21,7 +21,7 @@
         },
         
         {
-            "Name" : "Snap Freeze",
+            "Name" : "Better Permafrost",
             "WeaponUpgrade" :
             {
                 "TaskUpgrade":
@@ -40,7 +40,7 @@
         },
         
         {
-            "Name" : "Arctic Wind",
+            "Name" : "Snap Freeze",
             "WeaponUpgrade" : 
             {
                 "Adjust" :
@@ -80,7 +80,7 @@
         },
         
         {
-            "Name" : "Viral Frost",
+            "Name" : "Bigger Snap",
             "WeaponUpgrade" : 
             {
                 "Adjust" :
@@ -148,7 +148,7 @@
         },
         
         {
-            "Name" : "Permafrost",
+            "Name" : "Bigger Range",
             "WeaponUpgrade" : 
             {
                 "Adjust" :
@@ -190,7 +190,7 @@
         },
         
         {
-            "Name" : "Deep Freeze",
+            "Name" : "More Ice",
             "WeaponUpgrade" : 
             {
                 "Adjust" :
@@ -212,7 +212,7 @@
         },
     
         {
-            "Name" : "Ice Shards",
+            "Name" : "Giant Freeze",
             "WeaponUpgrade" : 
             {
                 "Adjust" :
@@ -280,7 +280,7 @@
         },
         
         {
-            "Name" : "Absolute Zero",
+            "Name" : "Snowstorm",
             "WeaponUpgrade" : 
             {
                 "Adjust" :

@@ -11,10 +11,16 @@
 		{
 			"Text" : "LOC_SPEC_Bomb_I",
 			"TowerModifiers" :
-			[{
-				"TargetingFilter" : { "Include" : { "TowerType": [ "BombTower" ] } },
-				"Modifier" : { "Cost": [ 0.91, 0 ] }
-			}]
+			[
+				{
+					"TargetingFilter" : { "Include" : { "TowerType": [ "BombTower" ] } },
+					"Modifier" : { "Cost": [ 0.91, 0 ] }
+				},
+				{
+					"TargetingFilter" : { "Include" : { "TowerType": [ "ExplodingPineapple" ] } },
+					"Modifier" : { "Cost": [ 1, -10 ] }
+				}
+			]
 		},
 		
 		"II" :
@@ -35,26 +41,48 @@
 		{
 			"Text" : "LOC_SPEC_Bomb_III",
 			"InventoryBonuses" :
-			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 12,
-                "TowerType" : "BombTower",
-                "TowerCount" : 1
-            }]
+			[
+				{
+                	"ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                	"RoundPeriod" : 11,
+                	"TowerType" : "BombTower",
+                	"TowerCount" : 1
+            	},
+				{
+                	"ApplyOn" : [ "GameStart" ],
+                	"TowerType" : "ExplodingPineapple",
+                	"TowerCount" : 6
+            	},
+				{
+                	"ApplyOn" : [ "EveryNthRound" ],
+                	"RoundPeriod" : 4,
+                	"TowerType" : "ExplodingPineapple",
+                	"TowerCount" : 1
+            	}
+			]
 		},
         
         "IV" :
         {
             "Text" : "LOC_SPEC_Bomb_IV",
-            "TowerModifiers" :
-            [{
-                "TargetingFilter" : { "Include" : { "TowerType": [ "BombTower" ] } },
-                "Modifier" :
-                {
-                    "TargetRange": [ 1.2, 0 ],
-					"ProjectileCutOff" : [ 1.2, 0 ]
-                }
-            }]
+			"TowerModifiers" :
+            [
+				{
+                	"TargetingFilter" : { "Include" : { "TowerType": [ "BombTower" ] } },
+                	"Modifier" :
+                	{
+                	    "TargetRange": [ 1.2, 0 ],
+						"ProjectileCutOff" : [ 1.2, 0 ]
+                	}
+            	},
+				{
+                	"TargetingFilter" : { "Include" : { "TowerType": [ "ExplodingPineapple" ] } },
+                	"Modifier" :
+                	{
+                	    "Damage" : [ 1, 1 ]
+                	}
+            	}
+			]
         },
 		
 		"X" :

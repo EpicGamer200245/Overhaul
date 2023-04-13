@@ -36,8 +36,8 @@
 			"Text" : "LOC_SPEC_Ace_III",
 			"InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 12,
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 10,
                 "TowerType" : "MonkeyAce",
                 "TowerCount" : 1
             }]

@@ -30,6 +30,10 @@
                 "Weapons" :
                 {
                     "0": "BloonchipperLead.weapon"
+                },
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
                 }
             },
             "WeaponUpgrade" :

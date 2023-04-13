@@ -4,8 +4,7 @@
 			"Type" : "BananaFarmer",
 			"Avatar" : "special_agent_farmer_avatar",
 			"Icon" : "special_agent_farmer_icon",
-			"Cost" : 40,
-			
+			"Cost" : 5,
 			"Pro" :
 			{
 				"Type" : "BananaFarmerPro",
@@ -13,129 +12,11 @@
 				"Icon" : "special_agent_farmer_pro_icon"
 			}
 		},
-        {
-            "Type" : "NinjaKiwi",
-            "Avatar" : "special_agent_ninja_kiwi_avatar",
-            "Icon" : "special_agent_ninja_kiwi_icon",
-            "Cost" : 110,
-            
-            "Pro" :
-            {
-                "Type" : "NinjaKiwiPro",
-                "Avatar" : "special_agent_ninja_kiwi_pro_avatar",
-                "Icon" : "special_agent_ninja_kiwi_pro_icon"
-            }
-        },
 		{
-			"Type" : "Radadactyl",
-			"Avatar" : "special_agent_rad_avatar",
-			"Icon" : "special_agent_radadactyl_icon",
-			"Cost" : 100,
-			
-			"Pro" :
-			{
-				"Type" : "RadadactylPro",
-				"Avatar" : "special_agent_rad_pro_avatar",
-				"Icon" : "special_agent_radadactyl_pro_icon"
-			}
-		},
-		{
-			"Type" : "TribalTurtle",
-			"Avatar" : "special_agent_turtle_avatar",
-			"Icon" : "special_agent_turtle_icon",
-			"Cost" : 85,
-			
-			"Pro" :
-			{
-				"Type" : "TribalTurtlePro",
-				"Avatar" : "special_agent_turtle_pro_avatar",
-				"Icon" : "special_agent_turtle_pro_icon"
-			}
-		},
-		{
-			"Type" : "BloonsdayDevice",
-			"Avatar" : "special_agent_bloonsday_avatar",
-			"Icon" : "special_agent_bloonsday_icon",
-			"Cost" : 250,
-			
-			"Pro" :
-			{
-				"Type" : "BloonsdayDevicePro",
-				"Avatar" : "special_agent_bloonsday_pro_avatar",
-				"Icon" : "special_agent_bloonsday_pro_icon"
-			}
-		},
-		{
-			"Type" : "MeerkatSpy",
-			"Avatar" : "special_agent_meerkat_avatar",
-			"Icon" : "special_agent_meerkat_icon",
-			"Cost" : 60,
-			
-			"Pro" :
-			{
-				"Type" : "MeerkatSpyPro",
-				"Avatar" : "special_agent_meerkat_pro_avatar",
-				"Icon" : "special_agent_meerkat_pro_icon"
-			}
-		},
-		{
-			"Type" : "BloonberryBush",
-			"Avatar" : "special_agent_bloonberry_avatar",
-			"Icon" : "special_agent_bloonberry_icon",
-			"Cost" : 50,
-			
-			"Pro" :
-			{
-				"Type" : "BloonberryBushPro",
-				"Avatar" : "special_agent_bloonberry_pro_avatar",
-				"Icon" : "special_agent_bloonberry_pro_icon"
-			}
-		},
-		{
-			"Type" : "BeeKeeper",
-			"Avatar" : "special_agent_beekeeper_avatar",
-			"Icon" : "special_agent_beekeeper_icon",
-			"Cost" : 120,
-			
-			"Pro" :
-			{
-				"Type" : "BeeKeeperPro",
-				"Avatar" : "special_agent_beekeeper_pro_avatar",
-				"Icon" : "special_agent_beekeeper_pro_icon"
-			}
-		},
-		{
-			"Type" : "AngrySquirrel",
-			"Avatar" : "special_agent_squirrel_avatar",
-			"Icon" : "special_agent_squirrel_icon",
-			"Cost" : 60,
-			"Offset": 15,
-			
-			"Pro" :
-			{
-				"Type" : "AngrySquirrelPro",
-				"Avatar" : "special_agent_squirrel_pro_avatar",
-				"Icon" : "special_agent_squirrel_pro_icon"
-			}
-		},
-		{
-			"Type" : "SuperMonkeyStorm",
-			"Avatar" : "special_agent_supermonkey_storm_avatar",
-			"Icon" : "special_agent_supermonkey_storm_icon",
-			"Cost" : 50,
-			
-			"Pro" :
-			{
-				"Type" : "SuperMonkeyStormPro",
-				"Avatar" : "special_agent_supermonkey_storm_pro_avatar",
-				"Icon" : "special_agent_supermonkey_storm_pro_icon"
-			}
-		},
-        {
             "Type" : "PortableLake",
             "Avatar" : "special_agent_portable_lake_avatar",
             "Icon" : "special_agent_portable_icon",
-            "Cost" : 40,
+            "Cost" : 20,
             
             "Pro" :
             {
@@ -148,7 +29,7 @@
             "Type" : "Pontoon",
             "Avatar" : "special_agent_pontoon_avatar",
             "Icon" : "special_agent_pontoon_icon",
-            "Cost" : 40,
+            "Cost" : 20,
             
             "Pro" :
             {
@@ -156,6 +37,124 @@
                 "Avatar" : "special_agent_pontoon_pro_avatar",
                 "Icon" : "special_agent_pontoon_pro_icon"
             }
-        }
+        },
+		{
+			"Type" : "TribalTurtle",
+			"Avatar" : "special_agent_turtle_avatar",
+			"Icon" : "special_agent_turtle_icon",
+			"Cost" : 20,
+			
+			"Pro" :
+			{
+				"Type" : "TribalTurtlePro",
+				"Avatar" : "special_agent_turtle_pro_avatar",
+				"Icon" : "special_agent_turtle_pro_icon"
+			}
+		},
+		{
+			"Type" : "MeerkatSpy",
+			"Avatar" : "special_agent_meerkat_avatar",
+			"Icon" : "special_agent_meerkat_icon",
+			"Cost" : 15,
+			
+			"Pro" :
+			{
+				"Type" : "MeerkatSpyPro",
+				"Avatar" : "special_agent_meerkat_pro_avatar",
+				"Icon" : "special_agent_meerkat_pro_icon"
+			}
+		},
+		{
+			"Type" : "BloonberryBush",
+			"Avatar" : "special_agent_bloonberry_avatar",
+			"Icon" : "special_agent_bloonberry_icon",
+			"Cost" : 15,
+			
+			"Pro" :
+			{
+				"Type" : "BloonberryBushPro",
+				"Avatar" : "special_agent_bloonberry_pro_avatar",
+				"Icon" : "special_agent_bloonberry_pro_icon"
+			}
+		},
+		{
+			"Type" : "AngrySquirrel",
+			"Avatar" : "special_agent_squirrel_avatar",
+			"Icon" : "special_agent_squirrel_icon",
+			"Cost" : 15,
+			"Offset": 15,
+			
+			"Pro" :
+			{
+				"Type" : "AngrySquirrelPro",
+				"Avatar" : "special_agent_squirrel_pro_avatar",
+				"Icon" : "special_agent_squirrel_pro_icon"
+			}
+		},
+		{
+			"Type" : "Radadactyl",
+			"Avatar" : "special_agent_rad_avatar",
+			"Icon" : "special_agent_radadactyl_icon",
+			"Cost" : 20,
+			
+			"Pro" :
+			{
+				"Type" : "RadadactylPro",
+				"Avatar" : "special_agent_rad_pro_avatar",
+				"Icon" : "special_agent_radadactyl_pro_icon"
+			}
+		},
+        {
+            "Type" : "NinjaKiwi",
+            "Avatar" : "special_agent_ninja_kiwi_avatar",
+            "Icon" : "special_agent_ninja_kiwi_icon",
+            "Cost" : 15,
+            
+            "Pro" :
+            {
+                "Type" : "NinjaKiwiPro",
+                "Avatar" : "special_agent_ninja_kiwi_pro_avatar",
+                "Icon" : "special_agent_ninja_kiwi_pro_icon"
+            }
+        },
+		{
+			"Type" : "BeeKeeper",
+			"Avatar" : "special_agent_beekeeper_avatar",
+			"Icon" : "special_agent_beekeeper_icon",
+			"Cost" : 20,
+			
+			"Pro" :
+			{
+				"Type" : "BeeKeeperPro",
+				"Avatar" : "special_agent_beekeeper_pro_avatar",
+				"Icon" : "special_agent_beekeeper_pro_icon"
+			}
+		},
+		{
+			"Type" : "SuperMonkeyStorm",
+			"Avatar" : "special_agent_supermonkey_storm_avatar",
+			"Icon" : "special_agent_supermonkey_storm_icon",
+			"Cost" : 20,
+			
+			"Pro" :
+			{
+				"Type" : "SuperMonkeyStormPro",
+				"Avatar" : "special_agent_supermonkey_storm_pro_avatar",
+				"Icon" : "special_agent_supermonkey_storm_pro_icon"
+			}
+		},
+		{
+			"Type" : "BloonsdayDevice",
+			"Avatar" : "special_agent_bloonsday_avatar",
+			"Icon" : "special_agent_bloonsday_icon",
+			"Cost" : 45,
+			
+			"Pro" :
+			{
+				"Type" : "BloonsdayDevicePro",
+				"Avatar" : "special_agent_bloonsday_pro_avatar",
+				"Icon" : "special_agent_bloonsday_pro_icon"
+			}
+		}
 	]
 }

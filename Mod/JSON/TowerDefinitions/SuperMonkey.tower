@@ -32,7 +32,7 @@
     
     "Upgrades" :
     [
-    	[ "Laser Blasts", "Plasma Blasts", "Sun God", "Temple" ],
+    	[ "Laser Blasts", "Plasma Blasts", "Sun God", "Monkey Temple" ],
     	[ "Better Melee", "Ground Stomp", "Robo Monkey", "Technological Terror" ]
     ],
 	"UpgradeGateway" :

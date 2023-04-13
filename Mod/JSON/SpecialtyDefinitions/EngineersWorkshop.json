@@ -36,8 +36,8 @@
 			"Text" : "LOC_SPEC_Engineer_III",
 			"InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 12,
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 10,
                 "TowerType" : "MonkeyEngineer",
                 "TowerCount" : 1
             }]
@@ -51,8 +51,8 @@
                 "TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyEngineer", "MonkeyEngineerSentry", "MonkeyEngineerSentryTier4" ] } },
                 "Modifier" :
                 {
-                    "TargetRange": [ 1.2, 0 ],
-					"ProjectileCutOff" : [ 1.2, 0 ]
+                    "TargetRange": [ 1.23, 0 ],
+					"ProjectileCutOff" : [ 1.23, 0 ]
                 }
             }]
         },

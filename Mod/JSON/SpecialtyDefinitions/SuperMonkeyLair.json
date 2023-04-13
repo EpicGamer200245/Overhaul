@@ -13,7 +13,7 @@
 			"TowerModifiers" :
 			[{
 				"TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
-				"Modifier" : { "Cost": [ 0.94, 0 ] }
+				"Modifier" : { "Cost": [ 0.92, 0 ] }
 			}]
 		},
 		
@@ -21,14 +21,14 @@
 		{
 			"Text" : "LOC_SPEC_Super_II",
 			"TowerModifiers" :
-			[{
-				"TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
-				"Modifier" :
-				{
-					"FireDelay" : [ 0.93, 0 ],
-					"Cooldown"  : [ 0.93, 0 ]
-				}
-			}]
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+                "Modifier" :
+                {
+                    "TargetRange": [ 1.13, 0 ],
+					"ProjectileCutOff" : [ 1.13, 0 ]
+                }
+            }]
 		},
 	
 		"III" :
@@ -37,7 +37,7 @@
 			"InventoryBonuses" :
 			[{
                 "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 17,
+                "RoundPeriod" : 19,
                 "TowerType" : "SuperMonkey",
                 "TowerCount" : 1
             }]
@@ -55,7 +55,16 @@
 		
 		"X" :
 		{
-			"Text" : "LOC_SPEC_Super_X"
+			"Text" : "LOC_SPEC_Super_X",
+			"TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+                "Modifier" :
+                {
+					"FireDelay" : [ 1.04, 0 ],
+					"Cooldown"  : [ 1.04, 0 ]
+                }
+            }]
 		}
 	}
 }

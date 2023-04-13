@@ -12,9 +12,9 @@
 			"Text" : "LOC_SPEC_Boomerang_I",
 			"TowerModifiers" :
 			[{
-				"TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
-				"Modifier" : { "Cost": [ 0.91, 0 ] }
-			}]
+                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+                "Modifier" : { "PoppingPower" : [ 1, 1 ] }
+            }]
 		},
 		
 		"II" :		
@@ -25,8 +25,8 @@
 				"TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
 				"Modifier" :
 				{
-					"FireDelay" : [ 0.89, 0 ],
-					"Cooldown"  : [ 0.89, 0 ]
+					"FireDelay" : [ 0.66, 0 ],
+					"Cooldown"  : [ 0.66, 0 ]
 				}
 			}]
 		},
@@ -36,8 +36,8 @@
 			"Text" : "LOC_SPEC_Boomerang_III",
 			"InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 12,
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 8,
                 "TowerType" : "BoomerangThrower",
                 "TowerCount" : 1
             }]

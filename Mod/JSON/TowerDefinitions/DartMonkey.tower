@@ -27,14 +27,14 @@
         [
             "Long Range Darts",
             "Enhanced Eyesight",
-            "Spike-O-Pult",
-            "Juggernaut"
+            "Plasmatic Spikes",
+            "Upgrade"
         ],
         [
+            "Quick Shots",
             "Sharp Shots",
-            "Razor Sharp Shots",
             "Triple Darts",
-            "Super Monkey Fan Club"
+            "Quick Attack"
         ]
     ],
 	"UpgradeGateway" :

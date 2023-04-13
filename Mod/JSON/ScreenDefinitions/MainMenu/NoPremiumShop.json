@@ -1,5 +1,35 @@
 {
-	"Premiums" : [	  
+	"Premiums" : [
+		{
+			"Type" : "HandfulOTokens",
+			"ProductType" : "Token",
+			"Icon" : "premium_5_tokens",
+			"PopupIcon" : "premium_5_tokens_shared",
+			"BackupDisplayName" : "LOC_PREM_HandfulOTokens",
+			"BackupDescription" : "LOC_PREM_DESC_HandfulOTokens",
+			"TotalEnclosed" : 5,
+			"Enclosed" : "5",
+			"BackupPrice" : "$500",
+			"MMCost" : 500
+		},	  
+		{
+			"Type" : "HealthyBananas",
+			"Icon" : "premium_healthy_bananas",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_HealthyBananas",
+			"BackupDescription" : "LOC_PREM_DESC_HealthyBananas",
+			"BackupPrice" : "Can't Buy",
+			"MMCost" : 2147483647
+		},
+		{
+			"Type" : "BiggerBeacons",
+			"Icon" : "premium_bigger_beacons",
+			"IsToggle" : true,
+			"BackupDisplayName" : "LOC_PREM_BiggerBeacons",
+			"BackupDescription" : "LOC_PREM_DESC_BiggerBeacons",
+			"BackupPrice" : "Can't Buy",
+			"MMCost" : 2147483647
+		},
 
 		{
 			"Type" : "ClassicDartMonkey",
@@ -182,19 +212,6 @@
 			"BackupDescription" : "LOC_PREM_DESC_MilitaryBombTower",
 			"BackupPrice" : "$1000",
 			"MMCost" : 1000
-		},
-
-		{
-			"Type" : "HandfulOTokens",
-			"ProductType" : "Token",
-			"Icon" : "premium_5_tokens",
-			"PopupIcon" : "premium_5_tokens_shared",
-			"BackupDisplayName" : "LOC_PREM_HandfulOTokens",
-			"BackupDescription" : "LOC_PREM_DESC_HandfulOTokens",
-			"TotalEnclosed" : 3,
-			"Enclosed" : "3",
-			"BackupPrice" : "$750",
-			"MMCost" : 750
 		}
 	]
 }

@@ -3,7 +3,6 @@
     "TargetRange":      	163,
 	"CooldownTime":     	19.0,
     "FireDelayTime":    	0.0,
-	"DefaultSprite":    "TowerCenter.json",
 	"ManuallyFired": 		true,
 	"CanTargetUnderground" : true,
     "RequiresTargetToFire":	false,

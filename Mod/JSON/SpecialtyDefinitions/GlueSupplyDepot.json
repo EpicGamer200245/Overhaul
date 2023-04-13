@@ -13,7 +13,7 @@
 			"TowerModifiers" :
 			[{
 				"TargetingFilter" : { "Include" : { "TowerType": [ "GlueGunner" ] } },
-				"Modifier" : { "Cost": [ 0.89, 0 ] }
+				"Modifier" : { "Cost": [ 0.87, 0 ] }
 			}]
 		},
 		
@@ -25,8 +25,8 @@
 				"TargetingFilter" : { "Include" : { "TowerType": [ "GlueGunner" ] } },
 				"Modifier" :
 				{
-					"FireDelay" : [ 0.86, 0 ],
-					"Cooldown"  : [ 0.86, 0 ]
+					"FireDelay" : [ 0.83, 0 ],
+					"Cooldown"  : [ 0.83, 0 ]
 				}
 			}]
 		},
@@ -36,8 +36,8 @@
 			"Text" : "LOC_SPEC_Glue_III",
             "InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 9,
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 7,
                 "TowerType" : "GlueGunner",
                 "TowerCount" : 1
             }]

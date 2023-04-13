@@ -13,7 +13,7 @@
 			"TowerModifiers" :
 			[{
 				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyBuccaneer" ] } },
-				"Modifier" : { "Cost": [ 0.91, 0 ] }
+				"Modifier" : { "Cost": [ 0.95, 0 ] }
 			}]
 		},
 		
@@ -25,8 +25,8 @@
 				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyBuccaneer" ] } },
 				"Modifier" :
 				{
-					"FireDelay" : [ 0.89, 0 ],
-					"Cooldown"  : [ 0.89, 0 ]
+					"FireDelay" : [ 0.78, 0 ],
+					"Cooldown"  : [ 0.78, 0 ]
 				}
 			}]
 		},
@@ -36,7 +36,7 @@
 			"Text" : "LOC_SPEC_Pirate_III",
 			"InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
                 "RoundPeriod" : 12,
                 "TowerType" : "MonkeyBuccaneer",
                 "TowerCount" : 1
@@ -51,8 +51,8 @@
                 "TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyBuccaneer" ] } },
                 "Modifier" :
                 {
-                    "TargetRange": [ 1.2, 0 ],
-					"ProjectileCutOff" : [ 1.2, 0 ]
+                    "TargetRange": [ 1.19, 0 ],
+					"ProjectileCutOff" : [ 1.19, 0 ]
                 }
             }]
         },

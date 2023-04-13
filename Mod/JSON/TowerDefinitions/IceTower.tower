@@ -26,8 +26,8 @@
  
     "Upgrades" :
     [
-    	[ "Enhanced Freeze", "Snap Freeze", "Arctic Wind", "Viral Frost" ],
-    	[ "Permafrost", "Deep Freeze", "Ice Shards", "Absolute Zero" ]
+    	[ "Permafrost", "Better Permafrost", "Snap Freeze", "Bigger Snap" ],
+    	[ "Bigger Range", "More Ice", "Giant Freeze", "Snowstorm" ]
     ],
 	"UpgradeGateway" :
 	[

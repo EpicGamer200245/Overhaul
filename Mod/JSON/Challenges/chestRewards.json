@@ -1,0 +1,1669 @@
+{
+    "Data": [
+        {
+            "Reward": { "MonkeyMoney": 5 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 5 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 10 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 15, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 20 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 25 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 30, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 35 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 40 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 45, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 50 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 55 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 60, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 65 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 70 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 75, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 80 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 85 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 90, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 95 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 100 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 105, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 110 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 115 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 120, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 125 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 130 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 135, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 140 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 145 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 150, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 155 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 160 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 165, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 170 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 175 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 180, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 185 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 190 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 195, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 200 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 205 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210, "Agents": [ "BloonsdayDevice" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 210, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 215 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 220 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 225, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 230 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 235 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 240, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 245 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 250 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 255, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260, "Agents": [ "SuperMonkeyStorm" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260, "Agents": [ "BloonberryBush" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260, "Agents": [ "BananaFarmer" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 260 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265, "Agents": [ "BeeKeeper" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 265 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270, "Agents": [ "NinjaKiwi" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270, "Agents": [ "MeerkatSpy" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270, "Agents": [ "TribalTurtle" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 270, "Agents": [ "Pontoon" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275, "Agents": [ "Radadactyl" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275, "Agents": [ "PortableLake" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 275 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 280 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 280, "Agents": [ "AngrySquirrel" ] }
+        },
+        {
+            "Reward": { "MonkeyMoney": 280 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 280 }
+        },
+        {
+            "Reward": { "MonkeyMoney": 280, "Agents": [ "PortableLake" ] }
+        }
+	]
+}

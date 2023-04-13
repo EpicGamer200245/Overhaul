@@ -1,0 +1,375 @@
+{
+	"Data": [
+	{
+		"_ID": "PopRegrow_C",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 60000,
+		"Reward": {
+			"MonkeyMoney": 140
+		}
+	},
+	{
+		"_ID": "PopBloons_C",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 120000,
+		"Reward": {
+			"MonkeyMoney": 140
+		}
+	},
+	{
+		"_ID": "PopCamo_C",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 30000,
+		"Reward": {
+			"MonkeyMoney": 140
+		}
+	},
+	{
+		"_ID": "PopRegrow",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 2000,
+		"Reward": {
+			"MonkeyMoney": 10
+		}
+	},
+	{
+		"_ID": "PopBloons",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 4000,
+		"Reward": {
+			"MonkeyMoney": 10
+		}
+	},
+	{
+		"_ID": "PopCamo",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 1000,
+		"Reward": {
+			"MonkeyMoney": 10
+		}
+	},
+	{
+		"_ID": "PopRegrow_I",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 3000,
+		"Reward": {
+			"MonkeyMoney": 20
+		}
+	}, 
+	{
+		"_ID": "PopBloons_I",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 6000,
+		"Reward": {
+			"MonkeyMoney": 20
+		}
+	}, 
+	{
+		"_ID": "PopCamo_I",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 1500,
+		"Reward": {
+			"MonkeyMoney": 20
+		}
+	}, 
+	{
+		"_ID": "PopRegrow_II",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 4000,
+		"Reward": {
+			"MonkeyMoney": 25
+		}
+	}, 
+	{
+		"_ID": "PopBloons_II",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 8000,
+		"Reward": {
+			"MonkeyMoney": 25
+		}
+	}, 
+	{
+		"_ID": "PopCamo_II",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 2000,
+		"Reward": {
+			"MonkeyMoney": 25
+		}
+	}, 
+	{
+		"_ID": "PopRegrow_III",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 5000,
+		"Reward": {
+			"MonkeyMoney": 35
+		}
+	}, 
+	{
+		"_ID": "PopBloons_III",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 10000,
+		"Reward": {
+			"MonkeyMoney": 35
+		}
+	}, 
+	{
+		"_ID": "PopCamo_III",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 2500,
+		"Reward": {
+			"MonkeyMoney": 35
+		}
+	}, 
+	{
+		"_ID": "PopRegrow_IV",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 6000,
+		"Reward": {
+			"MonkeyMoney": 40
+		}
+	},
+	{
+		"_ID": "PopBloons_IV",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 12000,
+		"Reward": {
+			"MonkeyMoney": 40
+		}
+	},
+	{
+		"_ID": "PopCamo_IV",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 3000,
+		"Reward": {
+			"MonkeyMoney": 40
+		}
+	},
+	{
+		"_ID": "PopRegrow_V",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 7000,
+		"Reward": {
+			"MonkeyMoney": 45
+		}
+	},
+	{
+		"_ID": "PopBloons_V",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 14000,
+		"Reward": {
+			"MonkeyMoney": 45
+		}
+	},
+	{
+		"_ID": "PopCamo_V",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 3500,
+		"Reward": {
+			"MonkeyMoney": 45
+		}
+	},
+	{
+		"_ID": "PopRegrow_VI",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 8000,
+		"Reward": {
+			"MonkeyMoney": 50
+		}
+	},
+	{
+		"_ID": "PopBloons_VI",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 16000,
+		"Reward": {
+			"MonkeyMoney": 50
+		}
+	},
+	{
+		"_ID": "PopCamo_VI",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 4000,
+		"Reward": {
+			"MonkeyMoney": 50
+		}
+	},
+	{
+		"_ID": "PopRegrow_VII",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 9000,
+		"Reward": {
+			"MonkeyMoney": 55
+		}
+	},
+	{
+		"_ID": "PopBloons_VII",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 18000,
+		"Reward": {
+			"MonkeyMoney": 55
+		}
+	},
+	{
+		"_ID": "PopCamo_VII",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 4500,
+		"Reward": {
+			"MonkeyMoney": 55
+		}
+	},
+	{
+		"_ID": "PopRegrow_VIII",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 10000,
+		"Reward": {
+			"MonkeyMoney": 60
+		}
+	},
+	{
+		"_ID": "PopBloons_VIII",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 20000,
+		"Reward": {
+			"MonkeyMoney": 60
+		}
+	},
+	{
+		"_ID": "PopCamo_VIII",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 5000,
+		"Reward": {
+			"MonkeyMoney": 60
+		}
+	},
+	{
+		"_ID": "PopRegrow_IX",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 11000,
+		"Reward": {
+			"MonkeyMoney": 65
+		}
+	},
+	{
+		"_ID": "PopBloons_IX",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 22000,
+		"Reward": {
+			"MonkeyMoney": 65
+		}
+	},
+	{
+		"_ID": "PopCamo_IX",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 5500,
+		"Reward": {
+			"MonkeyMoney": 65
+		}
+	},
+	{
+		"_ID": "PopRegrow_X",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsRegen": true
+		},
+		"Target": 12000,
+		"Reward": {
+			"MonkeyMoney": 70
+		}
+	},
+	{
+		"_ID": "PopBloons_X",
+		"Type": "PopBloon",
+		"TypeData": {},
+		"Target": 24000,
+		"Reward": {
+			"MonkeyMoney": 70
+		}
+	},
+	{
+		"_ID": "PopCamo_X",
+		"Type": "PopBloon",
+		"TypeData": {
+			"IsCamo": true
+		},
+		"Target": 6000,
+		"Reward": {
+			"MonkeyMoney": 70
+		}
+	}]
+}

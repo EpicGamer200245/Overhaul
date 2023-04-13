@@ -22,15 +22,15 @@
     "Upgrades" : [
         [
             "Faster Shooting",
-            "Even Faster Shooting",
-            "Tack Sprayer",
+            "Burny Tacks",
+            "Fiery Tacks",
             "Ring Of Fire"
         ],
         [
-            "Extra Range Tacks",
-            "Super Range Tacks",
+            "Longer Range",
+            "Longer Tacks",
             "Blade Shooter",
-            "Blade Maelstrom"
+            "Seeking Blades"
         ]
     ],
 	"UpgradeGateway" :

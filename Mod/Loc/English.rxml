@@ -2,122 +2,173 @@
 <Reflect>
     <Select node="LocData">
         <Select node="Language">
+            <!--Stores-->
+            <Insert node="T" id="LOC_PREM_MISC_Cost" l="0"></Insert>
+            <Insert node="T" id="LOC_PREM_MISC_Cost_s_s" l="0">%1$s%2$s</Insert>
+            <Insert node="T" id="LOC_LAB_MISC_Cost" l="0"></Insert>
+            <Insert node="T" id="LOC_AGENTS_MISC_Cost" l="0"></Insert>
+
+            <!--3 Daily Quests-->
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow" l="0">Pop Regrow Bloons: Tier ?</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_I" l="0">Pop Regrow Bloons: Tier I</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_II" l="0">Pop Regrow Bloons: Tier II</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_III" l="0">Pop Regrow Bloons: Tier III</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_IV" l="0">Pop Regrow Bloons: Tier IV</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_V" l="0">Pop Regrow Bloons: Tier V</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_VI" l="0">Pop Regrow Bloons: Tier VI</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_VII" l="0">Pop Regrow Bloons: Tier VII</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_VIII" l="0">Pop Regrow Bloons: Tier VIII</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_IX" l="0">Pop Regrow Bloons: Tier IX</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_X" l="0">Pop Regrow Bloons: Tier X</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_C" l="0">Pop Regrow Bloons: Tier C</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons" l="0">Pop Any Bloon: Tier ?</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_I" l="0">Pop Any Bloon: Tier I</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_II" l="0">Pop Any Bloon: Tier II</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_III" l="0">Pop Any Bloon: Tier III</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_IV" l="0">Pop Any Bloon: Tier IV</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_V" l="0">Pop Any Bloon: Tier V</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_VI" l="0">Pop Any Bloon: Tier VI</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_VII" l="0">Pop Any Bloon: Tier VII</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_VIII" l="0">Pop Any Bloon: Tier VIII</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_IX" l="0">Pop Any Bloon: Tier IX</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_X" l="0">Pop Any Bloon: Tier X</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_C" l="0">Pop Any Bloon: Tier C</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo" l="0">Pop Camo Bloons: Tier ?</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_I" l="0">Pop Camo Bloons: Tier I</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_II" l="0">Pop Camo Bloons: Tier II</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_III" l="0">Pop Camo Bloons: Tier III</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_IV" l="0">Pop Camo Bloons: Tier IV</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_V" l="0">Pop Camo Bloons: Tier V</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_VI" l="0">Pop Camo Bloons: Tier VI</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_VII" l="0">Pop Camo Bloons: Tier VII</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_VIII" l="0">Pop Camo Bloons: Tier VIII</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_IX" l="0">Pop Camo Bloons: Tier IX</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_X" l="0">Pop Camo Bloons: Tier X</Insert>
+            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_C" l="0">Pop Camo Bloons: Tier C</Insert>
+
             <!--Specialties-->
             <Insert node="T" id="LOC_SPEC_Land_I" l="0">Start building.</Insert>
 
             <Insert node="T" id="LOC_SPEC_Ace_I" l="0">Reduces costs by 9%.</Insert>
             <Insert node="T" id="LOC_SPEC_Ace_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Ace_III" l="0">Free tower every 12 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ace_III" l="0">Free tower at start and every 10 rounds.</Insert>
             <Insert node="T" id="LOC_SPEC_Ace_IV" l="0">Increases damage by 50%.</Insert>
             <Insert node="T" id="LOC_SPEC_Ace_X" l="0">Nothing bad happens.</Insert>
 
             <Insert node="T" id="LOC_SPEC_Chipper_I" l="0">Reduces costs by 9%.</Insert>
             <Insert node="T" id="LOC_SPEC_Chipper_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Chipper_III" l="0">Free tower every 12 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Chipper_III" l="0">Free tower at start and every 10 rounds.</Insert>
             <Insert node="T" id="LOC_SPEC_Chipper_IV" l="0">Increases range by 20%.</Insert>
             <Insert node="T" id="LOC_SPEC_Chipper_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Bomb_I" l="0">Reduces costs by 9%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Bomb_I" l="0">Reduces bomb shooter costs by 9%. Reduces exploding pineapple cost by 10.</Insert>
             <Insert node="T" id="LOC_SPEC_Bomb_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Bomb_III" l="0">Free tower every 12 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Bomb_IV" l="0">Increases range by 20%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Bomb_III" l="0">Free 6 exploding pineapples at start and 1 every 4 rounds, bomb shooter at start and every 11 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Bomb_IV" l="0">Increases range by 20%. Increases exploding pineapple damage by 1.</Insert>
             <Insert node="T" id="LOC_SPEC_Bomb_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Boomerang_I" l="0">Reduces costs by 9%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Boomerang_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Boomerang_III" l="0">Free tower every 12 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Boomerang_I" l="0">Increases pierce by 1.</Insert>
+            <Insert node="T" id="LOC_SPEC_Boomerang_II" l="0">Also now, reduces attack speed by 34%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Boomerang_III" l="0">Free tower at start and every 8 rounds.</Insert>
             <Insert node="T" id="LOC_SPEC_Boomerang_IV" l="0">Increases pierce by 3.</Insert>
             <Insert node="T" id="LOC_SPEC_Boomerang_X" l="0">Nothing bad happens.</Insert>
 
             <Insert node="T" id="LOC_SPEC_Dartling_I" l="0">Reduces costs by 9%.</Insert>
             <Insert node="T" id="LOC_SPEC_Dartling_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Dartling_III" l="0">Free tower every 12 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Dartling_IV" l="0">Increases damage by 50%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Dartling_III" l="0">Free tower at start and every 10 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Dartling_IV" l="0">Increases pierce by 1.</Insert>
             <Insert node="T" id="LOC_SPEC_Dartling_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Dart_I" l="0">Reduces costs by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Dart_II" l="0">Also now, reduces attack speed by 14%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Dart_III" l="0">Free tower every 9 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Dart_IV" l="0">Increases range by 25%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Dart_I" l="0">Reduces costs by 10%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Dart_II" l="0">Also now, reduces attack speed by 16%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Dart_III" l="0">Free tower at start and every 7 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Dart_IV" l="0">Increases range by 11%.</Insert>
             <Insert node="T" id="LOC_SPEC_Dart_X" l="0">Nothing bad happens.</Insert>
 
             <Insert node="T" id="LOC_SPEC_Engineer_I" l="0">Reduces costs by 9%.</Insert>
             <Insert node="T" id="LOC_SPEC_Engineer_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Engineer_III" l="0">Free tower every 12 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Engineer_IV" l="0">Increases range by 20%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Engineer_III" l="0">Free tower at start and every 10 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Engineer_IV" l="0">Increases range by 23%.</Insert>
             <Insert node="T" id="LOC_SPEC_Engineer_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Glue_I" l="0">Reduces costs by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Glue_II" l="0">Also now, reduces attack speed by 14%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Glue_III" l="0">Free tower every 9 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Glue_I" l="0">Reduces costs by 13%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Glue_II" l="0">Also now, reduces attack speed by 17%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Glue_III" l="0">Free tower at start and every 7 rounds.</Insert>
             <Insert node="T" id="LOC_SPEC_Glue_IV" l="0">Increases range by 25%.</Insert>
             <Insert node="T" id="LOC_SPEC_Glue_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Heli_I" l="0">Reduces costs by 9%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Heli_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Heli_III" l="0">Free tower every 12 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Heli_IV" l="0">Flies 100% faster, increases pierce by 1.</Insert>
+            <Insert node="T" id="LOC_SPEC_Heli_I" l="0">Reduces costs by 10%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Heli_II" l="0">Also now, reduces attack speed by 13%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Heli_III" l="0">Free tower at start and every 10 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Heli_IV" l="0">Flies 120% faster, increases pierce by 1.</Insert>
             <Insert node="T" id="LOC_SPEC_Heli_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Ice_I" l="0">Reduces costs by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Ice_II" l="0">Also now, reduces attack speed by 14%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Ice_III" l="0">Free tower every 9 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Ice_IV" l="0">Increases range by 25%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ice_I" l="0">Reduces costs by 13%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ice_II" l="0">Also now, reduces attack speed by 17%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ice_III" l="0">Free tower at start and every 7 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ice_IV" l="0">Increases range by 23%.</Insert>
             <Insert node="T" id="LOC_SPEC_Ice_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Mage_I" l="0">Reduces costs by 9%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Mage_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Mage_III" l="0">Free tower every 12 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Mage_I" l="0">Reduces costs by 10%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Mage_II" l="0">Also now, reduces attack speed by 13%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Mage_III" l="0">Free tower at start and every 10 rounds.</Insert>
             <Insert node="T" id="LOC_SPEC_Mage_IV" l="0">Increases range by 20%.</Insert>
             <Insert node="T" id="LOC_SPEC_Mage_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Mortar_I" l="0">Reduces costs by 9%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Mortar_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Mortar_III" l="0">Free tower every 12 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Mortar_IV" l="0">Increases damage by 50%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Mortar_I" l="0">Reduces mortar monkey costs by 10%. Reduces exploding pineapple cost by 10.</Insert>
+            <Insert node="T" id="LOC_SPEC_Mortar_II" l="0">Also now, reduces attack speed by 17%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Mortar_III" l="0">Free 6 exploding pineapples at start and 1 every 4 rounds, mortar monkey at start and every 9 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Mortar_IV" l="0">Increases damage by 50%. Increases exploding pineapple damage by 1.</Insert>
             <Insert node="T" id="LOC_SPEC_Mortar_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Ninja_I" l="0">Reduces costs by 9%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Ninja_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Ninja_III" l="0">Free tower every 12 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Ninja_IV" l="0">Increases range by 20%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ninja_I" l="0">Reduces costs by 7%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ninja_II" l="0">Also now, reduces attack speed by 20%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ninja_III" l="0">Free tower at start and every 8 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Ninja_IV" l="0">Increases range by 18%.</Insert>
             <Insert node="T" id="LOC_SPEC_Ninja_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Pirate_I" l="0">Reduces costs by 9%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Pirate_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Pirate_III" l="0">Free tower every 12 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Pirate_IV" l="0">Increases range by 20%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Pirate_I" l="0">Reduces costs by 5%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Pirate_II" l="0">Also now, reduces attack speed by 22%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Pirate_III" l="0">Free tower at start and every 12 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Pirate_IV" l="0">Increases range by 19%.</Insert>
             <Insert node="T" id="LOC_SPEC_Pirate_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Sniper_I" l="0">Reduces costs by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Sniper_II" l="0">Also now, reduces attack speed by 14%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Sniper_III" l="0">Free tower every 9 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Sniper_IV" l="0">Increases damage by 50%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Sniper_I" l="0">Reduces costs by 19%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Sniper_II" l="0">Also now, reduces attack speed by 10%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Sniper_III" l="0">Free tower at start and every 8 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Sniper_IV" l="0">Increases damage by 34%.</Insert>
             <Insert node="T" id="LOC_SPEC_Sniper_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Spikes_I" l="0">Reduces costs by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Spikes_II" l="0">Also now, reduces attack speed by 14%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Spikes_III" l="0">Free tower every 9 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Spikes_IV" l="0">Increases pierce by 60%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Spikes_I" l="0">Reduces spike factory costs by 15%. Reduces road spike cost by 10.</Insert>
+            <Insert node="T" id="LOC_SPEC_Spikes_II" l="0">Also now, reduces attack speed by 10%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Spikes_III" l="0">Free 4 road spikes at start and 1 every 4 rounds, spike factory at start and every 11 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Spikes_IV" l="0">Increases pierce for spike factory and road spikes by 50%.</Insert>
             <Insert node="T" id="LOC_SPEC_Spikes_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_MonkeySub_I" l="0">Reduces costs by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_MonkeySub_II" l="0">Also now, reduces attack speed by 14%.</Insert>
-            <Insert node="T" id="LOC_SPEC_MonkeySub_III" l="0">Free tower every 9 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_MonkeySub_IV" l="0">Increases range by 25%.</Insert>
+            <Insert node="T" id="LOC_SPEC_MonkeySub_I" l="0">Reduces costs by 5%.</Insert>
+            <Insert node="T" id="LOC_SPEC_MonkeySub_II" l="0">Also now, reduces attack speed by 26%.</Insert>
+            <Insert node="T" id="LOC_SPEC_MonkeySub_III" l="0">Free tower at start and every 10 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_MonkeySub_IV" l="0">Increases range by 16%.</Insert>
             <Insert node="T" id="LOC_SPEC_MonkeySub_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Super_I" l="0">Reduces costs by 6%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Super_II" l="0">Also now, reduces attack speed by 7%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Super_III" l="0">Free tower every 17 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Super_I" l="0">Reduces costs by 8%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Super_II" l="0">Also now, increases range by 13%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Super_III" l="0">Free tower every 19 rounds.</Insert>
             <Insert node="T" id="LOC_SPEC_Super_IV" l="0">Increases pierce by 1.</Insert>
-            <Insert node="T" id="LOC_SPEC_Super_X" l="0">Nothing bad happens.</Insert>
+            <Insert node="T" id="LOC_SPEC_Super_X" l="0">Increases attack speed by 4%. Buffs reduce attack speed.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Tack_I" l="0">Reduces costs by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Tack_II" l="0">Also now, reduces attack speed by 14%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Tack_III" l="0">Free tower every 9 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Tack_IV" l="0">Increases range by 15%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Tack_I" l="0">Reduces tack shooter costs by 17%. Reduces road spike cost by 10.</Insert>
+            <Insert node="T" id="LOC_SPEC_Tack_II" l="0">Also now, reduces attack speed by 15%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Tack_III" l="0">Free 4 road spikes at start and 1 every 4 rounds, tack shooter at start.</Insert>
+            <Insert node="T" id="LOC_SPEC_Tack_IV" l="0">Increases range by 18%. Increases pierce for road spikes by 50%.</Insert>
             <Insert node="T" id="LOC_SPEC_Tack_X" l="0">Nothing bad happens.</Insert>
+
+            <Insert node="T" id="LOC_SPEC_Radar" l="0">Radar Facilities</Insert>
+            <Insert node="T" id="LOC_SPEC_Radar_I" l="0">Reduces costs by 12%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Radar_II" l="0">Also now, reduces attack speed by 10%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Radar_III" l="0">Free tower at start and every 9 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Radar_IV" l="0">Increases damage by 1.</Insert>
+            <Insert node="T" id="LOC_SPEC_Radar_X" l="0">Nothing bad happens.</Insert>
 
             <!--Map List-->
             <Insert node="T" id="LOC_PACK_Beginner" l="0">Map Pack #1</Insert>
@@ -244,7 +295,7 @@
             <Insert node="T" id="LOC_UPGRADE_B4_MonkeyRadar" l="0">Screen Scan</Insert>
 
             <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A1" l="0">Scans the bloons 40% faster.</Insert>
-            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A2" l="0">Scans can now hit every bloon, including MOABs.</Insert>
+            <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A2" l="0">Scans can now hit camo and every bloon.</Insert>
             <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A3" l="0">Scans now have increased ceramic and MOAB damage.</Insert>
             <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_A4" l="0">Scans the bloons now at light-speed.</Insert>
             <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_B1" l="0">Gives bigger range than before.</Insert>

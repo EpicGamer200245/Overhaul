@@ -55,7 +55,14 @@
           "uid" : 4
        }
     ],
-    "customvariables" : null,
+    "customvariables" : 
+    [
+      {
+         "VariableName" : "FirePosition",
+         "ValueType"    : 4,
+         "Value"        : [0.0, 0.0]
+      }
+    ],
     "events" : null,
     "labels" : null,
     "stageOptions" : {

@@ -1,4 +1,7 @@
 [
+    //Challenges
+    "Assets/JSON/Challenges/chestRewards.json",
+
     //Profile
     "Assets/JSON/ProfileDefinitions/RankGateway.json",
 

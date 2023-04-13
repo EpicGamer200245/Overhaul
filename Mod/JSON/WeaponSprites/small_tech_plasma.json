@@ -9,7 +9,7 @@
             "Colour" : 4294967295,
             "Flip" : 0,
             "Position" : [ 0.0, 0.0 ],
-            "Scale" : [ 0.39, 0.39 ],
+            "Scale" : [ 0.33, 0.33 ],
             "Shown" : true,
             "sprite" : "supermonkey_tech_terror_projectile",
             "type" : 1,

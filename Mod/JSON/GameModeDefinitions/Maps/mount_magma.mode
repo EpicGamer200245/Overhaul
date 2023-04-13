@@ -1,7 +1,7 @@
 {
 	"Rules" : {
 		"Reward" : {
-			"MonkeyMoney": 130,
+			"MonkeyMoney": 150,
             "TokensEasy": 2,
             "TokensMedium": 3,
             "TokensHard": 4,

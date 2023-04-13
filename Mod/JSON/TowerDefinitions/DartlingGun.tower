@@ -11,8 +11,8 @@
 
     "Upgrades" :
     [
-    	[ "Focused Firing", "Faster Barrel Spin", "Laser Cannon", "Ray Of Doom" ],
-    	[ "Powerful Darts", "Depleted Bloontonium", "Hydra Rocket Pods", "Bloon Area Denial System" ]
+    	[ "Faster Reload", "Even Faster Reload", "Hot Bloontonium Laser Cannon", "Hot Bloontonium Ray" ],
+    	[ "Focused Firing", "Powerful Darts", "Hydra Rocket Pods", "Hydra Rocket Storm" ]
     ],
 	"UpgradeGateway" :
 	[

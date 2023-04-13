@@ -1,11 +1,11 @@
 {
     "AircraftList" : [
     ],
-    "BaseCost" : 890,
+    "BaseCost" : 980,
     "CanBePlacedInWater" : true,
     "CanBePlacedOnLand" : false,
     "CanBePlacedOnPath" : false,
-    "CanTargetCamo" : true,
+    "CanTargetCamo" : false,
     "DefaultWeapons" : [
         "MonkeySubPulse.weapon"
     ],
@@ -40,8 +40,8 @@
 	],
     "UpgradePrices" : 
     [
-        [ 670, 840, 1670, 11200 ],
-        [ 380, 780, 1965, 8900 ]
+        [ 760, 1200, 2130, 13600 ],
+        [ 480, 980, 1965, 7900 ]
     ],
     "UpgradeAvatars" : 
     [

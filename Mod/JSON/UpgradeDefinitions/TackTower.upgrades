@@ -7,13 +7,13 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" :    -0.725
+                    "CooldownTime" :    -0.6815
                 }
             }
         },
         
         {
-            "Name" : "Even Faster Shooting",
+            "Name" : "Burny Tacks",
             "WeaponUpgrade" :
             {
                 "TaskUpgrade" :
@@ -66,9 +66,14 @@
         },
         
         {
-            "Name" : "Tack Sprayer",
+            "Name" : "Fiery Tacks",
             "WeaponUpgrade" :
             {
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.04
+                },
+
                 "TaskUpgrade" :
                 [
                     {
@@ -160,7 +165,7 @@
         },
 
         {
-            "Name" : "Extra Range Tacks",
+            "Name" : "Longer Range",
             "WeaponUpgrade" : 
             {
                 "Adjust" :
@@ -188,7 +193,7 @@
         },
         
         {
-            "Name" : "Super Range Tacks",
+            "Name" : "Longer Tacks",
             "WeaponUpgrade" : 
             {
                 "TaskUpgrade" :
@@ -233,7 +238,7 @@
         },
         
         {
-            "Name" : "Blade Maelstrom",
+            "Name" : "Seeking Blades",
             "WeaponUpgrade" :
             {
                 "Adjust" :

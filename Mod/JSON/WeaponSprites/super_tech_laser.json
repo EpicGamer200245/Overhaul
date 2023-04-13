@@ -9,7 +9,7 @@
             "Colour" : 4294967295,
             "Flip" : 0,
             "Position" : [ 0.0, 0.0 ],
-            "Scale" : [ 1.0, 1.0 ],
+            "Scale" : [ 1.2, 1.2 ],
             "Shown" : true,
             "sprite" : "tech_laser",
             "type" : 1,

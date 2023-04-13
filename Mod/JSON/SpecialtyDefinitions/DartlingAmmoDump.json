@@ -36,8 +36,8 @@
 			"Text" : "LOC_SPEC_Dartling_III",
             "InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 12,
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 10,
                 "TowerType" : "DartlingGun",
                 "TowerCount" : 1
             }]
@@ -47,12 +47,9 @@
 		{
 			"Text" : "LOC_SPEC_Dartling_IV",
             "TowerModifiers" :
-            [{
-                "TargetingFilter" : { "Include" : { "TowerType": [ "DartlingGun" ] } },
-                "Modifier" :
-                {
-                    "Damage" : [ 1.5, 0 ]
-                }
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+                "Modifier" : { "PoppingPower" : [ 1, 1 ] }
             }]
 		},
 		

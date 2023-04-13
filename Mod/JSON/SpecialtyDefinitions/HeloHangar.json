@@ -13,7 +13,7 @@
 			"TowerModifiers" :
 			[{
 				"TargetingFilter" : { "Include" : { "TowerType": [ "HeliPilot" ] } },
-				"Modifier" : { "Cost": [ 0.91, 0 ] }
+				"Modifier" : { "Cost": [ 0.9, 0 ] }
 			}]
 		},
 		
@@ -25,8 +25,8 @@
 				"TargetingFilter" : { "Include" : { "TowerType": [ "HeliPilotAircraft" ] } },
 				"Modifier" :
 				{
-					"FireDelay" : [ 0.89, 0 ],
-					"Cooldown"  : [ 0.89, 0 ]
+					"FireDelay" : [ 0.87, 0 ],
+					"Cooldown"  : [ 0.87, 0 ]
 				}
 			}]
 		},
@@ -36,8 +36,8 @@
 			"Text" : "LOC_SPEC_Heli_III",
 			"InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 12,
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 10,
                 "TowerType" : "HeliPilot",
                 "TowerCount" : 1
             }]
@@ -51,7 +51,7 @@
                 "TargetingFilter" : { "Include" : { "TowerType": [ "HeliPilotAircraft" ] } },
                 "Modifier" :
                 {
-                    "AircraftSpeed" : [ 2.0, 0 ],
+                    "AircraftSpeed" : [ 2.2, 0 ],
 					"PoppingPower" : [ 1, 1 ]
                 }
             }]

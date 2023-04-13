@@ -67,7 +67,7 @@
         },
         
         {
-            "Name" : "Spike-O-Pult",
+            "Name" : "Plasmatic Spikes",
             "TowerUpgrade" :
             {
                 "Weapons" :
@@ -78,7 +78,7 @@
         },
         
         {
-            "Name" : "Juggernaut",
+            "Name" : "Upgrade",
             "TowerUpgrade" :
             {
                 "Weapons" :
@@ -89,7 +89,7 @@
         },
         
         {
-            "Name" : "Sharp Shots",
+            "Name" : "Quick Shots",
             "WeaponUpgrade" :
             {
                 "Adjust" :
@@ -100,7 +100,7 @@
         },
         
         {
-            "Name" : "Razor Sharp Shots",
+            "Name" : "Sharp Shots",
             "WeaponUpgrade" :
             {
                 "SlotIndices" : [ 0, 1 ],
@@ -171,7 +171,7 @@
         },
         
         {
-            "Name" : "Super Monkey Fan Club",
+            "Name" : "Quick Attack",
             "WeaponUpgrade":
             {
                 "Adjust":

@@ -1,0 +1,64 @@
+{
+	"FileName" : "RadarFacilities.json",
+	"Name" : "LOC_SPEC_Radar",
+	"Icon" : "spikes_r_us_building",
+	"RelatedTower" : "MonkeyRadar",
+	"Building" : "radar_facilities",
+	"Prices" : [ 350, 450, 550, 650 ],
+	"Effects" :
+	{
+		"I" :
+		{
+			"Text" : "LOC_SPEC_Radar_I",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyRadar" ] } },
+				"Modifier" : { "Cost": [ 0.88, 0 ] }
+			}]
+		},
+		
+		"II" :		
+		{
+			"Text" : "LOC_SPEC_Radar_II",
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyRadar" ] } },
+				"Modifier" :
+				{
+					"FireDelay" : [ 0.9, 0 ],
+					"Cooldown"  : [ 0.9, 0 ]
+				}
+			}]
+		},
+	
+		"III" :
+		{
+			"Text" : "LOC_SPEC_Radar_III",
+			"InventoryBonuses" :
+			[{
+                "ApplyOn" : [ "GameStart", "EveryNthRound" ],
+                "RoundPeriod" : 9,
+                "TowerType" : "MonkeyRadar",
+                "TowerCount" : 1
+            }]
+		},
+        
+        "IV" :
+        {
+            "Text" : "LOC_SPEC_Radar_IV",
+			"TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyRadar" ] } },
+                "Modifier" :
+                {
+                    "Damage" : [ 1, 1 ]
+                }
+            }]
+        },
+		
+		"X" :
+		{
+			"Text" : "LOC_SPEC_Radar_X"
+		}
+	}
+}

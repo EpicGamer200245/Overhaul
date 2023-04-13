@@ -22,11 +22,17 @@
                     "Range": 120,
                     "MaxTargets": -1,
                     "Tasks" :
-                    [{
-                        "Type": "Damage",
-                        "DamageType": "Plasma",
-                        "Amount": 1
-                    }]
+                    [
+                        {
+                            "Type": "Damage",
+                            "DamageType": "Plasma",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "StatusEffect",
+                            "Status": "MultiLayerDamage"
+                        }
+                    ]
                 },
                 {
                     "Type": "Effect",
