@@ -10,7 +10,7 @@
 	],
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 0.26,
-	"RBE" : 3164,
+	"RBE" : 3252,
     "ChildBloons" : [ "MOAB.bloon", "MOAB.bloon", "MOAB.bloon", "MOAB.bloon"],
     "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus" ],
     "DamageImmunity" : [ "Juggernaut", "Foam" ],

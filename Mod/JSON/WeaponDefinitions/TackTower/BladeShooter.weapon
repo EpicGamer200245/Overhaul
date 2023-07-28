@@ -1,0 +1,78 @@
+{	
+    "Type":             "BladeShooter",    
+    "TargetRange":      90.0,
+	"CooldownTime":     1.15,
+    "FireDelayTime":    0.0,
+  
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 45.0,
+    		"FireCount": 8,
+            "AimAtTarget" : false,
+            "Offsets" : [
+                [ 0, -21 ],
+                [ 14.85, -14.85 ],
+                [ 21, 0 ],
+                [ 14.85, 14.85 ],
+                [ 0, 21 ],
+                [ -14.85, 14.85 ],
+                [ -21, 0 ],
+                [ -14.85, -14.85 ]
+            ],
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"SpriteFile": "tackshooterblade.json",
+					"NumPersists":      3,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+                    
+                    "Radius": 5,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 600.0,
+						"CutOffDistance": 90
+					},
+
+
+					
+					"Tasks":
+					[
+						{
+							"Type" : "StatusEffect",
+							"Status" : "",
+							"DamageRate" : 2,
+							"Duration" : 2
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 1
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Juggernaut",
+							"Amount": 0
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

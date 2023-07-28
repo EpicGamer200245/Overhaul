@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Glue",
 	"Icon" : "glue_supply_depot_building",
 	"Building" : "glue_supply_depot",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "GlueGunner",
 	"Effects" :
 	{

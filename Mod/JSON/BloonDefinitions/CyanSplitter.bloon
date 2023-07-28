@@ -4,7 +4,7 @@
 	"SpriteFile" : "cyan_splitter_1_bloon",
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 1.56,
-	"RBE" : 15,
+	"RBE" : 16,
     "ChildBloons" : [ "CyanSplitter2.bloon", "CyanSplitter2.bloon" ],
     "StatusImmunity" : ["CrippleMOAB"],
     "DamageImmunity" : ["Juggernaut", "MOABMauler", "Foam"],

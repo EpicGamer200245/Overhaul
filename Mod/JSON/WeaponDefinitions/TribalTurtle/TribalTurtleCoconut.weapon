@@ -1,0 +1,40 @@
+{	
+    "Type":             "TribalTurtleCoconut",
+    "DefaultSprite":    "TribalTurtleCoconutArm.json",
+    "TargetRange":      115.0,
+	"CooldownTime":     0.18,
+    "FireDelayTime":    0.195,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "tribal_turtle_coconut",
+			"NumPersists":      4,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 575.0,
+				"CutOffDistance": 120
+			},
+			
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 2
+				},
+                { 
+					"Type": "Damage",
+					"DamageType": "Juggernaut",
+					"Amount": 1
+				}
+			]
+		}
+	]
+}

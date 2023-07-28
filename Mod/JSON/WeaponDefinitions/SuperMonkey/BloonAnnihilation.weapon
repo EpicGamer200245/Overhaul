@@ -12,6 +12,7 @@
 			"Type": "AreaOfEffect",
 			"Range": 163,
 			"MaxTargets": -1,
+			"UseRangeModifier" : true,
 			
 			"Tasks":
 			[

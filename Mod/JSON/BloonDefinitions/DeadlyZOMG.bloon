@@ -1,0 +1,21 @@
+{
+	"Type" : "DeadlyZOMG",
+	"DrawLayer": "Air",
+	"InitialHealth" : 5310,
+	"SpriteFilesAtDamageLevels": [
+		[ "DeadlyZOMG01.json", 4150 ],
+		[ "DeadlyZOMG02.json", 2500 ],
+		[ "DeadlyZOMG03.json", 1590 ],
+		[ "DeadlyZOMG04.json", 610 ]
+	],
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 0.23,
+	"RBE" : 29172,
+    "ChildBloons" : [ "ZOMG.bloon", "BFB.bloon", "BFB.bloon" ],
+    "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus", "CrippleMOAB" ],
+    "DamageImmunity" : [ "Juggernaut", "Foam", "MOABMauler" ],
+	"CanGoUnderground" : false,
+	"RotateToPathDirection" : true,
+    "Radius" : 45,
+    "HitAddon" : 65
+}

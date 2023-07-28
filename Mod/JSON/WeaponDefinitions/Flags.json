@@ -1,0 +1,34 @@
+[
+    //Special Agents
+    "MeerkatSpyAddBase",
+    "RadadactylPlaneBlowback",
+    "RadderdactylPlaneBlowback",
+    "NinjaKiwi",
+    "NinjaKiwiPro",
+    
+    //Dart Monkey
+    "ExplosiveSpikes",
+    "PlasmaSpikes",
+    "QuickAttack",
+
+    //Tack Shooter
+    "BladeShooter",
+    "SeekingBlades",
+    "FierySeekingBlades",
+
+    //Ice Monkey
+    "Snowstorm",
+
+    //Monkey Radar
+    "MonkeyRadar",
+    "AdvancedBloonScanning",
+    "ScreenScan",
+
+    //Super Monkey
+    "SuperMonkeyMelee",
+    "TempleBuff",
+    "GroundStompTierI",
+    "GroundStompTierII",
+    "GroundStompTierIII",
+    "GroundStompTierIV"
+]

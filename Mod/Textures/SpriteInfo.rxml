@@ -1,6 +1,6 @@
 <Reflect>
     <Select node="SpriteInformation">
-        <Insert node="SpriteInfoXml" name="dartmonkey_proj" type="png"/>
+        <Insert node="SpriteInfoXml" name="dartmonkey" type="png"/>
         <Insert node="SpriteInfoXml" name="tackshooter" type="png"/>
         <Insert node="SpriteInfoXml" name="monkeyradar" type="png"/>
         <Insert node="SpriteInfoXml" name="radars" type="png"/>
@@ -8,5 +8,7 @@
         <Insert node="SpriteInfoXml" name="effects" type="png"/>
         <Insert node="SpriteInfoXml" name="supermonkey" type="png"/>
         <Insert node="SpriteInfoXml" name="buildings_custom" type="png"/>
+        <Insert node="SpriteInfoXml" name="agents_custom" type="png"/>
+        <Insert node="SpriteInfoXml" name="bloons_custom" type="png"/>
     </Select>
 </Reflect>

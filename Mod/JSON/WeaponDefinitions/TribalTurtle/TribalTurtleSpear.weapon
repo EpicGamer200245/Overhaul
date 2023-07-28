@@ -1,0 +1,35 @@
+{	
+    "Type":             "TribalTurtleSpear",
+    "DefaultSprite":    "TribalTurtleSpearArm.json",
+    "TargetRange":      115.0,
+	"CooldownTime":     0.18,
+    "FireDelayTime":    0.195,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "tribal_turtle_spear",
+			"NumPersists":      7,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 575.0,
+				"CutOffDistance": 135
+			},
+			
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
+			]
+		}
+	]
+}

@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Super",
 	"Icon" : "supermonkey_lair_building",
 	"Building" : "supermonkey_lair",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "SuperMonkey",
 	"Effects" :
 	{
@@ -36,8 +36,7 @@
 			"Text" : "LOC_SPEC_Super_III",
 			"InventoryBonuses" :
 			[{
-                "ApplyOn" : [ "EveryNthRound" ],
-                "RoundPeriod" : 19,
+                "ApplyOn" : [ "GameStart" ],
                 "TowerType" : "SuperMonkey",
                 "TowerCount" : 1
             }]
@@ -61,8 +60,8 @@
                 "TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
                 "Modifier" :
                 {
-					"FireDelay" : [ 1.04, 0 ],
-					"Cooldown"  : [ 1.04, 0 ]
+					"FireDelay" : [ 1.05, 0 ],
+					"Cooldown"  : [ 1.05, 0 ]
                 }
             }]
 		}

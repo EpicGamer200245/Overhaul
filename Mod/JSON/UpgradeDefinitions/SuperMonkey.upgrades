@@ -24,7 +24,7 @@
                     [
                         {
                             "Operation" : "SelectByType",
-                            "Type" :    "Damage"
+                            "Type": "Damage"
                         },
                         {
                             "Operation" : "Replace",
@@ -104,13 +104,13 @@
                     "SlotIndices" : [ 0, 2, 3 ],
                     "Adjust" :
                     {
-                        "CooldownTime" : -0.021
+                        "CooldownTime" : -0.017
                     },
                     "TaskUpgrade" :
                     [
                         {
                             "Operation" : "SelectByType",
-                            "Type" :    "Damage"                        
+                            "Type": "Damage"                        
                         },
                         {
                             "Operation" : "Replace",
@@ -196,22 +196,13 @@
                         "Operation" : "Replace",
                         "GraphicName" : "supermonkey_sun_god_projectile",
                         "SpriteFile": "",
-                        "NumPersists": 4,
-                        "Radius" : 15,
+                        "NumPersists": 5,
+                        "Radius" : 9,
                         "Movement":
 					    {
 						    "Type": "Forward",
 						    "Speed": 795
 					    }
-                    },
-
-                    {
-                        "Operation" : "SelectByType",
-                        "Type" : "Damage"
-                    },
-                    {
-                        "Operation" : "Replace",
-                        "Amount" : 2
                     },
 
                     {
@@ -230,9 +221,9 @@
                     {
                         "Operation" : "Replace",
                         "FireCount" : 3,
-                        "InitialOffset": 7.7,
-    		            "AngleIncrement": -7.7,
-                        "Offsets" : [ [ -9.2, -21 ], [ 0, -25 ], [ 9.2, -21 ] ]
+                        "InitialOffset": 8.3,
+    		            "AngleIncrement": -8.3,
+                        "Offsets" : [ [ -9.2, -21 ], [ 0, -21 ], [ 9.2, -21 ] ]
                     }
                 ]
             }
@@ -245,10 +236,10 @@
                 {
                     "0": "Temple.weapon",
                     "1": "",
-                    "2": "MonkeyVillage.weapon",
+                    "2": "TempleBuff.weapon",
                     "5": "TempleSacrifice.weapon",
                     "4": "",
-                    "6": "CrowsNest.weapon"
+                    "6": "GroundStompTierIV.weapon"
                 }
             },
             "WeaponUpgrades" :
@@ -258,7 +249,7 @@
                     "Replace" : 
                     {
                         "TargetRange": 128,
-                        "CooldownTime": 0.03
+                        "CooldownTime": 0.044
                     },
                     "TaskUpgrade" : 
                     [
@@ -271,12 +262,12 @@
                             "FireCount" : 3,
                             "InitialOffset": 6.8,
     		                "AngleIncrement": -6.8,
-                            "Offsets" : [ [ -9.2, -21 ], [ 0, -25 ], [ 9.2, -21 ] ]
+                            "Offsets" : [ [ -9.2, -21 ], [ 0, -21 ], [ 9.2, -21 ] ]
                         },
 
                         {
                             "Operation" : "SelectByType",
-                            "Type" : "Damage"
+                            "Type": "Damage"
                         },
                         {
                             "Operation" : "Replace",
@@ -289,7 +280,7 @@
                         },
                         {
                             "Operation" : "Replace",
-                            "NumPersists": 7,
+                            "NumPersists": 9,
                             "Movement":
 				    	    {
 				    		    "Type": "Forward",
@@ -300,12 +291,21 @@
                     ]
                 },
                 {
-                    "SlotIndices": [ 4 ],
+                    "SlotIndices" : [ 4 ],
                     "Replace":
                     {
                         "RequiresMinUpgradeCounters" : [0, 2],
                         "TotalAmmo": 0,
                         "ManuallyFired": false
+                    }
+                },
+                {
+                    "SlotIndices": [ 6 ],
+                    "Replace":
+                    {
+                        "RequiresMinUpgradeCounters" : [0, 2],
+                        "TotalAmmo": -1,
+                        "ManuallyFired": true
                     }
                 }
             ]
@@ -388,20 +388,30 @@
 
                 "Weapons" :
                 {
-                    "4": "GrapeShot.weapon"
+                    "4": "GroundStompTierI.weapon"
                 }
             },
-            "WeaponUpgrade" : 
-            {
-                "SlotIndices" : [ 4 ],
-                "Replace":
+            "WeaponUpgrades" : 
+            [
                 {
-                    "RequiresMinUpgradeCounters" : [4, 0],
-                    "TotalAmmo": 0,
-                    "ManuallyFired": false
+                    "SlotIndices" : [ 4 ],
+                    "Replace":
+                    {
+                        "RequiresMinUpgradeCounters" : [4, 0],
+                        "TotalAmmo": 0,
+                        "ManuallyFired": false
+                    }
+                },
+                {
+                    "SlotIndices" : [ 6 ],
+                    "Replace":
+                    {
+                        "RequiresMinUpgradeCounters" : [4, 0],
+                        "TotalAmmo": -1,
+                        "ManuallyFired": true
+                    }
                 }
-            }
-
+            ]
         },
         {
             "Name" : "Robo Monkey",
@@ -419,7 +429,7 @@
                     "2": "RoboMonkeyLeft.weapon",
                     "3": "RoboMonkeyRight.weapon",
                     "4": "",
-                    "7": "MonkeyBuccaneer.weapon"
+                    "7": "GroundStompTierII.weapon"
                 }
             },
             "WeaponUpgrade": 
@@ -462,7 +472,7 @@
                     "3": "TechTerrorRight.weapon",
                     "5": "BloonAnnihilation.weapon",
                     "7": "",
-                    "8": "CannonShip.weapon"
+                    "8": "GroundStompTierIII.weapon"
                 }
             },
             "WeaponUpgrade":
@@ -476,7 +486,7 @@
                     },
                     {
                         "Operation" : "Replace",
-                        "GraphicName" : "supermonkey_tech_terror_projectile"
+                        "SpriteFile": "normal_tech_plasma.json"
                     },
                     {
                         "Operation" : "SelectByType",

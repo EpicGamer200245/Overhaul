@@ -1,0 +1,57 @@
+{
+    "TypeName"				: "PontoonPro",
+    "Icon"					: "pontoon_agent_pro_icon",
+    "FE_Avatar"             : "special_agent_pontoon_pro_avatar",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 1,
+    "DefaultWeapons"	    : [ "PontoonPro.weapon" ],
+    "TargetingMode"			: "None",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[  ],
+    	[  ]
+    ],   
+    "UpgradePrices" : 
+    [
+        [  ],
+        [  ]
+    ],
+	"UpgradeGateway" :
+	[
+		[  ],
+		[  ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ ],
+    	[ ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ ],
+    	[ ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"		: "PontoonPro.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: true,
+    "CanBePlacedOnLand"		: false,
+    "CanBePlacedOnPath"		: false,
+	"CanBeOverlapped"		: true,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 0,
+    "PlacementW"			: 50,
+    "PlacementH"			: 50,
+    "SpriteUpgradeDefinition" : "PontoonPro.json",
+    "PlacementFiringSequence" : [ 0 ],
+    "IsAgent" : true
+}

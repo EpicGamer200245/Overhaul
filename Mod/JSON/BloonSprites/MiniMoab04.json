@@ -1,0 +1,183 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 2,
+         "Position" : [ 0.0, 70.5 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "Blimpenginefirecompoundsprite.json",
+         "type" : 2,
+         "uid" : 17
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 55.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "mini_tail_02",
+         "type" : 1,
+         "uid" : 16
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.26, 22.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "mini_undamaged",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -0.26, 22.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "mini_undamaged",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 19.0 ],
+         "Scale" : [ 0.609, 0.609 ],
+         "Shown" : true,
+         "sprite" : "blimp_damage_02",
+         "type" : 1,
+         "uid" : 12
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 82.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "Smokecompoundsprite.json",
+         "type" : 2,
+         "uid" : 15
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "Blimpenginefirecompoundsprite.json",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "mini_tail_02",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "mini_undamaged",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "blimp_damage_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "Smokecompoundsprite.json",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.26, 22.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.26, 22.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ -0.26, 22.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ -0.26, 22.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 12,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 16,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 15,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 17,
+         "stage" : null
+      }
+   ]
+}

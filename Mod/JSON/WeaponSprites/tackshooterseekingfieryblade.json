@@ -1,0 +1,39 @@
+{
+    "Alignment" : null,
+    "Point" : null,
+    "actors" : [
+        {
+            "Alignment" : [ 0, 0 ],
+            "Alpha" : 1.0,
+            "Angle" : 0.0,
+            "Colour" : 4294967295,
+            "Flip" : 0,
+            "Position" : [ 0.0, 0.0 ],
+            "Scale" : [ 1.4, 1.4 ],
+            "Shown" : true,
+            "sprite" : "tackshooter_burnyblade",
+            "type" : 1,
+            "uid" : 1
+         }
+    ],
+    "customvariables" : null,
+    "events" : null,
+    "labels" : null,
+    "stageOptions" : {
+       "SpriteInfo" : [
+          {
+             "SpriteInfo" : "tackshooter_burnyblade",
+             "Texture" : "tackshooter"
+          }
+       ],
+       "StageLength" : 0.0,
+       "Version" : 1
+    },
+    "timelines" : [
+        {
+            "spriteuid" : 1,
+            "stage" : null
+         }
+    ]
+ }
+ 

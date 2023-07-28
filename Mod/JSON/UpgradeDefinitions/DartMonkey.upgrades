@@ -53,7 +53,6 @@
                         "Operation" : "SelectByType",
                         "Type" :    "Projectile"
                     },
-                    
                     {
                         "Operation" : "Adjust",
 						"Movement":
@@ -61,29 +60,34 @@
 							"Type": "Forward",
 	                        "CutOffDistance" : 40
 						}
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists": 1,
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ]
                     }
                 ]
             }
         },
         
         {
-            "Name" : "Plasmatic Spikes",
+            "Name" : "Explosive Spike-o-Pult",
             "TowerUpgrade" :
             {
                 "Weapons" :
                 {
-                    "0" : "SpikeOPult.weapon"
+                    "0" : "ExplosiveSpikes.weapon"
                 }
             }
         },
         
         {
-            "Name" : "Upgrade",
+            "Name" : "Plasma Spike-o-Pult",
             "TowerUpgrade" :
             {
                 "Weapons" :
                 {
-                    "0" : "Juggernaut.weapon"
+                    "0" : "PlasmaSpikes.weapon"
                 }
             }
         },
@@ -101,22 +105,43 @@
         
         {
             "Name" : "Sharp Shots",
-            "WeaponUpgrade" :
-            {
-                "SlotIndices" : [ 0, 1 ],
-                "TaskUpgrade" :
-                [
-                    {
-                        "Operation" : "SelectByType",
-                        "Type" :    "Projectile"
-                    },
-                    
-                    {
-                        "Operation" : "Adjust",
-                        "NumPersists" : 1
-                    }
-                ]
-            }
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndices" : [ 0 ],
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location": [ 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists" : 1
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+                            "RequiresMinUpgradeCounters" : [ 2, 0 ]
+                        }
+                    ]
+                },
+                {
+                    "SlotIndices" : [ 1 ],
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists" : 1
+                        }
+                    ]
+                }
+            ]
             
         },
     
@@ -137,6 +162,15 @@
 				
 				"TaskUpgrade" :
 				[
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+
 					{
 						"Operation" : "SelectByLocation",
 						"Location" : [ 1, 0 ]
@@ -144,7 +178,7 @@
 					
 					{
 						"Operation" : "Replace",
-						"NumPersists" : 4
+						"NumPersists" : 1
 					},
 											
 					{
@@ -152,7 +186,7 @@
 						"Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : 25
+							"CutOffDistance" : 15
 						},
 						"RequiresMinUpgradeCounters" : [ 1, 0 ]
 					},
@@ -162,7 +196,7 @@
 						"Movement":
 						{
 							"Type": "Forward",
-							"CutOffDistance" : 25
+							"CutOffDistance" : 10
 						},
 						"RequiresMinUpgradeCounters" : [ 2, 0 ]
 					}
@@ -226,7 +260,7 @@
             {
                 "Weapons" :
                 {
-                    "2" : "SuperMonkeyFanClub.weapon"
+                    "2" : "QuickAttack.weapon"
                 }
             }
         }

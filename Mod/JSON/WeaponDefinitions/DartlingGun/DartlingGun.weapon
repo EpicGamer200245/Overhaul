@@ -13,7 +13,7 @@
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			
-			"SpreadAngle": 41,
+			"SpreadAngle": 45,
 
 			"CollisionType": "Once",
 			
@@ -21,7 +21,7 @@
 			{
 				"Type": "Forward",
 				"Speed": 600.0,
-				"CutOffDistance": 310
+				"CutOffDistance": 270
 			},
 			
 			"Tasks" :

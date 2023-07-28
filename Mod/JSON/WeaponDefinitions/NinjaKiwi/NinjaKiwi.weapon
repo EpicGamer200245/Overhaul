@@ -1,0 +1,33 @@
+{	
+    "Type": "NinjaKiwi",
+    "DefaultSprite":    "",
+    "TargetRange":      73.0,
+	"CooldownTime":     1.11,
+    "FireDelayTime":    0.186,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 73,
+			"MaxTargets": 7,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": false,
+            "UseRangeModifier" : true,
+		
+			"Tasks" :
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1
+				},
+				{
+					"Type" : "StatusEffect",
+					"Status" : "MoveToPath",
+					"PercentageChance" : 0.62
+				}
+			]
+		}
+	]
+}

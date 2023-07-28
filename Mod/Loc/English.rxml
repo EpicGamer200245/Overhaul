@@ -2,11 +2,53 @@
 <Reflect>
     <Select node="LocData">
         <Select node="Language">
-            <!--Stores-->
+            <!--M-->
             <Insert node="T" id="LOC_PREM_MISC_Cost" l="0"></Insert>
             <Insert node="T" id="LOC_PREM_MISC_Cost_s_s" l="0">%1$s%2$s</Insert>
             <Insert node="T" id="LOC_LAB_MISC_Cost" l="0"></Insert>
             <Insert node="T" id="LOC_AGENTS_MISC_Cost" l="0"></Insert>
+
+            <!--Lab Stuff-->
+            <Insert node="T" id="LOC_MASTERY_UNLOCK_LEVEL_FOR_LAB" l="0">No more available levels past level 6.</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_BigBloonSabotage" l="0">Reduces by %s%% the number of hit points of every MOAB class bloon. Current bonus: %s%%</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_BigBloonSabotage_none" l="0">Reduces by %s%% the number of hit points of every MOAB class bloon. Current bonus: none</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_BigBloonSabotage_full" l="0">Fully upgraded. MOAB class bloons have %s%% fewer hit points.</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_DoublePierce" l="0">Grants a %s%% chance to double pierce of every attack. Current bonus: %s%%.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_DoublePierce_none" l="0">Grants a %s%% chance to double pierce of every attack. Current bonus: none.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_DoublePierce_full" l="0">Fully upgraded. Grants a %s%% chance to double pierce of every attack.</Insert>
+            <Insert node="T" id="LOC_LAB_DoublePierce" l="0">Double Pierce</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_SlowerBloons" l="0">Reduces by %s the speed multiplier of all bloons including MOAB class bloons. Current bonus: -%s.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_SlowerBloons_none" l="0">Reduces by %s the speed multiplier of all bloons including MOAB class bloons. Current bonus: none.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_SlowerBloons_full" l="0">Fully upgraded. Reduces by %s the speed multiplier of all bloons including MOAB class bloons.</Insert>
+            <Insert node="T" id="LOC_LAB_SlowerBloons" l="0">Slower Bloons</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_FasterMonkeyHands" l="0">Reduces by %s%% the delay it takes the monkeys to shoot something. Current bonus: -%s%%.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_FasterMonkeyHands_none" l="0">Reduces by %s%% the delay it takes the monkeys to shoot something. Current bonus: none.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_FasterMonkeyHands_full" l="0">Fully upgraded. Reduces by %s%% the delay it takes the monkeys to shoot something.</Insert>
+            <Insert node="T" id="LOC_LAB_FasterMonkeyHands" l="0">Faster Monkey Hands</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_FurtherProjectiles" l="0">Increases by %s the distance that projectiles can reach. Current bonus: +%s.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_FurtherProjectiles_none" l="0">Increases by %s the distance that projectiles can reach. Current bonus: none.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_FurtherProjectiles_full" l="0">Fully upgraded. Increases by %s the distance that projectiles can reach.</Insert>
+            <Insert node="T" id="LOC_LAB_FurtherProjectiles" l="0">Further Projectiles</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_MoreRange" l="0">Increases by %s the distance that the monkeys can see. Current bonus: +%s.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_MoreRange_none" l="0">Increases by %s the distance that the monkeys can see. Current bonus: none.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_MoreRange_full" l="0">Fully upgraded. Increases by %s the distance that the monkeys can see.</Insert>
+            <Insert node="T" id="LOC_LAB_MoreRange" l="0">More Range</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_PrestigeI" l="0">Makes everything better by %s%%. Current bonus: %s%%.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_PrestigeI_none" l="0">Makes everything better by %s%%. Current bonus: none.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_PrestigeI_full" l="0">Fully upgraded. Makes everything better by %s%%.</Insert>
+            <Insert node="T" id="LOC_LAB_PrestigeI" l="0">Prestige I</Insert>
+
+            <Insert node="T" id="LOC_LAB_LEVELINFO_PrestigeII" l="0">Makes everything better by +/- %s. Current bonus: +/- %s.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_PrestigeII_none" l="0">Makes everything better by +/- %s. Current bonus: none.</Insert>
+            <Insert node="T" id="LOC_LAB_LEVELINFO_PrestigeII_full" l="0">Fully upgraded. Makes everything better by +/- %s.</Insert>
+            <Insert node="T" id="LOC_LAB_PrestigeII" l="0">Prestige II</Insert>
 
             <!--3 Daily Quests-->
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow" l="0">Pop Regrow Bloons: Tier ?</Insert>
@@ -20,7 +62,6 @@
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_VIII" l="0">Pop Regrow Bloons: Tier VIII</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_IX" l="0">Pop Regrow Bloons: Tier IX</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_X" l="0">Pop Regrow Bloons: Tier X</Insert>
-            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopRegrow_C" l="0">Pop Regrow Bloons: Tier C</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons" l="0">Pop Any Bloon: Tier ?</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_I" l="0">Pop Any Bloon: Tier I</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_II" l="0">Pop Any Bloon: Tier II</Insert>
@@ -32,7 +73,6 @@
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_VIII" l="0">Pop Any Bloon: Tier VIII</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_IX" l="0">Pop Any Bloon: Tier IX</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_X" l="0">Pop Any Bloon: Tier X</Insert>
-            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopBloons_C" l="0">Pop Any Bloon: Tier C</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo" l="0">Pop Camo Bloons: Tier ?</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_I" l="0">Pop Camo Bloons: Tier I</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_II" l="0">Pop Camo Bloons: Tier II</Insert>
@@ -44,7 +84,6 @@
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_VIII" l="0">Pop Camo Bloons: Tier VIII</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_IX" l="0">Pop Camo Bloons: Tier IX</Insert>
             <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_X" l="0">Pop Camo Bloons: Tier X</Insert>
-            <Insert node="T" id="LOC_DAILYQUEST_NAME_PopCamo_C" l="0">Pop Camo Bloons: Tier C</Insert>
 
             <!--Specialties-->
             <Insert node="T" id="LOC_SPEC_Land_I" l="0">Start building.</Insert>
@@ -67,10 +106,10 @@
             <Insert node="T" id="LOC_SPEC_Bomb_IV" l="0">Increases range by 20%. Increases exploding pineapple damage by 1.</Insert>
             <Insert node="T" id="LOC_SPEC_Bomb_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Boomerang_I" l="0">Increases pierce by 1.</Insert>
+            <Insert node="T" id="LOC_SPEC_Boomerang_I" l="0">Reduces cost of boomerang monkey by 3%.</Insert>
             <Insert node="T" id="LOC_SPEC_Boomerang_II" l="0">Also now, reduces attack speed by 34%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Boomerang_III" l="0">Free tower at start and every 8 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Boomerang_IV" l="0">Increases pierce by 3.</Insert>
+            <Insert node="T" id="LOC_SPEC_Boomerang_III" l="0">Free tower at start and every 9 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Boomerang_IV" l="0">Increases pierce by 60%.</Insert>
             <Insert node="T" id="LOC_SPEC_Boomerang_X" l="0">Nothing bad happens.</Insert>
 
             <Insert node="T" id="LOC_SPEC_Dartling_I" l="0">Reduces costs by 9%.</Insert>
@@ -139,10 +178,10 @@
             <Insert node="T" id="LOC_SPEC_Sniper_IV" l="0">Increases damage by 34%.</Insert>
             <Insert node="T" id="LOC_SPEC_Sniper_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Spikes_I" l="0">Reduces spike factory costs by 15%. Reduces road spike cost by 10.</Insert>
+            <Insert node="T" id="LOC_SPEC_Spikes_I" l="0">Reduces spike factory costs by 15%. Reduces road tack cost by 10.</Insert>
             <Insert node="T" id="LOC_SPEC_Spikes_II" l="0">Also now, reduces attack speed by 10%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Spikes_III" l="0">Free 4 road spikes at start and 1 every 4 rounds, spike factory at start and every 11 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Spikes_IV" l="0">Increases pierce for spike factory and road spikes by 50%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Spikes_III" l="0">Free 4 road tacks at start and 1 every 4 rounds, spike factory at start and every 11 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Spikes_IV" l="0">Increases pierce for spike factory and road tacks by 50%.</Insert>
             <Insert node="T" id="LOC_SPEC_Spikes_X" l="0">Nothing bad happens.</Insert>
 
             <Insert node="T" id="LOC_SPEC_MonkeySub_I" l="0">Reduces costs by 5%.</Insert>
@@ -153,14 +192,14 @@
 
             <Insert node="T" id="LOC_SPEC_Super_I" l="0">Reduces costs by 8%.</Insert>
             <Insert node="T" id="LOC_SPEC_Super_II" l="0">Also now, increases range by 13%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Super_III" l="0">Free tower every 19 rounds.</Insert>
+            <Insert node="T" id="LOC_SPEC_Super_III" l="0">Free tower at start.</Insert>
             <Insert node="T" id="LOC_SPEC_Super_IV" l="0">Increases pierce by 1.</Insert>
-            <Insert node="T" id="LOC_SPEC_Super_X" l="0">Increases attack speed by 4%. Buffs reduce attack speed.</Insert>
+            <Insert node="T" id="LOC_SPEC_Super_X" l="0">Increases attack speed by 5%. Buffs reduce attack speed.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Tack_I" l="0">Reduces tack shooter costs by 17%. Reduces road spike cost by 10.</Insert>
+            <Insert node="T" id="LOC_SPEC_Tack_I" l="0">Reduces tack shooter costs by 17%. Reduces road tack cost by 10.</Insert>
             <Insert node="T" id="LOC_SPEC_Tack_II" l="0">Also now, reduces attack speed by 15%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Tack_III" l="0">Free 4 road spikes at start and 1 every 4 rounds, tack shooter at start.</Insert>
-            <Insert node="T" id="LOC_SPEC_Tack_IV" l="0">Increases range by 18%. Increases pierce for road spikes by 50%.</Insert>
+            <Insert node="T" id="LOC_SPEC_Tack_III" l="0">Free 4 road tacks at start and 1 every 4 rounds, tack shooter at start.</Insert>
+            <Insert node="T" id="LOC_SPEC_Tack_IV" l="0">Increases range by 18%. Increases pierce for road tacks by 50%.</Insert>
             <Insert node="T" id="LOC_SPEC_Tack_X" l="0">Nothing bad happens.</Insert>
 
             <Insert node="T" id="LOC_SPEC_Radar" l="0">Radar Facilities</Insert>
@@ -200,29 +239,84 @@
             <Insert node="T" id="LOC_TRACK_UNLOCKMASTERY_4" l="0">Locked.</Insert>
             <Insert node="T" id="LOC_TRACK_UNLOCKMASTERY_5" l="0">Locked.</Insert>
 
+            <!--Difficulty Descriptions-->
+            <Insert node="T" id="LOC_HINT_0_Easy" l="0">On Easy, towers cost 15% less than normal and you have 200 lives. Beating round 45 will reward you the Bronze medal.</Insert>
+            <Insert node="T" id="LOC_HINT_0_Medium" l="0">On Medium, towers cost the normal amount and you have 150 lives. Beating round 65 will reward you the Silver medal.</Insert>
+            <Insert node="T" id="LOC_HINT_0_Hard" l="0">On Hard, towers cost 15% more than normal, bloons are more difficult, and you have 100 lives. Beating round 80 will reward you the Gold medal.</Insert>
+            <Insert node="T" id="LOC_HINT_0_Impoppable" l="0">On Impoppable, towers cost 35% more than normal, bloons are much more difficult, and you only have 18 lives. Beating round 90 will reward you the Impoppable medal.</Insert>
+
+            <!--Special Agents-->
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_AngrySquirrel" l="0">Using acorns as a weapon, the squirrel pops bloons, but if a bloon leaks or shoots enough acorns, the squirrel will get angry and his anger will stack.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_AngrySquirrelPro" l="0">Pro Upgrade - The squirrel shoots acorns faster and acorns can hit more bloons. Anger is easier to stack and the squirrel is easier to get angry.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BananaFarmer" l="0">The Banana Farmer collects and sells bananas around him.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BananaFarmerPro" l="0">Pro Upgrade - The farmer has more range and collects bananas faster.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BeeKeeper" l="0">The bees get angry at the bloons that go near the hive, attaching to the bloon and dealing damage over time.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BeeKeeperPro" l="0">Pro Upgrade - The bees have a bigger range, come out of the hive faster and move faster.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BloonberryBush" l="0">Place this bush that grows spikes over time till it has 240 spikes and creates creepers on the ground also growing spikes over time.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BloonberryBushPro" l="0">Pro Upgrade - More creepers are created and both the bush and creepers grow spikes much faster.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BloonsdayDevice" l="0">Use an ability to harness the energy of bloontonium!</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BloonsdayDevicePro" l="0">Pro Upgrade - The laser now leaves puddles of liquid bloontonium on the ground.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_MeerkatSpy" l="0">The spy shoots a high tech laser that removes camo from the bloons.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_MeerkatSpyPro" l="0">Pro Upgrade - The laser tears through more bloons and shoots faster.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_NinjaKiwi" l="0">The Ninja Kiwi kicks the bloons around it which has a chance to knock them back.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_NinjaKiwiPro" l="0">Pro Upgrade - THe Ninja Kiwi kicks faster and has a higher chance to knock them back.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_Pontoon" l="0">When placed on water, it allows towers to be placed on it, towers on it will get slight buffs.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_PontoonPro" l="0">Pro Upgrade - Buffs given to towers are now much better.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_PortableLake" l="0">When placed on land, it allows towers to be placed on it, also a has a sea monster that attacks bloons.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_PortableLakePro" l="0">Pro Upgrade - The sea monster now hits more bloons and attacks faster.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_Radadactyl" l="0">The Radadactyl has 5 eggs that crack open creating a dinosaur doing damage to any bloon in its radius.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_RadadactylPro" l="0">Pro Upgrade - The Radadactyls have a much bigger range and can hit more bloons.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_SuperMonkeyStorm" l="0">Launches 3 storms of super monkeys to fly in and damage bloons.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_SuperMonkeyStormPro" l="0">Pro Upgrade - Launches another storm of super monkeys and each storm does more damage.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_TribalTurtle" l="0">The Tribal Turtle uses a coconut that does good damage and a spear that can hit a high amount of bloons.</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_TribalTurtlePro" l="0">Pro Upgrade - The turtle's spear hits more bloons and throws 3 coconuts at a time.</Insert>
+
             <!--Question Mark in Tower Select-->
             <Insert node="T" id="LOC_Question_TOWER" l="0">Question Mark</Insert>
             <Insert node="T" id="LOC_Question_TOWER_PLURAL" l="0">Question Marks</Insert>
             <Insert node="T" id="LOC_Question_TOWER_CAPS" l="0">QUESTION MARK</Insert>
             <Insert node="T" id="LOC_TOWER_DESC_OSX_Question" l="0">Upcoming tower.</Insert>
 
+            <!--Road Tacks-->
+            <Insert node="T" id="LOC_RoadSpikes_TOWER" l="0">Road Tacks</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_RoadSpikes" l="0">Placed on the track, deals each pile of tacks can pop 15 bloons.</Insert>
+
+            <!--Exploding Pineapple-->
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_ExplodingPineapple" l="0">Placed on land and water, deals 1 damage to a big area after 2 seconds.</Insert>
+
             <!--Dart Monkey-->
-            <Insert node="T" id="LOC_UPGRADE_A3_DartMonkey" l="0">Plasmatic Spikes</Insert>
-            <Insert node="T" id="LOC_UPGRADE_A4_DartMonkey" l="0">Upgrade</Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_DartMonkey" l="0">The Dart Monkey pops 2 bloons with darts.</Insert>
+
+            <Insert node="T" id="LOC_UPGRADE_A3_DartMonkey" l="0">Explosive Spike-o-Pult</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A4_DartMonkey" l="0">Plasma Spike-o-Pult</Insert>
             <Insert node="T" id="LOC_UPGRADE_B1_DartMonkey" l="0">Quick Shots</Insert>
             <Insert node="T" id="LOC_UPGRADE_B2_DartMonkey" l="0">Sharp Shots</Insert>
             <Insert node="T" id="LOC_UPGRADE_B4_DartMonkey" l="0">Quick Attack</Insert>
-            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A3" l="0">Shoots a plasma spiked ball at bloons, and it explodes!</Insert>
-            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A4" l="0">Upgrades the Plasmatic Spikes upgrade to be much more powerful!</Insert>
+
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A3" l="0">Shoots a explosive spike ball at bloons with high ceramic damage and a stun.</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A4" l="0">New plasma techonlogy created a spike ball that is lethal to ceramics with an even better stun!</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B1" l="0">Makes the Dart Monkey shoot quicker.</Insert>
-            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B2" l="0">Pops 1 more bloon.</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B2" l="0">Pops 1 more bloon. Enhanced Eyesight allows it to pop another bloon.</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B3" l="0">Shoots 2 more darts differed from normal. They are very close range but powerful!</Insert>
-            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B4" l="0">Shoots faster and further. Ability: Every dart monkey in radius shoot 75% faster.</Insert>
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B4" l="0">Shoots faster and further. Ability: Every dart monkey in radius shoots 75% faster.</Insert>
 
             <!--Tack Tower-->
             <Insert node="T" id="LOC_TackTower_TOWER" l="0">Tack Shooter</Insert>
             <Insert node="T" id="LOC_TackTower_TOWER_PLURAL" l="0">Tack Shooters</Insert>
             <Insert node="T" id="LOC_TackTower_TOWER_CAPS" l="0">TACK SHOOTER</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_TackTower" l="0">The Tack Shooter shoots tacks in eight directions, each pop 1 bloon.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A1_TackTower" l="0">Faster Shooting</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_TackTower" l="0">Burny Tacks</Insert>
@@ -230,19 +324,22 @@
             <Insert node="T" id="LOC_UPGRADE_B1_TackTower" l="0">Longer Range</Insert>
             <Insert node="T" id="LOC_UPGRADE_B2_TackTower" l="0">Longer Tacks</Insert>
             <Insert node="T" id="LOC_UPGRADE_B4_TackTower" l="0">Seeking Blades</Insert>
+
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A1" l="0">Makes the tack shooter shoot 50% faster.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A2" l="0">Tacks can now burn through lead bloons and apply a burn effect to the bloons.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A3" l="0">Tacks now do 2 damage and have a better burn effect to the bloons.</Insert>
-            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A4" l="0">Tacks have turned into fire, more damage and even better burn.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A4" l="0">It now instead shoots fire that burns through the bloons.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B1" l="0">Gives the tack shooter more range.</Insert>
-            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B2" l="0">Tacks and fire can now go through more bloons. Additional damage to Ring of Fire.</Insert>
-            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B3" l="0">Tacks have turned into blades, they can go through more bloons and have more ceramic and moab damage.</Insert>
-            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B4" l="0">The blades now seek bloons and fire faster, along with more pierce.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B2" l="0">Tacks and fire can now go through more bloons. Additional MOAB damage to Ring of Fire.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B3" l="0">Tacks have turned into blades, they can go through more bloons and do more MOAB damage.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B4" l="0">Ability: Shoots out 8 giant blades that shreds through the bloons. Blades now seek to bloons and have more pierce with more ceramic damage but fires slower.</Insert>
 
             <!--Ice Tower-->
             <Insert node="T" id="LOC_IceTower_TOWER" l="0">Ice Monkey</Insert>
             <Insert node="T" id="LOC_IceTower_TOWER_PLURAL" l="0">Ice Monkeys</Insert>
             <Insert node="T" id="LOC_IceTower_TOWER_CAPS" l="0">ICE MONKEY</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_IceTower" l="0">The Ice Monkey freezes bloons in radius and slows them.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A1_IceTower" l="0">Permafrost</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_IceTower" l="0">Better Permafrost</Insert>
@@ -252,6 +349,7 @@
             <Insert node="T" id="LOC_UPGRADE_B2_IceTower" l="0">More Ice</Insert>
             <Insert node="T" id="LOC_UPGRADE_B3_IceTower" l="0">Giant Freeze</Insert>
             <Insert node="T" id="LOC_UPGRADE_B4_IceTower" l="0">Snowstorm</Insert>
+
             <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_A1" l="0">Adds effect to hit bloons to slow them down.</Insert>
             <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_A2" l="0">Permafrost now makes bloons even slower.</Insert>
             <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_A3" l="0">Every freeze now does damage to each bloon.</Insert>
@@ -262,6 +360,8 @@
             <Insert node="T" id="LOC_IceTower_UPGRADE_DESC_B4" l="0">Can now hit white and zebra bloons. Ability: Freezes the whole screen and makes bloons slower.</Insert>
 
             <!--Dartling Gunner-->
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_DartlingGun" l="0">The Dartling Gunner shoots fast but has a large amount of spread.</Insert>
+
             <Insert node="T" id="LOC_UPGRADE_A1_DartlingGun" l="0">Faster Reload</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_DartlingGun" l="0">Even Faster Reload</Insert>
             <Insert node="T" id="LOC_UPGRADE_A3_DartlingGun" l="0">Hot Bloontonium Laser Cannon</Insert>
@@ -270,6 +370,7 @@
             <Insert node="T" id="LOC_UPGRADE_B2_DartlingGun" l="0">Powerful Darts</Insert>
             <Insert node="T" id="LOC_UPGRADE_B3_DartlingGun" l="0">Hydra Rocket Pods</Insert>
             <Insert node="T" id="LOC_UPGRADE_B4_DartlingGun" l="0">Hydra Rocket Storm</Insert>
+
             <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_A1" l="0">Shoots faster.</Insert>
             <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_A2" l="0">Shoots even faster.</Insert>
             <Insert node="T" id="LOC_DartlingGun_UPGRADE_DESC_A3" l="0">Compared to the normal laser cannon, it shoots high pierce and high damage lasers, but shoots slower and dies out faster.</Insert>
@@ -283,7 +384,8 @@
             <Insert node="T" id="LOC_MonkeyRadar_TOWER" l="0">Monkey Radar</Insert>
             <Insert node="T" id="LOC_MonkeyRadar_TOWER_PLURAL" l="0">Monkey Radars</Insert>
             <Insert node="T" id="LOC_MonkeyRadar_TOWER_CAPS" l="0">MONKEY RADAR</Insert>
-            <Insert node="T" id="LOC_TOWER_DESC_OSX_MonkeyRadar" l="0">The Radar Monkey will pop many bloons in his radius by scanning that with radiation.</Insert>
+
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_MonkeyRadar" l="0">The Radar Monkey is a water tower that pops bloons using a radar.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A1_MonkeyRadar" l="0">Faster Scanning</Insert>
             <Insert node="T" id="LOC_UPGRADE_A2_MonkeyRadar" l="0">Advanced Bloon Scanning</Insert>
@@ -304,6 +406,8 @@
             <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_B4" l="0">More layers scanned. Ability: Scans the whole screen.</Insert>
         
             <!--Super Monkey-->
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_SuperMonkey" l="0">The Super Monkey throws darts rapidly th at </Insert>
+
             <Insert node="T" id="LOC_UPGRADE_A4_SuperMonkey" l="0">Monkey Temple</Insert>
             <Insert node="T" id="LOC_UPGRADE_B1_SuperMonkey" l="0">Better Melee</Insert>
             <Insert node="T" id="LOC_UPGRADE_B2_SuperMonkey" l="0">Ground Stomp</Insert>

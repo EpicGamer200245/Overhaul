@@ -1,0 +1,141 @@
+{
+	"Name" : "LOC_LAB_FurtherProjectiles",
+	"Description" : "LOC_LAB_DESC_FurtherProjectiles",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_FurtherProjectiles",
+    "Icon" : "popping_power",
+	"LevelGateway" : [ 3, 6, 9, 12, 17, 23, 0, 0, 0, 0, 0, 0, 0 ],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "2.67",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 2.67 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "5.34",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 5.34 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "8",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 8 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "11.34",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 11.34 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "15.34",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 15.34 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"ProjectileCutOff" : [ 1, 20 ]
+				}
+			}
+		}
+	]
+}

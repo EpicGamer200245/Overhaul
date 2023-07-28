@@ -2,11 +2,11 @@
 	"Rules" : {
 		"Reward" : {
 			"MonkeyMoney": 0,
-			"XP" : 80000,
+			"XP" : 90000,
             "TokensEasy": 8,
             "TokensMedium": 9,
             "TokensHard": 10,
-			"TokensImpoppable": 11
+			"TokensImpoppable": 16
 		}
 	}
 }

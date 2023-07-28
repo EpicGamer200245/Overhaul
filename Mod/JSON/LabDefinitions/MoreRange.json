@@ -1,0 +1,141 @@
+{
+	"Name" : "LOC_LAB_MoreRange",
+	"Description" : "LOC_LAB_DESC_MoreRange",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_MoreRange",
+    "Icon" : "faster_firing",
+	"LevelGateway" : [ 3, 6, 9, 12, 17, 23, 0, 0, 0, 0, 0, 0, 0 ],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "1.34",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 1.34 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "2.67",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 2.67 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "4",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 4 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "5.67",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 5.67 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "7.67",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 7.67 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		},
+        {
+            "DisplayValueString" : "10",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"TargetRange" : [ 1, 10 ]
+				}
+			}
+		}
+	]
+}

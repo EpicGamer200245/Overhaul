@@ -1,0 +1,103 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 15.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "deadly_engine",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 13.0, -18.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "blimp_broken_rotor",
+         "type" : 1,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "deadly_engine",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "blimp_broken_rotor",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 0.2,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 15.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 15.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 2.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0952380970120430
+            }
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 13.0, -18.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 15.0, -18.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0952380970120430
+            }
+         ]
+      }
+   ]
+}

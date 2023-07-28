@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Heli",
 	"Icon" : "helo_hangar_building",
 	"Building" : "helo_hangar",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "HeliPilot",
 	"Effects" :
 	{

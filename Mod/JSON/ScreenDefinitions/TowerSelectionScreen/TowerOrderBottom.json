@@ -12,9 +12,9 @@
 	    { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "c" },
 	    { "Icon" : "engineer_icon", "FactoryName" : "MonkeyEngineer", "ObjectType" : 0, "KeyboardShortcut" : "b" },
 		{ "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "m" },
-	    { "Icon": "monkey_radar_icon", "FactoryName": "MonkeyRadar", "ObjectType": 0, "KeyboardShortcut": "]" },
-	    { "Icon" : "monkey_ace_icon", "FactoryName" : "MonkeyAce", "ObjectType" : 0, "KeyboardShortcut" : "<" },
-	    { "Icon" : "sniper_icon", "FactoryName" : "SniperMonkey", "ObjectType" : 0, "KeyboardShortcut" : ">" },
-	    { "Icon" : "bloonchipper_icon", "FactoryName" : "Bloonchipper", "ObjectType" : 0, "KeyboardShortcut" : "?" }
+	    { "Icon": "monkey_radar_icon", "FactoryName": "MonkeyRadar", "ObjectType": 0, "KeyboardShortcut": ">" },
+	    { "Icon" : "monkey_ace_icon", "FactoryName" : "MonkeyAce", "ObjectType" : 0, "KeyboardShortcut" : "?" },
+	    { "Icon" : "sniper_icon", "FactoryName" : "SniperMonkey", "ObjectType" : 0, "KeyboardShortcut" : "=" },
+	    { "Icon" : "bloonchipper_icon", "FactoryName" : "Bloonchipper", "ObjectType" : 0, "KeyboardShortcut" : "]" }
 	]
 }

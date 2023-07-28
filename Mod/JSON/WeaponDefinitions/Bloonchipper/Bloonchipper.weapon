@@ -1,0 +1,120 @@
+{	
+    "Type":             	"Bloonchipper",    
+    "UseBloonStore":        true,
+    "TargetRange":      	110,
+	"CooldownTime":     	0.27,
+    "FireDelayTime":    	0.03,
+    
+    "DisabledTasks" : [ 1 ],
+
+	"TargetingFilter":
+	{
+		"Exclude" :
+        { 
+			"StatusEffect": [ "BloonChipperSuck", "ShredBloon", "MoveOnCurve" ],
+			"BloonType": [ 
+				"MiniMOAB", 
+				"BigSplitter",
+				"BigSplitter2",
+				"DeadlyZOMG"
+			]
+		},
+		"Include" :
+		{
+			"BloonType" : [
+				"Red",
+				"Blue",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Zebra",
+				"Rainbow",
+				"Ceramic"
+			]
+		}
+	},
+	
+    "Tasks" :
+    [
+		{
+            "Type":             "Projectile",
+			"NumPersists":      -1,
+			"TerminateOnZeroPersists": false,
+			
+			"CollisionType": "None",
+			"CollidesOnlyWithTarget" : true,
+			
+			"Movement": {
+				"Type": "ReturnToSender",
+				"Speed": 5000,
+				"ReturnSpeed": 420,
+                "TargetShouldFaceWeapon": true,
+				"StartOnTarget" : true
+			},
+            
+            "TasksToProcessOnCollision" : [ 1 ],
+            "TasksToProcessOnTerminate" : [ 0 ],
+			
+			"Tasks": [
+                {
+					"Type": "StatusEffect",
+                    "Status": "ShredBloon",
+					"DamageRate" : 1,
+					"Duration" : 1,
+                    "NumPersists" : -1,
+                    "Amount": 1,
+                    "ShredsMultipleLayers": false
+                },
+				{
+					"Type" : "StatusEffect",
+					"Status" : "BloonChipperSuck",
+					"NumPersists" : -1
+				}
+			]
+		},
+        {
+            "Type":             "Projectile",
+			"NumPersists":      -1,
+			"TerminateOnZeroPersists": false,
+			
+			"CollisionType": "None",
+			"CollidesOnlyWithTarget" : true,
+
+			"Movement": {
+				"Type": "ReturnToSender",
+				"Speed": 5000,
+				"ReturnSpeed": 420,
+                "TargetShouldFaceWeapon": true,
+				"StartOnTarget" : true
+			},
+            
+            "TasksToProcessOnCollision" : [ 2 ],
+            "TasksToProcessOnTerminate" : [ 0, 1 ],
+			
+			"Tasks": [
+                {
+					"Type": "StatusEffect",
+                    "Status": "ShredBloon",
+					"DamageRate" : 1,
+					"Duration" : 1,
+                    "NumPersists" : -1,
+                    "Amount": 1,
+                    "ShredsMultipleLayers": false
+                },
+                {
+                    "Type": "StatusEffect",
+                    "Status": "DazeEffect",
+                    "Duration" : 4.5,
+                    "NumPersists" : -1
+                },
+				{
+					"Type" : "StatusEffect",
+					"Status" : "BloonChipperSuck",
+					"NumPersists" : -1
+				}
+			]
+		}
+	]
+}

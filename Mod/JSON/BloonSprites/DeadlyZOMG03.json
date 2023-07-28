@@ -1,0 +1,405 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 40.0, 105.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "Smokecompoundsprite.json",
+         "type" : 2,
+         "uid" : 27
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 37.0, 69.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "DeadlyZOMG_bent_engine_compound.json",
+         "type" : 2,
+         "uid" : 26
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -16.0, 64.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "deadly_engine",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 87.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "deadly_tail_03",
+         "type" : 1,
+         "uid" : 24
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -44.0, 44.0 ],
+         "Scale" : [ 0.8000000119209290, 0.8000000119209290 ],
+         "Shown" : true,
+         "sprite" : "Propellor.json",
+         "type" : 2,
+         "uid" : 19
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.245, 37.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "deadly_undamaged",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -0.245, 37.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "deadly_undamaged",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -38.8 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "deadly_nose_01",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "deadly_skull_02",
+         "type" : 1,
+         "uid" : 25
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 1.0, 30.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "blimp_damage_02",
+         "type" : 1,
+         "uid" : 23
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "Smokecompoundsprite.json",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "DeadlyZOMG_bent_engine_compound.json",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "deadly_engine",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "deadly_tail_03",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "Propellor.json",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "deadly_undamaged",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "deadly_nose_01",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "deadly_skull_02",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "blimp_damage_02",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 6,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -16.0, 64.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -16.0, 64.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 24,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 87.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 87.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.245, 37.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.245, 37.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ -0.245, 37.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ -0.245, 37.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 4 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -38.8 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 4 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -38.8 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 25,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 23,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 1.0, 30.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 1.0, 30.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 19,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -44.0, 44.0 ],
+               "Scale" : [ 0.8000000119209290, 0.8000000119209290 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -44.0, 44.0 ],
+               "Scale" : [ 0.8000000119209290, 0.8000000119209290 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 26,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 27,
+         "stage" : null
+      }
+   ]
+}

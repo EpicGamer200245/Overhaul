@@ -1,0 +1,31 @@
+{	
+    "Type":             "PontoonPro",    
+    "TargetRange":      60,
+	"CooldownTime":     1,
+    "FireDelayTime":    0.0,
+    "MaxShots" : 1,
+    
+    "Tasks" :
+    [
+        {
+            "Type" : "ChangeTerrain",
+			"Area" : [ 50, 50 ],
+			"Mask" : [ ]
+        },
+		{
+			"Type" : "TowerModifier",
+			"Area" : [ 36, 36 ],
+			"PriorityLevel" : 3,
+			"ReplacesPriorityLevel" : true,
+			"TerminateOnUserUpgrade" : false,
+		
+			"Modifier" : 
+			{
+				"TargetRange": [ 1.07, 0 ],
+				"ProjectileCutOff" : [ 1.07, 0 ],
+                "FireDelay" : [ 0.93, 0 ],
+				"Cooldown"  : [ 0.93, 0 ]
+			}
+		}
+	]
+}

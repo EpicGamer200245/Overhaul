@@ -5,6 +5,10 @@
             "Name" : "Permafrost",
             "WeaponUpgrade" : 
             {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.08
+                },
                 "TaskUpgrade" :
                 [
                     {
@@ -15,6 +19,10 @@
                     {
                         "Operation" : "Replace",
                         "Status" : "Permafrost"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "SpeedScale": -0.03
                     }
                 ]
             }
@@ -24,6 +32,10 @@
             "Name" : "Better Permafrost",
             "WeaponUpgrade" :
             {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.12
+                },
                 "TaskUpgrade":
                 [
                     {
@@ -33,7 +45,7 @@
                     
                     {
                         "Operation" : "Adjust",
-                        "SpeedScale": -0.18
+                        "SpeedScale": -0.19
                     }
                 ]
             }
@@ -45,7 +57,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.06
+                    "CooldownTime" : -0.12
                 },
                 "TaskUpgrade" :
                 [
@@ -59,12 +71,21 @@
                     },
 
                     {
+                        "Operation" : "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 2
+                    },
+
+                    {
                         "Operation" : "SelectByLocation",
                         "Location" : [ 0, 2 ]
                     },
                     {
                         "Operation" : "Adjust",
-                        "NumPersists" : 1
+                        "NumPersists" : 2
                     },
 
                     {
@@ -73,7 +94,7 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "NumPersists" : 1
+                        "NumPersists" : 2
                     }
                 ]
             }
@@ -85,7 +106,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.11
+                    "CooldownTime" : -0.15
                 },
                 "TaskUpgrade" :
                 [
@@ -95,7 +116,7 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "Amount" : 2
+                        "Amount" : 1
                     },
 
                     {
@@ -105,6 +126,15 @@
                     {
                         "Operation" : "Replace",
                         "DamageType" : "Plasma"
+                    },
+
+                    {
+                        "Operation" : "SelectByType",
+                        "Type": "AreaOfEffect"
+                    },
+                    {
+                        "Operation": "Adjust",
+                        "MaxTargets": 2
                     },
 
                     {
@@ -131,7 +161,6 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "SpeedScale": -0.14,
                         "NumPersists" : 2
                     },
 
@@ -153,7 +182,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.12,
+                    "CooldownTime" : -0.18,
                     "TargetRange" : 25
                 },
                 "TaskUpgrade" :
@@ -168,12 +197,30 @@
                     },
 
                     {
+                        "Operation" : "SelectByType",
+                        "Type" : "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "MaxTargets" : 1
+                    },
+
+                    {
                         "Operation" : "SelectByLocation",
                         "Location" : [ 0, 2 ]
                     },
                     {
                         "Operation" : "Adjust",
-                        "Duration" : 0.26,
+                        "Duration" : 0.15,
+                        "NumPersists" : 1
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
                         "NumPersists" : 1
                     },
 
@@ -195,7 +242,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.78
+                    "CooldownTime" : -0.86
                 },
                 "TaskUpgrade" :
                 [
@@ -205,7 +252,25 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "MaxTargets" : 18
+                        "MaxTargets" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 2
                     }
                 ]
             }
@@ -217,7 +282,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.03,
+                    "CooldownTime" : -0.1,
                     "TargetRange" : 31
                 },
                 "TaskUpgrade" :
@@ -228,7 +293,25 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "MaxTargets" : 6
+                        "MaxTargets" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 2
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 2
                     },
 
                     {
@@ -246,25 +329,7 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "Duration" : 0.29
-                    },
-
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" : [ 0, 2 ]
-                    },
-                    {
-                        "Operation" : "Replace",
-                        "NumPersists" : 3
-                    },
-
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" : [ 0, 3 ]
-                    },
-                    {
-                        "Operation" : "Replace",
-                        "NumPersists" : 3
+                        "Duration" : 0.15
                     },
 
                     {
@@ -285,7 +350,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.06
+                    "CooldownTime" : -0.11
                 },
                 "TaskUpgrade" :
                 [
@@ -331,7 +396,7 @@
                     },
                     {
                         "Operation" : "Replace",
-                        "NumPersists" : 4
+                        "NumPersists" : -1
                     },
 
                     {
@@ -340,7 +405,7 @@
                     },
                     {
                         "Operation" : "Replace",
-                        "NumPersists" : 4
+                        "NumPersists" : -1
                     }
                 ]
             },
@@ -348,7 +413,7 @@
             {
                 "Weapons" :
                 {
-                    "2": "AbsoluteZero.weapon"
+                    "1": "Snowstorm.weapon"
                 }
             }
         }

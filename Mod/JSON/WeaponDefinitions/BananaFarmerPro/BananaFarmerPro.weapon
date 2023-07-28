@@ -1,0 +1,18 @@
+{	
+    "Type":             "BananaFarmerPro",    
+    "TargetRange":      145,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire" : false,
+   
+    "Tasks" :
+    [
+        {
+            "Type" : "CollectCollectables",
+            "Range":  145,
+			"Speed" : 185,
+			"CollectionDelay" : 0.25,
+			"AnimateOnCollection" : true
+        }
+	]
+}

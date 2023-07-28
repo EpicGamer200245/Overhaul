@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Boomerang",
 	"Icon" : "boomerang_dojo_building",
 	"Building" : "boomerang_dojo",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "BoomerangThrower",
 	"Effects" :
 	{
@@ -12,9 +12,9 @@
 			"Text" : "LOC_SPEC_Boomerang_I",
 			"TowerModifiers" :
 			[{
-                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
-                "Modifier" : { "PoppingPower" : [ 1, 1 ] }
-            }]
+				"TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+				"Modifier" : { "Cost": [ 0.97, 0 ] }
+			}]
 		},
 		
 		"II" :		
@@ -37,7 +37,7 @@
 			"InventoryBonuses" :
 			[{
                 "ApplyOn" : [ "GameStart", "EveryNthRound" ],
-                "RoundPeriod" : 8,
+                "RoundPeriod" : 9,
                 "TowerType" : "BoomerangThrower",
                 "TowerCount" : 1
             }]
@@ -49,7 +49,7 @@
             "TowerModifiers" :
 			[{
                 "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
-                "Modifier" : { "PoppingPower" : [ 1, 3 ] }
+                "Modifier" : { "PoppingPower" : [ 1.6, 0 ] }
             }]
         },
 		

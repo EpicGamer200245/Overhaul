@@ -1,0 +1,21 @@
+{
+	"Type" : "MiniMOAB",
+	"DrawLayer": "Air",
+	"InitialHealth" : 110,
+	"SpriteFilesAtDamageLevels": [
+		[ "MiniMoab01.json", 85 ],
+		[ "MiniMoab02.json", 60 ],
+		[ "MiniMoab03.json", 35 ],
+		[ "MiniMoab04.json", 18 ]
+	],
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 1.06,
+	"RBE" : 371,
+    "ChildBloons" : [ "Ceramic.bloon", "Ceramic.bloon", "Rainbow.bloon" ],
+    "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus" ],
+    "DamageImmunity" : ["Juggernaut", "Foam"],
+	"CanGoUnderground" : false,
+	"RotateToPathDirection" : true,
+    "Radius" : 23,
+    "HitAddon" : 35
+}

@@ -9,8 +9,8 @@
 		[ "Zomg04.json", 500 ]
 	],
 	"BaseSpeed" : 70,
-	"SpeedMultiplier" : 0.19,
-	"RBE" : 16656,
+	"SpeedMultiplier" : 0.21,
+	"RBE" : 17358,
     "ChildBloons" : [ "BFB.bloon", "BFB.bloon", "BFB.bloon", "BFB.bloon"],
     "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus" ],
     "DamageImmunity" : [ "Juggernaut", "Foam" ],

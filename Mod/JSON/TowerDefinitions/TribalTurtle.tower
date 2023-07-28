@@ -1,0 +1,61 @@
+{
+    "TypeName"				: "TribalTurtle",
+    "Icon"					: "turtle_agent_icon",
+    "FE_Avatar"             : "special_agent_turtle_avatar",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 0,
+    "DefaultWeapons"	    : [ "TribalTurtleSpear.weapon", "TribalTurtleCoconut.weapon" ],
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[ ],
+    	[ ]
+    ],   
+    "UpgradePrices" : 
+    [
+        [ ],
+        [ ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 50 } ],
+		[ ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        ],
+    	[ 
+        ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ 
+        ],
+    	[ 
+        ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"         : "TribalTurtleBody.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: true,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 8.0,
+    "PlacementW"			: 42.0,
+    "PlacementH"			: 42.0,
+    "SpriteUpgradeDefinition" : "TribalTurtle.json",
+    "FiresWeaponsInSequence" : true,
+    "FiringSequence" : [ [ 0, 0, 1, 1, 0 ] ],
+    "IsAgent" : true
+}

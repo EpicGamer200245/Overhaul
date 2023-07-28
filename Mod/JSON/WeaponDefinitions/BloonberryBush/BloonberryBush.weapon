@@ -1,0 +1,39 @@
+{	
+    "Type":             "BloonberryBush",    
+    "TargetRange":      60,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+    "MaxShots" :        1,
+    
+    "Tasks" :
+    [{
+        "Type":             "Projectile",
+        "SpriteFile":       "BloonberryBush.json",
+        "NumPersists":      30,
+        "TerminateOnZeroPersists": false,
+        "TerminateOnTowerRemoved" : true,
+        
+        "RemoveOnRoundEnd" : false,
+        "GrowsOnRoundEnd" : true,
+        "AmountToGrow" : 30,
+        "MaxGrowth" : 240,
+        
+        "CollisionType": "Continual",
+        
+        "Tasks" :
+        [ { "Type": "Damage", "DamageType": "Piercing", "Amount": 1 } ],
+        
+        "GraphicsAtPierceLevels" : [
+            [ 0.4081632792949677, 239],
+            [ 0.3537414968013763, 200],
+            [ 0.2993197143077850, 160],
+            [ 0.2448979616165161, 130],
+            [ 0.2040816396474838, 100],
+            [ 0.1496598571538925, 70],
+            [ 0.0952380970120430, 40],
+            [ 0.05442176759243012, 30],
+            [ 0.04, 15],
+            [ 0.0, 0]
+        ]
+    }]
+}

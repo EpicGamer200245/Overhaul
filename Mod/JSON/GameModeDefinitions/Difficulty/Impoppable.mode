@@ -1,0 +1,29 @@
+{
+	"Setup"	: {
+		"Health" : 18,
+		"RoundFiles" : [
+			"Difficulty/Impoppable.mode"
+		]
+	},
+
+	"Rules" : {
+		"TargetRound" : 90,
+		"PriceModifier" : 1.35,
+		"Reward" : {
+			"MonkeyMoneyMultiplier" : 3.0,
+			"XPMultiplier" : 2.0
+		},
+		"SpeedModifier" : 0,
+		"BloonInitialHealthModifier" : {
+			"Ceramic" : 1.16,
+			"ConcreteCeramic" : 1.14,
+			"MiniMOAB" : 1.11,
+			"MOAB" : 1.09,
+			"BFB" : 1.071,
+			"BigSplitter2" : 1.0674,
+			"BigSplitter" : 1.0632,
+			"ZOMG" : 1.0391,
+			"DeadlyZOMG" : 1.0462
+		}
+	}
+}

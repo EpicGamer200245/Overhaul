@@ -1,0 +1,89 @@
+{	
+    "Type":             "PlasmaSpikes",    
+    "TargetRange":      160.0,
+	"CooldownTime":     0.93,
+    "FireDelayTime":    0.191,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile": "plasma_spike_ball.json",
+			"NumPersists":      14,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"Radius": 9,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 875.0,
+				"CutOffDistance": 250
+			},
+			
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage", 
+					"DamageType": "Plasma", 
+					"Amount": 1
+				},
+				{ 
+					"Type": "Damage", 
+					"DamageType": "Juggernaut", 
+					"Amount": 5
+				},
+				{
+					"Type": "Damage",
+					"DamageType": "MOABMauler",
+					"Amount": 1
+				},
+				{
+					"Type" : "StatusEffect",
+					"Status" : "Stun",
+					"Duration" : 0.48
+				},
+				{
+					"Type" : "StatusEffect",
+					"Status" : "CrippleMOAB",
+					"Duration" : 0.2
+				},
+				{
+					"Type": "AreaOfEffect",
+					"Range": 66,
+					"MaxTargets": 7,
+					"Tasks" :
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 1
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Juggernaut",
+							"Amount": 3
+						},
+						{
+							"Type" : "StatusEffect",
+							"Status" : "Stun",
+							"Duration" : 0.24
+						},
+						{
+							"Type" : "StatusEffect",
+							"Status" : "CrippleMOAB",
+							"Duration" : 0.1
+						}
+					]
+                },
+                
+                {
+					"Type": "Effect",
+					"SpriteFile": "explosion_plasma.json",
+					"Scale": 0.58
+				}
+			]
+		}
+	]
+}

@@ -4,7 +4,7 @@
 	"Icon" : "sub_construction_yard",
 	"RelatedTower" : "MonkeySub",
 	"Building" : "sub_construction_yard",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"Effects" :
 	{
 		"I" :

@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Pirate",
 	"Icon" : "pirate_cove_building",
 	"Building" : "pirate_cove",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "MonkeyBuccaneer",
 	"Effects" :
 	{

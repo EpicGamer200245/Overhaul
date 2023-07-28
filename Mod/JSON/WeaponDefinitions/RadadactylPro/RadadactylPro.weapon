@@ -1,0 +1,44 @@
+{	
+    "Type":             "RadadactylPro",
+    "TargetRange":      168,
+	"CooldownTime":     51.0,
+    "FireDelayTime":    0.0,
+	"FiresOnRoundEnd" : true,
+ 	"DefaultSprite" : "rad_egg_hatch.json",
+	"RequiresTargetToFire" : false,
+	"DrawWhenOutOfAmmo" : false,
+	"TotalAmmo" : 1,
+	"RemainingAmmo" : 1,
+  
+    "Tasks" :
+    [
+		{
+			"Type" : "TimerFire",
+			"TimeDelay" : 1.1,
+			
+			"Tasks" : 
+			[
+				{
+					"Type": "LaunchAircraft",
+					"Aircraft" : "RadderdactylPlane.tower",
+					"MaxAircraft" : 5,
+					"PathIndex": 2,
+					"EvenlySpace" : true,
+					"ResetWeaponToIdle" : true,
+					
+					"Tasks" :
+					[
+						{
+							"Type" : "ResetCooldown"
+						}
+					]
+				},
+				{
+					"Type" : "EnableNextWeaponSlot",
+					"Loop" : true,
+					"DisableCurrentSlot": true
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{	
+    "Type":             "BloonberryBushCreepers",    
+    "TargetRange":      20,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+    "FiresOnRoundEnd": true,
+    "NumberOfRoundsBetweenShots" : 1,
+    "RequiresTargetToFire" : false,
+    
+    "Tasks" :
+    [{
+        "Type": "MultiFire",
+        "InitialOffset": 0.0,
+        "AngleIncrement": 0.0,
+        "FireCount": 3,
+        "AimAtTarget" : false,
+        "Tasks" :
+        [{
+            "Type": "RandomFire",
+            "Range": 500,
+            "OnlyTargetPathLocations": true,
+            "FireFullRange": true,
+            "TerminateOnZeroPersists": true,
+            "FollowTarget": false,
+            "TargetIsWeaponTaskOrigin" : true,
+            "MinimumRange" : 10,
+            
+            "Tasks" :
+            [{
+                "Type" : "Effect",
+                "SpriteFile": "BloonberryBushProTendrils.json",
+                "Duration": 0.15,
+                "Tasks": 
+                [{
+                    "Type":             "Projectile",
+                    "SpriteFile": "bloonberry_pro_solo_tendril.json",
+                    "NumPersists":      3,
+                    "TerminateOnZeroPersists": true,
+                    "TerminateOnTowerRemoved" : true,
+                    
+                    "RemoveOnRoundEnd" : false,
+                    "GrowsOnRoundEnd" : true,
+                    "AmountToGrow" : 3,
+                    "MaxGrowth" : 24,
+                    
+                    "SpreadAngle": 360,
+
+                    "CollisionType": "Continual",
+                    
+                    "TasksToProcessOnCollision" : [ 0 ],
+                    "TasksToProcessOnTerminate" : [ 1 ],
+
+                    "Tasks" :
+                    [
+                        { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 },
+                        { "Type" : "Effect", "SpriteFile": "BloonberryBushProTendrils.json", "AnimationStartTime" : 0.15, "Duration": 0.15 }
+                    ],
+
+                    "GraphicsAtPierceLevels" : [
+                        [ 0.2448979616165161, 21],
+                        [ 0.2040816396474838, 15],
+                        [ 0.1496598571538925, 12],
+                        [ 0.0952380970120430, 6],
+                        [ 0.05442176759243012,3],
+                        [ 0.0, 1]
+                    ]
+                }]
+            }]
+        }]
+    }]
+}

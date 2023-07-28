@@ -1,0 +1,62 @@
+{
+    "TypeName"				: "AngrySquirrelPro",
+    "Icon"					: "squirrel_agent_pro_icon",
+    "FE_Avatar"             : "special_agent_squirrel_pro_avatar",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 0,
+    "DefaultWeapons"	    : [ "AngrySquirrelPro.weapon", "AngrySquirrelAngryPro.weapon" ],
+    "SlotsToFireOnBloonEscape" : [ 1 ],
+    "SlotsToFireEveryNShots" : [ 1 ],
+    "NumberOfShotsToFire"   : 66,
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[ ],
+    	[ ]
+    ],   
+    "UpgradePrices" : 
+    [
+        [ ],
+        [ ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ ],
+		[ ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        ],
+    	[ 
+        ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ 
+        ],
+    	[ 
+        ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"         : "AngrySquirrelNormal.json",
+    "CanTargetCamo"			: true,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 8.0,
+    "PlacementW"			: 42.0,
+    "PlacementH"			: 42.0,
+    "SpriteUpgradeDefinition" : "AngrySquirrelPro.json",
+    "IsAgent" : true
+}

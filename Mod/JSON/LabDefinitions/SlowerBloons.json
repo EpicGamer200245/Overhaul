@@ -1,0 +1,114 @@
+{
+	"Name" : "LOC_LAB_SlowerBloons",
+	"Description" : "LOC_LAB_DESC_SlowerBloons",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_SlowerBloons",
+    "Icon" : "big_bloon_sabotage",
+	"LevelGateway" : [ 3, 6, 9, 12, 17, 22, 0, 0, 0, 0, 0, 0, 0 ],
+    
+	"Upgrades" : [
+		{
+            "DisplayValueString" : "0.01",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.01
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.02",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.02
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.03",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.03
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.05",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.05
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.08",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.08
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		},
+        {
+            "DisplayValueString" : "0.11",
+            "FactoryData" : {
+			"Rules" : {
+					"SpeedModifier" : -0.11
+				}
+	 		}
+		}
+	]
+}

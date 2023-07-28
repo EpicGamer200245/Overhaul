@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Spikes",
 	"Icon" : "spikes_r_us_building",
 	"Building" : "spikes_r_us",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "SpikeFactory",
 	"Effects" :
 	{

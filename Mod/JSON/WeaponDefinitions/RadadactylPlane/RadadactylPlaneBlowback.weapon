@@ -1,0 +1,38 @@
+{	
+    "Type": "RadadactylPlaneBlowback",
+    "TargetRange":      73,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire" : false,
+   
+    "Tasks" :
+    [
+		{
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.05,
+
+			"Tasks":
+			[
+				{
+					"Type" : "AreaOfEffect",
+					"Range" : 73,
+					"MaxTargets" : -1,
+		
+					"Tasks" :
+					[
+						{
+							"Type" : "StatusEffect",
+							"Status" : "MoveToPath",
+							"PercentageChance" : 0.75
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type" : "Effect",
+			"Scale": 1.14,
+			"SpriteFile": "stomp_ability.json"
+		}
+	]
+}

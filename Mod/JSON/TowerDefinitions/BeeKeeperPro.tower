@@ -1,0 +1,33 @@
+{
+    "TypeName"				: "BeeKeeperPro",
+    "Icon"					: "beekeeper_agent_pro_icon",
+    "FE_Avatar"             : "special_agent_beekeeper_pro_avatar",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 0,
+    "DefaultWeapons"	    : [ "BeeKeeperPro.weapon", "Swarm.weapon" ],
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+	"UpgradeGateway" :
+	[
+		[ ],
+		[ ]
+	],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"         : "BeekeeperPro.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 14.0,
+    "PlacementW"			: 0,
+    "PlacementH"			: 0,
+    "IsAgent" : true
+}

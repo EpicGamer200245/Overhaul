@@ -12,9 +12,9 @@
 	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "x" },
 	   { "Icon" : "village_icon", "FactoryName" : "MonkeyVillage", "ObjectType" : 0, "KeyboardShortcut" : "v" },
 	   { "Icon" : "monkeysub_icon", "FactoryName" : "MonkeySub", "ObjectType" : 0, "KeyboardShortcut" : "n" },
-	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "[" },
+	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "<" },
 	   { "Icon" : "spike_factory_icon", "FactoryName" : "SpikeFactory", "ObjectType" : 0, "KeyboardShortcut" : "/" },
 	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "-" },
-	   { "Icon" : "mortar_icon", "FactoryName" : "MortarTower", "ObjectType" : 0, "KeyboardShortcut" : "=" }
+	   { "Icon" : "mortar_icon", "FactoryName" : "MortarTower", "ObjectType" : 0, "KeyboardShortcut" : "[" }
 	]
 }

@@ -1,0 +1,21 @@
+{
+	"Type" : "BigSplitter2",
+	"DrawLayer": "Air",
+	"InitialHealth" : 965,
+	"SpriteFilesAtDamageLevels": [
+		[ "BigSplitter2_01.json", 640 ],
+		[ "BigSplitter2_02.json", 500 ],
+		[ "BigSplitter2_03.json", 275 ],
+		[ "BigSplitter2_04.json", 155 ]
+	],
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 0.35,
+	"RBE" : 2449,
+    "ChildBloons" : [ "MiniMOAB.bloon", "MiniMOAB.bloon", "MiniMOAB.bloon", "MiniMOAB.bloon" ],
+    "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus" ],
+    "DamageImmunity" : [ "Juggernaut", "Foam" ],
+	"CanGoUnderground" : false,
+	"RotateToPathDirection" : true,
+    "Radius" : 40,
+    "HitAddon" : 45
+}

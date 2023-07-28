@@ -1,0 +1,36 @@
+{	
+    "Type":             "AngrySquirrelPro",    
+    "TargetRange":      125.0,
+	"CooldownTime":     0.49,
+    "FireDelayTime":    0.186,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "acorn",
+			"NumPersists":      3,
+			"TerminateOnZeroPersists": true,
+
+			"SpreadAngle": 17,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 620.0,
+				"CutOffDistance": 140
+			},
+			
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
+			]
+		}
+	]
+}

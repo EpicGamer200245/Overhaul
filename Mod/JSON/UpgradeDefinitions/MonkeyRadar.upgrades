@@ -29,7 +29,7 @@
             {
                 "Weapons" :
                 {
-                    "0": "BloonchipperLead.weapon"
+                    "0": "AdvancedBloonScanning.weapon"
                 },
                 "Replace" :
                 {
@@ -267,7 +267,7 @@
             {
                 "Weapons" :
                 {
-                    "1": "RoadSpikes.weapon"
+                    "1": "ScreenScan.weapon"
                 }
             },
             "WeaponUpgrade" :

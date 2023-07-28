@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Ninja",
 	"Icon" : "ninja_academy_building",
 	"Building" : "ninja_academy",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "NinjaMonkey",
 	"Effects" :
 	{

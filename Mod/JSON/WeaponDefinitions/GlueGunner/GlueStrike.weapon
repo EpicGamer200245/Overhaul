@@ -1,0 +1,63 @@
+{	
+    "Type":             	"GlueStrike",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	45.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	"CanSelfTargetCamo": true,
+    "CanTargetUnderground" : true,
+
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { 
+			"StatusEffect": [ "Glue" ]
+		},
+		"Include" :
+		{
+			"BloonType" : [
+				"Red",
+				"Blue",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Lead",
+				"Zebra",
+				"Rainbow",
+                "Ceramic",
+                "Golden"
+			]
+		}
+    },
+
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 1000,
+			"MaxTargets": -1,
+			
+			"Tasks" :
+			[
+				{
+                	"Type": "StatusEffect",
+                	"Status": "Glue",
+                	"NumPersists" : 1,
+                	"Duration" : 22.86,
+                	"DamageRate" : -1,
+                	"SpeedScale" : 0.5
+            	}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "GlueStrikeAbility.json",
+			"Position": [ 240, 160 ],
+			"LoopCount": 2,
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

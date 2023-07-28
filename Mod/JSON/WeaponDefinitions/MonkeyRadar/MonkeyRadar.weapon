@@ -1,0 +1,73 @@
+{
+    "Type": "MonkeyRadar",
+    "TargetRange": 145,
+    "FireDelayTime": 0,
+    "CooldownTime": 0.9,
+	"RequiresTargetToFire" : false,
+	"RotatesToTarget" : false,
+    "TargetsIndependently": true,
+
+	"TargetingFilter":
+	{
+		"Include" :
+		{
+			"BloonType" : [
+				"Red",
+				"Blue",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Zebra",
+				"Rainbow"
+			]
+		},
+		"Exclude" :
+        { 
+			"BloonType": [ 
+				"MiniMOAB", 
+				"BigSplitter",
+				"BigSplitter2",
+				"DeadlyZOMG",
+				"ConcreteCeramic"
+			]
+		}
+	},
+
+    "Tasks": [
+        {
+			"Type" : "AreaOfEffect",
+			"Range" : 146,
+			"MaxTargets" : 16,
+			"UseRangeModifier" : true,
+
+			"Tasks" : [
+				{ 
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1 
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "MultiLayerDamage"
+				},
+				{
+					"Type": "Damage",
+					"DamageType": "Juggernaut",
+					"Amount": 0
+				},
+				{
+					"Type": "Damage",
+					"DamageType": "MOABMauler",
+					"Amount": 0
+				}
+			]
+        },
+		{
+			"Type" : "Effect",
+			"Scale": 3.7,
+			"SpriteFile": "blue_radar.json"
+		}
+    ]
+}

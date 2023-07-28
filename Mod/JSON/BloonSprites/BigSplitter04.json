@@ -1,0 +1,322 @@
+{
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 42.0, 105.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "Smokecompoundsprite.json",
+         "type" : 2,
+         "uid" : 26
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -42.0, 105.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "Smokecompoundsprite.json",
+         "type" : 2,
+         "uid" : 28
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -37.0, 72.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "BigSplitter_bent_engine_compound.json",
+         "type" : 2,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 37.0, 72.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "BigSplitter_bent_engine_compound.json",
+         "type" : 2,
+         "uid" : 25
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 80.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "big_splitter_tail_02",
+         "type" : 1,
+         "uid" : 24
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 29.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "big_splitter_undamaged",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 29.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "big_splitter_undamaged",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "big_splitter_logo",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 28.0 ],
+         "Scale" : [ 1.16, 1.16 ],
+         "Shown" : true,
+         "sprite" : "blimp_damage_02",
+         "type" : 1,
+         "uid" : 23
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -10.0, 51.0 ],
+         "Scale" : [ 0.88, 0.88 ],
+         "Shown" : true,
+         "sprite" : "Smokecompoundsprite.json",
+         "type" : 2,
+         "uid" : 29
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 25.0, 3.0 ],
+         "Scale" : [ 0.78, 0.78 ],
+         "Shown" : true,
+         "sprite" : "Smokecompoundsprite.json",
+         "type" : 2,
+         "uid" : 30
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "Smokecompoundsprite.json",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "big_splitter_engine",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "BigSplitter_bent_engine_compound.json",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "big_splitter_tail_02",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "big_splitter_undamaged",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "big_splitter_logo",
+            "Texture" : "bloons_custom"
+         },
+         {
+            "SpriteInfo" : "blimp_damage_02",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 7,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -37.0, 72.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -37.0, 72.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 29.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 29.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, 29.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, 29.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 2.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 2.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 23,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 24,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 25,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 28,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 26,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 29,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 30,
+         "stage" : null
+      }
+   ]
+}

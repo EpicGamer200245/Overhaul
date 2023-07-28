@@ -1,23 +1,17 @@
 {
     "TypeName"				: "IceTower",
     "Icon"					: "ice_tower_icon",
-    "BaseCost"				: 240,
+    "BaseCost"				: 285,
     "RankToUnlock"			: 1,
     "DefaultWeapons"	    :
     [
         "IceTower.weapon",
-        "",
-        "",
-        "IceShards.weapon",
-        "ViralFrost.weapon"
+        ""
     ],
     "ActiveWeaponSlots" :
     [
         true,
-        true,
-        true,
-        false,
-        false
+        true
     ],
     
     "TargetingMode"			: "AnyInRange",
@@ -36,8 +30,8 @@
 	],
     "UpgradePrices" : 
     [
-        [ 145, 155, 650, 1760 ],
-        [ 165, 270, 1600, 3400 ]
+        [ 285, 285, 775, 4460 ],
+        [ 220, 340, 2080, 5075 ]
     ],
     "UpgradeAvatars" : 
     [

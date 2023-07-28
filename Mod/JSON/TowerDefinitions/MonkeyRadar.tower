@@ -7,7 +7,7 @@
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
     "DefaultWeapons" : [
-        "MonkeySubPulse.weapon"
+        "MonkeyRadar.weapon"
     ],
     "Icon" : "monkey_radar_tower_icon",
     "PlacementH" : 0.0,

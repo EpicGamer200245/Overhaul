@@ -1,0 +1,52 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultSprite" : "rad_nest_compoundsprite.json",
+    "DefaultWeapons" : [
+        "Radadactyl.weapon",
+        "Radadactyl.weapon",
+        "Radadactyl.weapon",
+        "Radadactyl.weapon",
+        "Radadactyl.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		true,
+		false,
+		false,
+		false,
+		false
+	],
+	"WeaponOffsets" : [
+		[ 0, -8 ],
+		[ 7.5, -2.5 ],
+		[ -7.5, -2.5 ],
+		[ 4.7, 6.4 ],
+		[ -4.7, 6.4 ]
+	],
+	"DrawWeaponsOnTop" : true,
+    "Icon" : "radadactyl_agent_icon",
+    "FE_Avatar"             : "special_agent_rad_avatar",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 10.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "Specialities" : [
+    ],
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "None",
+    "TargetsManually" : false,
+    "TypeName" : "Radadactyl",
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 40 } ],
+		[  ]
+	],
+    "UseRadiusPlacement" : true,
+    "SkipFirstFrameWhenFiring" : false,
+    "IsAgent" : true
+}

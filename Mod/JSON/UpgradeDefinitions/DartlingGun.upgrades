@@ -7,7 +7,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.03
+                    "CooldownTime" : -0.021
                 }
             }
         },
@@ -17,7 +17,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.037
+                    "CooldownTime" : -0.042
                 }
             }
         },
@@ -39,11 +39,11 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 3,
-                        "SpreadAngle" : -2,
+                        "SpreadAngle" : -4,
                         "Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : -60
+							"CutOffDistance" : -45
 						}
                     },
                     {
@@ -114,7 +114,7 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "SpreadAngle" : -15
+                        "SpreadAngle" : -14
                     }
                 ]
             }
@@ -133,11 +133,11 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 1,
-                        "SpreadAngle" : -6,
+                        "SpreadAngle" : -4,
                         "Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : 80
+							"CutOffDistance" : 60
 						}
                     }
                 ]
@@ -167,7 +167,7 @@
                         "Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : -70
+							"CutOffDistance" : -55
 						}
                     },
                     {

@@ -1,0 +1,33 @@
+{
+    "TypeName"				: "BeeKeeper",
+    "Icon"					: "beekeeper_agent_icon",
+    "FE_Avatar"             : "special_agent_beekeeper_avatar",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 0,
+    "DefaultWeapons"	    : [ "BeeKeeper.weapon", "Swarm.weapon" ],
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 40 } ],
+		[ ]
+	],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"         : "Beekeeper.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 14.0,
+    "PlacementW"			: 0,
+    "PlacementH"			: 0,
+    "IsAgent" : true
+}

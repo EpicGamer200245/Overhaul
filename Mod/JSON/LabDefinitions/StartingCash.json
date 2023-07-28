@@ -3,137 +3,137 @@
 	"Description" : "LOC_LAB_DESC_StartingCash",
     "LevelDescription" : "LOC_LAB_LEVELINFO_StartingCash",
     "Icon" : "starting_cash",
-	"LevelGateway" : [ 5, 9, 14, 21, 29, 0, 0, 0, 0, 0, 0, 0, 0 ],
+	"LevelGateway" : [ 4, 7, 10, 13, 19, 25, 0, 0, 0, 0, 0, 0, 0 ],
     
 	"Upgrades" :
 	[
 		{
-            "DisplayValueString" : "40",
+            "DisplayValueString" : "35",
             "FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 40
+					"Money": 35
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "80",
+            "DisplayValueString" : "70",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 80
+					"Money": 70
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "120",
+            "DisplayValueString" : "105",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 120
+					"Money": 105
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "160",
+            "DisplayValueString" : "145",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 160
+					"Money": 145
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "195",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 195
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "200",
+            "DisplayValueString" : "245",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 200
+					"Money": 245
 				}
 			}
 		}

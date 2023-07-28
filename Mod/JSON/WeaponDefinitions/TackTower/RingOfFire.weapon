@@ -1,7 +1,7 @@
 {	
     "Type":             "RingOfFire",    
     "TargetRange":      115.0,
-	"CooldownTime":     1.2,
+	"CooldownTime":     1.09,
     "FireDelayTime":    0.0,
     
     "Tasks" :
@@ -17,12 +17,17 @@
 				{
 					"Type" : "StatusEffect",
 					"Status" : "",
-					"DamageRate" : 2.3,
-					"Duration" : 2.0
+					"DamageRate" : 0.19,
+					"Duration" : 3.99
 				},
 				{
 					"Type": "Damage",
 					"DamageType": "Plasma",
+					"Amount": 1
+				},
+				{
+					"Type": "Damage",
+					"DamageType": "MOABMauler",
 					"Amount": 1
 				},
 				{

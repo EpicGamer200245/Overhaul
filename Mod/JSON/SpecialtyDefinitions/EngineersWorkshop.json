@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Engineer",
 	"Icon" : "engineers_workshop_building",
 	"Building" : "engineers_workshop",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "MonkeyEngineer",
 	"Effects" :
 	{

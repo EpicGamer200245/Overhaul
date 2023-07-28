@@ -1,0 +1,18 @@
+{
+	"Setup"	: {
+		"Health" : 200,
+		"RoundFiles" : [
+			"Difficulty/Easy.mode"
+		]
+	},
+
+	"Rules" : {
+		"TargetRound" : 45,
+		"PriceModifier" : 0.85,
+		"Reward" : {
+			"MonkeyMoneyMultiplier" : 0.75,
+			"XPMultiplier" : 0.5
+		},
+		"SpeedModifier" : 0
+	}
+}

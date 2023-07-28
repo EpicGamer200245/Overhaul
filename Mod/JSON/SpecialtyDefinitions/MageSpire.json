@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Mage",
 	"Icon" : "mage_spire_building",
 	"Building" : "mage_spire",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "MonkeyApprentice",
 	"Effects" :
 	{

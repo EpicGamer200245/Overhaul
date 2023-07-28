@@ -1,0 +1,20 @@
+{
+	"Rules" : {
+		"Reward" : {
+			"MonkeyMoney": 40,
+            "TokensEasy": 0,
+            "TokensMedium": 1,
+            "TokensHard": 1,
+            "TokensImpoppable": 2
+		},
+		"WaterToCrucible": true,
+		"CrucibleLimit": 100,
+		"CrucibleRangeCheck": 55,
+		"LockedTowers": [
+			"PortableLake",
+			"PortableLakePro",
+			"Pontoon",
+			"PontoonPro"
+		]
+	}
+}

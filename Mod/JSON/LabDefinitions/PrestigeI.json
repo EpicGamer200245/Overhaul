@@ -1,0 +1,46 @@
+{
+	"Name" : "LOC_LAB_PrestigeI",
+	"Description" : "LOC_LAB_DESC_PrestigeI",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_PrestigeI",
+    "Icon" : "flask",
+	"LevelGateway" : [ 6, 10, 14, 18, 22, 30, 38, 46, 0, 0, 0, 0, 0 ],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "0",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"AbilityCooldown" : [ 1.0, 0 ],
+					"TargetRange" : [ 1.0, 0 ],
+					"ProjectileCutOff" : [ 1.0, 0 ],
+					"FireDelay" : [ 1.0, 0 ],
+					"DoublePierceChance" : [ 0.0, 0 ],
+					"Cooldown" : [ 1.0, 0 ]
+				}
+			},
+			"FactoryData" : {
+				"Setup" :
+				{
+					"Money": 0,
+					"Health": 0
+				},
+				"Rules" : {
+					"SpeedModifier" : 0.0,
+					"SellPriceModifier" : 0.0,
+					"BloonInitialHealthModifier" : {
+						"MiniMOAB" : 1.0,
+						"MOAB" : 1.0,
+						"BFB" : 1.0,
+						"BigSplitter2" : 1.0,
+						"BigSplitter" : 1.0,
+						"ZOMG" : 1.0,
+						"DeadlyZOMG" : 1.0
+				  	}
+				}
+			}
+		}//,
+	]
+}

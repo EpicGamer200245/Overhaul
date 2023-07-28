@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Tack",
 	"Icon" : "tack_research_centre_building",
 	"Building" : "tack_research_centre",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "TackTower",
 	"Effects" :
 	{

@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Mortar",
 	"Icon" : "mortar_emplacement_building",
 	"Building" : "mortar_emplacement",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "MortarTower",
 	"Effects" :
 	{

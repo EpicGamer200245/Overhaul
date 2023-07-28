@@ -3,23 +3,13 @@
 	"Description" : "LOC_LAB_DESC_DoublePierce",
     "LevelDescription" : "LOC_LAB_LEVELINFO_DoublePierce",
     "Icon" : "popping_power",
-	"LevelGateway" : [ 3, 6, 10, 16, 25, 0, 0, 0, 0, 0, 0, 0, 0 ],
+	"LevelGateway" : [ 4, 8, 12, 16, 21, 26, 0, 0, 0, 0, 0, 0, 0 ],
     
 	"Upgrades" :
 	[
 		{
-            "DisplayValueString" : "1",
-            "TowerModifier" :
-			{
-				"Modifier" :
-				{
-					"DoublePierceChance" : [ 0.01, 0 ]
-				}
-			}
-		},
-		{
             "DisplayValueString" : "2",
-			"TowerModifier" :
+            "TowerModifier" :
 			{
 				"Modifier" :
 				{
@@ -58,82 +48,92 @@
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "11",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.11, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "14",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.14, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "14",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.14, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "14",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.14, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "14",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.14, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "14",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.14, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "14",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.14, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "8",
+            "DisplayValueString" : "14",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.08, 0 ]
+					"DoublePierceChance" : [ 0.14, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "14",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"DoublePierceChance" : [ 0.14, 0 ]
 				}
 			}
 		}

@@ -1,7 +1,7 @@
 {	
     "Type":             "IceTower",    
     "TargetRange":      65.0,
-	"CooldownTime":     2.4,
+	"CooldownTime":     2.7,
     "FireDelayTime":    0.2,
     "TerminateOnZeroPersists": true,
     "FollowTarget": false,
@@ -21,7 +21,7 @@
 				{
 					"Type": "Damage",
 					"DamageType": "Ice",
-					"Amount": 0
+					"Amount": 1
 				},
 				{
 					"Type": "StatusEffect",
@@ -31,18 +31,14 @@
 					"Type": "StatusEffect",
 					"Status": "Ice",
 					"Duration" : 0.71,
-					"NumPersists" : 1
+					"NumPersists" : 12
 				},
 				{
 					"Type": "StatusEffect",
 					"Status": "",
-					"SpeedScale" : 0.8,
-					"NumPersists" : 1
-				},
-                {
-                    "Type": "RemoveStatusEffect",
-                    "Status": "Camo"
-                }
+					"SpeedScale" : 0.65,
+					"NumPersists" : 12
+				}
 			]
 		},
 		{

@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Chipper",
 	"Icon" : "chipping_barn_building",
 	"Building" : "chipping_barn",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "Bloonchipper",
 	"Effects" :
 	{

@@ -1,0 +1,80 @@
+{	
+    "Type":             	"BloonchipperSupaVac",    
+    "TargetRange":      	140,
+	"CooldownTime":     	40.0,
+    "FireDelayTime":    	0.0,
+    "ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	"CanSelfTargetCamo": true,
+
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { 
+			"StatusEffect": [ "BloonChipperSuck", "VacStatus", "ShredBloon" ],
+            "BloonType": [ 
+				"MiniMOAB", 
+				"BigSplitter",
+				"BigSplitter2",
+				"DeadlyZOMG"
+			]
+		},
+        "Include" :
+        {
+            "BloonType" : [
+                "Red",
+                "Blue",
+                "Green",
+                "Yellow",
+                "Pink",
+                "Black",
+                "White",
+                "Lead",
+                "Zebra",
+                "Rainbow",
+                "Ceramic",
+                "Golden",
+                "MOAB",
+                "BFB",
+                "ZOMG",
+                "DDT"
+            ]
+        }
+    },
+
+    "Tasks" :
+    [
+        {
+            "Type": "Effect",
+			"SpriteFile": "SuperVacAbility.json",
+			"LoopCount": 10,
+            "AppliedToTower": true,
+			"Position" : [0, 0]
+        },
+		{
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.2,
+			"InitialTime" : 0,
+			"Loops" : true,
+			"NumLoops" : 40,
+			
+			"Tasks" : [
+				{
+					"Type": "AreaOfEffect",
+					"Range": 140,
+					"MaxTargets": -1,
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "VacStatus",
+							"Duration" : 8.0,
+							"NumPersists" : -1
+						}
+					]
+				}
+			]
+		}
+	]
+}

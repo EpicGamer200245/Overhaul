@@ -39,18 +39,18 @@
             }
         },
 		{
-			"Type" : "TribalTurtle",
-			"Avatar" : "special_agent_turtle_avatar",
-			"Icon" : "special_agent_turtle_icon",
-			"Cost" : 20,
-			
-			"Pro" :
-			{
-				"Type" : "TribalTurtlePro",
-				"Avatar" : "special_agent_turtle_pro_avatar",
-				"Icon" : "special_agent_turtle_pro_icon"
-			}
-		},
+            "Type" : "NinjaKiwi",
+            "Avatar" : "special_agent_ninja_kiwi_avatar",
+            "Icon" : "special_agent_ninja_kiwi_icon",
+            "Cost" : 15,
+            
+            "Pro" :
+            {
+                "Type" : "NinjaKiwiPro",
+                "Avatar" : "special_agent_ninja_kiwi_pro_avatar",
+                "Icon" : "special_agent_ninja_kiwi_pro_icon"
+            }
+        },
 		{
 			"Type" : "MeerkatSpy",
 			"Avatar" : "special_agent_meerkat_avatar",
@@ -62,19 +62,6 @@
 				"Type" : "MeerkatSpyPro",
 				"Avatar" : "special_agent_meerkat_pro_avatar",
 				"Icon" : "special_agent_meerkat_pro_icon"
-			}
-		},
-		{
-			"Type" : "BloonberryBush",
-			"Avatar" : "special_agent_bloonberry_avatar",
-			"Icon" : "special_agent_bloonberry_icon",
-			"Cost" : 15,
-			
-			"Pro" :
-			{
-				"Type" : "BloonberryBushPro",
-				"Avatar" : "special_agent_bloonberry_pro_avatar",
-				"Icon" : "special_agent_bloonberry_pro_icon"
 			}
 		},
 		{
@@ -95,7 +82,7 @@
 			"Type" : "Radadactyl",
 			"Avatar" : "special_agent_rad_avatar",
 			"Icon" : "special_agent_radadactyl_icon",
-			"Cost" : 20,
+			"Cost" : 15,
 			
 			"Pro" :
 			{
@@ -104,19 +91,6 @@
 				"Icon" : "special_agent_radadactyl_pro_icon"
 			}
 		},
-        {
-            "Type" : "NinjaKiwi",
-            "Avatar" : "special_agent_ninja_kiwi_avatar",
-            "Icon" : "special_agent_ninja_kiwi_icon",
-            "Cost" : 15,
-            
-            "Pro" :
-            {
-                "Type" : "NinjaKiwiPro",
-                "Avatar" : "special_agent_ninja_kiwi_pro_avatar",
-                "Icon" : "special_agent_ninja_kiwi_pro_icon"
-            }
-        },
 		{
 			"Type" : "BeeKeeper",
 			"Avatar" : "special_agent_beekeeper_avatar",
@@ -128,6 +102,19 @@
 				"Type" : "BeeKeeperPro",
 				"Avatar" : "special_agent_beekeeper_pro_avatar",
 				"Icon" : "special_agent_beekeeper_pro_icon"
+			}
+		},
+		{
+			"Type" : "TribalTurtle",
+			"Avatar" : "special_agent_turtle_avatar",
+			"Icon" : "special_agent_turtle_icon",
+			"Cost" : 20,
+			
+			"Pro" :
+			{
+				"Type" : "TribalTurtlePro",
+				"Avatar" : "special_agent_turtle_pro_avatar",
+				"Icon" : "special_agent_turtle_pro_icon"
 			}
 		},
 		{
@@ -144,10 +131,23 @@
 			}
 		},
 		{
+			"Type" : "BloonberryBush",
+			"Avatar" : "special_agent_bloonberry_avatar",
+			"Icon" : "special_agent_bloonberry_icon",
+			"Cost" : 25,
+			
+			"Pro" :
+			{
+				"Type" : "BloonberryBushPro",
+				"Avatar" : "special_agent_bloonberry_pro_avatar",
+				"Icon" : "special_agent_bloonberry_pro_icon"
+			}
+		},
+		{
 			"Type" : "BloonsdayDevice",
 			"Avatar" : "special_agent_bloonsday_avatar",
 			"Icon" : "special_agent_bloonsday_icon",
-			"Cost" : 45,
+			"Cost" : 35,
 			
 			"Pro" :
 			{

@@ -1,0 +1,58 @@
+{
+    "TypeName"				: "BloonsdayDevice",
+    "Icon"					: "bloonsday_avatar_small",
+    "FE_Avatar"             : "special_agent_bloonsday_avatar",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 1,
+    "DefaultWeapons"	    : [ "BloonsdayDevice.weapon" ],
+    "TargetingMode"			: "ManualPassive",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[  ],
+    	[  ]
+    ],   
+    "UpgradePrices" : 
+    [
+        [  ],
+        [  ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 20 } ],
+		[  ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ ],
+    	[ ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ ],
+    	[ ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"		: "bloonsday_tower.json",
+    "CanTargetCamo"			: true,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseDefaultRangeCircle" : true,
+  	"DefaultRangeSize": 50,
+
+	"UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 0,
+    "PlacementW"			: 50,
+    "PlacementH"			: 50,
+    "SpriteUpgradeDefinition" : "BloonsdayDevice.json",
+    "IsAgent" : true
+}

@@ -1,0 +1,33 @@
+{	
+    "Type": "NinjaKiwiPro",
+    "DefaultSprite":    "",
+    "TargetRange":      77.0,
+	"CooldownTime":     0.94,
+    "FireDelayTime":    0.186,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 77,
+			"MaxTargets": 9,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": false,
+            "UseRangeModifier" : true,
+		
+			"Tasks" :
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1
+				},
+				{
+					"Type" : "StatusEffect",
+					"Status" : "MoveToPath",
+					"PercentageChance" : 0.72
+				}
+			]
+		}
+	]
+}

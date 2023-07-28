@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Dartling",
 	"Icon" : "dartling_ammo_dump_building",
 	"Building" : "dartling_ammo_dump",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "DartlingGun",
 	"Effects" :
 	{
@@ -48,7 +48,7 @@
 			"Text" : "LOC_SPEC_Dartling_IV",
             "TowerModifiers" :
 			[{
-                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+                "TargetingFilter" : { "Include" : { "TowerType": [ "DartlingGun" ] } },
                 "Modifier" : { "PoppingPower" : [ 1, 1 ] }
             }]
 		},

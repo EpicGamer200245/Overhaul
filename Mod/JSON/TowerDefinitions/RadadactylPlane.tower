@@ -1,0 +1,52 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultSprite" : "radadactyl.json",
+    "DefaultWeapons" : [
+        "RadadactylPlane.weapon",
+		"RadadactylPlaneResetPops.weapon",
+		"RadadactylPlaneRestoreAmmo.weapon",
+        "RadadactylPlaneBlowback.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		true,
+		true,
+		false,
+        false
+	],
+	"DrawWeaponsOnTop" : false,
+    "Icon" : "dart_monkey_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 10.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "Specialities" : [
+    ],
+    "TargetIsWeaponOrigin" : true,
+    "TargetingMode" : "AnyInRange",
+    "TargetsManually" : false,
+    "TypeName" : "RadadactylPlane",
+    "Upgrades" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UpgradePrices" : 
+    [
+        [  ],
+        [  ]
+    ],
+    "UseRadiusPlacement" : false,
+    "IsAircraft" : true,
+    "AircraftRadius" : 95,
+    "AircraftSpeed" : 68.0,
+	
+	"DestroyAfterPops" : 90,
+	"SlotsToFireOnDestroyAfterPops" : [ 2, 3 ]
+}

@@ -1,0 +1,132 @@
+{	
+    "Type":             	"FierySeekingBlades",    
+    "TargetRange":      	0,
+	"CooldownTime":     	65,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		false,
+	"CanFireWithNoTargetsAndRoundInProgress" : true,
+    "TotalAmmo": 0,
+	"CanTargetUnderground" : true,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "TowerModifier",
+			"Range": 0,
+			"PriorityLevel": 1,
+			"ApplyToUserTower": true,
+            "ModifyNewlySpawnedTowers": false,
+			"TerminateOnUserUpgrade": false,
+
+			"Duration": 6.24,
+			"NumPersists": 1,
+
+			"Modifier":
+			{
+				"ActiveWeapon": [ [ 0, false ] ]
+			},
+			
+			"Tasks": []
+        },
+
+        {
+            "Type" : "TimerFire",
+			"TimeDelay" : 1.34,
+
+            "Tasks": 
+            [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "fiery_seeking_blades_stomp.json",
+                    "Scale": 3.35,
+                    "DrawLayer": "FullScreen"
+                },
+                {
+                    "Type": "MultiFire",
+                    "InitialOffset": 0.0,
+                    "AngleIncrement": 45.0,
+                    "FireCount": 8,
+                    "AimAtTarget" : false,
+                    "Offsets" : [
+                        [ 0, -21 ],
+                        [ 14.85, -14.85 ],
+                        [ 21, 0 ],
+                        [ 14.85, 14.85 ],
+                        [ 0, 21 ],
+                        [ -14.85, 14.85 ],
+                        [ -21, 0 ],
+                        [ -14.85, -14.85 ]
+                    ],
+                    "Tasks":
+                    [
+                        {
+                            "Type": "Projectile",
+                            "SpriteFile": "tackshooterseekingfieryblade.json",
+                            "NumPersists": -1,
+                            "TerminateOnZeroPersists": true,
+                            
+                            "CollisionType": "Once",
+                            
+                            "Radius": 7,
+                            
+                            "Movement":
+                            {
+                                "Type": "Target",
+                                "Speed": 425,
+                                "TurnSpeed": 550,
+                                "TargetRange": 1000,
+                                "SeekAngle": 360,
+                                "CutOffDistance": 1912.5
+                            },
+        
+                            "Tasks":
+                            [
+                                {
+                                    "Type" : "StatusEffect",
+                                    "Status" : "Napalm",
+                                    "DamageRate" : 1,
+                                    "Duration" : 3
+                                },
+                                {
+                                    "Type": "Damage",
+                                    "DamageType": "Plasma",
+                                    "Amount": 4
+                                },
+                                {
+                                    "Type": "Damage",
+                                    "DamageType": "MOABMauler",
+                                    "Amount": 11
+                                },
+                                {
+                                    "Type": "Damage",
+                                    "DamageType": "Juggernaut",
+                                    "Amount": 11
+                                },
+                                {
+                                    "Type": "StatusEffect",
+                                    "Status": "MultiLayerDamage",
+                                    "Kill": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "Type" : "TimerFire",
+			"TimeDelay" : 5.84,
+
+            "Tasks": 
+            [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "fiery_seeking_blades_stomp.json",
+                    "Scale": 13,
+                    "DrawLayer": "FullScreen"
+                }
+            ]
+        }
+	]
+}

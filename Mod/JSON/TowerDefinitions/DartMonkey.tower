@@ -27,8 +27,8 @@
         [
             "Long Range Darts",
             "Enhanced Eyesight",
-            "Plasmatic Spikes",
-            "Upgrade"
+            "Explosive Spike-o-Pult",
+            "Plasma Spike-o-Pult"
         ],
         [
             "Quick Shots",
@@ -44,15 +44,15 @@
 	],
     "UpgradePrices" : 
     [
-        [ 115, 160, 1200, 9800 ],
-        [ 175, 180, 550, 23000 ]
+        [ 130, 170, 1900, 5250 ],
+        [ 175, 240, 375, 23000 ]
     ],
     "UpgradeIcons" : [
         [
             "dart_monkey_longer_range_icon",
             "dart_monkey_enhanced_eyesight_icon",
-            "apprentice_intense_magic_icon",
-            "monkey_ace_ground_zero_icon"
+            "dart_explosive_ball_icon",
+            "dart_plasma_ball_icon"
         ],
         [
             "sniper_faster_firing_icon",

@@ -10,7 +10,7 @@
 	],
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 0.97,
-	"RBE" : 616,
+	"RBE" : 628,
     "ChildBloons" : [ "Ceramic.bloon", "Ceramic.bloon", "Ceramic.bloon", "Ceramic.bloon"],
     "StatusImmunity" : [ "Slow", "Ice", "Glue", "Napalm", "Regen", "Camo", "MoveToPath", "Stun", "Permafrost", "IceShards", "ViralFrost", "AbsoluteZero", "VacStatus" ],
     "DamageImmunity" : ["Juggernaut", "Foam"],

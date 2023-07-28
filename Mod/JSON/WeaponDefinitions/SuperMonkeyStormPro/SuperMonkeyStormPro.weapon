@@ -1,0 +1,194 @@
+{	
+    "Type":             "SuperMonkeyStormPro",    
+    "TargetRange":      20,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 0.0,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "TimerFire",
+					"TimeDelay": 0.63,
+					
+					"Tasks":
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 1000,
+							"MaxTargets": -1,
+							
+							"Tasks" :
+							[ 
+								{
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 37
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage",
+									"Kill" : true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 1.4,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm_no_shock.json",
+					"Position": [ 240, 175 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm_shock_delayed.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm_flare_delayed.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "TimerFire",
+					"TimeDelay": 0.63,
+					
+					"Tasks":
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 1000,
+							"MaxTargets": -1,
+							
+							"Tasks" :
+							[ 
+								{
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 37
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage",
+									"Kill" : true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 2.8,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm_no_shock.json",
+					"Position": [ 240, 145 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm_shock_delayed.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm_flare_delayed.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "TimerFire",
+					"TimeDelay": 0.63,
+					
+					"Tasks":
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 1000,
+							"MaxTargets": -1,
+							
+							"Tasks" :
+							[ 
+								{
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 37
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage",
+									"Kill" : true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "TimerFire",
+			"TimeDelay": 4.2,
+			"Tasks":
+			[
+				{
+					"Type": "Effect",
+					"SpriteFile": "supermonkey_storm.json",
+					"Position": [ 240, 160 ],
+					"DrawLayer": "FullScreen"
+				},
+				{
+					"Type": "TimerFire",
+					"TimeDelay": 0.63,
+					
+					"Tasks":
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 1000,
+							"MaxTargets": -1,
+							
+							"Tasks" :
+							[ 
+								{
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 37
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage",
+									"Kill" : true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

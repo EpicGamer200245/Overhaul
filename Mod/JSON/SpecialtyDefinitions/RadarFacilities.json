@@ -4,7 +4,7 @@
 	"Icon" : "spikes_r_us_building",
 	"RelatedTower" : "MonkeyRadar",
 	"Building" : "radar_facilities",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"Effects" :
 	{
 		"I" :

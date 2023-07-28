@@ -1,5 +1,13 @@
 [
-    //Cyan Splitter Bloons
+    //Type Bloon
     "CyanSplitter",
-    "CyanSplitter2"
+    "CyanSplitter2",
+    "ConcreteCeramic",
+    "Orange",
+
+    //Type MOAB
+    "DeadlyZOMG",
+    "MiniMOAB",
+    "BigSplitter",
+    "BigSplitter2"
 ]

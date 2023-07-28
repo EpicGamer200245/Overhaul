@@ -63,7 +63,7 @@
          "Position" : [ -11.0, 7.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "spikeopult_plasmaball",
+         "sprite" : "dart_explosive_ball",
          "type" : 1,
          "uid" : 8
       },
@@ -89,7 +89,7 @@
          "Position" : [ 9.0, 22.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "spikeopult_plasmaball",
+         "sprite" : "dart_explosive_ball",
          "type" : 1,
          "uid" : 5
       }
@@ -116,8 +116,8 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "spikeopult_plasmaball",
-            "Texture" : "dartmonkey_proj"
+            "SpriteInfo" : "dart_explosive_ball",
+            "Texture" : "dartmonkey"
          },
          {
             "SpriteInfo" : "dart_monkey_catapult_body",

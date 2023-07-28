@@ -11,9 +11,9 @@
 	"InitialHealth" : 13,
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 2.9,
-	"RBE" : 104,
+	"RBE" : 107,
     "ChildBloons" : [ "Rainbow.bloon", "Rainbow.bloon" ],
-    "StatusImmunity" : ["CrippleMOAB"],
+    "StatusImmunity" : ["Stun"],
     "DamageImmunity" : [ "MOABMauler", "Foam" ],
 	"CanGoUnderground" : true,
     "Radius" : 13

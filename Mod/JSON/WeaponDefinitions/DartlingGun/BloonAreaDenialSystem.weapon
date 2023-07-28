@@ -22,13 +22,13 @@
 					
 					"CollisionType": "Once",
 					
-					"SpreadAngle": 43,
+					"SpreadAngle": 47,
 
 					"Movement":
 					{
 						"Type": "Forward",
 						"Speed": 670.0,
-						"CutOffDistance": 310
+						"CutOffDistance": 270
 					},
 					
 					"Tasks" :

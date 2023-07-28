@@ -1,0 +1,24 @@
+{	
+    "Type":             "RadderdactylPlane",
+    "TargetRange":      54,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+   
+    "Tasks" :
+    [
+		{
+			"Type" : "AreaOfEffect",
+			"Range" : 54,
+			"MaxTargets" : -1,
+			
+			"Tasks" :
+			[
+				{
+					"Type" : "Damage",
+					"DamageType" : "Plasma",
+					"Amount" : 1
+				}
+			]
+		}
+	]
+}

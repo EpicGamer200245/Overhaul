@@ -4,12 +4,12 @@
     ],
     "Compiles": [
         {
-            "SourceDir": "dartmonkey_proj",
+            "SourceDir": "dartmonkey",
             "Quality": "Ultra",
             "Results": [
                 {
-                    "Texture": "dartmonkey_proj.png",
-                    "InfoXml": "dartmonkey_proj.xml"
+                    "Texture": "dartmonkey.png",
+                    "InfoXml": "dartmonkey.xml"
                 }
             ]
         },
@@ -80,6 +80,26 @@
                 {
                     "Texture": "buildings_custom.png",
                     "InfoXml": "buildings_custom.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "agents_custom",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "agents_custom.png",
+                    "InfoXml": "agents_custom.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "bloons_custom",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "bloons_custom.png",
+                    "InfoXml": "bloons_custom.xml"
                 }
             ]
         }

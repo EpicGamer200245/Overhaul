@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Bomb",
 	"Icon" : "bombing_range_building",
 	"Building" : "bombing_range",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "BombTower",
 	"Effects" :
 	{

@@ -1,0 +1,39 @@
+{	
+    "Type":             "MeerkatSpyPro",  
+    "TargetRange":      130,
+	"CooldownTime":     0.63,
+    "FireDelayTime":    0.0,
+    "DontResetAnimation": true,
+
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile": "super_tech_laser.json",
+			"NumPersists":      13,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 620,
+				"CutOffDistance": 155
+			},
+			
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1
+				},
+                {
+                    "Type": "StatusEffect",
+                    "Status": "SignalFlare" 
+                }
+			]
+		}
+	]
+}

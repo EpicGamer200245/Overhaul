@@ -1,0 +1,37 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 35,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : false,
+    "CanBePlacedOnPath" : true,
+    "CanTargetCamo" : true,
+    "DefaultWeapons" : [
+        "RoadSpikes.weapon"
+    ],
+    "FireWeaponAndDestroy" : true,
+    "Icon" : "",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 5,
+    "RotatesToTarget" : false,
+    "DefaultSprite" : "Assets/JSON/WeaponSprites/RoadTacks.json",
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "RoadSpikes",
+    "Upgrades" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UpgradePrices" : 
+    [
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
+    ],
+    "UseRadiusPlacement" : true,
+    "CanBePlacedMultipleTimes" : true
+}

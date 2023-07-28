@@ -3,17 +3,27 @@
 	"Description" : "LOC_LAB_DESC_StartingLives",
     "LevelDescription" : "LOC_LAB_LEVELINFO_StartingLives",
     "Icon" : "starting_lives",
-	"LevelGateway" : [ 5, 9, 14, 21, 29, 0, 0, 0, 0, 0, 0, 0, 0 ],
+	"LevelGateway" : [ 4, 7, 10, 13, 19, 25, 0, 0, 0, 0, 0, 0, 0 ],
     
 	"Upgrades" :
 	[
 		{
-            "DisplayValueString" : "30",
+            "DisplayValueString" : "20",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 30
+					"Health": 20
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "40",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 40
 				}
 			}
 		},
@@ -44,16 +54,6 @@
 				"Setup" :
 				{
 					"Health": 120
-				}
-			}
-		},
-		{
-            "DisplayValueString" : "150",
-			"FactoryData" :
-			{
-				"Setup" :
-				{
-					"Health": 150
 				}
 			}
 		},

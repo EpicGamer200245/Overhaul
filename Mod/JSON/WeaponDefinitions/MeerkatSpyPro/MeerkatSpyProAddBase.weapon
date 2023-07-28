@@ -1,0 +1,13 @@
+{	
+    "Type":             "MeerkatSpyProAddBase",    
+	"DefaultSprite": 	"MeerkatBase.json",
+    "TargetRange":      0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire":	false,
+    "TargetsIndependently" : true,
+	"RotatesToTarget" : false,
+    "Tasks" :
+    [
+	]
+}

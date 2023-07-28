@@ -3,7 +3,7 @@
 	"Name" : "LOC_SPEC_Ace",
 	"Icon" : "ace_private_hangar_building",
 	"Building" : "ace_private_hangar",
-	"Prices" : [ 350, 450, 550, 650 ],
+	"Prices" : [ 300, 350, 425, 425 ],
 	"RelatedTower": "MonkeyAce",
 	"Effects" :
 	{

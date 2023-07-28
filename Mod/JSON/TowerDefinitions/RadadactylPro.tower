@@ -1,0 +1,75 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultSprite" : "rad_nest_pro_compoundsprite.json",
+    "DefaultWeapons" : [
+        "RadadactylPro.weapon",
+        "RadadactylPro.weapon",
+        "RadadactylPro.weapon",
+        "RadadactylPro.weapon",
+        "RadadactylPro.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		true,
+		false,
+		false,
+		false,
+		false
+	],
+	"WeaponOffsets" : [
+		[ 0, -7 ],
+		[ 6.5, -2.0 ],
+		[ -6.5, -2.0 ],
+		[ 3.7, 6.0 ],
+		[ -3.7, 6.0 ]
+	],
+	"DrawWeaponsOnTop" : true,
+    "Icon" : "radadactyl_agent_pro_icon",
+    "FE_Avatar"             : "special_agent_rad_pro_avatar",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 10.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "Specialities" : [
+    ],
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "None",
+    "TargetsManually" : false,
+    "TypeName" : "RadadactylPro",
+    "Upgrades" : [
+        [
+        ],
+        [
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[  ],
+		[  ]
+	],
+    "UpgradePrices" : 
+    [
+        [  ],
+        [  ]
+    ],
+    "UpgradeIcons" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UpgradeAvatars" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UseRadiusPlacement" : true,
+    "SkipFirstFrameWhenFiring" : false,
+    "IsAgent" : true
+}

@@ -1,0 +1,96 @@
+{	
+    "Type": "BloonsdayDevicePro",    
+    "TargetRange": 70,
+	"CooldownTime": 80,
+    "FireDelayTime": 1.0,
+	"ManuallyFired": true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+        {
+            "Type" : "TimerFire",
+			"TimeDelay" : 2.2,
+			
+			"Tasks" :
+			[
+				{
+					"Type" : "Projectile",
+					"SpriteFile": "bloonsday_pro_laser_beam.json",
+					"HasFixedAngle": true,
+					"DrawLayer": "FullScreen",
+
+					"NumPersists" : -1,
+					"TerminateOnZeroPersists" : false,
+					
+					"CollisionType": "Continual",
+					"Radius": 15,
+					
+					"HasLimitedDuration": true,
+					"LimitedDuration": 5.5,
+					
+					"Movement" : 
+					{
+						"Type": "MoveToTouch",
+						"Speed": 425
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 2
+						}
+					]
+				},
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0,
+					"AngleIncrement": 0,
+					"ShotDelay": 0.03,
+					"FireCount": 184,
+					
+					"Movement":
+					{
+						"Type": "MoveToTouch",
+						"Speed": 425
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"GraphicName": "bloonsday_pro_plasma",
+							"NumPersists": 3,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "Continual",
+							"Radius": 13,
+							
+							"HasLimitedDuration": true,
+							"LimitedDuration": 16,
+							
+							"SpreadAngle": 180,
+							
+							"DrawLayer" : "UnderTowers",
+							
+							"Tasks":
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 1
+								}
+							]
+						}
+					]
+				}
+			]
+        },
+		{
+			"Type" : "Effect",
+			"SpriteFile": "bloonsday_pro_targeting.json"
+		}
+	]
+}

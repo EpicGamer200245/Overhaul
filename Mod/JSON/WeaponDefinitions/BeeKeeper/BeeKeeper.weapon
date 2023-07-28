@@ -1,0 +1,49 @@
+{	
+    "Type":             "BeeKeeper",    
+    "TargetRange":      130.0,
+	"CooldownTime":     0.62,
+    "FireDelayTime":    0.0,
+	"MaxShots": 7,
+    
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { 
+			"StatusEffect": [ "BeeTarget", "BeeSting" ],
+			"BloonType" : [ "Lead" ]
+		}
+    },
+    
+    "Tasks" :
+    [
+        {
+			"Type": "StatusEffect",
+			"Status": "BeeTarget"
+        },
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "bee",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": false,
+            "CollidesOnlyWithTarget" : true,
+			
+			"CollisionType": "Once",
+            
+            "Movement": {
+				"Type": "BeeMovement",
+				"Speed": 220,
+				"ReturnSpeed": 330
+			},
+			
+			"Tasks" :
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "BeeSting",
+					"DamageRate" : 0.56,
+                    "Duration" : 1000
+				}
+            ]
+        }
+    ]
+}

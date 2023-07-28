@@ -1,0 +1,61 @@
+{	
+    "Type":             "Swarm",    
+    "TargetRange":      20,
+	"CooldownTime":     45,
+    "FireDelayTime":    0.0,
+    "ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0,
+			"AngleIncrement": 0,
+			"ShotDelay": 0,
+			"FireCount": 56,
+			
+			"Tasks":
+			[
+				{
+					"Type": "RandomFire",
+					"Range": 90,
+					"OnlyTargetPathLocations": false,
+					"FireFullRange": false,
+					"TerminateOnZeroPersists": true,
+					"FollowTarget": false,
+					
+					"Tasks":
+					[
+						{
+                            "Type":             "Projectile",
+                            "GraphicName":      "bee",
+                            "NumPersists":      1,
+                            "TerminateOnZeroPersists": false,
+                            "CollidesOnlyWithTarget" : true,
+                            
+                            "CollisionType": "Once",
+                            
+                            "Movement":
+							{
+								"Type": "BeeSwarmMovement",
+								"Speed": 330,
+                                "TargetRange" : 68
+                            },
+                            
+                            "Tasks" :
+                            [
+                                {
+                                    "Type": "StatusEffect",
+                                    "Status": "BeeSting",
+                                    "DamageRate" : 0.73,
+                    				"Duration" : 1000
+                                }
+                            ]
+                        }
+					]
+				}
+			]
+		}
+	]
+}

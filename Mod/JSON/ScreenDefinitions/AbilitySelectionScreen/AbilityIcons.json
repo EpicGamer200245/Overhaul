@@ -1,20 +1,19 @@
 {
 	"Items" : [
 		{ "Type" : "GlueStrike", "Icon" : "glue_striker_icon" },
-		{ "Type" : "AbsoluteZero", "Icon" : "absolute_zero_icon" },
+		{ "Type" : "Snowstorm", "Icon" : "absolute_zero_icon" },
 		{ "Type" : "SabotageSupplyLines", "Icon" : "sabotage_icon" },
-		{ "Type" : "BladeMaelstrom", "Icon" : "blade_maelstrom_icon" },
 		{ "Type" : "MOABAssassin", "Icon" : "moab_assassin_icon" },
 		{ "Type" : "GroundZero", "Icon" : "ground_zero_icon" },
 		{ "Type" : "BloonAnnihilation", "Icon" : "tech_terror_icon" },
 		{ "Type" : "RocketStorm", "Icon" : "bads_icon" },
-		{ "Type" : "SpikeStorm", "Icon" : "spike_storm_icon" },
+		{ "Type" : "SpikeStorm", "Icon" : "spike_storm_icon" }, 
 	    { "Type" : "SummonPhoenix", "Icon" : "phoenix_icon" },
 	    { "Type" : "WizardLordSummonPhoenix", "Icon" : "phoenix_icon" },
 		{ "Type" : "SupplyDrop", "Icon" : "supply_drop_icon" },
 		{ "Type" : "TurboCharge", "Icon" : "turbo_charge_icon" },
 		{ "Type" : "CallToArms", "Icon" : "call_to_arms_icon" },
-		{ "Type" : "SuperMonkeyFanClub", "Icon" : "supermonkey_fanclub_icon" },
+		{ "Type" : "QuickAttack", "Icon" : "supermonkey_fanclub_icon" },
 		{ "Type" : "MOABTakedown", "Icon" : "pirates_icon" },
 		{ "Type" : "ReleaseSeaMonster", "Icon" : "portable_lake_pro_ability_icon" },
 		{ "Type" : "BloonsdayDevice", "Icon" : "bloonsday_device_ability_icon" },
@@ -29,10 +28,12 @@
         { "Type" : "Overclock", "Icon" : "overclock_icon" },
         { "Type" : "BloonchipperSupaVac", "Icon" : "super_vac_icon" },
         { "Type" : "MonkeySubFirstStrike", "Icon" : "first_strike_icon" },
-		{ "Type" : "RoadSpikes", "Icon" : "monkey_radar_ability" },
-		{ "Type" : "GrapeShot", "Icon" : "radar_screen_scan" },
-		{ "Type" : "CrowsNest", "Icon" : "radar_screen_scan" },
-		{ "Type" : "MonkeyBuccaneer", "Icon" : "radar_screen_scan" },
-		{ "Type" : "CannonShip", "Icon" : "radar_screen_scan" }
+		{ "Type" : "ScreenScan", "Icon" : "monkey_radar_ability" },
+		{ "Type" : "GroundStompTierI", "Icon" : "radar_screen_scan" },
+		{ "Type" : "GroundStompTierII", "Icon" : "radar_screen_scan" },
+		{ "Type" : "GroundStompTierIII", "Icon" : "radar_screen_scan" },
+		{ "Type" : "GroundStompTierIV", "Icon" : "radar_screen_scan" },
+		{ "Type" : "SeekingBlades", "Icon" : "blade_maelstrom_icon" },
+		{ "Type" : "FierySeekingBlades", "Icon" : "fiery_seeking_blades_icon" }
 	]
 }

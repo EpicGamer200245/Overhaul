@@ -1,0 +1,46 @@
+{	
+    "Type":             	"Snowstorm",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	40.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	true,
+    "CanSelfTargetCamo": true,
+	"CanTargetUnderground" : true,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 1000,
+			"MaxTargets": -1,
+			
+			"Tasks" :
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "AbsoluteZero",
+					"Duration" : 3.0,
+					"NumPersists" : -1
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "AbsoluteZeroPermafrost",
+					"SpeedScale": 0.75,
+					"NumPersists": -1
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "AbsoluteZeroAbility.json",
+			"Position": [ 240, 160 ],
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

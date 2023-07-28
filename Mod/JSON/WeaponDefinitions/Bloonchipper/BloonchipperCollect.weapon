@@ -1,0 +1,19 @@
+{	
+    "Type":             "BloonchipperCollect",    
+    "TargetRange":      110,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire" : false,
+	"SelfTargetMode" : "None",
+   
+    "Tasks" :
+    [
+        {
+            "Type" : "CollectCollectables",
+            "Range":  110,
+			"Speed" : 300,
+			"CollectionDelay" : 0.5,
+			"AnimateOnCollection" : false
+        }
+	]
+}

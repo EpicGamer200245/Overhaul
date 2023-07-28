@@ -1,0 +1,61 @@
+{
+    "TypeName"				: "BloonberryBushPro",
+    "Icon"					: "bloonberry_agent_pro_icon",
+    "FE_Avatar"             : "special_agent_bloonberry_pro_avatar",
+    "BaseCost"				: 0,
+    "RankToUnlock"			: 0,
+    "DefaultWeapons"	    : [ "BloonberryBushPro.weapon", "BloonberryBushCreepers.weapon" ],
+    "TargetingMode"			: "Any",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: true,
+    
+    "Upgrades" :
+    [
+    	[ ],
+    	[ ]
+    ],   
+    "UpgradePrices" : 
+    [
+        [ ],
+        [ ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ ],
+		[ ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        ],
+    	[ 
+        ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ 
+        ],
+    	[ 
+        ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"         : "BloonberryBushPro_stage01.json",
+    "CanTargetCamo"			: true,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: false,
+    "CanBePlacedOnPath"		: true,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 8.0,
+    "PlacementW"			: 0,
+    "PlacementH"			: 0,
+    "PlacementFiringSequence" : [ 0 ],
+    "FiresWeaponsInSequence" : true,
+    "FiringSequence" : [ [ 1 ] ],
+    "IsAgent" : true
+}

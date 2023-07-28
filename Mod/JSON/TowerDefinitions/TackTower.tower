@@ -1,14 +1,21 @@
 {
     "AircraftList" : [
     ],
-    "BaseCost" : 420,
+    "BaseCost" : 445,
     "CanBePlacedInWater" : false,
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
     "DefaultWeapons" : [
-        "TackTower.weapon"
+        "TackTower.weapon",
+		"",
+        ""
     ],
+	"ActiveWeaponSlots": [
+		true,
+		true,
+        true
+	],
     "Icon" : "tack_shooter_tower_icon",
     "PlacementH" : 0.0,
     "PlacementRadius" : 10.6,
@@ -40,8 +47,8 @@
 	],
     "UpgradePrices" : 
     [
-        [ 460, 610, 1540, 3400 ],
-        [ 310, 420, 965, 3100 ]
+        [ 460, 865, 1540, 3900 ],
+        [ 310, 420, 965, 4700 ]
     ],
     "UpgradeAvatars" : 
     [

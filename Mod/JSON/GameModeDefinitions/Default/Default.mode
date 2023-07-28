@@ -51,52 +51,84 @@
                 "Mod": 1.0
             },
 			{
-                "Round": 8,
-                "Mod": 0.9
-            },
-			{
-                "Round": 19,
+                "Round": 15,
                 "Mod": 0.85
             },
 			{
-                "Round": 26,
+                "Round": 28,
                 "Mod": 0.75
             },
 			{
-                "Round": 35,
+                "Round": 36,
+                "Mod": 0.7
+            },
+			{
+                "Round": 44,
                 "Mod": 0.65
             },
-			{
-                "Round": 45,
-                "Mod": 0.55
+            {
+                "Round": 57,
+                "Mod": 0.2
             },
             {
-                "Round": 62,
-                "Mod": 0.4
+                "Round": 58,
+                "Mod": 0.45
             },
 			{
-                "Round": 73,
-                "Mod": 0.25
+                "Round": 66,
+                "Mod": 0.3
             },
             {
-                "Round": 91,
+                "Round": 72,
+                "Mod": 0.2
+            },
+            {
+                "Round": 78,
                 "Mod": 0.15
             },
             {
-                "Round": 94,
+                "Round": 85,
+                "Mod": 0.1
+            },
+            {
+                "Round": 93,
                 "Mod": 0.09
             },
 			{
-                "Round": 100,
+                "Round": 97,
+                "Mod": 0.08
+            },
+			{
+                "Round": 99,
+                "Mod": 0.07
+            },
+			{
+                "Round": 103,
+                "Mod": 0.06
+            },
+			{
+                "Round": 108,
+                "Mod": 0.05
+            },
+			{
+                "Round": 113,
                 "Mod": 0.04
             },
 			{
-                "Round": 110,
+                "Round": 119,
+                "Mod": 0.03
+            },
+            {
+                "Round": 121,
                 "Mod": 0.02
             },
-			{
-                "Round": 118,
+            {
+                "Round": 186,
                 "Mod": 0.01
+            },
+            {
+                "Round": 251,
+                "Mod": 0.0
             }
         ]
 	}

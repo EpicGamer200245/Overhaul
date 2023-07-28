@@ -2,11 +2,11 @@
     "authors": [
         "EpicGamer"
     ],
-    "description": "Overhauled.",
-    "discord": "NO DISCORD LINK",
-    "github": "Moment.",
+    "description": "Remakes the game.",
+    "discord": "",
+    "github": "https://github.com/EpicGamer200245/Overhaul",
     "name": "Overhaul",
-    "version": "0.01.1",
+    "version": "0.05",
     "website": "https://nkhook.github.io/",
     "load_order": "BASE"
 }
