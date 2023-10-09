@@ -1,7 +1,7 @@
 {	
     "Type":             "BladeShooter",    
-    "TargetRange":      90.0,
-	"CooldownTime":     1.15,
+    "TargetRange":      65.0,
+	"CooldownTime":     1.0,
     "FireDelayTime":    0.0,
   
     "Tasks"	:
@@ -27,7 +27,7 @@
 				{
 					"Type": "Projectile",
 					"SpriteFile": "tackshooterblade.json",
-					"NumPersists":      3,
+					"NumPersists":      6,
 					"TerminateOnZeroPersists": true,
 					
 					"CollisionType": "Once",
@@ -38,7 +38,7 @@
 					{
 						"Type": "Forward",
 						"Speed": 600.0,
-						"CutOffDistance": 90
+						"CutOffDistance": 80
 					},
 
 
@@ -64,11 +64,6 @@
 							"Type": "Damage",
 							"DamageType": "MOABMauler",
 							"Amount": 1
-						},
-						{
-							"Type": "Damage",
-							"DamageType": "Juggernaut",
-							"Amount": 0
 						}
 					]
 				}

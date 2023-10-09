@@ -7,9 +7,25 @@
     
 	"Upgrades" : [
 		{
-            "DisplayValueString" : "1.5",
+            "DisplayValueString" : "1",
             "FactoryData" : {
 			"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MiniMOAB" : 0.99,
+						"MOAB" : 0.99,
+						"BFB" : 0.99,
+						"BigSplitter2" : 0.99,
+						"BigSplitter" : 0.99,
+						"ZOMG" : 0.99,
+						"DeadlyZOMG" : 0.99
+					}
+				}
+	 		}
+		},
+		{
+            "DisplayValueString" : "2",
+			"FactoryData" : {
+				"Rules" : {
 					"BloonInitialHealthModifier" : {
 						"MiniMOAB" : 0.98,
 						"MOAB" : 0.98,
@@ -20,52 +36,52 @@
 						"DeadlyZOMG" : 0.98
 					}
 				}
-	 		}
-		},
-		{
-            "DisplayValueString" : "3",
-			"FactoryData" : {
-				"Rules" : {
-					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.96,
-						"MOAB" : 0.96,
-						"BFB" : 0.96,
-						"BigSplitter2" : 0.96,
-						"BigSplitter" : 0.96,
-						"ZOMG" : 0.96,
-						"DeadlyZOMG" : 0.96
-					}
-				}
 			}
 		},
 		{
-            "DisplayValueString" : "4.5",
+            "DisplayValueString" : "3.5",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.955,
-						"MOAB" : 0.955,
-						"BFB" : 0.955,
-						"BigSplitter2" : 0.955,
-						"BigSplitter" : 0.955,
-						"ZOMG" : 0.955,
-						"DeadlyZOMG" : 0.955
+						"MiniMOAB" : 0.965,
+						"MOAB" : 0.965,
+						"BFB" : 0.965,
+						"BigSplitter2" : 0.965,
+						"BigSplitter" : 0.965,
+						"ZOMG" : 0.965,
+						"DeadlyZOMG" : 0.965
 				  	}
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "6",
+            "DisplayValueString" : "5",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.94,
-						"MOAB" : 0.94,
-						"BFB" : 0.94,
-						"BigSplitter2" : 0.94,
-						"BigSplitter" : 0.94,
-						"ZOMG" : 0.94,
-						"DeadlyZOMG" : 0.94
+						"MiniMOAB" : 0.95,
+						"MOAB" : 0.95,
+						"BFB" : 0.95,
+						"BigSplitter2" : 0.95,
+						"BigSplitter" : 0.95,
+						"ZOMG" : 0.95,
+						"DeadlyZOMG" : 0.95
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "6.5",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MiniMOAB" : 0.935,
+						"MOAB" : 0.935,
+						"BFB" : 0.935,
+						"BigSplitter2" : 0.935,
+						"BigSplitter" : 0.935,
+						"ZOMG" : 0.935,
+						"DeadlyZOMG" : 0.935
 				  	}
 				}
 			}
@@ -87,129 +103,113 @@
 			}
 		},
 		{
-            "DisplayValueString" : "10",
+            "DisplayValueString" : "8",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
+						"MiniMOAB" : 0.92,
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"BigSplitter2" : 0.92,
+						"BigSplitter" : 0.92,
+						"ZOMG" : 0.92,
+						"DeadlyZOMG" : 0.92
 				  	}
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "10",
+            "DisplayValueString" : "8",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
+						"MiniMOAB" : 0.92,
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"BigSplitter2" : 0.92,
+						"BigSplitter" : 0.92,
+						"ZOMG" : 0.92,
+						"DeadlyZOMG" : 0.92
 				  	}
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "10",
+            "DisplayValueString" : "8",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
+						"MiniMOAB" : 0.92,
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"BigSplitter2" : 0.92,
+						"BigSplitter" : 0.92,
+						"ZOMG" : 0.92,
+						"DeadlyZOMG" : 0.92
 				  	}
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "10",
+            "DisplayValueString" : "8",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
+						"MiniMOAB" : 0.92,
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"BigSplitter2" : 0.92,
+						"BigSplitter" : 0.92,
+						"ZOMG" : 0.92,
+						"DeadlyZOMG" : 0.92
 				  	}
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "10",
+            "DisplayValueString" : "8",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
+						"MiniMOAB" : 0.92,
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"BigSplitter2" : 0.92,
+						"BigSplitter" : 0.92,
+						"ZOMG" : 0.92,
+						"DeadlyZOMG" : 0.92
 				  	}
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "10",
+            "DisplayValueString" : "8",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
+						"MiniMOAB" : 0.92,
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"BigSplitter2" : 0.92,
+						"BigSplitter" : 0.92,
+						"ZOMG" : 0.92,
+						"DeadlyZOMG" : 0.92
 				  	}
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "10",
+            "DisplayValueString" : "8",
 			"FactoryData" : {
 				"Rules" : {
 					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
-				  	}
-				}
-			}
-		},
-		{
-            "DisplayValueString" : "10",
-			"FactoryData" : {
-				"Rules" : {
-					"BloonInitialHealthModifier" : {
-						"MiniMOAB" : 0.9,
-						"MOAB" : 0.9,
-						"BFB" : 0.9,
-						"BigSplitter2" : 0.9,
-						"BigSplitter" : 0.9,
-						"ZOMG" : 0.9,
-						"DeadlyZOMG" : 0.9
+						"MiniMOAB" : 0.92,
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"BigSplitter2" : 0.92,
+						"BigSplitter" : 0.92,
+						"ZOMG" : 0.92,
+						"DeadlyZOMG" : 0.92
 				  	}
 				}
 			}

@@ -3,8 +3,8 @@
 	"Description" : "LOC_LAB_DESC_SellAmount",
     "LevelDescription" : "LOC_LAB_LEVELINFO_SellAmount",
     "Icon" : "sell_price",
-	"LevelGateway" : [ 3, 6, 9, 12, 17, 22, 0, 0, 0, 0, 0, 0, 0 ],
-    
+	"LevelGateway" : [ 3, 6, 9, 14, 19, 25, 0, 0, 0, 0, 0, 0, 0 ],
+
 	"Upgrades" :
 	[
 		{

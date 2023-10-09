@@ -1,0 +1,14 @@
+{
+    "Rounds": [
+        {
+            "Hint": "Round 0",
+            "Waves": []
+        },
+        {
+            "Hint": "Round 1",
+            "Waves": [
+                { "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 17, "Count" : 34 }
+            ]
+        }
+    ]
+}

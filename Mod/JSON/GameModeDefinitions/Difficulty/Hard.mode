@@ -15,15 +15,15 @@
 		},
 		"SpeedModifier" : 0,
 		"BloonInitialHealthModifier" : {
-			"Ceramic" : 1.08,
-			"ConcreteCeramic" : 1.10,
-			"MiniMOAB" : 1.073,
-			"MOAB" : 1.06,
-			"BFB" : 1.0541,
-			"BigSplitter2" : 1.052,
-			"BigSplitter" : 1.0532,
-			"ZOMG" : 1.0253,
-			"DeadlyZOMG" : 1.0358
+			"Ceramic" : 1.07,
+			"ConcreteCeramic" : 1.07,
+			"MiniMOAB" : 1.07,
+			"MOAB" : 1.07,
+			"BFB" : 1.07,
+			"BigSplitter2" : 1.07,
+			"BigSplitter" : 1.07,
+			"ZOMG" : 1.07,
+			"DeadlyZOMG" : 1.07
 		}
 	}
 }

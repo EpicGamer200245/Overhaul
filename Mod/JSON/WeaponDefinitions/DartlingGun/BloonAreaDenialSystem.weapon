@@ -1,7 +1,7 @@
 {	
     "Type":             "BloonAreaDenialSystem",    
     "TargetRange":      100000.0,
-	"CooldownTime":     0.13,
+	"CooldownTime":     0.14,
     "FireDelayTime":    0.0,
     "CanFireWithNoTargetsAndRoundInProgress" : true,
 	
@@ -9,8 +9,8 @@
     [
     	{
     		"Type": "MultiFire",
-    		"InitialOffset": -16,
-    		"AngleIncrement": 16,
+    		"InitialOffset": -13,
+    		"AngleIncrement": 13,
     		"FireCount": 3,
     		"Tasks":
     		[
@@ -22,13 +22,13 @@
 					
 					"CollisionType": "Once",
 					
-					"SpreadAngle": 47,
+					"SpreadAngle": 25,
 
 					"Movement":
 					{
 						"Type": "Forward",
-						"Speed": 670.0,
-						"CutOffDistance": 270
+						"Speed": 610.0,
+						"CutOffDistance": 340
 					},
 					
 					"Tasks" :

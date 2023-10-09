@@ -37,6 +37,11 @@
 							"DamageType": "Piercing",
 							"Amount": 1
 						},
+						{
+							"Type": "Damage",
+							"DamageType": "",
+							"Amount": 0
+						},
                         {
                             "Type": "StatusEffect",
                             "Status": ""

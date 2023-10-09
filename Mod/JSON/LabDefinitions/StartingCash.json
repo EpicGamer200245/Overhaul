@@ -8,132 +8,132 @@
 	"Upgrades" :
 	[
 		{
-            "DisplayValueString" : "35",
+            "DisplayValueString" : "30",
             "FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 35
+					"Money": 30
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "70",
+            "DisplayValueString" : "60",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 70
+					"Money": 60
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "105",
+            "DisplayValueString" : "95",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 105
+					"Money": 95
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "145",
+            "DisplayValueString" : "130",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 145
+					"Money": 130
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "195",
+            "DisplayValueString" : "165",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 195
+					"Money": 165
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "245",
+            "DisplayValueString" : "200",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Money": 245
+					"Money": 200
 				}
 			}
 		}

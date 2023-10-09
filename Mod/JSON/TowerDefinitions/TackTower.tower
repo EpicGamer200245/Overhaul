@@ -1,7 +1,7 @@
 {
     "AircraftList" : [
     ],
-    "BaseCost" : 445,
+    "BaseCost" : 325,
     "CanBePlacedInWater" : false,
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
@@ -47,8 +47,8 @@
 	],
     "UpgradePrices" : 
     [
-        [ 460, 865, 1540, 3900 ],
-        [ 310, 420, 965, 4700 ]
+        [ 310, 465, 985, 6000 ],
+        [ 345, 345, 1135, 5000 ]
     ],
     "UpgradeAvatars" : 
     [

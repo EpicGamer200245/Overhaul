@@ -18,7 +18,8 @@
                     "SlotIndices" : [ 0, 2, 3 ],
                     "Adjust" :
                     {
-                        "CooldownTime" : 0.035
+                        "CooldownTime" : 0.035,
+                        "TargetRange" : 12
                     },
                     "TaskUpgrade" :
                     [
@@ -44,7 +45,13 @@
                         },
                         {
                             "Operation" : "Replace",
-                            "GraphicName" : "supermonkey_laser_vision_projectile_single"
+                            "GraphicName" : "supermonkey_laser_vision_projectile_single",
+                            "Movement":
+					        {
+					        	"Type": "Forward",
+					        	"Speed": 560.0,
+					        	"CutOffDistance": 265
+					        }
                         },
                         {
                             "Operation": "SelectByType",
@@ -104,7 +111,8 @@
                     "SlotIndices" : [ 0, 2, 3 ],
                     "Adjust" :
                     {
-                        "CooldownTime" : -0.017
+                        "CooldownTime" : -0.017,
+                        "TargetRange" : 15
                     },
                     "TaskUpgrade" :
                     [
@@ -127,7 +135,7 @@
                             "Movement":
 			    		    {
 			    			    "Type": "Forward",
-			    			    "Speed": 700.0,
+			    			    "Speed": 720.0,
 			    			    "CutOffDistance": 290
 			    		    }
                         },
@@ -184,7 +192,8 @@
                 "SlotIndices" : [ 0 ],
                 "Adjust" :
                 {
-                    "CooldownTime" : 0.011
+                    "CooldownTime" : -0.006,
+                    "TargetRange" : 30
                 },
                 "TaskUpgrade" :
                 [
@@ -196,7 +205,7 @@
                         "Operation" : "Replace",
                         "GraphicName" : "supermonkey_sun_god_projectile",
                         "SpriteFile": "",
-                        "NumPersists": 5,
+                        "NumPersists": 3,
                         "Radius" : 9,
                         "Movement":
 					    {
@@ -212,6 +221,16 @@
                     {
                         "Operation" : "Replace",
                         "Status": "MultiLayerDamage"
+                    },
+
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0, 0, 1 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType": "MOABMauler",
+                        "Amount": 1
                     },
 
                     {

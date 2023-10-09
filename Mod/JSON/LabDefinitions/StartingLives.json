@@ -3,47 +3,57 @@
 	"Description" : "LOC_LAB_DESC_StartingLives",
     "LevelDescription" : "LOC_LAB_LEVELINFO_StartingLives",
     "Icon" : "starting_lives",
-	"LevelGateway" : [ 4, 7, 10, 13, 19, 25, 0, 0, 0, 0, 0, 0, 0 ],
+	"LevelGateway" : [ 4, 8, 12, 16, 20, 25, 0, 0, 0, 0, 0, 0, 0 ],
     
 	"Upgrades" :
 	[
 		{
-            "DisplayValueString" : "20",
+            "DisplayValueString" : "15",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 20
+					"Health": 15
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "40",
+            "DisplayValueString" : "30",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 40
+					"Health": 30
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "60",
+            "DisplayValueString" : "45",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 60
+					"Health": 45
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "90",
+            "DisplayValueString" : "70",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 90
+					"Health": 70
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "95",
+			"FactoryData" :
+			{
+				"Setup" :
+				{
+					"Health": 95
 				}
 			}
 		},
@@ -58,82 +68,72 @@
 			}
 		},
 		{
-            "DisplayValueString" : "150",
+            "DisplayValueString" : "120",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 150
+					"Health": 120
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "150",
+            "DisplayValueString" : "120",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 150
+					"Health": 120
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "150",
+            "DisplayValueString" : "120",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 150
+					"Health": 120
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "150",
+            "DisplayValueString" : "120",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 150
+					"Health": 120
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "150",
+            "DisplayValueString" : "120",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 150
+					"Health": 120
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "150",
+            "DisplayValueString" : "120",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 150
+					"Health": 120
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "150",
+            "DisplayValueString" : "120",
 			"FactoryData" :
 			{
 				"Setup" :
 				{
-					"Health": 150
-				}
-			}
-		},
-		{
-            "DisplayValueString" : "150",
-			"FactoryData" :
-			{
-				"Setup" :
-				{
-					"Health": 150
+					"Health": 120
 				}
 			}
 		}

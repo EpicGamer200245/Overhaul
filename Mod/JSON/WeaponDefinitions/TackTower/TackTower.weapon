@@ -1,6 +1,6 @@
 {	
     "Type":             "TackTower",    
-    "TargetRange":      90.0,
+    "TargetRange":      65.0,
 	"CooldownTime":     1.30,
     "FireDelayTime":    0.0,
   
@@ -38,7 +38,7 @@
 					{
 						"Type": "Forward",
 						"Speed": 500.0,
-						"CutOffDistance": 90
+						"CutOffDistance": 80
 					},
 
 					"Tasks":

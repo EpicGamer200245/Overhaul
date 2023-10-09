@@ -1,7 +1,7 @@
 {	
     "Type":             "DartlingGun",
     "TargetRange":      1000.0,
-	"CooldownTime":     0.111,
+	"CooldownTime":     0.16,
     "FireDelayTime":    0.0,
     "CanFireWithNoTargetsAndRoundInProgress" : true,
     
@@ -13,15 +13,15 @@
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			
-			"SpreadAngle": 45,
+			"SpreadAngle": 23,
 
 			"CollisionType": "Once",
 			
 			"Movement":
 			{
 				"Type": "Forward",
-				"Speed": 600.0,
-				"CutOffDistance": 270
+				"Speed": 540.0,
+				"CutOffDistance": 300
 			},
 			
 			"Tasks" :

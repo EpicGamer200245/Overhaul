@@ -10,16 +10,7 @@
 			"Type" : "SellAmount"
 		},
 		{
-			"Type" : "MoreRange"
-		},
-		{
-			"Type" : "FurtherProjectiles"
-		},
-		{
 			"Type" : "AttackSpeed"
-		},
-		{
-			"Type" : "FasterMonkeyHands"
 		},
 		{
 			"Type" : "DoublePierce"
@@ -27,9 +18,6 @@
 		{
 			"Type" : "AbilityCooldown",
 			"DisplayOffset" : [ 0, 15 ]
-		},
-		{
-			"Type" : "SlowerBloons"
 		},
 		{
 			"Type" : "BigBloonSabotage"

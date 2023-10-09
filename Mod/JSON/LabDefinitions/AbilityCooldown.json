@@ -3,33 +3,23 @@
 	"Description" : "LOC_LAB_DESC_AbilityCooldown",
     "LevelDescription" : "LOC_LAB_LEVELINFO_AbilityCooldown",
     "Icon" : "faster_cooldown",
-	"LevelGateway" : [ 3, 6, 9, 12, 17, 23, 0, 0, 0, 0, 0, 0, 0 ],
+	"LevelGateway" : [ 3, 6, 9, 14, 19, 25, 0, 0, 0, 0, 0, 0, 0 ],
     
 	"Upgrades" :
 	[
 		{
-            "DisplayValueString" : "2",
+            "DisplayValueString" : "3",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.98, 0 ]
-				}
-			}
-		},
-		{
-            "DisplayValueString" : "4",
-            "TowerModifier" :
-			{
-				"Modifier" :
-				{
-					"AbilityCooldown" : [ 0.96, 0 ]
+					"AbilityCooldown" : [ 0.97, 0 ]
 				}
 			}
 		},
 		{
             "DisplayValueString" : "6",
-			"TowerModifier" :
+            "TowerModifier" :
 			{
 				"Modifier" :
 				{
@@ -38,102 +28,112 @@
 			}
 		},
 		{
-            "DisplayValueString" : "8.5",
+            "DisplayValueString" : "9",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.915, 0 ]
+					"AbilityCooldown" : [ 0.91, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "11",
+            "DisplayValueString" : "12.5",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.89, 0 ]
+					"AbilityCooldown" : [ 0.875, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "16",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.84, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "20",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.8, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "20",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.8, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "20",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.8, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "20",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.8, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "20",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.8, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "20",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.8, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "20",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"AbilityCooldown" : [ 0.86, 0 ]
+					"AbilityCooldown" : [ 0.8, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "20",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"AbilityCooldown" : [ 0.8, 0 ]
 				}
 			}
 		}

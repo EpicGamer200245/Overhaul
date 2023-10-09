@@ -2,6 +2,242 @@
 
 ---
 
+## 0.05
+
+### Details
+
+* Rounds from 0.05 Testing were removed and replaced by rounds from 0.04
+* The 4 new lab upgrades have been removed
+* New tower list
+* Towers now have types
+* Ring of Fire has been reworked
+* Many balance changes
+
+### Changes
+
+* The rounds from 0.05 Testing always felt too difficult and was actually impossible on some expert maps. New rounds will start to appear in following updates including the new bloons. For me to make them actually possible I created the 4 new lab upgrades which were really overpowered, so to keep things balanced I made the other upgrades under powered so all of the overpowered upgrades have been removed and the lab upgrades now are better from before and some are better than they were in 0.04 too. Not overpowered though.
+* There is now a new tower list with every tower typed along with the upcoming towers, it should feel better to use, for some towers you have to use the Shift key and I felt like putting some towers that would be used a lot be used with Shift was annoying, so now the towers that you have to use the Shift key for are the support towers which most likely aren't going to be spammed a whole lot.
+* The new bloons from 0.04 got balance changes but they dont ever appear in this update, so it is sort of useless but they still needed them.
+* Ring of Fire got some changes to make it more similar to the BTD4 version of it just with 8 firing places instead of 4.
+* Tack Shooter got more changes to do with its range, I felt like its range was always too big so it was lowered a decent amount. The abilities for seeking blades have also been removed because it doesn't feel needed without those more difficult rounds.
+* Super Monkey also got changes to its range, the laser and plasma upgrades now give a small amount of range. Sun God also got a good rework to be on the same level as Robo Monkey.
+* Dartling Gunner as well got changes to its range, its also much better than before, but it shoots slower and Ray of Doom is also a bit more powerful.
+
+### Balancing
+
+#### Bloons
+
+##### Big Splitter
+
+* Bloon health decreased 1035 => 990
+* Bloon texture damage layers also changed
+* Bloon RBE decreased 10831 -> 9566
+
+##### Big Splitter Child Bloon
+
+* Bloon health decreased 965 => 660
+* Bloon texture damage layers also changed
+* Bloon RBE decreased 2449 => 2144
+
+##### Concrete Ceramic
+
+* Bloon health decreased 28 => 24
+* Bloon texture damage layers also changed
+* Bloon RBE decreased 242 => 238
+
+#### Difficulties
+
+##### Default
+
+* Default starting money decreased 650 => 550
+* All cash per pop stages were removed and replaced with:
+  * At round 35, you get 0.6 cash per pop
+  * At round 60, you get 0.2 cash per pop
+  * At round 80, you get 0.08 cash per pop
+  * At round 90, you get 0.034 cash per pop
+  * At round 115, you get 0.01 cash per pop
+  * At round 200, you get 0 cash per pop
+
+##### Easy
+
+* Bloon health modifiers have been changed, Ceramics, Concrete Ceramics, and every MOAB class bloon has their health at 85%
+
+##### Hard
+
+* Bloon health modifiers have been changed, Ceramics, Concrete Ceramics, and every MOAB class bloon has their health at 107%
+
+##### Impoppable
+
+* Starting health decreased 18 => 1
+* Round to get to decreased 90 => 80
+* Bloon health modifiers have been changed, Ceramics, Concrete Ceramics, and every MOAB class bloon has their health at 113%
+
+#### Monkey Lab
+
+* Last update I was dumb, when I created level 6 for the lab upgrades some of them didn't have it
+
+##### Ability Cooldowns
+
+* Token price for Level 4 increased 12 => 14
+* Token price for Level 5 increased 17 => 19
+* Token price for Level 6 increased 23 => 25
+* Level 1 percentage increased 2 => 3
+* Level 2 percentage increased 4 => 6
+* Level 3 percentage increased 6 => 9
+* Level 4 percentage increased 8.5 => 12.5
+* Level 5 percentage increased 11 => 16
+* Level 6 percentage increased 14 => 20
+
+##### Attack Speed
+
+* Token price for Level 4 increased 12 => 14
+* Token price for Level 5 increased 17 => 19
+* Token price for Level 6 increased 23 => 25
+* Level 1 percentage increased 1.34 => 1.5
+* Level 2 percentage increased 2.67 => 3
+* Level 3 percentage increased 4 => 4.5
+* Level 4 percentage increased 5.67 => 7
+* Level 5 percentage increased 7.67 => 9.5
+* Level 6 percentage increased 10 => 12
+
+##### Big Bloon Sabotage
+
+* Level 1 percentage decreased 2 => 1
+* Level 2 percentage decreased 4 => 2
+* Level 3 percentage decreased 4.5 => 3.5
+* Level 4 percentage decreased 6 => 5
+* Level 5 percentage decreased 8 => 6.5
+* Level 6 now exists with a percentage of 8
+
+##### Double Pierce
+
+* Token price for level 1 decreased 4 => 3
+* Token price for level 2 decreased 8 => 6
+* Token price for level 3 decreased 12 => 9
+* Token price for level 4 decreased 16 => 14
+* Token price for level 5 decreased 21 => 19
+* Token price for level 6 decreased 26 => 25
+* Level 1 chance percentage 2 => 1
+* Level 2 chance percentage 4 => 2
+* Level 3 chance percentage 6 => 3.5
+* Level 4 chance percentage 8 => 5
+* Level 5 chance percentage 11 => 6.5
+* Level 6 chance percentage 14 => 8
+
+##### Sell Amount
+
+* Token price for Level 4 increased 12 => 14
+* Token price for Level 5 increased 17 => 19
+* Token price for Level 6 increased 23 => 25
+
+##### Starting Cash
+
+* Level 1 starting cash decreased 35 => 30
+* Level 2 starting cash decreased 70 => 60
+* Level 3 starting cash decreased 105 => 95
+* Level 4 starting cash decreased 145 => 130
+* Level 5 starting cash decreased 195 => 165
+* Level 6 starting cash decreased 245 => 200
+
+##### Startling Lives
+
+* Token price for level 2 increased 7 => 8
+* Token price for level 3 increased 10 => 12
+* Token price for level 4 increased 13 => 16
+* Token price for level 5 increased 19 => 20
+* Level 1 starting lives decreased 20 => 15
+* Level 2 starting lives decreased 40 => 30
+* Level 3 starting lives decreased 60 => 45
+* Level 4 starting lives decreased 90 => 70
+* Level 5 starting lives decreased 120 => 95
+* Level 6 starting lives decreased 150 => 120
+
+#### Towers
+
+##### Tack Shooter
+
+* Base price decreased 445 => 325
+* Faster Shooting price decreased 460 => 310
+* Longer Range price increased 310 => 345
+* Burny Tacks price decreased 865 => 465
+* Longer Tacks price decreased 420 => 345
+* Fiery Tacks price decreased 1540 => 985
+* Blade Shooter price increased 965 => 1135
+* Ring of Fire price increased 3900 => 6000
+* Seeking Blades price increased 4700 => 5000
+* Tack Shooter base weapon range decreased 90 => 65
+* Tack Shooter base weapon projectile cut off distance decreased 90 => 80
+* Blade Shooter base weapon range decreased 90 => 65
+* Blade Shooter base weapon attack speed decreased 1.15s => 1s
+* Blade Shooter base weapon projectile pierce increased 3 => 6
+* Blade Shooter base weapon projectile cut off distance decreased 90 => 80
+* Ring of Fire base weapon range decreased 115 => 75
+* Ring of Fire base weapon attack speed decreased 1.09s => 0.05s
+* Ring of Fire is no longer a AOE attack
+* Ring of Fire napalm status damage rate increased 0.19s => 0.4s
+* Ring of Fire napalm status duration decreased 3.99s => 1.6s
+* Longer Range range addon increased 20 => 25
+* Longer Range projectile speed addon increased 70 => 110
+* Longer Range projectile cut off distance addon increased 20 => 35
+* Seeking Blades attack speed addon increased 0.08s => 0.18s
+* Seeking Blades projectile pierce addon decreased 3 => 2
+* Seeking Blades now longer does more damage to ceramics
+
+##### Super Monkey
+
+* Plasma Blasts price decreased 4200 => 3700
+* Sun God price increased 9600 => 11500
+* Robo Monkey price increased 7300 => 11500
+* Laser Blasts now increases range by 12
+* Laser Blasts now decreases projectile speed by 60
+* Laser Blasts now increases projectile cut off distance by 15
+* Plasma Blasts now increases range by 15
+* Plasma Blasts projectile speed addon increased 140 => 160
+* Sun God attack speed addon decreased 0.011 => -0.006
+* Sun God now increases range by 30
+* Sun God pierce addon decreased 3 => 1
+* Sun God now does +1 damage to MOAB class bloons
+
+##### Dartling Gunner
+
+* Base weapon attack speed increased 0.111s => 0.16s
+* Base weapon projectile spread angle decreased 45 => 23
+* Base weapon projectile speed decreased 600 => 540
+* Base weapon projectile cut off distance increased 270 => 300
+* Hydra Rocket Pods base weapon attack speed increased 0.139s => 0.16s
+* Hydra Rocket Pods base weapon spread angle decreased 48 => 26
+* Hydra Rocket Pods base weapon projectile speed decreased 670 => 610
+* Hydra Rocket Pods base weapon projectile cut off distance increased 270 => 300
+* Hydra Rocket Pods base weapon explosion now hits all bloons
+* Ray of Doom base weapon attack speed decreased 0.016s => 0.0075s
+* Ray of Doom base weapon damage decreased 4 => 2
+* Ray of Doom base weapon MOAB damage decreased 2 => 1
+* Ray of Doom base weapon Ceramic damage decreased 2 => 1
+* Hydra Rocket Storm base weapon attack speed increased 0.13s => 0.14s
+* Hydra Rocket Storm base weapon projectile fire initial offset increased -16 => -13
+* Hydra Rocket Storm base weapon projectile fire angle increment decreased 16 => 13
+* Hydra Rocket Storm base weapon spread angle 47 => 25
+* Hydra Rocket Storm base weapon projectile speed decreased 670 => 610
+* Hydra Rocket Storm base weapon projectile cut off distance increased 270 => 340
+* Hydra Rocket Storm ability rockets attack speed 0.5s => 0.35s
+* Hydra Rocket Storm ability rockets projectile fire initial offset decreased -25 => -25.5
+* Hydra Rocket Storm ability rockets projectile fire angle increment decreased 1 => 0.85
+* Hydra Rocket Storm ability rockets amount of projectiles increased 50 => 60
+* Faster Reload attack speed addon decreased -0.021s => -0.024s
+* Even Faster Reload attack speed addon increased -0.042s => -0.036s
+* Hot Bloontonium Laser Cannon now increases attack speed by 0.02s instead of replacing it
+* Hot Bloontonium Laser Cannon pierce addon decreased 3 => 2
+* Hot Bloontonium Laser Cannon projectile cut off distance addon decreased -45 => -60
+* Hot Bloontonium Laser Cannon damage addon decreased 2 => 1
+* Focused Firing attack speed addon decreased -0.003s => -0.015s
+* Focused Firing spread addon increased -14 => -9
+* Powerful Darts now decreases attack speed by -0.005s
+* Powerful Darts spread addon increased -4 => -3
+* Powerful Darts projectile cut off distance addon decreased 60 => 50
+* Hydra Rocket Pods projectile cut off distance addon decreased -55 => -60
+
+---
+
 ## 0.05 Testing
 
 ### Testing Details
@@ -437,12 +673,12 @@ Not giving a section to each map here because it is just changes with token and 
 
 ## 0.04
 
-### Key Details
+### Details
 
 * Overhauled Agent Shop
 * Overhauled Reward Chest
 
-### Key Changes
+### Changes
 
 * Daily Quests are not included in this update because of unstability, it got fixed then without me changing it afterward editing another file broke it again. If I find a fix for it then I will include it in that update.
 * The prices and order for everything in the agent shop has now been changed. The agents themselves haven't been changed.
@@ -654,7 +890,7 @@ Not giving a section to each map here because it is just changes with token and 
 
 ## 0.03
 
-### Key Changes
+### Changes
 
 * UI bug with the tower selection isn't possible to fix.
 * Dart Monkey's Quick Attack still felt a bit too good for it's price, so it got nerfed and it's price for the buff should make sense.
@@ -791,7 +1027,7 @@ Not giving a section to each map here because it is just changes with token and 
 
 ## 0.02
 
-### Key Changes
+### Changes
 
 * ZOMG damage levels changed
 
@@ -865,7 +1101,7 @@ Not giving a section to each map here because it is just changes with token and 
 
 ## 0.01.1
 
-### Key Details
+### Details
 
 * Changed how the Ceramic, Pink, and Yellow bloons worked
 * Dart Monkey balancing
@@ -896,7 +1132,7 @@ Not giving a section to each map here because it is just changes with token and 
 
 ## 0.01
 
-### Key Details
+### Details
 
 * Added the Dart Monkey
 

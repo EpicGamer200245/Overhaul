@@ -1,20 +1,19 @@
 {
 	"Items" : [
-	   { "Icon" : "dart_monkey_icon", "FactoryName" : "DartMonkey", "ObjectType" : 0, "KeyboardShortcut" : "q" },
-	   { "Icon" : "tack_shooter_icon", "FactoryName" : "TackTower", "ObjectType" : 0, "KeyboardShortcut" : "e" },
-	   { "Icon" : "buccaneer_icon", "FactoryName" : "MonkeyBuccaneer", "ObjectType" : 0, "KeyboardShortcut" : "t" },
-	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "a" },
-	   { "Icon" : "apprentice_icon", "FactoryName" : "MonkeyApprentice", "ObjectType" : 0, "KeyboardShortcut" : "d" },
-	   { "Icon" : "dartling_gun_icon", "FactoryName" : "DartlingGun", "ObjectType" : 0, "KeyboardShortcut" : "g" },
-	   { "Icon" : "helicopter_icon", "FactoryName" : "HeliPilot", "ObjectType" : 0, "KeyboardShortcut" : "j" },
-	   { "Icon" : "glue_gunner_icon", "FactoryName" : "GlueGunner", "ObjectType" : 0, "KeyboardShortcut" : "l" },
-	   { "Icon" : "supermonkey_icon", "FactoryName" : "SuperMonkey", "ObjectType" : 0, "KeyboardShortcut" : "'" },
-	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "x" },
-	   { "Icon" : "village_icon", "FactoryName" : "MonkeyVillage", "ObjectType" : 0, "KeyboardShortcut" : "v" },
-	   { "Icon" : "monkeysub_icon", "FactoryName" : "MonkeySub", "ObjectType" : 0, "KeyboardShortcut" : "n" },
-	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "<" },
-	   { "Icon" : "spike_factory_icon", "FactoryName" : "SpikeFactory", "ObjectType" : 0, "KeyboardShortcut" : "/" },
-	   { "Icon" : "question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "-" },
-	   { "Icon" : "mortar_icon", "FactoryName" : "MortarTower", "ObjectType" : 0, "KeyboardShortcut" : "[" }
+		{ "Icon" : "typed_dart_monkey_icon", "FactoryName" : "DartMonkey", "ObjectType" : 0, "KeyboardShortcut" : "q" },
+		{ "Icon" : "typed_bomb_icon", "FactoryName" : "BombTower", "ObjectType" : 0, "KeyboardShortcut" : "e" },
+		{ "Icon" : "primary_question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "t" },
+		{ "Icon" : "primary_question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "a" },
+		{ "Icon" : "typed_sniper_icon", "FactoryName" : "SniperMonkey", "ObjectType" : 0, "KeyboardShortcut" : "d" },
+		{ "Icon" : "typed_buccaneer_icon", "FactoryName" : "MonkeyBuccaneer", "ObjectType" : 0, "KeyboardShortcut" : "g" },
+		{ "Icon": "typed_monkey_radar_icon", "FactoryName": "MonkeyRadar", "ObjectType": 0, "KeyboardShortcut": "j" },
+		{ "Icon" : "typed_helicopter_icon", "FactoryName" : "HeliPilot", "ObjectType" : 0, "KeyboardShortcut" : "l" },
+		{ "Icon" : "typed_dartling_gun_icon", "FactoryName" : "DartlingGun", "ObjectType" : 0, "KeyboardShortcut" : ":" },
+		{ "Icon" : "typed_apprentice_icon", "FactoryName" : "MonkeyApprentice", "ObjectType" : 0, "KeyboardShortcut" : "z" },
+		{ "Icon" : "magic_question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "c" },
+		{ "Icon" : "magic_question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : "b" },
+		{ "Icon" : "typed_engineer_icon", "FactoryName" : "MonkeyEngineer", "ObjectType" : 0, "KeyboardShortcut" : "m" },
+		{ "Icon" : "support_question_icon", "FactoryName" : "Question", "ObjectType" : 0, "KeyboardShortcut" : ">" },
+		{ "Icon" : "typed_banana_farm_icon", "FactoryName" : "BananaFarm", "ObjectType" : 0, "KeyboardShortcut" : "?" }
 	]
 }

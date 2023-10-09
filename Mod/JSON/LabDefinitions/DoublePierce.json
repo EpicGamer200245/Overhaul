@@ -3,13 +3,23 @@
 	"Description" : "LOC_LAB_DESC_DoublePierce",
     "LevelDescription" : "LOC_LAB_LEVELINFO_DoublePierce",
     "Icon" : "popping_power",
-	"LevelGateway" : [ 4, 8, 12, 16, 21, 26, 0, 0, 0, 0, 0, 0, 0 ],
-    
+	"LevelGateway" : [ 3, 6, 9, 14, 19, 25, 0, 0, 0, 0, 0, 0, 0 ],
+
 	"Upgrades" :
 	[
 		{
-            "DisplayValueString" : "2",
+            "DisplayValueString" : "1",
             "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"DoublePierceChance" : [ 0.01, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "2",
+			"TowerModifier" :
 			{
 				"Modifier" :
 				{
@@ -18,22 +28,32 @@
 			}
 		},
 		{
-            "DisplayValueString" : "4",
+            "DisplayValueString" : "3.5",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.04, 0 ]
+					"DoublePierceChance" : [ 0.035, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "6",
+            "DisplayValueString" : "5",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.06, 0 ]
+					"DoublePierceChance" : [ 0.05, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "6.5",
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"DoublePierceChance" : [ 0.065, 0 ]
 				}
 			}
 		},
@@ -48,92 +68,72 @@
 			}
 		},
 		{
-            "DisplayValueString" : "11",
+            "DisplayValueString" : "8",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.11, 0 ]
+					"DoublePierceChance" : [ 0.08, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "8",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.14, 0 ]
+					"DoublePierceChance" : [ 0.08, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "8",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.14, 0 ]
+					"DoublePierceChance" : [ 0.08, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "8",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.14, 0 ]
+					"DoublePierceChance" : [ 0.08, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "8",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.14, 0 ]
+					"DoublePierceChance" : [ 0.08, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "8",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.14, 0 ]
+					"DoublePierceChance" : [ 0.08, 0 ]
 				}
 			}
 		},
 		{
-            "DisplayValueString" : "14",
+            "DisplayValueString" : "8",
 			"TowerModifier" :
 			{
 				"Modifier" :
 				{
-					"DoublePierceChance" : [ 0.14, 0 ]
-				}
-			}
-		},
-		{
-            "DisplayValueString" : "14",
-			"TowerModifier" :
-			{
-				"Modifier" :
-				{
-					"DoublePierceChance" : [ 0.14, 0 ]
-				}
-			}
-		},
-		{
-            "DisplayValueString" : "14",
-			"TowerModifier" :
-			{
-				"Modifier" :
-				{
-					"DoublePierceChance" : [ 0.14, 0 ]
+					"DoublePierceChance" : [ 0.08, 0 ]
 				}
 			}
 		}

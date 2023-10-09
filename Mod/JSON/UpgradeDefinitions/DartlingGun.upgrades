@@ -7,7 +7,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.021
+                    "CooldownTime" : -0.024
                 }
             }
         },
@@ -17,7 +17,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.042
+                    "CooldownTime" : -0.036
                 }
             }
         },
@@ -25,9 +25,9 @@
             "Name" : "Hot Bloontonium Laser Cannon",
             "WeaponUpgrade" :
             {
-                "Replace" :
+                "Adjust" :
                 {
-                    "CooldownTime" : 0.102
+                    "CooldownTime" : 0.02
                 },
 
                 "TaskUpgrade" :
@@ -38,12 +38,12 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "NumPersists" : 3,
+                        "NumPersists" : 2,
                         "SpreadAngle" : -4,
                         "Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : -45
+							"CutOffDistance" : -60
 						}
                     },
                     {
@@ -59,7 +59,7 @@
                     {
                         "Operation" : "Replace",
                         "DamageType" : "Plasma",
-                        "Amount": 3
+                        "Amount": 2
                     }
                 ]
             }
@@ -82,7 +82,7 @@
             {
                 "Replace": 
                 {
-                    "CooldownTime": 0.016
+                    "CooldownTime": 0.0075
                 },
                 "TaskUpgrade" :
                 [
@@ -93,7 +93,7 @@
                     {
                         "Operation" : "Replace",
                         "DamageType" : "Plasma",
-                        "Amount": 4
+                        "Amount": 1
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime" : -0.003
+                    "CooldownTime" : -0.015
                 },
                 "TaskUpgrade" :
                 [
@@ -114,7 +114,7 @@
                     },
                     {
                         "Operation" : "Adjust",
-                        "SpreadAngle" : -14
+                        "SpreadAngle" : -9
                     }
                 ]
             }
@@ -124,6 +124,10 @@
             "Name" : "Powerful Darts",
             "WeaponUpgrade" :
             {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.005
+                },
                 "TaskUpgrade" :
                 [
                     {
@@ -133,11 +137,11 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 1,
-                        "SpreadAngle" : -4,
+                        "SpreadAngle" : -3,
                         "Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : 60
+							"CutOffDistance" : 50
 						}
                     }
                 ]
@@ -167,7 +171,7 @@
                         "Movement":
 						{
 							"Type" : "Forward",
-							"CutOffDistance" : -55
+							"CutOffDistance" : -60
 						}
                     },
                     {

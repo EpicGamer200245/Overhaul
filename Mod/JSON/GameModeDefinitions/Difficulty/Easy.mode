@@ -13,6 +13,17 @@
 			"MonkeyMoneyMultiplier" : 0.75,
 			"XPMultiplier" : 0.5
 		},
-		"SpeedModifier" : 0
+		"SpeedModifier" : 0,
+		"BloonInitialHealthModifier" : {
+			"Ceramic" : 0.85,
+			"ConcreteCeramic" : 0.85,
+			"MiniMOAB" : 0.85,
+			"MOAB" : 0.85,
+			"BFB" : 0.85,
+			"BigSplitter2" : 0.85,
+			"BigSplitter" : 0.85,
+			"ZOMG" : 0.85,
+			"DeadlyZOMG" : 0.85
+		}
 	}
 }

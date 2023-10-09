@@ -1,7 +1,7 @@
 {	
     "Type":             	"RocketStormRockets",    
     "TargetRange":      	100000.0,
-	"CooldownTime":     	0.5,
+	"CooldownTime":     	0.35,
     "FireDelayTime":    	0.0,
 	"ManuallyFired": 		false,
 	"RequiresTargetToFire":	false,
@@ -14,9 +14,9 @@
     [
         {
             "Type": "MultiFire",
-            "InitialOffset": -25,
-            "AngleIncrement": 1,
-            "FireCount": 50,
+            "InitialOffset": -25.5,
+            "AngleIncrement": 0.85,
+            "FireCount": 60,
 
             "Tasks":
             [

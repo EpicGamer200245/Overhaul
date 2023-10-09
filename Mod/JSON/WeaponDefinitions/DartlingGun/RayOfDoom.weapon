@@ -1,7 +1,7 @@
 {	
     "Type":             "RayOfDoom",    
     "TargetRange":      1000.0,
-	"CooldownTime":     0.016,
+	"CooldownTime":     0.0075,
     "FireDelayTime":    0.0,
     "CanFireWithNoTargetsAndRoundInProgress" : true,
     
@@ -14,7 +14,7 @@
             { 
                 "Type": "Damage", 
                 "DamageType": "Plasma", 
-                "Amount": 4
+                "Amount": 2
             },
             {
                 "Type": "StatusEffect",
@@ -23,7 +23,7 @@
             { 
                 "Type": "Damage", 
                 "DamageType": "MOABMauler", 
-                "Amount": 2
+                "Amount": 1
             },
             {
                 "Type": "StatusEffect",
@@ -32,7 +32,7 @@
             { 
                 "Type": "Damage", 
                 "DamageType": "Juggernaut", 
-                "Amount": 2
+                "Amount": 1
             },
             {
                 "Type": "StatusEffect",

@@ -38,6 +38,11 @@
 							"DamageType": "Plasma",
 							"Amount": 2
 						},
+						{
+							"Type": "Damage",
+							"DamageType": "",
+							"Amount": 0
+						},
                         {
                             "Type": "StatusEffect",
                             "Status": "MultiLayerDamage"

@@ -1,45 +1,82 @@
 {	
     "Type":             "RingOfFire",    
-    "TargetRange":      115.0,
-	"CooldownTime":     1.09,
+    "TargetRange":      75.0,
+	"CooldownTime":     0.05,
     "FireDelayTime":    0.0,
     
     "Tasks" :
     [
 		{
-			"Type": "AreaOfEffect",
-			"Range": 115,
-			"MaxTargets": 50,
-			"UseRangeModifier" : true,
+			"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 45.0,
+    		"FireCount": 8,
+            "AimAtTarget" : false,
+            "Offsets" : [
+                [ 0, -21 ],
+                [ 14.85, -14.85 ],
+                [ 21, 0 ],
+                [ 14.85, 14.85 ],
+                [ 0, 21 ],
+                [ -14.85, 14.85 ],
+                [ -21, 0 ],
+                [ -14.85, -14.85 ]
+            ],
 
-			"Tasks" :
+			"Tasks":
 			[
 				{
-					"Type" : "StatusEffect",
-					"Status" : "",
-					"DamageRate" : 0.19,
-					"Duration" : 3.99
-				},
-				{
-					"Type": "Damage",
-					"DamageType": "Plasma",
-					"Amount": 1
-				},
-				{
-					"Type": "Damage",
-					"DamageType": "MOABMauler",
-					"Amount": 1
-				},
-				{
-					"Type": "StatusEffect",
-					"Status": "MultiLayerDamage"
+					"Type":             "Projectile",
+					"SpriteFile": "tack_ring_of_fire_breath.json",
+
+					"NumPersists":      5,
+					"SpreadAngle":      14,
+		
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 380.0,
+						"CutOffDistance": 45,
+						"TerminateOnCutOffEnd" : true
+					},
+					
+					"TasksToProcessOnCollision" : [ 0, 1, 2, 3 ],
+					"TasksToProcessOnTerminate" : [ 4 ],
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 1
+						},
+						{
+							"Type" : "StatusEffect",
+							"Status" : "",
+							"DamageRate" : 0.4,
+							"Duration" : 1.6
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type": "Damage",
+							"DamageType": "Juggernaut",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "tack_red_fire_anim.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
 				}
 			]
-		},
-		{
-			"Type": "Effect",
-			"SpriteFile": "ROFEffect.json",
-			"Scale": 1.74
 		}
 	]
 }

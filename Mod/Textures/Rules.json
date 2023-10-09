@@ -44,12 +44,12 @@
             ]
         },
         {
-            "SourceDir": "tower_icons",
+            "SourceDir": "tower_icon_avatars",
             "Quality": "Ultra",
             "Results": [
                 {
-                    "Texture": "tower_icons.png",
-                    "InfoXml": "tower_icons.xml"
+                    "Texture": "tower_icon_avatars.png",
+                    "InfoXml": "tower_icon_avatars.xml"
                 }
             ]
         },
@@ -100,6 +100,16 @@
                 {
                     "Texture": "bloons_custom.png",
                     "InfoXml": "bloons_custom.xml"
+                }
+            ]
+        },
+        {
+            "SourceDir": "typed_tower_icons",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "typed_tower_icons.png",
+                    "InfoXml": "typed_tower_icons.xml"
                 }
             ]
         }

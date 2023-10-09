@@ -243,7 +243,7 @@
             <Insert node="T" id="LOC_HINT_0_Easy" l="0">On Easy, towers cost 15% less than normal and you have 200 lives. Beating round 45 will reward you the Bronze medal.</Insert>
             <Insert node="T" id="LOC_HINT_0_Medium" l="0">On Medium, towers cost the normal amount and you have 150 lives. Beating round 65 will reward you the Silver medal.</Insert>
             <Insert node="T" id="LOC_HINT_0_Hard" l="0">On Hard, towers cost 15% more than normal, bloons are more difficult, and you have 100 lives. Beating round 80 will reward you the Gold medal.</Insert>
-            <Insert node="T" id="LOC_HINT_0_Impoppable" l="0">On Impoppable, towers cost 35% more than normal, bloons are much more difficult, and you only have 18 lives. Beating round 90 will reward you the Impoppable medal.</Insert>
+            <Insert node="T" id="LOC_HINT_0_Impoppable" l="0">On Impoppable, towers cost 35% more than normal, bloons are much more difficult, but you only have 1 life. Beating round 80 will reward you the Impoppable medal.</Insert>
 
             <!--Special Agents-->
             <Insert node="T" id="LOC_TOWER_DESC_OSX_AngrySquirrel" l="0">Using acorns as a weapon, the squirrel pops bloons, but if a bloon leaks or shoots enough acorns, the squirrel will get angry and his anger will stack.</Insert>
@@ -332,7 +332,7 @@
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B1" l="0">Gives the tack shooter more range.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B2" l="0">Tacks and fire can now go through more bloons. Additional MOAB damage to Ring of Fire.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B3" l="0">Tacks have turned into blades, they can go through more bloons and do more MOAB damage.</Insert>
-            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B4" l="0">Ability: Shoots out 8 giant blades that shreds through the bloons. Blades now seek to bloons and have more pierce with more ceramic damage but fires slower.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B4" l="0">Blades now seek to bloons and have more pierce, but fires slower.</Insert>
 
             <!--Ice Tower-->
             <Insert node="T" id="LOC_IceTower_TOWER" l="0">Ice Monkey</Insert>

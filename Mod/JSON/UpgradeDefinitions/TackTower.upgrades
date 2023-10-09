@@ -21,65 +21,45 @@
                     "1" : ""
                 }
             },
-            "WeaponUpgrades" :
-            [
-                {
-                    "TaskUpgrade" :
-                    [
-                        {
-                            "Operation" : "SelectByType",
-                            "Type" : "Projectile"
-                        },
-                        {
-                            "Operation" : "Replace",
-                            "SpriteFile" : "burnytack.json"
-                        },
-                        {
-                            "Operation" : "SelectByType",
-                            "Type" : "Damage"
-                        },
-                        {
-                            "Operation" : "Replace",
-                            "DamageType" : "Plasma"
-                        },
-                        {
-                            "Operation" : "SelectByType",
-			    			"Type" : "StatusEffect"
-                        },
-                        {
-                            "Operation" : "Replace",
-                            "Status" : "Napalm"
-                        },
-                        {
-                            "Operation" : "SelectByType",
-                            "Type" :    "Projectile"
-                        },
-                        {
-                            "Operation" : "Replace",
-                            "RequiresMinUpgradeCounters" : [0, 3],
-			    			"SpriteFile" : "burnyblade.json"
-			    		}
-                    ]
-                },
-                {
-                    "SlotIndices" : [ 1 ],
-                    "Replace":
+            "WeaponUpgrade" :
+            {   
+                "TaskUpgrade" :
+                [
                     {
-                        "RequiresMinUpgradeCounters" : [0, 4],
-                        "TotalAmmo": 0,
-                        "ManuallyFired": false
-                    }
-                },
-                {
-                    "SlotIndices": [ 2 ],
-                    "Replace":
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
                     {
-                        "RequiresMinUpgradeCounters" : [0, 4],
-                        "TotalAmmo": -1,
-                        "ManuallyFired": true
-                    }
-                }
-            ]
+                        "Operation" : "Replace",
+                        "SpriteFile" : "burnytack.json"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+			    		"Type" : "StatusEffect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "Napalm"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [0, 3],
+			    		"SpriteFile" : "burnyblade.json"
+			    	}
+                ]
+            }
         },
         
         {
@@ -133,60 +113,42 @@
             },
             "WeaponUpgrade" : 
             {
+                "Replace" :
+                {
+                    "CooldownTime" :    0.05
+                },
+
                 "TaskUpgrade" :
                 [
                     {
                         "Operation" : "SelectByLocation",
-                        "Location": [ 0, 0 ]
+                        "Location": [ 0, 0, 1 ]
                     },
                     
                     {
                         "Operation" : "Replace",
-						"DamageRate" : 0.34,
-					    "Duration" : 2.38
-                    },
-
-                    {
-                        "Operation" : "SelectByType",
-                        "Type" :    "AreaOfEffect"
-                    },
-                    
-                    {
-                        "Operation" : "Adjust",
-						"RequiresMinUpgradeCounters" : [0, 1],
-						"Range" : 20
-                    },
-
-                    {
-                        "Operation" : "SelectByType",
-                        "Type" :    "Effect"
-                    },
-                    
-                    {
-                        "Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [0, 1],
-						"Scale" : 1.95
+                        "Status": "Napalm",
+                        "DamageRate" : 0.4,
+                        "Duration" : 1.6
                     },
 
                     {
                         "Operation" : "SelectByLocation",
-                        "Location": [ 0, 2 ]
+                        "Location": [ 0, 0, 0 ]
                     },
                     
                     {
-                        "Operation" : "Adjust",
-						"RequiresMinUpgradeCounters" : [0, 2],
-						"Amount" : 2
+                        "Operation" : "Replace",
+                        "Amount": 1
                     },
 
                     {
-                        "Operation" : "SelectByType",
-                        "Type" : "AreaOfEffect"
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0, 0 ]
                     },
-
                     {
-                        "Operation" : "Adjust",
-                        "MaxTargets" : 12
+                        "Operation" : "Replace",
+                        "SpriteFile" : "tack_ring_of_fire_breath.json"
                     }
                 ]
             }
@@ -198,7 +160,7 @@
             {
                 "Adjust" :
                 {
-                    "TargetRange" : 20
+                    "TargetRange" : 25
                 },
                 "TaskUpgrade" :
                 [
@@ -209,12 +171,22 @@
                     
                     {
                         "Operation" : "Adjust",
-						"Movement":
-						{
-							"Type": "Forward",
-	                        "Speed": 70.0,
-    	                    "CutOffDistance" : 20
-						}
+                        "Movement":
+                        {
+                            "Type": "Forward",
+                            "Speed": 110.0,
+                            "CutOffDistance" : 35
+                        }
+                    },
+
+                    {
+                        "Operation" : "Adjust",
+                        "RequiresMinUpgradeCounters" : [4, 0],
+                        "Movement":
+					    {
+					    	"Type": "Forward",
+					    	"CutOffDistance": -25
+					    }
                     }
                 ]
             }
@@ -267,72 +239,36 @@
         
         {
             "Name" : "Seeking Blades",
-            "TowerUpgrade" :
+            "WeaponUpgrade" :
             {
-                "Weapons" :
+                "Adjust" :
                 {
-                    "1": "SeekingBlades.weapon",
-                    "2": "FierySeekingBlades.weapon"
-                }
-            },
-            "WeaponUpgrades" :
-            [
-                {
-                    "Adjust" :
+                    "CooldownTime": 0.18
+                },
+                "TaskUpgrade" :
+                [
                     {
-                        "CooldownTime": 0.08
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
                     },
-                    "TaskUpgrade" :
-                    [
+                    {
+                        "Operation" : "Replace",
+                        "Movement":
                         {
-                            "Operation" : "SelectByType",
-                            "Type" : "Projectile"
-                        },
-                        {
-                            "Operation" : "Replace",
-                            "Movement":
-                            {
-                                "Type": "Target",
-                                "Speed": 360,
-                                "TurnSpeed": 450,
-                                "TargetRange": 1000,
-                                "SeekAngle": 360,
-                                "CutOffDistance": 480
-                            }
-                        },
-                        {
-                            "Operation" : "Adjust",
-                            "NumPersists": 3
-                        },
-                        {
-                            "Operation":"SelectByLocation",
-                            "Location" : [ 0, 0, 4 ]
-                        },
-                        {
-                            "Operation" : "Replace",
-                            "Amount": 1
+                            "Type": "Target",
+                            "Speed": 360,
+                            "TurnSpeed": 450,
+                            "TargetRange": 1000,
+                            "SeekAngle": 360,
+                            "CutOffDistance": 480
                         }
-                    ]
-                },
-                {
-                    "SlotIndices" : [ 1 ],
-                    "Replace":
+                    },
                     {
-                        "RequiresMinUpgradeCounters" : [2, 0],
-                        "TotalAmmo": 0,
-                        "ManuallyFired": false
+                        "Operation" : "Adjust",
+                        "NumPersists": 2
                     }
-                },
-                {
-                    "SlotIndices": [ 2 ],
-                    "Replace":
-                    {
-                        "RequiresMinUpgradeCounters" : [2, 0],
-                        "TotalAmmo": -1,
-                        "ManuallyFired": true
-                    }
-                }
-            ]
+                ]
+            }
         }
     ]
 }
