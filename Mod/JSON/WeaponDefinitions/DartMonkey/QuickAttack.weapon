@@ -1,7 +1,7 @@
 {	
     "Type":             	"QuickAttack",    
-    "TargetRange":      	90,
-	"CooldownTime":     	37,
+    "TargetRange":      	120,
+	"CooldownTime":     	48,
     "FireDelayTime":    	0.0,
 	"ManuallyFired": 		true,
 	"RequiresTargetToFire":	false,
@@ -10,11 +10,12 @@
     [
 		{
 			"Type": "TowerModifier",
-			"Range": 90,
+			"Range": 120,
 			"PriorityLevel": 4,
+			"ApplyToUserTower": true,
 			"ReplacesPriorityLevel" : true,
             "TerminateOnUserUpgrade": false,
-			"Duration": 11.5,
+			"Duration": 10,
 
 			"TargetingFilter":
 			{
@@ -26,10 +27,10 @@
 
 			"Modifier":
 			{
-				"TargetRange": [ 1.27, 0 ],
-				"Cooldown": [ 0.35, 0 ],
-                "FireDelay": [ 0.35, 0 ],
-				"ProjectileCutOff": [ 1.27, 0 ]
+				"TargetRange": [ 1.2, 0 ],
+				"Cooldown": [ 0.6, 0 ],
+                "FireDelay": [ 0.6, 0 ],
+				"ProjectileCutOff": [ 1.2, 0 ]
 			}
 		},
 		{

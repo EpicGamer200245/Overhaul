@@ -1,7 +1,7 @@
 {	
     "Type":             "RingOfFire",    
-    "TargetRange":      75.0,
-	"CooldownTime":     0.05,
+    "TargetRange":      85.0,
+	"CooldownTime":     0.09,
     "FireDelayTime":    0.0,
     
     "Tasks" :
@@ -29,8 +29,8 @@
 					"Type":             "Projectile",
 					"SpriteFile": "tack_ring_of_fire_breath.json",
 
-					"NumPersists":      5,
-					"SpreadAngle":      14,
+					"NumPersists":      1,
+					"SpreadAngle":      21,
 		
 					"TerminateOnZeroPersists": true,
 					"CollisionType": "Once",
@@ -39,7 +39,7 @@
 					{
 						"Type": "Forward",
 						"Speed": 380.0,
-						"CutOffDistance": 45,
+						"CutOffDistance": 48,
 						"TerminateOnCutOffEnd" : true
 					},
 					
@@ -62,11 +62,6 @@
 						{
 							"Type": "StatusEffect",
 							"Status": "MultiLayerDamage"
-						},
-						{
-							"Type": "Damage",
-							"DamageType": "Juggernaut",
-							"Amount": 1
 						},
 						{ 
 							"Type": "Effect", 

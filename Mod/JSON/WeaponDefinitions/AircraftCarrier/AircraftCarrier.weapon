@@ -1,0 +1,44 @@
+{	
+    "Type":             "AircraftCarrier",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     1.4,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire"	: false,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 15.0,
+    		"FireCount": 24,
+			"AimAtTarget": false,
+    		"Tasks":
+            [{
+    			"Type": "Projectile",
+    			"GraphicName": "dart_monkey_dart",
+    			"NumPersists":      1,
+                "TerminateOnZeroPersists": true,
+                "CollisionType": "Once",
+                
+				"Movement":
+				{
+					"Type": "Forward",
+					"Speed": 920,
+					"CutOffDistance": 1000
+				},
+				
+    			"Tasks":
+    			[
+    				{
+    					"Type": "Damage",
+    					"DamageType": "Piercing",
+    					"Amount": 1
+    				}
+    			]
+    		}]
+    	}
+    ]
+}
+

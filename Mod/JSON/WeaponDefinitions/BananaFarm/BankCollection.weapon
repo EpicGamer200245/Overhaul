@@ -1,0 +1,16 @@
+{	
+    "Type":             "BankCollection",    
+    "TargetRange":      80,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+   	"RequiresTargetToFire"	: false,
+
+    "Tasks" :
+    [
+		{
+            "Type" : "CollectCollectables",
+            "Range":  0,
+			"Speed" : 190
+        }
+	]
+}

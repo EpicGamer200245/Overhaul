@@ -112,6 +112,16 @@
                     "InfoXml": "typed_tower_icons.xml"
                 }
             ]
+        },
+        {
+            "SourceDir": "monkeybuccaneer",
+            "Quality": "Ultra",
+            "Results": [
+                {
+                    "Texture": "monkeybuccaneer.png",
+                    "InfoXml": "monkeybuccaneer.xml"
+                }
+            ]
         }
     ]
 }

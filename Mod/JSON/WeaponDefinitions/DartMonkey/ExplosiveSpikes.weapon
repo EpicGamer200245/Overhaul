@@ -37,12 +37,7 @@
 				{
 					"Type" : "StatusEffect",
 					"Status" : "Stun",
-					"Duration" : 0.24
-				},
-				{
-					"Type" : "StatusEffect",
-					"Status" : "CrippleMOAB",
-					"Duration" : 0.1
+					"Duration" : 0.6
 				},
 				{
 					"Type": "AreaOfEffect",
@@ -63,12 +58,7 @@
 						{
 							"Type" : "StatusEffect",
 							"Status" : "Stun",
-							"Duration" : 0.12
-						},
-						{
-							"Type" : "StatusEffect",
-							"Status" : "CrippleMOAB",
-							"Duration" : 0.05
+							"Duration" : 0.6
 						}
 					]
                 },

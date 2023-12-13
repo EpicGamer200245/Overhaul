@@ -32,7 +32,7 @@
 				{ 
 					"Type": "Damage", 
 					"DamageType": "Juggernaut", 
-					"Amount": 5
+					"Amount": 2
 				},
 				{
 					"Type": "Damage",
@@ -42,12 +42,12 @@
 				{
 					"Type" : "StatusEffect",
 					"Status" : "Stun",
-					"Duration" : 0.48
+					"Duration" : 1.05
 				},
 				{
 					"Type" : "StatusEffect",
 					"Status" : "CrippleMOAB",
-					"Duration" : 0.2
+					"Duration" : 0.55
 				},
 				{
 					"Type": "AreaOfEffect",
@@ -63,17 +63,17 @@
 						{
 							"Type": "Damage",
 							"DamageType": "Juggernaut",
-							"Amount": 3
+							"Amount": 1
 						},
 						{
 							"Type" : "StatusEffect",
 							"Status" : "Stun",
-							"Duration" : 0.24
+							"Duration" : 1.05
 						},
 						{
 							"Type" : "StatusEffect",
 							"Status" : "CrippleMOAB",
-							"Duration" : 0.1
+							"Duration" : 0.55
 						}
 					]
                 },

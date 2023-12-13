@@ -1,0 +1,64 @@
+{
+    "TypeName"				: "BananaFarm",
+    "Icon"					: "banana_farm_tower_icon",
+    "BaseCost"				: 725,
+    "RankToUnlock"			: 16,
+    "DefaultWeapons"	    : [ "BananaFarm.weapon" ],
+    "TargetingMode"			: "None",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    "CanSpotForTowers" : false,
+	
+    "Upgrades" :
+    [
+    	[ "More Bananas", "Even More Bananas", "Banana Republic", "Banana Research Facility" ],
+    	[ "Illegal Preservatives", "Valuable Bananas", "Monkey Bank", "Banana Investments" ]
+    ],  
+    "UpgradePrices" : 
+    [
+        [ 500, 550, 2600, 11000 ],
+        [ 380, 650, 2600, 6000 ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 250 }, { "Rank" : 0, "XP" : 2250 }, { "Rank" : 0, "XP" : 10250 }, { "Rank" : 37, "XP" : 56325 } ],
+		[ { "Rank" : 0, "XP" : 875 }, { "Rank" : 0, "XP" : 3750 }, { "Rank" : 0, "XP" : 18350 }, { "Rank" : 37, "XP" : 94875 } ]
+	],
+    "UpgradeAvatars" : 
+    [
+        [ ],
+        [ ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ 
+        "banana_farm_more_bananas_icon", 
+        "banana_farm_plantation_icon", 
+        "banana_farm_republic_icon", 
+        "banana_farm_brf_icon" 
+        ],
+    	[ 
+        "banana_farm_long_life_icon", 
+        "banana_farm_valuable_icon", 
+        "banana_farm_bank_icon", 
+        "banana_farm_investments_icon" 
+        ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"		: "BananaFarm.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 20.0,
+    "PlacementW"			: 39.5,
+    "PlacementH"			: 39.5,
+    "SpriteUpgradeDefinition" : "BananaFarm.json"
+}

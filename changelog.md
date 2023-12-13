@@ -2,6 +2,65 @@
 
 ---
 
+## 0.06 Testing
+
+### Testing Details
+
+* New towers: Monkey Buccaneer, Banana Farm
+* Dart Monkey and Tack Shooter have had massive updates again
+
+### Balancing
+
+#### Specialty Buildings
+
+* Al's Custom Chippers has now been removed
+
+#### Towers
+
+##### Dart Monkey
+
+* Base price decreased 270 => 200
+* Exploding Spikes price increased 1900 => 2350
+* Plasma Spikes price increased 5250 => 8400
+* Quick Attack price decreased 23000 => 10000
+* Dart Monkey base weapon pierce decreased 2 => 1
+* Explosive Spikes weapon on-hit stun duration increased 0.24s => 0.6s
+* Explosive Spikes weapon on-hit explosion stun duration increased 0.12s => 0.6s
+* Explosive Spikes weapon on-hit MOAB stun removed
+* Explosive Spikes weapon on-hti explosion MOAB stun removed
+* Plasma Spikes weapon ceramic damage addon decreased 5 => 2
+* Plasma Spikes weapon on-hit stun duration increased 0.48s => 1.05s
+* Plasma Spikes weapon on-hit MOAB stun duration increased 0.2s => 0.55s
+* Plasma Spikes weapon on-hit explosion ceramic damage addon decreased 3 => 1
+* Plasma Spikes weapon on-hit explosion stun duration increased 0.24s => 1.05s
+* Plasma Spikes weapon on-hit explosion MOAB stun duration increased 0.1s => 0.55s
+* Quick Attack ability weapon modifier range increased 90 => 120
+* Quick Attack ability weapon modifier range now scales with upgrades
+* Quick Attack ability cooldown increased 37s => 48s
+* Quick Attack ability modifier now applies to the tower that activated the ability
+* Quick Attack ability duration decreased 11.5s => 10s
+* Quick Attack ability modifier range multiplier 1.27x => 1.2x
+* Quick Attack ability modifier attack speed multiplier 0.35x => 0.6x
+
+##### Tack Shooter
+
+* Tack Shooter base weapon range increased 65 => 75
+* Tack Shooter base weapon pierce decreased 2 => 1
+* Burny Tacks fire effect duration increased 2s => 3.5s
+* Burny Tacks fire effect damage rate increased 2s => 3s
+* Blade Shooter weapon range increased 65 => 75
+* Blade Shooter weapon pierce decreased 6 => 3
+* Ring of Fire attack speed 0.05s => 0.09s
+* Ring of Fire weapon range increased 75 => 85
+* Ring of Fire weapon pierce 5 => 1
+* Ring of Fire weapon spread angle 14 => 21
+* Ring of Fire weapon damage 1 => 2
+* Ring of Fire weapon no longer has a ceramic damage bonus
+* Seeking Blades attack speed increase 0.18s => 0.23s
+* Seeking Blades upgrade no longer gives +2 pierce
+
+---
+
 ## 0.05
 
 ### Details

@@ -11,24 +11,39 @@
 ---
 
 <h2 align="center">Towers</h2>
+<b><p align="center">This is a list of all towers that are new or have been changed.</p></b>
 
-<b><h3 align="center">Dart Monkey</h3></b>
+<b><h3 align="center">Primary</h3></b>
+
+<b><h4 align="center">Dart Monkey</h4></b>
 <p align="center">The Dart Monkey is the most basic of towers, but can upgrade into using storng weaponry that will use explosions or affect all other Dart Monkeys in radius.</p>
 
-<b><h3 align="center">Tack Shooter</h3></b>
+<b><h4 align="center">Tack Shooter</h4></b>
 <p align="center">The Tack Shooter is a tower that shoots in eight directions, it is able to shoot fire, blades, and even blades that are imbued with fire.</p>
 
-<b><h3 align="center">Dartling Gunner</h3></b>
+<b><h3 align="center">Military</h3></b>
+
+<b><h4 align="center">Monkey Buccaneer</h4></b>
+<p align="center">The Monkey Buccaneer shoots darts from both sides of the ship, shoots slowly, but has a lot of pierce.</p>
+
+<b><h4 align="center">Radar Monkey</h4></b>
+<p align="center">The Radar Monkey is a new water tower that acts like the Monkey Submarine's radar but damages bloons.</p>
+
+<b><h4 align="center">Dartling Gunner</h4></b>
 <p align="center">The Dartling Gunner is a fast shooting tower but has a large amount of spread. Similarities can be drawn from the mighty Super Monkey.</p>
 
-<b><h3 align="center">Ice Monkey</h3></b>
+<b><h3 align="center">Magic</h3></b>
+
+<b><h4 align="center">Ice Monkey</h4></b>
 <p align="center">The Ice Monkey will freeze and damage bloons in its radius then will give them a effect that slows the bloons down.</p>
 
-<b><h3 align="center">Super Monkey</h3></b>
+<b><h4 align="center">Super Monkey</h4></b>
 <p align="center">The Super Monkey is a very fast attacking tower that can be lethal to even the best that the bloons have to offer.</p>
 
-<b><h3 align="center">Radar Monkey</h3></b>
-<p align="center">The Radar Monkey is a new water tower that acts like the Monkey Submarine's radar but damages bloons.</p>
+<b><h3 align="center">Support</h3></b>
+
+<b><h4 align="center">Banana Farm</h4></b>
+<p align="center">The Banana Farm is a tower that grows 6 banana bunches each round each one giving $15.</p>
 
 ---
 

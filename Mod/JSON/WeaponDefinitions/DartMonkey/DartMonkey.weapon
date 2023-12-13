@@ -9,7 +9,7 @@
 		{
 			"Type":             "Projectile",
 			"GraphicName":      "dart_monkey_dart",
-			"NumPersists":      2,
+			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			
 			"CollisionType": "Once",

@@ -1,0 +1,475 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Longer Cannons",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndices" : [ 0 ],
+                    "Adjust" :
+                    {
+                        "TargetRange" : 35
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location": [ 0, 0 ]
+                        },
+
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 2,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location": [ 1, 0 ]
+                        },
+
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 2,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        }
+                    ]
+                },
+                {
+                    "SlotIndices" : [ 2 ],
+                    "Adjust" :
+                    {
+                        "TargetRange" : 35
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location": [ 0, 0 ]
+                        },
+
+                        {
+                            "Operation" : "Adjust",
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        }
+                    ]
+                },
+                {
+                    "SlotIndices" : [ 1 ],
+                    "Adjust" :
+                    {
+                        "TargetRange" : 35
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 1, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 2, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 3, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 4, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 5, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 6, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 7, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 8, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 9, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        },
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 10, 0 ]
+                        },
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists": 1,
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+                            	"CutOffDistance" : 40
+			    			}
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "Name" : "Faster Shooting",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1, 2 ],
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.475
+                }
+            }
+        },
+        
+        {
+            "Name" : "Destroyer",
+            "WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 0 ],
+					"Adjust" :
+					{
+						"CooldownTime" :    -0.65
+					},
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location": [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+
+                        {
+							"Operation" : "SelectByLocation",
+							"Location": [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						}
+					]
+				},
+                {
+					"SlotIndices" : [ 1 ],
+					"Adjust" :
+					{
+						"CooldownTime" :    -0.60
+					},
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" : [ 0 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 1 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 2 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 3 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 4 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 5 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 6 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 7 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 8 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 9 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						},
+                        {
+							"Operation" : "SelectByLocation",
+							"Location" : [ 10 ]
+						},
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ], [ 0, 32 ] ]
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Aircraft Carrier",
+            "TowerUpgrade" : 
+            { 
+                "Replace" : 
+                { 
+					"InitialAngle" : 180,
+                    "RotatesToTarget" : false,
+				    "UseDefaultRangeCircle" : true
+                },
+                "Weapons" :
+                {
+                    "0" : "",
+                    "4" : "MonkeyBuccaneerAircraft.weapon"
+                }
+            },
+            "WeaponUpgrade":
+            {
+                "SlotIndices": [ 1 ],
+                "Replace":
+                {
+                    "TotalAmmo": 0
+                }
+            }
+        },
+        
+        {
+            "Name" : "Grape Shot",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "GrapeShot.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Crows Nest",
+            "TowerUpgrade" :
+            {            
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1, 2 ],
+                "Adjust" :
+                {
+                    "TargetRange" : 15
+                }
+            }
+        },
+    
+        {
+            "Name" : "Cannon Ship",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "Cannons.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Monkey Pirates",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "3": "MOABTakedown.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 2 ],
+                "TaskUpgrade": 
+                [
+                    {
+                        "Operation": "SelectByLocation",
+                        "Location": [ 1 ]
+                    },
+                    {
+                        "Operation": "Replace",
+			            "FireCount": 2
+                    },
+
+                    {
+                        "Operation": "SelectByLocation",
+                        "Location": [ 2 ]
+                    },
+                    {
+                        "Operation": "Replace",
+			            "FireCount": 2
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,505 @@
+{	
+    "Type":             "GrapeShot",    
+    "TargetRange":      145.0,
+	"CooldownTime":     1.25,
+    "FireDelayTime":    0.0,
+    
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -34.0,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 2,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+        {
+    		"Type": "MultiFire",
+    		"InitialOffset": -17.0,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 2,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 2,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 17.0,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 2,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 34.0,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 2,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 0,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 6.8,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 0,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 13.6,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 0,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 20.4,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 0,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 27.2,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 0,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	},
+		{
+    		"Type": "MultiFire",
+    		"InitialOffset": 34.0,
+    		"AngleIncrement": 180.0,
+    		"FireCount": 0,
+			"AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"TasksToProcessOnTerminate" : [ 1 ],
+					"TasksToProcessOnCollision" : [ 0 ],
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						},
+						{ 
+							"Type": "Effect", 
+							"UseDirection": true, 
+							"SpriteFile": "grape_hit.json", 
+							"DrawLayer" : "UnderTowers" 
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

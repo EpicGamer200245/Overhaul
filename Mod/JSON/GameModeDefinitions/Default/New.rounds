@@ -7,7 +7,82 @@
         {
             "Hint": "Round 1",
             "Waves": [
-                { "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 17, "Count" : 34 }
+                { "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 14, "Count" : 22 }
+            ]
+        },
+        {
+            "Hint": "Round 2",
+            "Waves": [
+                { "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 14, "Count" : 22 },
+                { "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 8, "Duration" : 4, "Count" : 3 }
+            ]
+        },
+        {
+            "Hint": "Round 3",
+            "Waves": [
+                { "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 9, "Count" : 11 }
+            ]
+        },
+        {
+            "Hint": "Round 4",
+            "Waves": [
+                { "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 8, "Count" : 11 }
+            ]
+        },
+        {
+            "Hint": "Round 5",
+            "Waves": [
+                { "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 11, "Count" : 34 },
+                { "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 8, "Duration" : 4, "Count" : 8 }
+            ]
+        },
+        {
+            "Hint": "Round 6",
+            "Waves": [
+                { "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 15, "Count" : 26 },
+                { "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 5, "Duration" : 4, "Count" : 10 }
+            ]
+        },
+        {
+            "Hint": "Round 7",
+            "Waves": [
+                { "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 7, "Count" : 11 }
+            ]
+        },
+        {
+            "Hint": "Round 8",
+            "Waves": [
+                { "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 14, "Count" : 22 },
+                { "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 8, "Duration" : 4, "Count" : 12 }
+            ]
+        },
+        {
+            "Hint": "Round 9",
+            "Waves": [
+                { "Bloon" : "CyanSplitter", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 6, "Count" : 4 }
+            ]
+        },
+        {
+            "Hint": "Round 10",
+            "Waves": [
+                { "Bloon" : "CyanSplitter", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 4, "Count" : 3 },
+                { "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 8, "Duration" : 4, "Count" : 14 }
+            ]
+        },
+        {
+            "Hint": "Round 11",
+            "Waves": [
+                { "Bloon" : "Red", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 3, "Count" : 15 },
+                { "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 6, "Duration" : 3, "Count" : 9 },
+                { "Bloon" : "Green", "IsCamo" : false, "IsRegen" : false, "StartTime" : 12, "Duration" : 5, "Count" : 7 },
+                { "Bloon" : "Yellow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 21, "Duration" : 7, "Count" : 5 }
+            ]
+        },
+        {
+            "Hint": "Round 12",
+            "Waves": [
+                { "Bloon" : "Pink", "IsCamo" : false, "IsRegen" : false, "StartTime" : 1, "Duration" : 3, "Count" : 5 },
+                { "Bloon" : "Blue", "IsCamo" : false, "IsRegen" : false, "StartTime" : 7, "Duration" : 4, "Count" : 12 }
             ]
         }
     ]

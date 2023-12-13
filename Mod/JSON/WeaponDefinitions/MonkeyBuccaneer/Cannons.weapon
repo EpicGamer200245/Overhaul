@@ -1,0 +1,289 @@
+{	
+    "Type":             "Cannons",    
+    "TargetRange":      145.0,
+	"CooldownTime":     1.25,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"AngleIncrement" : 180,
+			"InitialOffset" : 0,
+			"FireCount": 2,
+			"AimAtTarget" : true,
+			"Offsets" : [ [ 0, -21 ], [ 0, 21 ] ],
+
+			"Tasks" :
+			[
+				{
+					"Type":             "Projectile",
+					"GraphicName":      "bomb_tower_bomb_01",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+
+					"CollisionType": "Once",
+
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "AreaOfEffect",
+							"Range": 63,
+							"MaxTargets": 12,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Explosive",
+									"Amount": 4
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage"
+								}
+							]
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 30.0,
+							"FireCount": 12,
+							"AimAtTarget": false,
+							
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"GraphicName": "frag_shrapnel",
+									"NumPersists":      3,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									"Radius": 5,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 500,
+										"CutOffDistance": 160
+									},
+									
+									"Tasks":
+									[
+										{ 
+											"Type": "Damage",
+											"DamageType": "Piercing",
+											"Amount": 2
+										},
+										{
+											"Type": "StatusEffect",
+											"Status": "MultiLayerDamage"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "Explosion.json",
+							"Scale": 0.9261
+						}
+					]
+				}
+			]
+		},
+        {
+			"Type": "MultiFire",
+			"AngleIncrement" : 140,
+			"InitialOffset" : 20,
+			"FireCount": 0,
+			"AimAtTarget" : true,
+			"Offsets" : [ [ 20, -20 ], [ 20, 20 ] ],
+
+			"Tasks" :
+			[
+				{
+					"Type":             "Projectile",
+					"GraphicName":      "bomb_tower_bomb_01",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+
+					"CollisionType": "Once",
+
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "AreaOfEffect",
+							"Range": 63,
+							"MaxTargets": 12,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Explosive",
+									"Amount": 4
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage"
+								}
+							]
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 30.0,
+							"FireCount": 12,
+							"AimAtTarget": false,
+							
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"GraphicName": "frag_shrapnel",
+									"NumPersists":      3,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									"Radius": 5,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 500,
+										"CutOffDistance": 160
+									},
+									
+									"Tasks":
+									[
+										{ 
+											"Type": "Damage",
+											"DamageType": "Piercing",
+											"Amount": 2
+										},
+										{
+											"Type": "StatusEffect",
+											"Status": "MultiLayerDamage"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "Explosion.json",
+							"Scale": 0.9261
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"AngleIncrement" : 220,
+			"InitialOffset" : -20,
+			"FireCount": 0,
+			"AimAtTarget" : true,
+			"Offsets" : [ [ -20, -20 ], [ -20, 20 ] ],
+
+			"Tasks" :
+			[
+				{
+					"Type":             "Projectile",
+					"GraphicName":      "bomb_tower_bomb_01",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+
+					"CollisionType": "Once",
+
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 500.0,
+						"CutOffDistance": 160
+					},
+
+					"Tasks" :
+					[ 
+						{
+							"Type": "AreaOfEffect",
+							"Range": 63,
+							"MaxTargets": 12,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Explosive",
+									"Amount": 4
+								},
+								{
+									"Type": "StatusEffect",
+									"Status": "MultiLayerDamage"
+								}
+							]
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0.0,
+							"AngleIncrement": 30.0,
+							"FireCount": 12,
+							"AimAtTarget": false,
+							
+							"Tasks":
+							[
+								{
+									"Type": "Projectile",
+									"GraphicName": "frag_shrapnel",
+									"NumPersists":      3,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									"Radius": 5,
+									
+									"Movement":
+									{
+										"Type": "Forward",
+										"Speed": 500,
+										"CutOffDistance": 160
+									},
+									
+									"Tasks":
+									[
+										{ 
+											"Type": "Damage",
+											"DamageType": "Piercing",
+											"Amount": 2
+										},
+										{
+											"Type": "StatusEffect",
+											"Status": "MultiLayerDamage"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "Explosion.json",
+							"Scale": 0.9261
+						}
+					]
+				}
+			]
+		}
+	]
+}

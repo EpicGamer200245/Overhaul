@@ -46,7 +46,7 @@
         "IV" :
         {
             "Text": "LOC_SPEC_Sniper_IV",
-            "TowerModifiers" :
+			"TowerModifiers" :
             [{
                 "TargetingFilter" : { "Include" : { "TowerType": [ "SniperMonkey" ] } },
                 "Modifier" :

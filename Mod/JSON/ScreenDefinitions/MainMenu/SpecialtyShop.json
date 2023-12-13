@@ -2,23 +2,22 @@
 	"SpecialtyItems" : [
 		{ "Type" : "SpecialtyLand.json", "Offset" : [ 0, -5 ] },
 		{ "Type" : "DartTrainingFacility.json", "Offset" : [ -5, -5 ] },
-		{ "Type" : "BoomerangDojo.json", "Offset" : [ -5, -10 ]  },
 		{ "Type" : "TackResearchCenter.json", "Offset" : [ 0, -5 ]  },
 		{ "Type" : "BombingRange.json", "Offset" : [ 0, -3 ]  },
+		{ "Type" : "BoomerangDojo.json", "Offset" : [ -5, -10 ]  },
+		{ "Type" : "GlueSupplyDepot.json", "Offset" : [ 0, -5 ]  },
+		{ "Type" : "RifleRange.json", "Offset" : [ 0, -5 ]  },
+		{ "Type" : "SubConstructionYard.json", "Offset" : [ 0, -25 ] },
 		{ "Type" : "PirateCove.json", "Offset" : [ 0,-5 ]  },
+		{ "Type" : "MortarEmplacement.json", "Offset" : [ 0, -5 ]  },
+		{ "Type" : "AcePrivateHangar.json", "Offset" : [ 0, -5 ]  },
+		{ "Type" : "HeloHangar.json", "Offset" : [ 3, -3 ] },
+		{ "Type" : "DartlingAmmoDump.json", "Offset" : [ 0, 0 ]  },
 		{ "Type" : "NinjaAcademy.json", "Offset" : [ 0, -10 ]  },
 		{ "Type" : "MageSpire.json", "Offset" : [ 3, -3 ]  },
-		{ "Type" : "DartlingAmmoDump.json", "Offset" : [ 0, 0 ]  },
-		{ "Type" : "HeloHangar.json", "Offset" : [ 3, -3 ] },
 		{ "Type" : "IceFortress.json", "Offset" : [ 0, -5 ]  },
-		{ "Type" : "GlueSupplyDepot.json", "Offset" : [ 0, -5 ]  },
 		{ "Type" : "SuperMonkeyLair.json", "Offset" : [ -5, -10 ]  },
 		{ "Type" : "EngineersWorkshop.json", "Offset" : [ -5, -5 ] },
-		{ "Type" : "SubConstructionYard.json", "Offset" : [ 0, -25 ] },
-		{ "Type" : "SpikesRUs.json", "Offset" : [ 0, -5 ]  },
-		{ "Type" : "AcePrivateHangar.json", "Offset" : [ 0, -5 ]  },
-		{ "Type" : "RifleRange.json", "Offset" : [ 0, -5 ]  },
-		{ "Type" : "MortarEmplacement.json", "Offset" : [ 0, -5 ]  },
-		{ "Type" : "AlsCustomChippers.json", "Offset" : [ 0, 0 ] }
+		{ "Type" : "SpikesRUs.json", "Offset" : [ 0, -5 ]  }
 	]
 }

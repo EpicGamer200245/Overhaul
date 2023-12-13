@@ -1,0 +1,78 @@
+{	
+    "Type":             	"MOABTakedown",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	70,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	true,
+
+	"TargetingFilter":
+	{
+		"Exclude":
+		{
+			"BloonType": [
+				"Red",
+				"Blue",
+				"CyanSplitter",
+				"CyanSplitter2",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Orange",
+				"Lead",
+				"Zebra",
+				"Rainbow",
+				"Ceramic",
+				"ConcreteCeramic",
+                "ZOMG",
+                "Bloonarius",
+                "Vortex"
+			]
+		}
+	},
+
+    "Tasks" :
+    [
+		{
+			"Type": "Harpoon",
+			"GraphicName": "buccaneer_monkey_pirates_harpoon",
+			"NumPersists": 1,
+			"TerminateOnZeroPersists": false,
+			"CollisionType": "Once",
+			
+			"Movement": {
+				"Type": "ReturnToSender",
+				"Speed": 1000,
+				"ReturnSpeed": 500,
+				"TargetShouldFaceWeapon": true
+			},
+			
+			"Tasks": [
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 20000
+				}, 				
+				{
+					"Type": "StatusEffect",
+					"Status": "MultiLayerDamage",
+					"Kill" : true
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "MOABTakedownAbility.json",
+					"Scale": 1,
+					"DrawLayer": "FullScreen"
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "GeneralShockwave.json",
+			"Scale": 1,
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

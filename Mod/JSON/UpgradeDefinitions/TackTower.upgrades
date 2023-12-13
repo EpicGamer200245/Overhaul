@@ -86,9 +86,9 @@
                         "Type" : "StatusEffect"
                     },
                     {
-                        "Operation" : "Adjust",
-                        "DamageRate" : -1.1,
-                        "Duration" : 1.6
+                        "Operation" : "Replace",
+                        "DamageRate" : 0.9,
+                        "Duration" : 3.6
                     },
                     {
                         "Operation" : "SelectByType",
@@ -115,7 +115,7 @@
             {
                 "Replace" :
                 {
-                    "CooldownTime" :    0.05
+                    "CooldownTime" :    0.09
                 },
 
                 "TaskUpgrade" :
@@ -130,16 +130,6 @@
                         "Status": "Napalm",
                         "DamageRate" : 0.4,
                         "Duration" : 1.6
-                    },
-
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location": [ 0, 0, 0 ]
-                    },
-                    
-                    {
-                        "Operation" : "Replace",
-                        "Amount": 1
                     },
 
                     {
@@ -243,7 +233,7 @@
             {
                 "Adjust" :
                 {
-                    "CooldownTime": 0.18
+                    "CooldownTime": 0.23
                 },
                 "TaskUpgrade" :
                 [
@@ -262,10 +252,6 @@
                             "SeekAngle": 360,
                             "CutOffDistance": 480
                         }
-                    },
-                    {
-                        "Operation" : "Adjust",
-                        "NumPersists": 2
                     }
                 ]
             }

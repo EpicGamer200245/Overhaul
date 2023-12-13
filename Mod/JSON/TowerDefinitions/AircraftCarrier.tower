@@ -1,0 +1,67 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [ "AircraftCarrier.weapon", "AircraftCarrierStrafe.weapon" ],
+    "Description" : "",
+    "Icon" : "dart_monkey_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "DefaultSprite" : "MonkeyBuccaneerAircraftCarrierAce.json",
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "Any",
+    "TargetsManually" : false,
+    "TypeName" : "AircraftCarrier",
+    "Upgrades" :
+    [
+    	[ "Rapid Fire", "Sharper Darts", "Neva-Miss Targeting", "Spectre" ],
+    	[ "Pineapple Present", "Spy Plane", "Operation: Dart Storm", "Ground Zero" ]
+    ],
+    "UpgradeIcons" :
+    [
+    	[ 
+        "monkey_ace_rapid_fire_icon", 
+        "monkey_ace_sharper_darts_icon", 
+        "monkey_ace_targeting_icon", 
+        "monkey_ace_spectre_icon" 
+        ],
+    	[ 
+        "monkey_ace_pineapple_icon", 
+        "monkey_ace_spyplane_icon", 
+        "monkey_ace_ods_icon", 
+        "monkey_ace_ground_zero_icon" 
+        ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "monkey_ace_avatar_rapid_fire_small", 
+        "monkey_ace_avatar_sharper_darts_small", 
+        "monkey_ace_avatar_nmt_small", 
+        "monkey_ace_avatar_spectre_small" 
+        ],
+    	[ 
+        "monkey_ace_avatar_pineapple_small", 
+        "monkey_ace_avatar_spyplane_small", 
+        "monkey_ace_avatar_ods_small", 
+        "monkey_ace_avatar_ground_zero_small" 
+        ]
+    ],
+    "UpgradePrices" : 
+    [
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
+    ],
+    "UseRadiusPlacement" : true,
+    "IsAircraft" : true,
+    "AircraftRadius" : 150,
+    "AircraftSpeed" : 100,
+    "TerminateAtEndOfPath": true
+}

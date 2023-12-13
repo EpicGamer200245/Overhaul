@@ -233,5 +233,21 @@
     "Assets/JSON/WeaponDefinitions/SuperMonkey/RoboMonkeyLeft.weapon",
     "Assets/JSON/WeaponDefinitions/SuperMonkey/RoboMonkeyRight.weapon",
     "Assets/JSON/WeaponDefinitions/SuperMonkey/TechTerrorLeft.weapon",
-    "Assets/JSON/WeaponDefinitions/SuperMonkey/TechTerrorRight.weapon"
+    "Assets/JSON/WeaponDefinitions/SuperMonkey/TechTerrorRight.weapon",
+    
+    // Monkey Buccaneer
+    "Assets/JSON/WeaponDefinitions/MonkeyBuccaneer/MonkeyBuccaneer.weapon",
+    "Assets/JSON/WeaponDefinitions/MonkeyBuccaneer/MOABTakedown.weapon",
+    "Assets/JSON/WeaponDefinitions/MonkeyBuccaneer/GrapeShot.weapon",
+    "Assets/JSON/WeaponDefinitions/MonkeyBuccaneer/MonkeyBuccaneerAircraft.weapon",
+    "Assets/JSON/WeaponDefinitions/AircraftCarrier/AircraftCarrier.weapon",
+    "Assets/JSON/WeaponDefinitions/AircraftCarrier/AircraftCarrierStrafe.weapon",
+    "Assets/JSON/TowerDefinitions/MonkeyBuccaneer.tower",
+    "Assets/JSON/UpgradeDefinitions/MonkeyBuccaneer.upgrades",
+    "Assets/JSON/TowerSprites/MonkeyBuccaneerCannonShip.json",
+    
+    //Banana Farm
+    "Assets/JSON/WeaponDefinitions/BananaFarm/BananaFarm.weapon",
+    "Assets/JSON/TowerDefinitions/BananaFarm.tower",
+    "Assets/JSON/UpgradeDefinitions/BananaFarm.upgrades"
 ]

@@ -1,0 +1,174 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "More Bananas",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex": 0,
+                    "Adjust" :
+                    {
+                        "TotalAmmo" : 2
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "Even More Bananas",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex": 0,
+                    "Adjust" :
+                    {
+                        "TotalAmmo" : 4
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "Banana Republic",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex": 0,
+                "Adjust" :
+                {
+                    "TotalAmmo" : 18
+                }
+            }
+        },
+        {
+            "Name" : "Banana Research Facility",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex": 0,
+				"Replace":
+				{
+					"TotalAmmo": 8
+				},
+				
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Collectable"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "MoneyRange" : [ 120, 120 ],
+						"GraphicName": "banana_box"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Illegal Preservatives",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex": 0,
+                "TaskUpgrade" :
+                [
+					{
+						"Operation": "SelectByType",
+						"Type": "Collectable"
+					},
+					{
+						"Operation": "Replace",
+						"Duration": -1
+					}
+                ]
+            }
+        },
+        {
+            "Name" : "Valuable Bananas",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex": 0,
+                "TaskUpgrade" :
+                [
+					{
+						"Operation": "SelectByType",
+						"Type": "Collectable"
+					},
+					{
+						"Operation": "Replace",
+						"MoneyMultiplier": 1.2
+					}
+                ]
+            }
+
+        },
+        {
+            "Name" : "Monkey Bank",
+            "TowerUpgrade":
+            {
+                "Weapons" :
+                {
+                    "1": "BankCollection.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "SlotIndex": 0,
+                "Adjust" :
+                {
+                    "TotalAmmo" : 12
+                },
+
+                "TaskUpgrade" :
+                [
+                    {
+						"Operation": "SelectByType",
+						"Type": "Collectable"
+					},
+					{
+						"Operation": "Replace",
+                        "CollectionRadius": 0,
+					    "AllowMagnetCollection": false,
+                        "SpriteFile": "nothing.json",
+                        "Movement":
+					    {
+					    	"Type": "Forward",
+					    	"Speed": 0
+					    }
+					}
+                ]
+            }
+
+        },
+        {
+            "Name" : "Banana Investments",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex": 0,
+                    "Adjust":
+                    {
+                        "TotalAmmo": 26
+                    }
+                },
+                {
+                    "SlotIndex": 1,
+
+                    "Replace":
+                    {
+                        "TargetRange": 85
+                    },
+
+                    "TaskUpgrade":
+                    [
+                        {
+                            "Operation": "SelectByType",
+                            "Type": "CollectCollectables"
+                        },
+                        {
+                            "Operation": "Replace",
+                            "Range": 85
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

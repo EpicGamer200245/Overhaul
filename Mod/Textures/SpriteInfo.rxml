@@ -11,5 +11,6 @@
         <Insert node="SpriteInfoXml" name="agents_custom" type="png"/>
         <Insert node="SpriteInfoXml" name="bloons_custom" type="png"/>
         <Insert node="SpriteInfoXml" name="typed_tower_icons" type="png"/>
+        <Insert node="SpriteInfoXml" name="monkeybuccaneer" type="png"/>
     </Select>
 </Reflect>

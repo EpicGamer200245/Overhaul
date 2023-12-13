@@ -1,6 +1,6 @@
 {	
     "Type":             "TackTower",    
-    "TargetRange":      65.0,
+    "TargetRange":      75.0,
 	"CooldownTime":     1.30,
     "FireDelayTime":    0.0,
   
@@ -27,7 +27,7 @@
 				{
 					"Type": "Projectile",
 					"SpriteFile": "biggertack.json",
-					"NumPersists":      2,
+					"NumPersists":      1,
 					"TerminateOnZeroPersists": true,
 					
 					"CollisionType": "Once",
@@ -46,8 +46,8 @@
 						{
 							"Type" : "StatusEffect",
 							"Status" : "",
-							"DamageRate" : 2,
-							"Duration" : 2
+							"DamageRate" : 3,
+							"Duration" : 3.5
 						},
 						{
 							"Type": "Damage",

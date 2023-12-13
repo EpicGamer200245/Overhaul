@@ -94,12 +94,6 @@
             <Insert node="T" id="LOC_SPEC_Ace_IV" l="0">Increases damage by 50%.</Insert>
             <Insert node="T" id="LOC_SPEC_Ace_X" l="0">Nothing bad happens.</Insert>
 
-            <Insert node="T" id="LOC_SPEC_Chipper_I" l="0">Reduces costs by 9%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Chipper_II" l="0">Also now, reduces attack speed by 11%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Chipper_III" l="0">Free tower at start and every 10 rounds.</Insert>
-            <Insert node="T" id="LOC_SPEC_Chipper_IV" l="0">Increases range by 20%.</Insert>
-            <Insert node="T" id="LOC_SPEC_Chipper_X" l="0">Nothing bad happens.</Insert>
-
             <Insert node="T" id="LOC_SPEC_Bomb_I" l="0">Reduces bomb shooter costs by 9%. Reduces exploding pineapple cost by 10.</Insert>
             <Insert node="T" id="LOC_SPEC_Bomb_II" l="0">Also now, reduces attack speed by 11%.</Insert>
             <Insert node="T" id="LOC_SPEC_Bomb_III" l="0">Free 6 exploding pineapples at start and 1 every 4 rounds, bomb shooter at start and every 11 rounds.</Insert>
@@ -304,6 +298,7 @@
             <Insert node="T" id="LOC_UPGRADE_B2_DartMonkey" l="0">Sharp Shots</Insert>
             <Insert node="T" id="LOC_UPGRADE_B4_DartMonkey" l="0">Quick Attack</Insert>
 
+            <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A1" l="0">Shoots further and adds 1 pierce to base weapon.</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A3" l="0">Shoots a explosive spike ball at bloons with high ceramic damage and a stun.</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_A4" l="0">New plasma techonlogy created a spike ball that is lethal to ceramics with an even better stun!</Insert>
             <Insert node="T" id="LOC_DartMonkey_UPGRADE_DESC_B1" l="0">Makes the Dart Monkey shoot quicker.</Insert>
@@ -326,7 +321,7 @@
             <Insert node="T" id="LOC_UPGRADE_B4_TackTower" l="0">Seeking Blades</Insert>
 
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A1" l="0">Makes the tack shooter shoot 50% faster.</Insert>
-            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A2" l="0">Tacks can now burn through lead bloons and apply a burn effect to the bloons.</Insert>
+            <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A2" l="0">Tacks can now burn through lead and frozen bloons. Also adds a burn effect.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A3" l="0">Tacks now do 2 damage and have a better burn effect to the bloons.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_A4" l="0">It now instead shoots fire that burns through the bloons.</Insert>
             <Insert node="T" id="LOC_TackTower_UPGRADE_DESC_B1" l="0">Gives the tack shooter more range.</Insert>
@@ -406,7 +401,7 @@
             <Insert node="T" id="LOC_MonkeyRadar_UPGRADE_DESC_B4" l="0">More layers scanned. Ability: Scans the whole screen.</Insert>
         
             <!--Super Monkey-->
-            <Insert node="T" id="LOC_TOWER_DESC_OSX_SuperMonkey" l="0">The Super Monkey throws darts rapidly th at </Insert>
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_SuperMonkey" l="0">The Super Monkey throws darts rapidly at the bloons.</Insert>
 
             <Insert node="T" id="LOC_UPGRADE_A4_SuperMonkey" l="0">Monkey Temple</Insert>
             <Insert node="T" id="LOC_UPGRADE_B1_SuperMonkey" l="0">Better Melee</Insert>
@@ -417,6 +412,36 @@
             <Insert node="T" id="LOC_SuperMonkey_UPGRADE_DESC_B2" l="0">Ability: Kicks the ground sensing shockwaves that deal damage to bloons in range.</Insert>
             <Insert node="T" id="LOC_SuperMonkey_UPGRADE_DESC_B3" l="0">Better ground cracking ability, gains 2 robotic arms.</Insert>
             <Insert node="T" id="LOC_SuperMonkey_UPGRADE_DESC_B4" l="0">Even better ground cracking ability. Ability: Does massive damage to bloons in range.</Insert>
+
+            <!--Monkey Buccaneer-->
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_MonkeyBuccaneer" l="0">The Monkey Buccaneer shoots darts at bloons on both sides.</Insert>
+
+            <Insert node="T" id="LOC_UPGRADE_A1_MonkeyBuccaneer" l="0">Longer Cannons</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A2_MonkeyBuccaneer" l="0">Faster Shooting</Insert>
+
+            <Insert node="T" id="LOC_MonkeyBuccaneer_UPGRADE_DESC_A1" l="0">Increases range and pierce.</Insert>
+            <Insert node="T" id="LOC_MonkeyBuccaneer_UPGRADE_DESC_A2" l="0">Attacks faster.</Insert>
+            <Insert node="T" id="LOC_MonkeyBuccaneer_UPGRADE_DESC_A3" l="0">Attacks even faster.</Insert>
+            <Insert node="T" id="LOC_MonkeyBuccaneer_UPGRADE_DESC_B1" l="0">Also shoots 5 grapes</Insert>
+            <Insert node="T" id="LOC_MonkeyBuccaneer_UPGRADE_DESC_B2" l="0">Now sees camo and increases range slightly.</Insert>
+            <Insert node="T" id="LOC_MonkeyBuccaneer_UPGRADE_DESC_B3" l="0">Also shoots a cannonball that splits into frags on hit.</Insert>
+            <Insert node="T" id="LOC_MonkeyBuccaneer_UPGRADE_DESC_B4" l="0">Ability: Take down a MOAB class bloon that isn't a ZOMG. Triple the cannonballs!</Insert>
+
+            <!--Banana Farm-->
+            <Insert node="T" id="LOC_TOWER_DESC_OSX_BananaFarm" l="0">The Banana Farm grows banana bunches worth $15 each.</Insert>
+
+            <Insert node="T" id="LOC_UPGRADE_A1_BananaFarm" l="0">More Bananas</Insert>
+            <Insert node="T" id="LOC_UPGRADE_A2_BananaFarm" l="0">Even More Bananas</Insert>
+            <Insert node="T" id="LOC_UPGRADE_B4_BananaFarm" l="0">Banana Investments</Insert>
+
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_A1" l="0">Grows 2 more banana bunches.</Insert>
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_A2" l="0">Grows 4 more banana bunches.</Insert>
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_A3" l="0">Grows 18 more banana bunches.</Insert>
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_A4" l="0">Industrialize those bananas! Create 8 crates worth $120 each.</Insert>
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_B1" l="0">The bananas will now never expire.</Insert>
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_B2" l="0">Increases the price of the bananas by 20%.</Insert>
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_B3" l="0">Grows 12 more banana bunches. Automatically collects bananas.</Insert>
+            <Insert node="T" id="LOC_BananaFarm_UPGRADE_DESC_B4" l="0">Grows 26 more banana bunches. Collects all bananas produced in range.</Insert>
         </Select>
     </Select>
 </Reflect>

@@ -1,0 +1,48 @@
+{	
+    "Type":             "AircraftCarrierStrafe",    
+    "TargetRange":      210.0,
+	"CooldownTime":     0.1,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    "ForwardFiring" : true,
+
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -12.0,
+    		"AngleIncrement": 12.0,
+    		"FireCount": 3,
+            
+            "Offsets" : [ [ -7.5, 0 ], [ 0, 0 ], [ 7.5, 0 ] ],
+            
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"GraphicName":      "dart_monkey_dart",
+					"NumPersists":      3,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 650.0,
+						"CutOffDistance": 300
+					},
+					
+					"Tasks" :
+					[
+                        { 
+							"Type": "Damage", 
+							"DamageType": "Piercing", 
+							"Amount": 1
+						}
+                    ]
+				}
+			]
+    	}
+	]
+}

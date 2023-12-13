@@ -1,0 +1,70 @@
+{
+    "TypeName"				: "MonkeyBuccaneer",
+    "Icon"					: "buccaneer_tower_icon",
+    "BaseCost"				: 525,
+	"InitialAngle"			: 90,
+    "RankToUnlock"			: 11,
+    "DefaultWeapons"	    : [ 
+        "MonkeyBuccaneer.weapon",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+
+    "Upgrades" :
+    [
+    	[ "Longer Cannons", "Faster Shooting", "Destroyer", "Aircraft Carrier" ],
+    	[ "Grape Shot", "Crows Nest", "Cannon Ship", "Monkey Pirates" ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 150 }, { "Rank" : 0, "XP" : 1425 }, { "Rank" : 0, "XP" : 5350 }, { "Rank" : 30, "XP" : 25463 } ],
+		[ { "Rank" : 0, "XP" : 550 }, { "Rank" : 0, "XP" : 2375 }, { "Rank" : 0, "XP" : 9125 }, { "Rank" : 30, "XP" : 39338 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 400, 450, 3550, 9800 ],
+        [ 550, 400, 2300, 7400 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[],
+    	[]
+    ],
+    
+    "UpgradeIcons" :
+    [
+        [ 
+            "buccaneer_longer_cannons_icon", 
+            "buccaneer_faster_shooting_icon", 
+            "buccaneer_destroyer_icon", 
+            "buccaneer_aircraft_carrier_icon" 
+        ],
+    	[ 
+            "buccaneer_grape_icon", 
+            "buccaneer_crows_nest_icon", 
+            "buccaneer_cannon_ship_icon", 
+            "buccaneer_pirates_icon"
+        ]
+    ],
+        
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: true,
+    "CanBePlacedOnLand"		: false,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 10.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    
+    "SpriteUpgradeDefinition" : "MonkeyBuccaneer.json"
+}

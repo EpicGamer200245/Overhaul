@@ -1,17 +1,21 @@
 {
     "AircraftList" : [ ],
-    "BaseCost" : 270,
+    "BaseCost" : 200,
     "CanBePlacedInWater" : false,
     "CanBePlacedOnLand" : true,
     "CanBePlacedOnPath" : false,
     "CanTargetCamo" : false,
     "DefaultWeapons" : [
         "DartMonkey.weapon",
-		"FanClubDart.weapon"
+        "",
+		"FanClubDart.weapon",
+        ""
     ],
 	"ActiveWeaponSlots": [
 		true,
-		false
+		true,
+        false,
+        true
 	],
     "Icon" : "dart_monkey_tower_icon",
     "PlacementH" : 0.0,
@@ -44,8 +48,8 @@
 	],
     "UpgradePrices" : 
     [
-        [ 130, 170, 1900, 5250 ],
-        [ 175, 240, 375, 23000 ]
+        [ 130, 170, 2350, 8400 ],
+        [ 175, 240, 375, 10000 ]
     ],
     "UpgradeIcons" : [
         [

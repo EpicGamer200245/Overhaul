@@ -1,6 +1,6 @@
 {	
     "Type":             "BladeShooter",    
-    "TargetRange":      65.0,
+    "TargetRange":      75.0,
 	"CooldownTime":     1.0,
     "FireDelayTime":    0.0,
   
@@ -27,7 +27,7 @@
 				{
 					"Type": "Projectile",
 					"SpriteFile": "tackshooterblade.json",
-					"NumPersists":      6,
+					"NumPersists":      3,
 					"TerminateOnZeroPersists": true,
 					
 					"CollisionType": "Once",
@@ -48,8 +48,8 @@
 						{
 							"Type" : "StatusEffect",
 							"Status" : "",
-							"DamageRate" : 2,
-							"Duration" : 2
+							"DamageRate" : 3,
+							"Duration" : 3.5
 						},
 						{
 							"Type": "Damage",

@@ -3,30 +3,66 @@
     [
         {
             "Name" : "Long Range Darts",
-            "WeaponUpgrade" :
-            {
-                "SlotIndices" : [ 0, 1 ],
-                "Adjust" :
+            "WeaponUpgrades" :
+            [
                 {
-                    "TargetRange": 18
-                },
-                "TaskUpgrade" :
-                [
+                    "SlotIndices" : [ 0, 1, 2 ],
+                    "Adjust" :
                     {
-                        "Operation" : "SelectByType",
-                        "Type" :    "Projectile"
+                        "TargetRange": 18
                     },
-                    
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+
+                        {
+                            "Operation" : "Adjust",
+			    			"Movement":
+			    			{
+			    				"Type" : "Forward",
+                            	"CutOffDistance" : 36
+			    			}
+                        }
+                    ]
+                },
+                {
+                    "SlotIndex" : 2,
+                    "Adjust" :
                     {
-                        "Operation" : "Adjust",
-						"Movement":
-						{
-							"Type" : "Forward",
-                        	"CutOffDistance" : 36
-						}
-                    }
-                ]
-            }
+                        "TargetRange": 18
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "TowerModifier"
+                        },
+
+                        {
+                            "Operation" : "Adjust",
+			    			"Range": 18
+                        }
+                    ]
+                },
+                {
+                    "SlotIndex" : 0,
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+
+                        {
+                            "Operation" : "Adjust",
+			    			"NumPersists": 1
+                        }
+                    ]
+                }
+            ]
         },
         
         {
@@ -39,35 +75,51 @@
                 }
             },
             
-            "WeaponUpgrade" :
-            {
-                "SlotIndices" : [ 0, 1 ],
-                "Adjust" :
+            "WeaponUpgrades" :
+            [
                 {
-                    "TargetRange": 20
+                    "SlotIndices" : [ 0, 1, 2 ],
+                    "Adjust" :
+                    {
+                        "TargetRange": 20
+                    },
+
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        {
+                            "Operation" : "Adjust",
+			    			"Movement":
+			    			{
+			    				"Type": "Forward",
+	                            "CutOffDistance" : 40
+			    			}
+                        }
+                    ]
                 },
-                
-                "TaskUpgrade" :
-                [
+                {
+                    "SlotIndex" : 2,
+                    "Adjust" :
                     {
-                        "Operation" : "SelectByType",
-                        "Type" :    "Projectile"
+                        "TargetRange": 20
                     },
-                    {
-                        "Operation" : "Adjust",
-						"Movement":
-						{
-							"Type": "Forward",
-	                        "CutOffDistance" : 40
-						}
-                    },
-                    {
-                        "Operation" : "Adjust",
-                        "NumPersists": 1,
-                        "RequiresMinUpgradeCounters" : [ 0, 2 ]
-                    }
-                ]
-            }
+
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "TowerModifier"
+                        },
+                        {
+                            "Operation" : "Adjust",
+			    			"Range": 20
+                        }
+                    ]
+                }
+            ]
         },
         
         {
@@ -76,7 +128,8 @@
             {
                 "Weapons" :
                 {
-                    "0" : "ExplosiveSpikes.weapon"
+                    "0" : "",
+                    "1" : "ExplosiveSpikes.weapon"
                 }
             }
         },
@@ -87,7 +140,7 @@
             {
                 "Weapons" :
                 {
-                    "0" : "PlasmaSpikes.weapon"
+                    "1" : "PlasmaSpikes.weapon"
                 }
             }
         },
@@ -108,7 +161,7 @@
             "WeaponUpgrades" :
             [
                 {
-                    "SlotIndices" : [ 0 ],
+                    "SlotIndices" : [ 0, 1 ],
                     "TaskUpgrade" :
                     [
                         {
@@ -121,13 +174,13 @@
                         },
                         {
                             "Operation" : "Adjust",
-                            "NumPersists": 1,
-                            "RequiresMinUpgradeCounters" : [ 2, 0 ]
+                            "RequiresMinUpgradeCounters" : [ 3, 0 ],
+                            "NumPersists": 1
                         }
                     ]
                 },
                 {
-                    "SlotIndices" : [ 1 ],
+                    "SlotIndex" : 2,
                     "TaskUpgrade" :
                     [
                         {
@@ -152,13 +205,14 @@
             {
                 "Weapons" :
                 {
-                    "0": "TripleDarts.weapon"
+                    "0": "",
+                    "1": "TripleDarts.weapon"
                 }
             },
 			
 			"WeaponUpgrade" : 
 			{
-				"SlotIndex" : 0,
+				"SlotIndex" : 1,
 				
 				"TaskUpgrade" :
 				[
@@ -213,7 +267,7 @@
                     "CooldownTime" : -0.26
                 },
 
-                "SlotIndex" : 0,
+                "SlotIndex" : 1,
                 "TaskUpgrade":
                 [
                     {

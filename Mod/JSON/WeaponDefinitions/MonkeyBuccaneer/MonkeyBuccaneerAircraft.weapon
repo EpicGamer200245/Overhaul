@@ -1,0 +1,16 @@
+{	
+    "Type":             "MonkeyBuccaneerAircraft",    
+    "TargetRange":      290.0,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "LaunchAircraft",
+			"Aircraft": "AircraftCarrier.tower",
+            "MaxAircraft" : 3,
+            "UseTargetPath" : true      
+		}
+	]
+}
